@@ -86,9 +86,12 @@ class RagdolizeUI(QtWidgets.QWidget):
 
     def setDefaultValues(self):
         self.gravSpin.setValue(.1)
-        self.dampSpin.setValue(.9)
+        self.gravSpin.setSingleStep(.01)
+        self.dampSpin.setValue(.97)
+        self.dampSpin.setSingleStep(.01)
         self.followRamp.setValue([(1,0,3),(0,1,3)])
         self.detachMult.setValue(1)
+        self.dampSpin.setSingleStep(.1)
         self.rigidityRamp.setValue([(1,0,3),(.1,1,3)])
 
 

@@ -9,7 +9,6 @@ from maya import OpenMayaUI as omui
 
 import ui_utils
 import widgets
-
 INTERPTYPES = ["None", "Linear", "Smooth", "Spline"]
 
 class RampWidget(QtWidgets.QWidget):
@@ -26,12 +25,14 @@ class RampWidget(QtWidgets.QWidget):
         self.setValue(self._rampPoints)
 
     def _initMayaGradientCtrl(self):
-        self.rampCtrlName = cmds.gradientControlNoAttr(h=90, changeCommand=self.rampWidgetEditedCallback)
+        self.rampCtrlName  = cmds.gradientControlNoAttr(h=90, changeCommand=self.rampWidgetEditedCallback,
+                                                        p=self.layout.objectName())
         ptr = omui.MQtUtil.findControl(self.rampCtrlName)
         self.rampWidget = wrapInstance(int(ptr), QtWidgets.QWidget)
 
     def setupUI(self):
         self.layout = QtWidgets.QHBoxLayout(self)
+        self.layout.setObjectName('rampMainLayout')
         self.editWidg = QtWidgets.QWidget(self)
         self.editlayout = QtWidgets.QVBoxLayout(self)
         self.editlayout.setContentsMargins(0, 0, 0, 0)
