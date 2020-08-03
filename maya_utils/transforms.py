@@ -1,7 +1,7 @@
 import math
 from maya.api import OpenMaya as om
 from maya import cmds
-
+import animation 
 def getAimRotation(drivenPos, targetPos, rotOrder='xyz',
                    aim=(1,0,0),
                    up=(0,1,0)):
@@ -31,16 +31,18 @@ def getAimRotation(drivenPos, targetPos, rotOrder='xyz',
     return [math.degrees(a) for a in euler.asVector()]
 
 def getLocalTranslation(node, pos):
-    mMatrix = om.MMatrix(cmds.getAttr('{}.pim'.format(node)))
+    frame = cmds.currentTime(q=1)
+    matrices = animation.getMatrixAttributeInTimeRange(node, 'pim', timeRange=(frame, frame+1))
     point = om.MPoint(pos)
-    return om.MVector(point * mMatrix)
+    return om.MVector(point * matrices[0])
 
 def getLocalRotation(node, rot):
-    mMatrix = om.MMatrix(cmds.getAttr('{}.pm'.format(node)))
+    frame = cmds.currentTime(q=1)
+    matrices = animation.getMatrixAttributeInTimeRange(node, 'pim', timeRange=(frame, frame+1))
     trfMatrix = om.MTransformationMatrix()
     rotation = om.MVector([math.radians(a) for a in rot])
     euler = om.MEulerRotation(rotation)
     trfMatrix.rotateBy(euler, om.MSpace.kTransform)
     newMat = trfMatrix.asMatrix()
-    newTrfMat = om.MTransformationMatrix(newMat * mMatrix)
+    newTrfMat = om.MTransformationMatrix(newMat * matrices[0])
     return [math.degrees(a) for a in newTrfMat.rotation()]

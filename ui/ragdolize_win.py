@@ -113,7 +113,7 @@ class RagdolizeUI(QtWidgets.QWidget):
         rampPoints = [float(a)/(len(controls)-1) for a in range(len(controls))]
         dynValues = self.getUIValues(rampPoints)
         fameRange = (int(cmds.playbackOptions(q=1, min=1)), int(cmds.playbackOptions(q=1, max=1)))
-        animDict = animation.getNodesWorldMatrixInRange(controls, fameRange)
+        animDict = animation.getNodesPosInRange(controls, fameRange)
         positionList = list()
         for control in controls:
             positionList.append(animDict.get(control)[0])
@@ -123,7 +123,6 @@ class RagdolizeUI(QtWidgets.QWidget):
         sim.setRigidity(dynValues.get('rigidity'))
         sim.setDamping(dynValues.get('damping'))
         baseName = 'simulated{}'
-        # simNodes = [maya_body.Cube(baseName.format(i), a) for i, a in enumerate(simPos)]
         grav = forces.Gravity(sim.getParticles(), dynValues.get('gravity'))
         sim.addForce(grav)
         coll = colliders.GroundCollider(sim.getParticles(),bouncinnes=0.5)
@@ -143,7 +142,6 @@ class RagdolizeUI(QtWidgets.QWidget):
             cmds.currentTime(f)
             for i, control in enumerate(controls):
                 pos = transforms.getLocalTranslation(control, simPositions[i])
-                #pos = simPositions[i]
                 cmds.setKeyframe(control, v=pos[0], at='translateX',t=[f,f])
                 cmds.setKeyframe(control, v=pos[1], at='translateY',t=[f,f])
                 cmds.setKeyframe(control, v=pos[2], at='translateZ',t=[f,f])
@@ -151,10 +149,12 @@ class RagdolizeUI(QtWidgets.QWidget):
                     currPos = cmds.xform(control, q=1, ws=1, t=1)
                     worldRot = transforms.getAimRotation(currPos, simPositions[i+1])
                     rot = transforms.getLocalRotation(control, worldRot)
-                    cmds.setKeyframe(control, v=rot[0], at='rotateX',t=[f,f])
-                    cmds.setKeyframe(control, v=rot[1], at='rotateY',t=[f,f])
-                    cmds.setKeyframe(control, v=rot[2], at='rotateZ',t=[f,f])
                 else:
                     worldRot = transforms.getAimRotation(simPositions[i], simPositions[i-1], aim=(-1,0,0))
+                    rot = transforms.getLocalRotation(control, worldRot)
+                    rot=[a*2 for a in rot]
+                cmds.setKeyframe(control, v=rot[0], at='rotateX',t=[f,f])
+                cmds.setKeyframe(control, v=rot[1], at='rotateY',t=[f,f])
+                cmds.setKeyframe(control, v=rot[2], at='rotateZ',t=[f,f])
 
 
