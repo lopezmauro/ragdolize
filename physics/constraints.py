@@ -3,12 +3,16 @@ class Constraint(object):
         raise NotImplementedError
 
 class ParticleLink(Constraint):
-    def __init__(self, particleA, particleB, springDamping=.9):
+    def __init__(self, particleA, particleB, damping=.9):
         self._particleA = particleA
         self._particleB = particleB
-        self._springDamping = float(springDamping)
+        self._damping = float(damping)
         self._restLenght = self.getdistance()
 
+    def setDamping(self, damping):
+        if damping <=0:
+            damping = 0
+        self._damping = float(damping)
 
     def setRestLenght(self, lenght):
         self._restLenght = float(lenght)
@@ -35,7 +39,7 @@ class ParticleLink(Constraint):
         offset = .05
         if self._particleA.isPinned() or self._particleB.isPinned():
             offset = 1.0
-        movement = direction * difference
+        movement = direction * difference * self._damping
         if not self._particleA.isPinned():
             self._particleA.addPosition(-movement*offset)
             
@@ -83,9 +87,10 @@ class ParticleSpring(Constraint):
 
 
 class ParticlesRope(Constraint):
-    def __init__(self, particles, iterations=20):
+    def __init__(self, particles, iterations=20, damping=.9):
         self._particles = particles
         self._iterations = iterations
+        self._damping = damping
         self._links = list()
         self.setup()
 
@@ -93,9 +98,15 @@ class ParticlesRope(Constraint):
         self.link = list()
         self._particles[0].setPinned(True)
         for i, particle in enumerate(self._particles[:-1]):
-            self._links.append(ParticleLink(particle,self._particles[i+1]))
+            self._links.append(ParticleLink(particle,self._particles[i+1], self._damping))
 
     def solve(self):
         for i in range(self._iterations):
             for link in self._links:
                 link.solve()
+
+    def setRigidity(self, dampingList):
+        #for spring, stiff in zip(self.springs, stifnessList):
+        #    spring.setStiffnes(stiff)
+        for link, stiff in zip(self._links, dampingList):
+            link.setDamping(stiff)

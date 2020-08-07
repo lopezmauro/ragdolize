@@ -1,18 +1,27 @@
 import math 
 from maya.api import OpenMaya as om
+from maya.api import OpenMayaAnim as oma
 
-def getFn(node):
-    if isinstance(node, om.MFnDependencyNode):
-        return node
+FNTYPES = [(om.MFn.kAnimCurve,oma.MFnAnimCurve),
+           (om.MFn.kDagNode, om.MFnDagNode),
+           om.MFn.kDependencyNode, om.MFnDagNode]
+
+def getDependNode(node):
     if isinstance(node, om.MObject):
-        return om.MFnDependencyNode(node)
+        return node
     if isinstance(node, basestring):
         sel = om.MSelectionList()
         sel.add(node)
-        depNode = sel.getDependNode(0)
-        if depNode.hasFn(om.MFn.kDagNode):
-            return om.MFnDagNode(depNode)
-        return om.MFnDependencyNode(depNode)
+        return sel.getDependNode(0)
+    raise ValueError(node)
+
+def getFn(node):
+    if isinstance(node, om.MFnBase):
+        return node
+    depNode = getDependNode(node)
+    for fntype, fn in FNTYPES:
+        if depNode.hasFn(fntype):
+            return fn(depNode)
     raise ValueError(node)
 
 def getIterSelection(nodeList):

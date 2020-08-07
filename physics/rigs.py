@@ -5,9 +5,10 @@ import constraints
 
 
 class ChainSimulation(simulation.Simulation):
-    def __init__(self, basePositions):
+    def __init__(self, basePositions, followBase=True):
         super(ChainSimulation, self).__init__()
         self.basePositions = basePositions
+        self.followBase = followBase
         self.baseParticles = list()
         self.simParticles = list()
         self.springs = list()
@@ -27,21 +28,25 @@ class ChainSimulation(simulation.Simulation):
             p1 = particles.Particle(each)
             self.simParticles.append(p1)
             self.addParticle(p1)
-        for baseP, ropeP in zip(self.baseParticles, self.simParticles):
-            spring = constraints.ParticleSpring(baseP, ropeP, 
-                                            springStiffnes=1.0,
-                                            springDamping=.8)
+        if self.followBase:
+            for baseP, ropeP in zip(self.baseParticles, self.simParticles):
+                spring = constraints.ParticleSpring(baseP, ropeP, 
+                                                springStiffnes=1.0,
+                                                springDamping=.8)
 
-            self.springs.append(spring)
-            self.addConstraint(spring)
-        self.linkRope = constraints.ParticlesRope(self.simParticles, 50)
+                self.springs.append(spring)
+                self.addConstraint(spring)
+        self.linkRope = constraints.ParticlesRope(self.simParticles, 50, .1)
         self.addConstraint(self.linkRope)
 
     def setRigidity(self, stifnessList):
         for spring, stiff in zip(self.springs, stifnessList):
-            if stiff<=0:
-                stiff = 0.1
             spring.setStiffnes(stiff)
+        self.linkRope.setRigidity(stifnessList)
+
+    def setMasses(self, massesList):
+        for particle, mass in zip(self.simParticles, massesList):
+            particle.setMass(mass)
     
     def setRestLenght(self, lengthList):
         for spring, legth in zip(self.springs, lengthList):

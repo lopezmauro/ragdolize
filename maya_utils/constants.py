@@ -1,1 +1,3 @@
 WORDLMATRIX = 'worldMatrix'
+ANIMCACHEATTR = 'animPointsCache'
+

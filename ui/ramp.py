@@ -111,3 +111,9 @@ class RampWidget(QtWidgets.QWidget):
 
     def getValueAtPoint(self, point):
         return cmds.gradientControlNoAttr(self.rampCtrlName, q=1, valueAtPoint=point)
+
+    def getValueAtPoints(self, rampPoints):
+        result = list()
+        for point in rampPoints:
+            result.append(self.getValueAtPoint(point))
+        return result

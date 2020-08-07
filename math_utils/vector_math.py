@@ -58,3 +58,9 @@ class Vector(object):
 
     def __neg__(self):
         return Vector([a*-1 for a in self.array])
+
+    def __eq__(self, other): 
+        for a, b in zip(self.array, other.array):
+            if a != b:
+                return False
+        return True

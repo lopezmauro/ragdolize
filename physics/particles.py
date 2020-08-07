@@ -50,7 +50,7 @@ class Particle(object):
         velocity = ((self._position - self._oldPosition) * self._damping)
         self._oldPosition = Vector(self._position)
         self._position += velocity 
-        self._position += (self._accumForce /self._mass)
+        self._position += (self._accumForce * self._mass)
         self.clearForces()
 
     def addPosition(self, vector):
@@ -66,6 +66,8 @@ class Particle(object):
         return self._mass
     
     def setMass(self, mass):
+        if mass <=0.01:
+            mass = 0.01
         self._mass = float(mass)
 
     def getPrevPosition(self):
