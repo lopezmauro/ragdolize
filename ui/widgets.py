@@ -1,9 +1,10 @@
 from PySide2 import QtWidgets
 from PySide2 import QtGui
 from PySide2 import QtCore
+import os
+import resources
 
-
-def labeledWidget(parent, layout, widgetInst, label, pixmap=None, siconSize=40):
+def labeledWidget(widgetInst, parent=None, label='', pixmap=None, siconSize=40):
     wid = QtWidgets.QWidget(parent)
     lay = QtWidgets.QHBoxLayout(wid)
     lay.setContentsMargins(1, 1, 1, 1)
@@ -27,8 +28,7 @@ def labeledWidget(parent, layout, widgetInst, label, pixmap=None, siconSize=40):
     lay.setStretch(0,0)
     lay.setStretch(1,1)
     lay.setSpacing(15)
-    layout.addWidget(wid)
-    return currW
+    return wid, currW
 
 class QHLine(QtWidgets.QFrame):
     def __init__(self, parent):
@@ -75,32 +75,46 @@ class QCustomSlider(QtWidgets.QSlider):
 class CollapsibleGroup(QtWidgets.QGroupBox):
 
     def __init__(self, parent, title, iconPath):
-        
+        super(CollapsibleGroup, self).__init__(parent)
         mainLay = QtWidgets.QVBoxLayout(self)
         mainLay.setContentsMargins(1, 1, 1, 1)
         titleLay = QtWidgets.QHBoxLayout(self)
         titleLay.setContentsMargins(0, 0, 0, 0)
         self.collapsibleCBx = QtWidgets.QCheckBox()
+        self.collapsibleCBx.setChecked(True)
         self.collapsibleCBx.stateChanged.connect(self.diableGroup)
         titleLay.addWidget(self.collapsibleCBx)
-        self.title = labeledWidget(self, titleLay, QHLine, title,
+        titleWidg, self.title = labeledWidget(QHLine, 
+                                            self,
+                                            title,
                                             iconPath,
                                             30)
+        titleLay.addWidget(titleWidg)
         mainLay.addLayout(titleLay)
         self.centerWidg = QtWidgets.QWidget(self)
         self.centerLay = QtWidgets.QVBoxLayout(self)
         self.centerLay.setContentsMargins(0, 0, 0, 0)
+        self.centerLay.setSpacing(0)
         self.centerWidg.setLayout(self.centerLay)
-        mainLay.addwidget(self.centerWidg)
+        mainLay.addWidget(self.centerWidg)
         self.setLayout(mainLay)
+        st = ""
+        stream = QtCore.QFile(':styles/collapsibleGroup.qss')
+        if stream.open(QtCore.QFile.ReadOnly):
+            st = str(stream.readAll())
+            stream.close()
+        self.collapsibleCBx.setStyleSheet(st)
+
         
-    def diableFollowFrame(self, value):
+    def diableGroup(self, value):
         if value:
             self.title.setEnabled(True)
             self.centerWidg.setVisible(True)
         else:
             self.title.setEnabled(False)
             self.centerWidg.setVisible(False)
+        self.adjustSize()
+        self.window().adjustSize()
         return
 
     def isChecked(self):
@@ -108,4 +122,8 @@ class CollapsibleGroup(QtWidgets.QGroupBox):
 
     def addWidget(self, widget):
         widget.setParent(self.centerWidg)
-        self.centerLay.addwidget(widget)
+        self.centerLay.addWidget(widget)
+
+    def setCollapsed(self, value=True):
+        self.collapsibleCBx.setChecked(not value)
+

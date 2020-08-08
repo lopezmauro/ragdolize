@@ -2,10 +2,12 @@ import os
 from PySide2 import QtCore
 from PySide2 import QtGui
 from PySide2 import QtWidgets
+from maya import cmds
+
 import ui_utils
 import ramp
 import widgets
-from maya import cmds
+import resources
 
 from ..physics import rigs
 from ..physics import forces
@@ -15,9 +17,6 @@ from ..maya_utils import maya_body
 from ..maya_utils import context
 from ..maya_utils import animation
 from ..maya_utils import transforms
-
-dir_path = os.path.dirname(os.path.realpath(__file__))
-iconsDir = os.path.join(dir_path, 'icons')
 
 DYNLAYER = 'dynamics'
 NEWLAYER = 'NewLayer...'
@@ -38,65 +37,59 @@ class RagdolizeUI(QtWidgets.QWidget):
         self.mainLayout = QtWidgets.QVBoxLayout(self)
         # layout
         self.setLayout(self.mainLayout)
-        print '>>>', iconsDir
-        self.gravSpin = widgets.labeledWidget(self, self.mainLayout,
-                                               QtWidgets.QDoubleSpinBox, "Gravity",
-                                               os.path.join(iconsDir,'gravity.png'))
-        self.dampSpin = widgets.labeledWidget(self, self.mainLayout,
-                                               QtWidgets.QDoubleSpinBox, "Damping",
-                                               os.path.join(iconsDir,'damping.png'))
+        gravWidg, self.gravSpin = widgets.labeledWidget(QtWidgets.QDoubleSpinBox, 
+                                                   self,
+                                                   "Gravity",
+                                                   ':/icons/gravity.png')
+        self.mainLayout.addWidget(gravWidg)
+        dampWidg, self.dampSpin = widgets.labeledWidget(QtWidgets.QDoubleSpinBox, 
+                                              self,
+                                              "Damping",
+                                              ':/icons/damping.png')
+        self.mainLayout.addWidget(dampWidg)
         # Create follow gradient control
-        self.followGrp = QtWidgets.QGroupBox(self)
-        #self.followGrp.setFrameShape(QtWidgets.QFrame.StyledPanel)
-        
-        followMainLay = QtWidgets.QVBoxLayout(self)
-        followMainLay.setContentsMargins(1, 1, 1, 1)
-        followTitleLay = QtWidgets.QHBoxLayout(self)
-        followTitleLay.setContentsMargins(0, 0, 0, 0)
-        self.followCBx = QtWidgets.QCheckBox()
+        self.followGrp = widgets.CollapsibleGroup(self, "Follow Base Anim", ':/icons/attraction.png')
+        self.followCBx = QtWidgets.QCheckBox("Follow base animation")
         self.followCBx.stateChanged.connect(self.diableFollowFrame)
-        followTitleLay.addWidget(self.followCBx)
-        self.goalTitle = widgets.labeledWidget(self.followGrp, followTitleLay, widgets.QHLine, "Follow Base Anim",
-                                            os.path.join(iconsDir,'attraction.png'),
-                                            30)
-        followMainLay.addLayout(followTitleLay)
-        self.followWidg = QtWidgets.QWidget(self.followGrp)
-        followLay = QtWidgets.QVBoxLayout(self.followGrp)
-        followLay.setContentsMargins(0, 0, 0, 0)
-        followLay.setSpacing(0)
+        self.followGrp.addWidget(self.followCBx)
+        
         self.followRamp = ramp.RampWidget()
-        followLay.addWidget(self.followRamp)
-        self.detachMult = widgets.labeledWidget(self.followWidg, followLay, QtWidgets.QDoubleSpinBox,
-                                            "Detach multiply")
+        self.followGrp.addWidget(self.followRamp)
+        detachWidg, self.detachMult = widgets.labeledWidget(QtWidgets.QDoubleSpinBox, self.followGrp,
+                                                "Detach multiply")
+        self.followGrp.addWidget(detachWidg)
         # Create rigidity gradient control
-        widgets.labeledWidget(self.followWidg, followLay, widgets.QHLine, "Rigidity",
-                                            os.path.join(iconsDir,'rigidity.png'),
-                                            30)
+        rigTitleWidg = widgets.labeledWidget(widgets.QHLine, self.followGrp, "Rigidity",
+                                            ':/icons/rigidity.png', 30)[0]
+        self.followGrp.addWidget(rigTitleWidg)
         self.rigidityRamp = ramp.RampWidget()
-        followLay.addWidget(self.rigidityRamp)
-
-
-        self.followWidg.setLayout(followLay)
-        followMainLay.addWidget(self.followWidg)
-        self.followGrp.setLayout(followMainLay)
+        self.followGrp.addWidget(self.rigidityRamp)
         self.mainLayout.addWidget(self.followGrp)
+
+        # Create elasticity gradient control
+
+        self.elasticityGrp = widgets.CollapsibleGroup(self, "elasticity", ':/icons/elasticity.png')
+        self.elasticityRamp = ramp.RampWidget()
+        self.elasticityGrp.addWidget(self.elasticityRamp)
+        elasticityWidg, self.elasticityMult = widgets.labeledWidget(QtWidgets.QDoubleSpinBox, self.elasticityGrp,
+                                            "elasticity multiply")
+        
+        self.elasticityGrp.addWidget(elasticityWidg)
+        self.mainLayout.addWidget(self.elasticityGrp)
+
         # Create mass gradient control
-        massGrp = QtWidgets.QGroupBox(self)
-        #massGrp.setFrameShape(QtWidgets.QFrame.StyledPanel)
-        massLay = QtWidgets.QVBoxLayout(self)
-        massLay.setContentsMargins(1, 1, 1, 1)
-        widgets.labeledWidget(massGrp, massLay, widgets.QHLine, "Mass",
-                                            os.path.join(iconsDir,'mass.png'),
-                                            30)
+
+        self.massGrp = widgets.CollapsibleGroup(self, "Mass", ':/icons/mass.png')
         self.massRamp = ramp.RampWidget()
-        massLay.addWidget(self.massRamp)
-        self.massMult = widgets.labeledWidget(massGrp, massLay, QtWidgets.QDoubleSpinBox,
+        self.massGrp.addWidget(self.massRamp)
+        massWidg, self.massMult = widgets.labeledWidget(QtWidgets.QDoubleSpinBox, self.massGrp,
                                             "Mass multiply")
-        massLay.addWidget(self.massMult)
-        massGrp.setLayout(massLay)
-        self.mainLayout.addWidget(massGrp)
-        self.layerCombo = widgets.labeledWidget(self, self.mainLayout, QtWidgets.QComboBox, "AnimLayer",
-                                            os.path.join(iconsDir,'layers.png'))
+        
+        self.massGrp.addWidget(massWidg)
+        self.mainLayout.addWidget(self.massGrp)
+        layerWidg, self.layerCombo = widgets.labeledWidget(QtWidgets.QComboBox, self, "AnimLayer",
+                                            ':/icons/layers.png')
+        self.mainLayout.addWidget(layerWidg)
         self.layerCombo.currentIndexChanged.connect(self.addNewLayer)
         self.checkBoxesLayout = QtWidgets.QHBoxLayout(self)
         self.rotationCbx = QtWidgets.QCheckBox("Enable Rotations")
@@ -106,13 +99,14 @@ class RagdolizeUI(QtWidgets.QWidget):
         self.checkBoxesLayout.addWidget(self.cleanAnimation)
         self.mainLayout.addLayout(self.checkBoxesLayout)
         self.doitBtn = QtWidgets.QPushButton(self, 'Ragdollize')
-        self.doitBtn.setIcon(QtGui.QIcon(os.path.join(iconsDir,'dynamic.png')))
+        self.doitBtn.setIcon(QtGui.QIcon(':/icons/dynamic.png'))
         self.doitBtn.setText("Ragdollize")
         self.doitBtn.setIconSize(QtCore.QSize(50,50))
         self.mainLayout.addWidget(self.doitBtn)
-        self.simplify_sld = widgets.labeledWidget(self, self.mainLayout, widgets.QCustomSlider,
+        simplifyWidg, self.simplify_sld = widgets.labeledWidget( widgets.QCustomSlider, self,
                                             "Simplify Anim Curve",
-                                            os.path.join(iconsDir,'simplify.png'))
+                                            ':/icons/simplify.png')
+        self.mainLayout.addWidget(simplifyWidg)
         self.simplify_sld.setOrientation(QtCore.Qt.Horizontal)
         self.simplify_sld.setMinimum(0)
         self.simplify_sld.setMaximum(SLIDERMULT)
@@ -133,16 +127,13 @@ class RagdolizeUI(QtWidgets.QWidget):
         
     def diableFollowFrame(self, value):
         if value:
-            self.followWidg.setVisible(True)
+            self.followRamp.setEnabled(True)
+            self.detachMult.setEnabled(True)
+            self.rigidityRamp.setEnabled(True)
         else:
-            self.followWidg.setVisible(False)
-        return
-        if value:
-            self.goalTitle.setEnabled(True)
-            self.followWidg.setEnabled(True)
-        else:
-            self.goalTitle.setEnabled(False)
-            self.followWidg.setEnabled(False)
+            self.followRamp.setEnabled(False)
+            self.detachMult.setEnabled(False)
+            self.rigidityRamp.setEnabled(False)
 
     def addNewLayer(self):
         if str(self.layerCombo.currentText()) != NEWLAYER:
@@ -166,10 +157,13 @@ class RagdolizeUI(QtWidgets.QWidget):
         self.detachMult.setValue(1)
         self.dampSpin.setSingleStep(.1)
         self.rigidityRamp.setValue([(1,0,3),(.1,1,3)])
+        self.elasticityRamp.setValue([(0,0,3),(.1,1,3)])
         self.massRamp.setValue([(.5,0,3),(.6,1,3)])
         self.massMult.setValue(2)
         self.layerCombo.setCurrentIndex(self.layerCombo.findText(DYNLAYER))
         self.simplify_sld.setValue(SLIDERMULT)
+        self.elasticityGrp.setCollapsed(True)
+        self.massGrp.setCollapsed(True)
 
     def doit(self):
         controls = cmds.ls(sl=1)
@@ -179,9 +173,10 @@ class RagdolizeUI(QtWidgets.QWidget):
         attractionValues = self.followRamp.getValueAtPoints(rampPoints)
         follow = [(1-a)*self.detachMult.value() for a in attractionValues]
         rigidity = self.rigidityRamp.getValueAtPoints(rampPoints)
-        animLayer = self.layerCombo.currentText()
+        elasticity = [1-a for a in self.elasticityRamp.getValueAtPoints(rampPoints)]
         massesRamp = self.massRamp.getValueAtPoints(rampPoints)
         masses = [a*self.massMult.value() for a in massesRamp]
+        animLayer = self.layerCombo.currentText()
         doRotations = self.rotationCbx.isChecked()
         followBase = self.followCBx.isChecked()
         fameRange = (int(cmds.playbackOptions(q=1, min=1)), int(cmds.playbackOptions(q=1, max=1)))
@@ -199,6 +194,7 @@ class RagdolizeUI(QtWidgets.QWidget):
         dynSystem = self.createDynSystem(positionList,
                                          follow,
                                          rigidity,
+                                         elasticity,
                                          damping,
                                          gravity,
                                          masses,
@@ -213,10 +209,11 @@ class RagdolizeUI(QtWidgets.QWidget):
             for animCurve in animation.getLayerAnimCurves(control, animLayer):
                 animation.cacheCurvePoints(animCurve)
 
-    def createDynSystem(self, positionList, follow, rigidity, damping, gravity, masses, followBase):
+    def createDynSystem(self, positionList, follow, rigidity, elasticity, damping, gravity, masses, followBase):
         sim = rigs.ChainSimulation(positionList, followBase)
         sim.setRestLenght(follow)
         sim.setRigidity(rigidity)
+        sim.setElasticity(elasticity)
         sim.setDamping(damping)
         grav = forces.Gravity(sim.getParticles(),gravity)
         sim.addForce(grav)

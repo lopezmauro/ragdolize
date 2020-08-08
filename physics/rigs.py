@@ -42,7 +42,9 @@ class ChainSimulation(simulation.Simulation):
     def setRigidity(self, stifnessList):
         for spring, stiff in zip(self.springs, stifnessList):
             spring.setStiffnes(stiff)
-        self.linkRope.setRigidity(stifnessList)
+
+    def setElasticity(self, elasticityList):
+        self.linkRope.setRigidity(elasticityList)
 
     def setMasses(self, massesList):
         for particle, mass in zip(self.simParticles, massesList):

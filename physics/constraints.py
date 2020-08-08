@@ -106,7 +106,9 @@ class ParticlesRope(Constraint):
                 link.solve()
 
     def setRigidity(self, dampingList):
-        #for spring, stiff in zip(self.springs, stifnessList):
-        #    spring.setStiffnes(stiff)
         for link, stiff in zip(self._links, dampingList):
+            if stiff>1:
+                stiff = 1
+            elif stiff<.01:
+                stiff = .01
             link.setDamping(stiff)

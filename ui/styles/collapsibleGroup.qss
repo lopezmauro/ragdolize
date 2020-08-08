@@ -1,0 +1,38 @@
+QCheckBox::indicator {
+    width: 18px;
+    height: 18px;
+}
+
+QCheckBox::indicator:checked
+{
+    image: url(:/icons/collapse_arrow.png);
+}
+QCheckBox::indicator:unchecked
+{
+    image: url(:/icons/expand_arrow.png);
+}
+
+QCheckBox::indicator:checked:hover
+{
+    image: url(:/icons/collapse_arrow_h.png);
+}
+QCheckBox::indicator:unchecked:hover
+{
+    image: url(:/icons/expand_arrow_h.png);
+}
+QCheckBox::indicator:checked:pressed
+{
+    image: url(:/icons/collapse_arrow_p.png);
+}
+QCheckBox::indicator:unchecked:pressed
+{
+    image: url(:/icons/expand_arrow_p.png);
+}
+QCheckBox::indicator:checked:disabled
+{
+    image: url(:/icons/collapse_arrow_p.png);
+}
+QCheckBox::indicator:unchecked:disabled
+{
+    image: url(:/icons/expand_arrow_p.png);
+}
