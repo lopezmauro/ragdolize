@@ -2,7 +2,7 @@
 
 # Resource object code
 #
-# Created: Sat Aug 8 16:04:17 2020
+# Created: Sat Aug 8 17:07:12 2020
 #      by: The Resource Compiler for PySide2 (Qt v5.6.1)
 #
 # WARNING! All changes made in this file will be lost!
@@ -10,6 +10,4454 @@
 from PySide2 import QtCore
 
 qt_resource_data = b"\
+\x00\x00@f\
+\x89\
+PNG\x0d\x0a\x1a\x0a\x00\x00\x00\x0dIHDR\x00\
+\x00\x00(\x00\x00\x00#\x08\x04\x00\x00\x00L0\x80%\
+\x00\x00\x00\x09pHYs\x00\x00\x0b\x13\x00\x00\x0b\x13\
+\x01\x00\x9a\x9c\x18\x00\x00;\xa6iTXtXML\
+:com.adobe.xmp\x00\x00\
+\x00\x00\x00<?xpacket beg\
+in=\x22\xef\xbb\xbf\x22 id=\x22W5M\
+0MpCehiHzreSzNTc\
+zkc9d\x22?>\x0a<x:xmpm\
+eta xmlns:x=\x22ado\
+be:ns:meta/\x22 x:x\
+mptk=\x22Adobe XMP \
+Core 5.6-c138 79\
+.159824, 2016/09\
+/14-01:09:01    \
+    \x22>\x0a   <rdf:R\
+DF xmlns:rdf=\x22ht\
+tp://www.w3.org/\
+1999/02/22-rdf-s\
+yntax-ns#\x22>\x0a    \
+  <rdf:Descripti\
+on rdf:about=\x22\x22\x0a\
+            xmln\
+s:xmp=\x22http://ns\
+.adobe.com/xap/1\
+.0/\x22\x0a           \
+ xmlns:xmpMM=\x22ht\
+tp://ns.adobe.co\
+m/xap/1.0/mm/\x22\x0a \
+           xmlns\
+:stEvt=\x22http://n\
+s.adobe.com/xap/\
+1.0/sType/Resour\
+ceEvent#\x22\x0a      \
+      xmlns:dc=\x22\
+http://purl.org/\
+dc/elements/1.1/\
+\x22\x0a            xm\
+lns:photoshop=\x22h\
+ttp://ns.adobe.c\
+om/photoshop/1.0\
+/\x22\x0a            x\
+mlns:tiff=\x22http:\
+//ns.adobe.com/t\
+iff/1.0/\x22\x0a      \
+      xmlns:exif\
+=\x22http://ns.adob\
+e.com/exif/1.0/\x22\
+>\x0a         <xmp:\
+CreatorTool>Adob\
+e Photoshop CC 2\
+017 (Windows)</x\
+mp:CreatorTool>\x0a\
+         <xmp:Cr\
+eateDate>2020-08\
+-08T14:33:10-07:\
+00</xmp:CreateDa\
+te>\x0a         <xm\
+p:MetadataDate>2\
+020-08-08T14:36:\
+54-07:00</xmp:Me\
+tadataDate>\x0a    \
+     <xmp:Modify\
+Date>2020-08-08T\
+14:36:54-07:00</\
+xmp:ModifyDate>\x0a\
+         <xmpMM:\
+InstanceID>xmp.i\
+id:deef3419-318d\
+-8541-b994-0d2e3\
+a17f307</xmpMM:I\
+nstanceID>\x0a     \
+    <xmpMM:Docum\
+entID>adobe:doci\
+d:photoshop:b9da\
+929a-d9be-11ea-8\
+70e-be7d6a73bcf6\
+</xmpMM:Document\
+ID>\x0a         <xm\
+pMM:OriginalDocu\
+mentID>xmp.did:b\
+5a047fb-e918-d14\
+f-887c-49988a2bc\
+6b1</xmpMM:Origi\
+nalDocumentID>\x0a \
+        <xmpMM:H\
+istory>\x0a        \
+    <rdf:Seq>\x0a  \
+             <rd\
+f:li rdf:parseTy\
+pe=\x22Resource\x22>\x0a \
+                \
+ <stEvt:action>c\
+reated</stEvt:ac\
+tion>\x0a          \
+        <stEvt:i\
+nstanceID>xmp.ii\
+d:b5a047fb-e918-\
+d14f-887c-49988a\
+2bc6b1</stEvt:in\
+stanceID>\x0a      \
+            <stE\
+vt:when>2020-08-\
+08T14:33:10-07:0\
+0</stEvt:when>\x0a \
+                \
+ <stEvt:software\
+Agent>Adobe Phot\
+oshop CC 2017 (W\
+indows)</stEvt:s\
+oftwareAgent>\x0a  \
+             </r\
+df:li>\x0a         \
+      <rdf:li rd\
+f:parseType=\x22Res\
+ource\x22>\x0a        \
+          <stEvt\
+:action>saved</s\
+tEvt:action>\x0a   \
+               <\
+stEvt:instanceID\
+>xmp.iid:2519c4f\
+e-fd66-e945-b435\
+-d4f4e3d3a6ed</s\
+tEvt:instanceID>\
+\x0a               \
+   <stEvt:when>2\
+020-08-08T14:33:\
+10-07:00</stEvt:\
+when>\x0a          \
+        <stEvt:s\
+oftwareAgent>Ado\
+be Photoshop CC \
+2017 (Windows)</\
+stEvt:softwareAg\
+ent>\x0a           \
+       <stEvt:ch\
+anged>/</stEvt:c\
+hanged>\x0a        \
+       </rdf:li>\
+\x0a               \
+<rdf:li rdf:pars\
+eType=\x22Resource\x22\
+>\x0a              \
+    <stEvt:actio\
+n>saved</stEvt:a\
+ction>\x0a         \
+         <stEvt:\
+instanceID>xmp.i\
+id:deef3419-318d\
+-8541-b994-0d2e3\
+a17f307</stEvt:i\
+nstanceID>\x0a     \
+             <st\
+Evt:when>2020-08\
+-08T14:36:54-07:\
+00</stEvt:when>\x0a\
+                \
+  <stEvt:softwar\
+eAgent>Adobe Pho\
+toshop CC 2017 (\
+Windows)</stEvt:\
+softwareAgent>\x0a \
+                \
+ <stEvt:changed>\
+/</stEvt:changed\
+>\x0a              \
+ </rdf:li>\x0a     \
+       </rdf:Seq\
+>\x0a         </xmp\
+MM:History>\x0a    \
+     <dc:format>\
+image/png</dc:fo\
+rmat>\x0a         <\
+photoshop:ColorM\
+ode>1</photoshop\
+:ColorMode>\x0a    \
+     <tiff:Orien\
+tation>1</tiff:O\
+rientation>\x0a    \
+     <tiff:XReso\
+lution>720000/10\
+000</tiff:XResol\
+ution>\x0a         \
+<tiff:YResolutio\
+n>720000/10000</\
+tiff:YResolution\
+>\x0a         <tiff\
+:ResolutionUnit>\
+2</tiff:Resoluti\
+onUnit>\x0a        \
+ <exif:ColorSpac\
+e>65535</exif:Co\
+lorSpace>\x0a      \
+   <exif:PixelXD\
+imension>40</exi\
+f:PixelXDimensio\
+n>\x0a         <exi\
+f:PixelYDimensio\
+n>35</exif:Pixel\
+YDimension>\x0a    \
+  </rdf:Descript\
+ion>\x0a   </rdf:RD\
+F>\x0a</x:xmpmeta>\x0a\
+                \
+                \
+                \
+                \
+                \
+                \
+    \x0a           \
+                \
+                \
+                \
+                \
+                \
+         \x0a      \
+                \
+                \
+                \
+                \
+                \
+              \x0a \
+                \
+                \
+                \
+                \
+                \
+                \
+   \x0a            \
+                \
+                \
+                \
+                \
+                \
+        \x0a       \
+                \
+                \
+                \
+                \
+                \
+             \x0a  \
+                \
+                \
+                \
+                \
+                \
+                \
+  \x0a             \
+                \
+                \
+                \
+                \
+                \
+       \x0a        \
+                \
+                \
+                \
+                \
+                \
+            \x0a   \
+                \
+                \
+                \
+                \
+                \
+                \
+ \x0a              \
+                \
+                \
+                \
+                \
+                \
+      \x0a         \
+                \
+                \
+                \
+                \
+                \
+           \x0a    \
+                \
+                \
+                \
+                \
+                \
+                \
+\x0a               \
+                \
+                \
+                \
+                \
+                \
+     \x0a          \
+                \
+                \
+                \
+                \
+                \
+          \x0a     \
+                \
+                \
+                \
+                \
+                \
+               \x0a\
+                \
+                \
+                \
+                \
+                \
+                \
+    \x0a           \
+                \
+                \
+                \
+                \
+                \
+         \x0a      \
+                \
+                \
+                \
+                \
+                \
+              \x0a \
+                \
+                \
+                \
+                \
+                \
+                \
+   \x0a            \
+                \
+                \
+                \
+                \
+                \
+        \x0a       \
+                \
+                \
+                \
+                \
+                \
+             \x0a  \
+                \
+                \
+                \
+                \
+                \
+                \
+  \x0a             \
+                \
+                \
+                \
+                \
+                \
+       \x0a        \
+                \
+                \
+                \
+                \
+                \
+            \x0a   \
+                \
+                \
+                \
+                \
+                \
+                \
+ \x0a              \
+                \
+                \
+                \
+                \
+                \
+      \x0a         \
+                \
+                \
+                \
+                \
+                \
+           \x0a    \
+                \
+                \
+                \
+                \
+                \
+                \
+\x0a               \
+                \
+                \
+                \
+                \
+                \
+     \x0a          \
+                \
+                \
+                \
+                \
+                \
+          \x0a     \
+                \
+                \
+                \
+                \
+                \
+               \x0a\
+                \
+                \
+                \
+                \
+                \
+                \
+    \x0a           \
+                \
+                \
+                \
+                \
+                \
+         \x0a      \
+                \
+                \
+                \
+                \
+                \
+              \x0a \
+                \
+                \
+                \
+                \
+                \
+                \
+   \x0a            \
+                \
+                \
+                \
+                \
+                \
+        \x0a       \
+                \
+                \
+                \
+                \
+                \
+             \x0a  \
+                \
+                \
+                \
+                \
+                \
+                \
+  \x0a             \
+                \
+                \
+                \
+                \
+                \
+       \x0a        \
+                \
+                \
+                \
+                \
+                \
+            \x0a   \
+                \
+                \
+                \
+                \
+                \
+                \
+ \x0a              \
+                \
+                \
+                \
+                \
+                \
+      \x0a         \
+                \
+                \
+                \
+                \
+                \
+           \x0a    \
+                \
+                \
+                \
+                \
+                \
+                \
+\x0a               \
+                \
+                \
+                \
+                \
+                \
+     \x0a          \
+                \
+                \
+                \
+                \
+                \
+          \x0a     \
+                \
+                \
+                \
+                \
+                \
+               \x0a\
+                \
+                \
+                \
+                \
+                \
+                \
+    \x0a           \
+                \
+                \
+                \
+                \
+                \
+         \x0a      \
+                \
+                \
+                \
+                \
+                \
+              \x0a \
+                \
+                \
+                \
+                \
+                \
+                \
+   \x0a            \
+                \
+                \
+                \
+                \
+                \
+        \x0a       \
+                \
+                \
+                \
+                \
+                \
+             \x0a  \
+                \
+                \
+                \
+                \
+                \
+                \
+  \x0a             \
+                \
+                \
+                \
+                \
+                \
+       \x0a        \
+                \
+                \
+                \
+                \
+                \
+            \x0a   \
+                \
+                \
+                \
+                \
+                \
+                \
+ \x0a              \
+                \
+                \
+                \
+                \
+                \
+      \x0a         \
+                \
+                \
+                \
+                \
+                \
+           \x0a    \
+                \
+                \
+                \
+                \
+                \
+                \
+\x0a               \
+                \
+                \
+                \
+                \
+                \
+     \x0a          \
+                \
+                \
+                \
+                \
+                \
+          \x0a     \
+                \
+                \
+                \
+                \
+                \
+               \x0a\
+                \
+                \
+                \
+                \
+                \
+                \
+    \x0a           \
+                \
+                \
+                \
+                \
+                \
+         \x0a      \
+                \
+                \
+                \
+                \
+                \
+              \x0a \
+                \
+                \
+                \
+                \
+                \
+                \
+   \x0a            \
+                \
+                \
+                \
+                \
+                \
+        \x0a       \
+                \
+                \
+                \
+                \
+                \
+             \x0a  \
+                \
+                \
+                \
+                \
+                \
+                \
+  \x0a             \
+                \
+                \
+                \
+                \
+                \
+       \x0a        \
+                \
+                \
+                \
+                \
+                \
+            \x0a   \
+                \
+                \
+                \
+                \
+                \
+                \
+ \x0a              \
+                \
+                \
+                \
+                \
+                \
+      \x0a         \
+                \
+                \
+                \
+                \
+                \
+           \x0a    \
+                \
+                \
+                \
+                \
+                \
+                \
+\x0a               \
+                \
+                \
+                \
+                \
+                \
+     \x0a          \
+                \
+                \
+                \
+                \
+                \
+          \x0a     \
+                \
+                \
+                \
+                \
+                \
+               \x0a\
+                \
+                \
+                \
+                \
+                \
+                \
+    \x0a           \
+                \
+                \
+                \
+                \
+                \
+         \x0a      \
+                \
+                \
+                \
+                \
+                \
+              \x0a \
+                \
+                \
+                \
+                \
+                \
+                \
+   \x0a            \
+                \
+                \
+                \
+                \
+                \
+        \x0a       \
+                \
+                \
+                \
+                \
+                \
+             \x0a  \
+                \
+                \
+                \
+                \
+                \
+                \
+  \x0a             \
+                \
+                \
+                \
+                \
+                \
+       \x0a        \
+                \
+                \
+                \
+                \
+                \
+            \x0a   \
+                \
+                \
+                \
+                \
+                \
+                \
+ \x0a              \
+                \
+                \
+                \
+                \
+                \
+      \x0a         \
+                \
+                \
+                \
+                \
+                \
+           \x0a    \
+                \
+                \
+                \
+                \
+                \
+                \
+\x0a               \
+                \
+                \
+                \
+                \
+                \
+     \x0a          \
+                \
+                \
+                \
+                \
+                \
+          \x0a     \
+                \
+                \
+                \
+                \
+                \
+               \x0a\
+                \
+                \
+                \
+                \
+                \
+                \
+    \x0a           \
+                \
+                \
+                \
+                \
+                \
+         \x0a      \
+                \
+                \
+                \
+                \
+                \
+              \x0a \
+                \
+                \
+                \
+                \
+                \
+                \
+   \x0a            \
+                \
+                \
+                \
+                \
+                \
+        \x0a       \
+                \
+                \
+                \
+                \
+                \
+             \x0a  \
+                \
+                \
+                \
+                \
+                \
+                \
+  \x0a             \
+                \
+                \
+                \
+                \
+                \
+       \x0a        \
+                \
+                \
+                \
+                \
+                \
+            \x0a   \
+                \
+                \
+                \
+                \
+                \
+                \
+ \x0a              \
+                \
+                \
+                \
+                \
+                \
+      \x0a         \
+                \
+                \
+                \
+                \
+                \
+           \x0a    \
+                \
+                \
+                \
+                \
+                \
+                \
+\x0a               \
+                \
+                \
+                \
+                \
+                \
+     \x0a          \
+                \
+                \
+                \
+                \
+                \
+          \x0a     \
+                \
+                \
+                \
+                \
+                \
+               \x0a\
+                \
+                \
+                \
+                \
+                \
+                \
+    \x0a           \
+                \
+                \
+                \
+                \
+                \
+         \x0a      \
+                \
+                \
+                \
+                \
+                \
+              \x0a \
+                \
+                \
+                \
+                \
+                \
+                \
+   \x0a            \
+                \
+                \
+                \
+                \
+                \
+        \x0a       \
+                \
+                \
+                \
+                \
+                \
+             \x0a  \
+                \
+                \
+                \
+                \
+                \
+                \
+  \x0a             \
+               \x0a\
+<?xpacket end=\x22w\
+\x22?>\x22\xd0KG\x00\x00\x00 cHRM\x00\
+\x00z%\x00\x00\x80\x83\x00\x00\xf9\xff\x00\x00\x80\xe9\x00\
+\x00u0\x00\x00\xea`\x00\x00:\x98\x00\x00\x17o\x92\
+_\xc5F\x00\x00\x04:IDATx\xda\xec\x96]\
+\x88Te\x18\xc7\x7f\xef{\xbef\xe6\xec\xcc\xce\xce\xea\
+\xda\xb6+\x8a\x06.&Bkj\x81\xa8!Bb\x14\
+\x18Q\xbaz\x91D\x94\x9aY\xdd$\xecV\x98B\xf4\
+\x01\x89\x96\x17%\x81\xe0\x16at!l\xe5Eia\
+(\x9a\x8a\xa2\xb5F\x1f\x18\xba\xee\xec\xec\xaa3\xbb\xb3\
+s\xbe\xde\xd3\xc5iufv,\xa9\xee\xea\xbd?\xbf\
+\xf7\xf9\xff\xff\xcf\xf3\xbcG\x84\xfc\xbbG\xf2\x9f\x03\xea\
+\xb0\x0d\x8f\x11$M\x0c\xa3\xa1S\xa0@\x06\x1b\xf9J\
+p\xf4\xdag\x1e. \x08\x09\xd10\xd00\xecDW\
+\xf1E\x0b\x9d+\x140\xb0\x88SG\x91!l\xb6\xa2\
+\x97\xd3CD<\x1c\x05\x1f\x9fx\xa7\xf1\xb2\xa2\xd8V\
+\xec\x15\x8c\x05\xa7a\x92 \xf3\xb5\xd6n\xce\x1f\xb9\x0f\
+\x14\x0e\xa6.|U[\xb2\x87\xbd\xb1\xe1W\xd1\xaeH\
+\x90|\xdf|\xd5\x03\x9a\x8e\xc5f\x94P(@\xe0\xa3\
+\xb0\xbfR\xed%b\x8b\xeb{U\xda \xa3M\xf9q\
+\xe2\x01\x1fU\x09\x14\x84xXk\xeb\xb6\xcb\xa6\xd4Q\
+\xbd\xcd\xa6\xae\x14\x22\xf0\xd1\x92\xad'S\xad\x1a:\x02\
+\x1f\x98x0\xb68\x88>sF\xf3\x16\xd3\xbe\x8dO\
+\xb5\x97f\xf6\xa8\xeb*d$5\xa0~Cbw\x88\
+\x8f\xd4\x9bO93Oo\xb8\xbc\xd9B\xc3E\xc6\xa7\
+\x9dl\x9e\x5c\x87K\xc8\xe4\x03\x89E.`\x12\xf4\xe4\
+f{\xaa\xfe\x88\x9a\xe7\xe2\x91X\x93\xec\x0eP\x88\x08\
+\xa8pi\xdc\xd0\xbc#@\x01>\x9a\xd5z\xccn\xb9\
+\xfcZ\xf65\x1dI\x80\x9aPw\x5c\x18I\xee\xd8\x9f\
+\x5c\xea\x02\x16\xc3\x87\xcf-\xcf\xd3t\xc8\x9a\x1f\x00\x10\
+\xa0\xafLu\x0b\xbc(e2\xf5\xeb\xd3[n\xf8\xe0\
+\xa1'\xdaN\x0f\xcc\xcam6\xfcT\xa7O\x80\xd6\xd4\
+pX\x9e\xb7\x1ep\x00\x93\x91\xc3\xbd\x0bB\xa6\x1fL\
+,t\xaf;\xe7\x92\x5c99=\xf48\xfd\x12\xec{\
+\x1a\xb6(\x82\xb2\xa4|\x82L\xe6\x94\xdd0\xd0\xe5m\
+7\x81\x00s\xae\xde\xe1\x02\x06\xa5\xef\xfa\x16\xa4i\xeb\
+\xb1\x17\xb9\x15\xfd\xe7\x91Z\x96\x5c\x02\x12\xf2=\xb9e\
+\xa2\xb2\x7f\x08\x90M\x93\xce\x8a\xd4\xf9M\xb9\x1d1\x04\
+\x01\x01`\x10\x9c\x18\xb8[g\xea'u\xcb*q\x02\
+\x9d\xfc\xb6\x91n\x90\x90\xe3\xc2\xe7\xbf=\xa8\xa1U\xdd\
+h6\xb7\x9eU\xf1\x9f7\xe6\xde\xb3 \xc2\x9d\xc9\xce\
+q\x99\xb0O\xaep\xab\xe6\xc3\xc0\xddV\xec\x94Q(\
+\x1a&W\xf7\xf7=\xa2U\xcd\xa1\x8b\xd9:\xf3D\x8b\
+\xbc\xf4\xe4\xd0\x07\x06&\xce\xf9\x1ffg\x99\xb8\xc7~\
+\xd8\xab\xaa.\xc6\xe0\xce\x9f:\xaf1|\xa3\x0f-\x0a\
+\xfbr\x8f\xca*\xa4\x87l\xbb\xedl\x8a\xecZ\xef\x90\
+\x9f\xffe\xd6(S\xf6\xa6\xd7T\x8b5\x18\xdau\xf1\
+\x19\x17\x17\xaf|R,\x9c\x8fK\xab\xcd*\xa4\x0fm\
+\x93NH\x06\x16\xf7O\x8f{w\xeejXU\x1a\xb7\
+\x0c\x0a\xbb\xb3\xebtL\xa2r\xe4\xd8\x14\xbb\xb8d\xf7\
+\xf6\xaf\xd7\xc6!\xad\xbbn?~\x85R\xae\xf9\xed\xc4\
+S\xee8\xdc\xe8GW\x9e\xd0\x90\xd7'\xe5\x8fp\x15\
+\x0e\xa3(\x06\xdf\x0dD\xf3N\x0fU\xe1\xa5=\xa7\xe5\
+\xc3\xe0{\xf3Y\xaf\x0ag\xe2u\x8fth(\xbc\xf2\
+\xf55\xe6\x85\x86\x86\xc1\xe0;z\xac\xf1M*\x90\x0e\
+\xe9\xc7\xa0\x1agq\xf5\xd3\xbe\x0e\x01D\x93\x1cV\x02\
+o4\xc0\xb5\xb7tY\xffzHX\x11\x0f\xe3\xaa+\
+\xf4\x5cX\xe1\x13Y$n\xbe\xb1%&\xce\x1b^\x97\
+\xf5\xa7{\xd9\xa0\xf8E\xdfr\x89\x89\x86(\xc3\x81^\
+N\x8fVV\x88\xc7\xf0\xd6\xb4\xd9\xd8\xe5Q\xfbM\xd4\
+(}9x\xbfD\xab\x18X\xc6K\x16@\x80\x8f\x22\
+ \xff\x92\xb0\x1b\x9fwk \x0d\xc2o\x8aK4\xf4\
+\x1aF\xd4\xf0P \x90\xe8\x84d_\xd0dj\xd3\xf8\
+(\x0aG\xfa\x16F\xf3\xaen\x058&^\xa2s\xf5\
+9\xddJ<\xed\x97UiR:s\xe1\xdeQ\x0cD\
+\x95w\xb7\xf0\x8cJ$\xc3\xeb\x9c]F\x99X\xe7\xe4\
+\xc5y\x8a\x18\x1a\xb2&\x0etnb\xbc\xa2\x84\x03\x0c\
+\xack\xa9o\x5cU\x024\xbc\xde\xdc\xdc0\xd0kD\
+\xf1\x97\x92#\xd9\xd1\x93p\xb1CW\xc9\xd5!\x9c\xcb\
+\xb7\x8b\xa0v\x14\xb7\x04\x8cR7\x10\xf4\xaf1g\x88\
+Y\x97\xe6\x05\x0e\x04\x84\x7f\x1f8\xd6u\x92\xfcC\xc5\
+\x96\xdc\x88y\xd3(\xca\x8a\xf8\xffw\xee\x1f\x9f\xdf\x07\
+\x00\xdc\xd3\x971\x87u\x82R\x00\x00\x00\x00IEN\
+D\xaeB`\x82\
+\x00\x00In\
+\x89\
+PNG\x0d\x0a\x1a\x0a\x00\x00\x00\x0dIHDR\x00\
+\x00\x00(\x00\x00\x00)\x08\x06\x00\x00\x00G\xa2k\xc8\
+\x00\x00\x00\x09pHYs\x00\x00\x0b\x13\x00\x00\x0b\x13\
+\x01\x00\x9a\x9c\x18\x00\x00A\xf3iTXtXML\
+:com.adobe.xmp\x00\x00\
+\x00\x00\x00<?xpacket beg\
+in=\x22\xef\xbb\xbf\x22 id=\x22W5M\
+0MpCehiHzreSzNTc\
+zkc9d\x22?>\x0a<x:xmpm\
+eta xmlns:x=\x22ado\
+be:ns:meta/\x22 x:x\
+mptk=\x22Adobe XMP \
+Core 5.6-c138 79\
+.159824, 2016/09\
+/14-01:09:01    \
+    \x22>\x0a   <rdf:R\
+DF xmlns:rdf=\x22ht\
+tp://www.w3.org/\
+1999/02/22-rdf-s\
+yntax-ns#\x22>\x0a    \
+  <rdf:Descripti\
+on rdf:about=\x22\x22\x0a\
+            xmln\
+s:xmp=\x22http://ns\
+.adobe.com/xap/1\
+.0/\x22\x0a           \
+ xmlns:dc=\x22http:\
+//purl.org/dc/el\
+ements/1.1/\x22\x0a   \
+         xmlns:p\
+hotoshop=\x22http:/\
+/ns.adobe.com/ph\
+otoshop/1.0/\x22\x0a  \
+          xmlns:\
+xmpMM=\x22http://ns\
+.adobe.com/xap/1\
+.0/mm/\x22\x0a        \
+    xmlns:stEvt=\
+\x22http://ns.adobe\
+.com/xap/1.0/sTy\
+pe/ResourceEvent\
+#\x22\x0a            x\
+mlns:stRef=\x22http\
+://ns.adobe.com/\
+xap/1.0/sType/Re\
+sourceRef#\x22\x0a    \
+        xmlns:ti\
+ff=\x22http://ns.ad\
+obe.com/tiff/1.0\
+/\x22\x0a            x\
+mlns:exif=\x22http:\
+//ns.adobe.com/e\
+xif/1.0/\x22>\x0a     \
+    <xmp:Creator\
+Tool>Adobe Photo\
+shop CC 2017 (Wi\
+ndows)</xmp:Crea\
+torTool>\x0a       \
+  <xmp:CreateDat\
+e>2020-06-08T20:\
+41:11-07:00</xmp\
+:CreateDate>\x0a   \
+      <xmp:Modif\
+yDate>2020-06-09\
+T19:21:22-07:00<\
+/xmp:ModifyDate>\
+\x0a         <xmp:M\
+etadataDate>2020\
+-06-09T19:21:22-\
+07:00</xmp:Metad\
+ataDate>\x0a       \
+  <dc:format>ima\
+ge/png</dc:forma\
+t>\x0a         <pho\
+toshop:ColorMode\
+>3</photoshop:Co\
+lorMode>\x0a       \
+  <xmpMM:Instanc\
+eID>xmp.iid:de70\
+707c-b68e-c14d-9\
+030-760e53f21d87\
+</xmpMM:Instance\
+ID>\x0a         <xm\
+pMM:DocumentID>a\
+dobe:docid:photo\
+shop:0e9e6285-aa\
+c1-11ea-9330-e3d\
+84de62c15</xmpMM\
+:DocumentID>\x0a   \
+      <xmpMM:Ori\
+ginalDocumentID>\
+xmp.did:befe4fec\
+-ccdf-894b-8fe1-\
+54193019f3e7</xm\
+pMM:OriginalDocu\
+mentID>\x0a        \
+ <xmpMM:History>\
+\x0a            <rd\
+f:Seq>\x0a         \
+      <rdf:li rd\
+f:parseType=\x22Res\
+ource\x22>\x0a        \
+          <stEvt\
+:action>created<\
+/stEvt:action>\x0a \
+                \
+ <stEvt:instance\
+ID>xmp.iid:befe4\
+fec-ccdf-894b-8f\
+e1-54193019f3e7<\
+/stEvt:instanceI\
+D>\x0a             \
+     <stEvt:when\
+>2020-06-08T20:4\
+1:11-07:00</stEv\
+t:when>\x0a        \
+          <stEvt\
+:softwareAgent>A\
+dobe Photoshop C\
+C 2017 (Windows)\
+</stEvt:software\
+Agent>\x0a         \
+      </rdf:li>\x0a\
+               <\
+rdf:li rdf:parse\
+Type=\x22Resource\x22>\
+\x0a               \
+   <stEvt:action\
+>converted</stEv\
+t:action>\x0a      \
+            <stE\
+vt:parameters>fr\
+om image/png to \
+application/vnd.\
+adobe.photoshop<\
+/stEvt:parameter\
+s>\x0a             \
+  </rdf:li>\x0a    \
+           <rdf:\
+li rdf:parseType\
+=\x22Resource\x22>\x0a   \
+               <\
+stEvt:action>sav\
+ed</stEvt:action\
+>\x0a              \
+    <stEvt:insta\
+nceID>xmp.iid:a8\
+ab912c-5f46-ba4a\
+-a12f-3ba561b88a\
+ff</stEvt:instan\
+ceID>\x0a          \
+        <stEvt:w\
+hen>2020-06-09T1\
+9:20:54-07:00</s\
+tEvt:when>\x0a     \
+             <st\
+Evt:softwareAgen\
+t>Adobe Photosho\
+p CC 2017 (Windo\
+ws)</stEvt:softw\
+areAgent>\x0a      \
+            <stE\
+vt:changed>/</st\
+Evt:changed>\x0a   \
+            </rd\
+f:li>\x0a          \
+     <rdf:li rdf\
+:parseType=\x22Reso\
+urce\x22>\x0a         \
+         <stEvt:\
+action>saved</st\
+Evt:action>\x0a    \
+              <s\
+tEvt:instanceID>\
+xmp.iid:c6ef9ed1\
+-32fc-3343-a435-\
+6b2a053049af</st\
+Evt:instanceID>\x0a\
+                \
+  <stEvt:when>20\
+20-06-09T19:21:2\
+2-07:00</stEvt:w\
+hen>\x0a           \
+       <stEvt:so\
+ftwareAgent>Adob\
+e Photoshop CC 2\
+017 (Windows)</s\
+tEvt:softwareAge\
+nt>\x0a            \
+      <stEvt:cha\
+nged>/</stEvt:ch\
+anged>\x0a         \
+      </rdf:li>\x0a\
+               <\
+rdf:li rdf:parse\
+Type=\x22Resource\x22>\
+\x0a               \
+   <stEvt:action\
+>converted</stEv\
+t:action>\x0a      \
+            <stE\
+vt:parameters>fr\
+om application/v\
+nd.adobe.photosh\
+op to image/png<\
+/stEvt:parameter\
+s>\x0a             \
+  </rdf:li>\x0a    \
+           <rdf:\
+li rdf:parseType\
+=\x22Resource\x22>\x0a   \
+               <\
+stEvt:action>der\
+ived</stEvt:acti\
+on>\x0a            \
+      <stEvt:par\
+ameters>converte\
+d from applicati\
+on/vnd.adobe.pho\
+toshop to image/\
+png</stEvt:param\
+eters>\x0a         \
+      </rdf:li>\x0a\
+               <\
+rdf:li rdf:parse\
+Type=\x22Resource\x22>\
+\x0a               \
+   <stEvt:action\
+>saved</stEvt:ac\
+tion>\x0a          \
+        <stEvt:i\
+nstanceID>xmp.ii\
+d:de70707c-b68e-\
+c14d-9030-760e53\
+f21d87</stEvt:in\
+stanceID>\x0a      \
+            <stE\
+vt:when>2020-06-\
+09T19:21:22-07:0\
+0</stEvt:when>\x0a \
+                \
+ <stEvt:software\
+Agent>Adobe Phot\
+oshop CC 2017 (W\
+indows)</stEvt:s\
+oftwareAgent>\x0a  \
+                \
+<stEvt:changed>/\
+</stEvt:changed>\
+\x0a               \
+</rdf:li>\x0a      \
+      </rdf:Seq>\
+\x0a         </xmpM\
+M:History>\x0a     \
+    <xmpMM:Deriv\
+edFrom rdf:parse\
+Type=\x22Resource\x22>\
+\x0a            <st\
+Ref:instanceID>x\
+mp.iid:c6ef9ed1-\
+32fc-3343-a435-6\
+b2a053049af</stR\
+ef:instanceID>\x0a \
+           <stRe\
+f:documentID>xmp\
+.did:befe4fec-cc\
+df-894b-8fe1-541\
+93019f3e7</stRef\
+:documentID>\x0a   \
+         <stRef:\
+originalDocument\
+ID>xmp.did:befe4\
+fec-ccdf-894b-8f\
+e1-54193019f3e7<\
+/stRef:originalD\
+ocumentID>\x0a     \
+    </xmpMM:Deri\
+vedFrom>\x0a       \
+  <tiff:Orientat\
+ion>1</tiff:Orie\
+ntation>\x0a       \
+  <tiff:XResolut\
+ion>720000/10000\
+</tiff:XResoluti\
+on>\x0a         <ti\
+ff:YResolution>7\
+20000/10000</tif\
+f:YResolution>\x0a \
+        <tiff:Re\
+solutionUnit>2</\
+tiff:ResolutionU\
+nit>\x0a         <e\
+xif:ColorSpace>6\
+5535</exif:Color\
+Space>\x0a         \
+<exif:PixelXDime\
+nsion>40</exif:P\
+ixelXDimension>\x0a\
+         <exif:P\
+ixelYDimension>4\
+1</exif:PixelYDi\
+mension>\x0a      <\
+/rdf:Description\
+>\x0a   </rdf:RDF>\x0a\
+</x:xmpmeta>\x0a   \
+                \
+                \
+                \
+                \
+                \
+                \
+ \x0a              \
+                \
+                \
+                \
+                \
+                \
+      \x0a         \
+                \
+                \
+                \
+                \
+                \
+           \x0a    \
+                \
+                \
+                \
+                \
+                \
+                \
+\x0a               \
+                \
+                \
+                \
+                \
+                \
+     \x0a          \
+                \
+                \
+                \
+                \
+                \
+          \x0a     \
+                \
+                \
+                \
+                \
+                \
+               \x0a\
+                \
+                \
+                \
+                \
+                \
+                \
+    \x0a           \
+                \
+                \
+                \
+                \
+                \
+         \x0a      \
+                \
+                \
+                \
+                \
+                \
+              \x0a \
+                \
+                \
+                \
+                \
+                \
+                \
+   \x0a            \
+                \
+                \
+                \
+                \
+                \
+        \x0a       \
+                \
+                \
+                \
+                \
+                \
+             \x0a  \
+                \
+                \
+                \
+                \
+                \
+                \
+  \x0a             \
+                \
+                \
+                \
+                \
+                \
+       \x0a        \
+                \
+                \
+                \
+                \
+                \
+            \x0a   \
+                \
+                \
+                \
+                \
+                \
+                \
+ \x0a              \
+                \
+                \
+                \
+                \
+                \
+      \x0a         \
+                \
+                \
+                \
+                \
+                \
+           \x0a    \
+                \
+                \
+                \
+                \
+                \
+                \
+\x0a               \
+                \
+                \
+                \
+                \
+                \
+     \x0a          \
+                \
+                \
+                \
+                \
+                \
+          \x0a     \
+                \
+                \
+                \
+                \
+                \
+               \x0a\
+                \
+                \
+                \
+                \
+                \
+                \
+    \x0a           \
+                \
+                \
+                \
+                \
+                \
+         \x0a      \
+                \
+                \
+                \
+                \
+                \
+              \x0a \
+                \
+                \
+                \
+                \
+                \
+                \
+   \x0a            \
+                \
+                \
+                \
+                \
+                \
+        \x0a       \
+                \
+                \
+                \
+                \
+                \
+             \x0a  \
+                \
+                \
+                \
+                \
+                \
+                \
+  \x0a             \
+                \
+                \
+                \
+                \
+                \
+       \x0a        \
+                \
+                \
+                \
+                \
+                \
+            \x0a   \
+                \
+                \
+                \
+                \
+                \
+                \
+ \x0a              \
+                \
+                \
+                \
+                \
+                \
+      \x0a         \
+                \
+                \
+                \
+                \
+                \
+           \x0a    \
+                \
+                \
+                \
+                \
+                \
+                \
+\x0a               \
+                \
+                \
+                \
+                \
+                \
+     \x0a          \
+                \
+                \
+                \
+                \
+                \
+          \x0a     \
+                \
+                \
+                \
+                \
+                \
+               \x0a\
+                \
+                \
+                \
+                \
+                \
+                \
+    \x0a           \
+                \
+                \
+                \
+                \
+                \
+         \x0a      \
+                \
+                \
+                \
+                \
+                \
+              \x0a \
+                \
+                \
+                \
+                \
+                \
+                \
+   \x0a            \
+                \
+                \
+                \
+                \
+                \
+        \x0a       \
+                \
+                \
+                \
+                \
+                \
+             \x0a  \
+                \
+                \
+                \
+                \
+                \
+                \
+  \x0a             \
+                \
+                \
+                \
+                \
+                \
+       \x0a        \
+                \
+                \
+                \
+                \
+                \
+            \x0a   \
+                \
+                \
+                \
+                \
+                \
+                \
+ \x0a              \
+                \
+                \
+                \
+                \
+                \
+      \x0a         \
+                \
+                \
+                \
+                \
+                \
+           \x0a    \
+                \
+                \
+                \
+                \
+                \
+                \
+\x0a               \
+                \
+                \
+                \
+                \
+                \
+     \x0a          \
+                \
+                \
+                \
+                \
+                \
+          \x0a     \
+                \
+                \
+                \
+                \
+                \
+               \x0a\
+                \
+                \
+                \
+                \
+                \
+                \
+    \x0a           \
+                \
+                \
+                \
+                \
+                \
+         \x0a      \
+                \
+                \
+                \
+                \
+                \
+              \x0a \
+                \
+                \
+                \
+                \
+                \
+                \
+   \x0a            \
+                \
+                \
+                \
+                \
+                \
+        \x0a       \
+                \
+                \
+                \
+                \
+                \
+             \x0a  \
+                \
+                \
+                \
+                \
+                \
+                \
+  \x0a             \
+                \
+                \
+                \
+                \
+                \
+       \x0a        \
+                \
+                \
+                \
+                \
+                \
+            \x0a   \
+                \
+                \
+                \
+                \
+                \
+                \
+ \x0a              \
+                \
+                \
+                \
+                \
+                \
+      \x0a         \
+                \
+                \
+                \
+                \
+                \
+           \x0a    \
+                \
+                \
+                \
+                \
+                \
+                \
+\x0a               \
+                \
+                \
+                \
+                \
+                \
+     \x0a          \
+                \
+                \
+                \
+                \
+                \
+          \x0a     \
+                \
+                \
+                \
+                \
+                \
+               \x0a\
+                \
+                \
+                \
+                \
+                \
+                \
+    \x0a           \
+                \
+                \
+                \
+                \
+                \
+         \x0a      \
+                \
+                \
+                \
+                \
+                \
+              \x0a \
+                \
+                \
+                \
+                \
+                \
+                \
+   \x0a            \
+                \
+                \
+                \
+                \
+                \
+        \x0a       \
+                \
+                \
+                \
+                \
+                \
+             \x0a  \
+                \
+                \
+                \
+                \
+                \
+                \
+  \x0a             \
+                \
+                \
+                \
+                \
+                \
+       \x0a        \
+                \
+                \
+                \
+                \
+                \
+            \x0a   \
+                \
+                \
+                \
+                \
+                \
+                \
+ \x0a              \
+                \
+                \
+                \
+                \
+                \
+      \x0a         \
+                \
+                \
+                \
+                \
+                \
+           \x0a    \
+                \
+                \
+                \
+                \
+                \
+                \
+\x0a               \
+                \
+                \
+                \
+                \
+                \
+     \x0a          \
+                \
+                \
+                \
+                \
+                \
+          \x0a     \
+                \
+                \
+                \
+                \
+                \
+               \x0a\
+                \
+                \
+                \
+                \
+                \
+                \
+    \x0a           \
+                \
+                \
+                \
+                \
+                \
+         \x0a      \
+                \
+                \
+                \
+                \
+                \
+              \x0a \
+                \
+                \
+                \
+                \
+                \
+                \
+   \x0a            \
+                \
+                \
+                \
+                \
+                \
+        \x0a       \
+                \
+                \
+                \
+                \
+                \
+             \x0a  \
+                \
+                \
+                \
+                \
+                \
+                \
+  \x0a             \
+                \
+                \
+                \
+                \
+                \
+       \x0a        \
+                \
+                \
+                \
+                \
+                \
+            \x0a   \
+                \
+                \
+                \
+                \
+                \
+                \
+ \x0a              \
+                \
+                \
+                \
+                \
+                \
+      \x0a         \
+                \
+                \
+                \
+                \
+                \
+           \x0a    \
+                \
+                \
+                \
+                \
+                \
+                \
+\x0a               \
+                \
+                \
+                \
+                \
+                \
+     \x0a          \
+                \
+                \
+                \
+                \
+                \
+          \x0a     \
+                \
+                \
+                \
+                \
+                \
+               \x0a\
+                \
+                \
+                \
+                \
+                \
+                \
+    \x0a           \
+                \
+                \
+                \
+                \
+                \
+         \x0a      \
+                \
+                \
+                \
+                \
+                \
+              \x0a \
+                \
+                \
+                \
+                \
+                \
+                \
+   \x0a            \
+                \
+                \
+                \
+                \
+                \
+        \x0a       \
+                \
+                \
+                \
+                \
+                \
+             \x0a  \
+                \
+                \
+                \
+                \
+                \
+                \
+  \x0a             \
+                \
+                \
+                \
+                \
+                \
+       \x0a        \
+                \
+                \
+                \
+                \
+                \
+            \x0a   \
+                \
+                \
+                \
+                \
+                \
+                \
+ \x0a              \
+                \
+                \
+                \
+                \
+                \
+      \x0a         \
+                \
+                \
+                \
+                \
+                \
+           \x0a    \
+                \
+                \
+                \
+                \
+                \
+                \
+\x0a               \
+                \
+                \
+                \
+                \
+                \
+     \x0a          \
+                \
+                \
+                \
+                \
+                \
+          \x0a     \
+                \
+                \
+                \
+                \
+                \
+               \x0a\
+                \
+            \x0a<?x\
+packet end=\x22w\x22?>\
+\x18G\xfc2\x00\x00\x00 cHRM\x00\x00z%\
+\x00\x00\x80\x83\x00\x00\xf9\xff\x00\x00\x80\xe9\x00\x00u0\
+\x00\x00\xea`\x00\x00:\x98\x00\x00\x17o\x92_\xc5F\
+\x00\x00\x06\xf5IDATx\xda\xbc\x99[pU\xd5\
+\x19\xc7\x7f\xb9A \x86\x00!!\x07\x0c\x09\xb7@\xae\
+\xc4T\xd2\x12n!@\x80Bhr\x96)!)\x97\
+A\xc1AK;E#\xd2b\x83\xa2 `U,X\
+\xdbj\xe9\x14\x9b\xc1:\xdc\xb2\xb5\xb4E\xa5%\x9d\x96\
+\xa2S\xa6\x0c\xce\xd8\xb1\xa8\x0c\xec\x87\xea0\xbe\xd4\x87\
+\xd6\x99\xfe\xfb\x90\xbd6\xfb\x5cH\x089v\xcf\xac\x97\
+}\xbe\xf5}\xbf\xb5\xd6w[\xfb@\xe2\x9e2`\x15\
+\xb0\x0b8\x04\x1c\x06\xf6\x01\x1b\x80\xf2\x1bM\x92\xd4\xeb\
+H\xc4\xd3\x0c\xfc\x01P\x1f\xa3\x1bX\xf2\xff\x02\xcc\xf7\
+v\xe9#\x0b0e\xdc0\xdd5o\x9c\xb6\xae)\xd3\
+\xbe\xcd\xd3\xf5|{\xb5\x1e]?Mm\x8b\xc6kj\
+aV4\xe8b\xd71\xb8\x8e\xf9B\x00w\x03\x9fZ\
+\x83w\x16g\xeb\xb1\x0d\xd3t\xe6\x85z\xb9\x8e\x89;\
+\xce\xbcP\xaf-\xabJ\x95\x97=$\x08\xfa\xddD\x03\
+\x96y\xab\x17\xa0\xc69\xf9:\xfb\xd2\x92\x08\x90S\xcf\
+-\xd0\xfe\x07\xab\xf5\xf0\xea2\xb5\xb7\x95h\xef\xa6*\
+\xbd\xfet]\x84\xcc\x96U\xa5\x11\x90\x89\x02,\x03\xfe\
+\x0a\xa8 \x94\xa1\x13{j}\x83{\xbeY\xa5\x9a\x8a\
+\x9c^\xfd/9)I\xe1\xdaq\xfe\x82\x0em\x9f\x19\
+\xfc\xfd\xbeD\x00v\x03\xaa\x9a2\xd2\x07{\xfc\xdeJ\
+\x0d\xcbH\x8b\x86\xf9\x1b\xd0\xe9E\xf2\x0e\xe0E\xe0\xed\
+\xa0\xcc\xdeMUr\x1d\xa3\x03\xed\xd5\xf6\xdd_\x06\x0a\
+\xf8\x1c\xa0\xbc\xec!>\x5c\xdd\x9dy\xd1N\xbf\x1aH\
+\xb3\x8e\x1f=\x80\x02/\xa8\x04\xa8ko\xcf\x09TL\
+\x1aaul\x1d\x08\xe0y@\xbf\xdd7_\xaec4\
+kZ\xaeU\xfa\x11\xb0\xe2FP7\x00\xdd\x03h\xcc\
+\xa8\x9e\xc5\x1e\xea\xf0\x8f\xba\xfbV\x01K\x00\x15\xe5\x0f\
+\x93\xeb\x18\xfd\xfc\x91\x1a\xab\xf0\xef\x9e_\xd2\x1f@\x0f\
+\xf2<\xa0\xdfy\x0b\x1e28\xc5\xea\xcc\xb8\x15\xc0\xb5\
+\x80\x9a\xe7\x17\xc8u\x8c\xe6\xde1\xda*{\xc8\x0a\xf4\
+\x13n<\xf0\x1b@?\xf8\xd6\x97\xe4:F\xb7\xe7\x0e\
+\xb5:\x0bo\x05p\x1d\xa0\x15\x0b\x0a\xe5:F\xd5%\
+\xa3\xac\xb2\xdd\xfd\x05\x04\xc2\xc0\xfb\x80\x86e\xa4\xe9\xbd\
+\xc3\xcb\xf5\xe1\xd1&\xa5\xa6$Y\x9di\xb7|\xc4\x93\
+\xf33\xe5:F'\xf6\xd4\x06\x83c\xf7\xcd\x02\x02\xf7\
+\xd9ys*s\xf5\xfe\xab_\x93\xeb\x18-\xfa\xf2\x18\
+\xab\xeb\x8d\x81\x04I7\xa0\x9d\x1b+\xe3A\xce\xe8\x0f\
+\xdc\xf6{*\xfcLpW]\x81\xd5\xe1\x02\x93\x07\x02\
+\xb8\xd2\x1a\xd8\xb1\xa1\x07rc\xb8\xc8\xdf\xc5>\xe0\xa6\
+\x02\xff\x01t\xa0\xbdZ\xaect\xf2\x99:\x15\x842\
+\xec\xfc\x7f\x01e\x89H\xd4>d\xd4.\xfe\xa9\x0f\xc0\
+\xb7\x00\xb5\xd6\x8f\x97\xeb\x18\xfdl\xdb\x8c\xe8\xfcY\x96\
+\xa8R7\x14P\xfa\xa0\x14\xb9\x8e\xd1\xe1\x1d\xb3}\xdf\
+\xe9\x05.\xcd\x96\xb9\xcb\xc7\x9a\xf4\xde+\xcb\x83p\xcf\
+&\xba\x9b1\x80\xca&\x0c\x97\xeb\x18m\xbfgZ\x8c\
+\xa18\x80u\x80j*r\xe4:Fw7L\xb2s\
+^\x0f\xca%\x0a\xb0\xbb\xc7\xc9\xa7\xc9u\x8c*\x8bF\
+Zc\xa6\x17\xc0Y\x80\xaaKF\xc9u\x8c:\xee\xae\
+\x88>\xde'\x80)\x89\x00\xdc\x08hPZ\xb2\x5c\xc7\
+\xe8\xc2\xcb\xcb\xac\x91O\xfaJ3\xc0\x85`\xd5\xd8}\
+\x7fU01\xdb\xf1\x0e\xf0\xec\xad&j\x7f\xf7\xf6?\
+\xd8\x13\x85\xb5U~59z\x13\x80?\x04\x94\x99\x91\
+\xa6\xe3\x81\x16\xed\xc8\xae\xb9Z\xb9\xb0P9\xc3\x07G\
+\xc3\x9e\x06\xa6\xf6\x07\xf0)@\xa3G\xa6\xfb\x9d\xb1\xa7\
+\xe8\x120\xfaf\x125\xf0K\x0b\xb0\xb4f\xac\x8e\xec\
+\x9a\x1b\xd1\xc0\x9e|\xa6Nf\xde8\xa5$\xfb\x15\xe5\
+3\xa0\xbe/\xc0\x88\xee\xf9\xb5\xa7\xe6\xc9u\x8c&\xdd\
+\x9ei\x95\xbc\xd8\x9fR\x07<\x09\xfc\xd3\xea\xcb\x19>\
+X\x8ds\xf2\xf5\xea\x13s|\xd0\xcb\xc7\xc3j\x9e_\
+\x10\xdc\xcd\xfa\x08@\xd7\x18\x5cc\x00B\xc0'\xe9)\
+)z\xa0\xaaD\xed\xf3J\xe4\x9e0\xfa\xc9\xc3_\x09\
+:x\x9a\x95\x8f\x18\xbdC\x8e\xf6\x02\xa3;x\xac\x99\
+\x19i\xda\x18.\xd2\xd5\xae\x1e\xd0\xf6\xb6\x12\xfb\xdb\xc7\
+@^<\xc0\xe3\x80\xbe\xbf\xa0B\xae1r\x8d\xd1\xe5\
+m\xe1\xe0\x11|;\x1e\x1c\xb0\xc2\xeb\xa6\xaf\x00\xff\x05\
+\xae\x01o\x00\x1d\xc0\xc4(\xd8|\xe0\xb1 \xec\xd0\xf4\
+T\xfd\xfe\xf9\x9e\x8b\xd7\xd2\x99c\xad\xad\xf6\x08@\xa0\
+\x18\xf8\x1c\xd0\x95\xb6\xb0\x0f\xe8\x1a\xa3\x83\xcb\xfc^p\
+}\x14XY\xf4\xae\xc4\x19\x9f\x01'\x801qvv\
+\x06p&\x98g\x0fn\xf3muE\x03\x9e\x04\xb4\x7f\
+Yu\x04\x9ck\x8cv\xd6\xdfa'\xb5z\xb2\xd3\x81\
+\xcd\xc0\xbf\x01\xe5\xe7\x0e\xd5\xe3\xf7V\xea\xed\x83_\xd5\
+\x95\xae\xb0.v6\xe8\xf0\x8e\xd9\xd1~\xf5\xb1\xd7U\
+\x8f\x08&j`\x11\xa0\x09co\x8b.\x89'\x82\x81\
+Q\x0b(5)IW[\x22\xe1\xfe\xb1\xae\xd1N\xf8\
+\x14\x98\x04\x9c\x0d\xee\xd0\xca\x85\x85\xd7\x9d\xfdX\x93\xfe\
+\xf8\xe3E\xba\xd8\xd9\xe0\xbf{\xb7\xb3!xlA_\
+~\xd4\xf3\xcbw\x00=\xf4\x8dR\xb9\x8e\xd1\xa6\xe6)\
+\xfe\xb54\x08x\x1aPg\xf3\xac\x98\xddk\xad\x1co\
+'\x1c\x00N\x01j\xae(\xd0\xb1\xa6Z\xado\x98,\
+\xd71\xba\xd8\xd9\x10\xec\xef\x04(4j\x886\xaf,\
+\xf6A\xbb\xf6\xd6jauHII\xb1nPY\xd4\
+sc\xfc\xe0H\xa3rG\xa6\xdb\xf7\xb3-\xdcr@\
+#\x06\x0f\x8a\x81{wm\x83\x15>gox\xb9\x19\
+\xe9r\xbf\xee\xc9\xb4\x18\xbd\xb9k\x81RS\x93\xad\xdc\
+\xe7^\xe7|\xcd\x1a\xcf\xbam\x90v\xdf_\x15\x91\xff\
+\x0en\xab\xd1\x03\xad%jo+\x89\xc8\x8d\xd3\x8b\xb3\
+\xad\x9eS6\xcd\x84\xbc\xb2\xa5\xd7Z\xe7\xc5\x00\xd6O\
+\x08\xd9\x09\x1d\xd6\xe0\xa55\x8d\x112WZ\xc2\xfa^\
+y\xb9<\xb0P \x00\xe6\x07\x03\xa8 /C[V\
+\x95F\x1c\xbf\x1dG\x9f\x9c\xab\xf2\x89\xc3\x83\xf7\xebI\
+\x16p+\xa0\x8e@Z\xb1\xe3\xfc\xda\xa5A\x7f\x11\xa0\
+?\xaf^\x1c#wiM\xa3\xd6M\xf6\xbb\x95Aq\
+\x22uUt\xa4\xe7\x8eH\xd7\xd4\xc2,M-\xccR\
+vVD\xc9;\x1b\xec\x13\x01~\x0d\xe8\xdc\xfa%1\
+\x86\xabB~\xd7\xf2\x01\xa0_\x84g\xc6\xc8\x5cm\x09\
++s\xb0\xff\x85\xe1\xa7}$\xeb\xc5^\x9e\xbdv\x83\
+\xcfs;\xe35\x0b[\x01}gN\xb1\xdc\xe6\xeb\x86\
+O\xad\x5c\x10\xb1{\x9bfM\x89\x81s\x8d\xd1\xac\x02\
+\xff\xbb\xcc\xaf\xfay\x05\x0dy\x1f6\xcb\x81\xdc\xde\xda\
+\xad,\xe02\xa0\x99\x13r\xf4V\xcbB\xbd\xd4\x14\xd1\
+\x9a\xab:?;.\x5c\xfb\xdc\xd2\xe0\x22\xb2\xfb{\x89\
+\xefO\xc3Z\x04\xbc\x19\xaf\x0a\xa4\xa6$\xe9\xc35M\
+1p/\x1b\xff\xb3\xc5\x15\xa0\xac\xafZ<P@[\
+I\x1a\xbcL\xbf\x19\xa8\x06\x14\xca\x1a\x12\x03wn\xed\
+\x92\xe0\x22jn\xa6YH\x08`T\x8dM\x06\x94\x94\
+\x84.\xac]v\xbd\xaa\xacn\x0c\xc2m\xba\xd9n&\
+\xe1\x80\x1e\xe4\x8f\x00M\xcc\xce\xd4\xe9\xd6\x85:\xd3V\
+\xaf\xf2<?W=\xdd\x9fvk\xc0\x80\xbd<\xaf\xc4\
+\xf1\xcd\xa3\x89\xfa\xef\x22Q\xb7\xbaf\xaf\xcc\x1d\x00Z\
+\x12\xf8\xdfJ\x9f\x80\xff\x1b\x00(\xc7/\xe1@w\x97\
+E\x00\x00\x00\x00IEND\xaeB`\x82\
+\x00\x00<F\
+\x89\
+PNG\x0d\x0a\x1a\x0a\x00\x00\x00\x0dIHDR\x00\
+\x00\x00(\x00\x00\x00#\x08\x04\x00\x00\x00L0\x80%\
+\x00\x00\x00\x09pHYs\x00\x00\x0b\x13\x00\x00\x0b\x13\
+\x01\x00\x9a\x9c\x18\x00\x009\xeciTXtXML\
+:com.adobe.xmp\x00\x00\
+\x00\x00\x00<?xpacket beg\
+in=\x22\xef\xbb\xbf\x22 id=\x22W5M\
+0MpCehiHzreSzNTc\
+zkc9d\x22?>\x0a<x:xmpm\
+eta xmlns:x=\x22ado\
+be:ns:meta/\x22 x:x\
+mptk=\x22Adobe XMP \
+Core 5.6-c138 79\
+.159824, 2016/09\
+/14-01:09:01    \
+    \x22>\x0a   <rdf:R\
+DF xmlns:rdf=\x22ht\
+tp://www.w3.org/\
+1999/02/22-rdf-s\
+yntax-ns#\x22>\x0a    \
+  <rdf:Descripti\
+on rdf:about=\x22\x22\x0a\
+            xmln\
+s:xmp=\x22http://ns\
+.adobe.com/xap/1\
+.0/\x22\x0a           \
+ xmlns:xmpMM=\x22ht\
+tp://ns.adobe.co\
+m/xap/1.0/mm/\x22\x0a \
+           xmlns\
+:stEvt=\x22http://n\
+s.adobe.com/xap/\
+1.0/sType/Resour\
+ceEvent#\x22\x0a      \
+      xmlns:dc=\x22\
+http://purl.org/\
+dc/elements/1.1/\
+\x22\x0a            xm\
+lns:photoshop=\x22h\
+ttp://ns.adobe.c\
+om/photoshop/1.0\
+/\x22\x0a            x\
+mlns:tiff=\x22http:\
+//ns.adobe.com/t\
+iff/1.0/\x22\x0a      \
+      xmlns:exif\
+=\x22http://ns.adob\
+e.com/exif/1.0/\x22\
+>\x0a         <xmp:\
+CreatorTool>Adob\
+e Photoshop CC 2\
+017 (Windows)</x\
+mp:CreatorTool>\x0a\
+         <xmp:Cr\
+eateDate>2020-08\
+-08T14:32:30-07:\
+00</xmp:CreateDa\
+te>\x0a         <xm\
+p:MetadataDate>2\
+020-08-08T14:32:\
+30-07:00</xmp:Me\
+tadataDate>\x0a    \
+     <xmp:Modify\
+Date>2020-08-08T\
+14:32:30-07:00</\
+xmp:ModifyDate>\x0a\
+         <xmpMM:\
+InstanceID>xmp.i\
+id:7355edff-fe72\
+-9d41-9ab0-86700\
+eb34ffd</xmpMM:I\
+nstanceID>\x0a     \
+    <xmpMM:Docum\
+entID>adobe:doci\
+d:photoshop:a255\
+4cb3-d9be-11ea-8\
+70e-be7d6a73bcf6\
+</xmpMM:Document\
+ID>\x0a         <xm\
+pMM:OriginalDocu\
+mentID>xmp.did:9\
+16e97e2-4724-a24\
+6-848b-9a0cb126c\
+ffa</xmpMM:Origi\
+nalDocumentID>\x0a \
+        <xmpMM:H\
+istory>\x0a        \
+    <rdf:Seq>\x0a  \
+             <rd\
+f:li rdf:parseTy\
+pe=\x22Resource\x22>\x0a \
+                \
+ <stEvt:action>c\
+reated</stEvt:ac\
+tion>\x0a          \
+        <stEvt:i\
+nstanceID>xmp.ii\
+d:916e97e2-4724-\
+a246-848b-9a0cb1\
+26cffa</stEvt:in\
+stanceID>\x0a      \
+            <stE\
+vt:when>2020-08-\
+08T14:32:30-07:0\
+0</stEvt:when>\x0a \
+                \
+ <stEvt:software\
+Agent>Adobe Phot\
+oshop CC 2017 (W\
+indows)</stEvt:s\
+oftwareAgent>\x0a  \
+             </r\
+df:li>\x0a         \
+      <rdf:li rd\
+f:parseType=\x22Res\
+ource\x22>\x0a        \
+          <stEvt\
+:action>saved</s\
+tEvt:action>\x0a   \
+               <\
+stEvt:instanceID\
+>xmp.iid:7355edf\
+f-fe72-9d41-9ab0\
+-86700eb34ffd</s\
+tEvt:instanceID>\
+\x0a               \
+   <stEvt:when>2\
+020-08-08T14:32:\
+30-07:00</stEvt:\
+when>\x0a          \
+        <stEvt:s\
+oftwareAgent>Ado\
+be Photoshop CC \
+2017 (Windows)</\
+stEvt:softwareAg\
+ent>\x0a           \
+       <stEvt:ch\
+anged>/</stEvt:c\
+hanged>\x0a        \
+       </rdf:li>\
+\x0a            </r\
+df:Seq>\x0a        \
+ </xmpMM:History\
+>\x0a         <dc:f\
+ormat>image/png<\
+/dc:format>\x0a    \
+     <photoshop:\
+ColorMode>1</pho\
+toshop:ColorMode\
+>\x0a         <tiff\
+:Orientation>1</\
+tiff:Orientation\
+>\x0a         <tiff\
+:XResolution>720\
+000/10000</tiff:\
+XResolution>\x0a   \
+      <tiff:YRes\
+olution>720000/1\
+0000</tiff:YReso\
+lution>\x0a        \
+ <tiff:Resolutio\
+nUnit>2</tiff:Re\
+solutionUnit>\x0a  \
+       <exif:Col\
+orSpace>65535</e\
+xif:ColorSpace>\x0a\
+         <exif:P\
+ixelXDimension>4\
+0</exif:PixelXDi\
+mension>\x0a       \
+  <exif:PixelYDi\
+mension>35</exif\
+:PixelYDimension\
+>\x0a      </rdf:De\
+scription>\x0a   </\
+rdf:RDF>\x0a</x:xmp\
+meta>\x0a          \
+                \
+                \
+                \
+                \
+                \
+          \x0a     \
+                \
+                \
+                \
+                \
+                \
+               \x0a\
+                \
+                \
+                \
+                \
+                \
+                \
+    \x0a           \
+                \
+                \
+                \
+                \
+                \
+         \x0a      \
+                \
+                \
+                \
+                \
+                \
+              \x0a \
+                \
+                \
+                \
+                \
+                \
+                \
+   \x0a            \
+                \
+                \
+                \
+                \
+                \
+        \x0a       \
+                \
+                \
+                \
+                \
+                \
+             \x0a  \
+                \
+                \
+                \
+                \
+                \
+                \
+  \x0a             \
+                \
+                \
+                \
+                \
+                \
+       \x0a        \
+                \
+                \
+                \
+                \
+                \
+            \x0a   \
+                \
+                \
+                \
+                \
+                \
+                \
+ \x0a              \
+                \
+                \
+                \
+                \
+                \
+      \x0a         \
+                \
+                \
+                \
+                \
+                \
+           \x0a    \
+                \
+                \
+                \
+                \
+                \
+                \
+\x0a               \
+                \
+                \
+                \
+                \
+                \
+     \x0a          \
+                \
+                \
+                \
+                \
+                \
+          \x0a     \
+                \
+                \
+                \
+                \
+                \
+               \x0a\
+                \
+                \
+                \
+                \
+                \
+                \
+    \x0a           \
+                \
+                \
+                \
+                \
+                \
+         \x0a      \
+                \
+                \
+                \
+                \
+                \
+              \x0a \
+                \
+                \
+                \
+                \
+                \
+                \
+   \x0a            \
+                \
+                \
+                \
+                \
+                \
+        \x0a       \
+                \
+                \
+                \
+                \
+                \
+             \x0a  \
+                \
+                \
+                \
+                \
+                \
+                \
+  \x0a             \
+                \
+                \
+                \
+                \
+                \
+       \x0a        \
+                \
+                \
+                \
+                \
+                \
+            \x0a   \
+                \
+                \
+                \
+                \
+                \
+                \
+ \x0a              \
+                \
+                \
+                \
+                \
+                \
+      \x0a         \
+                \
+                \
+                \
+                \
+                \
+           \x0a    \
+                \
+                \
+                \
+                \
+                \
+                \
+\x0a               \
+                \
+                \
+                \
+                \
+                \
+     \x0a          \
+                \
+                \
+                \
+                \
+                \
+          \x0a     \
+                \
+                \
+                \
+                \
+                \
+               \x0a\
+                \
+                \
+                \
+                \
+                \
+                \
+    \x0a           \
+                \
+                \
+                \
+                \
+                \
+         \x0a      \
+                \
+                \
+                \
+                \
+                \
+              \x0a \
+                \
+                \
+                \
+                \
+                \
+                \
+   \x0a            \
+                \
+                \
+                \
+                \
+                \
+        \x0a       \
+                \
+                \
+                \
+                \
+                \
+             \x0a  \
+                \
+                \
+                \
+                \
+                \
+                \
+  \x0a             \
+                \
+                \
+                \
+                \
+                \
+       \x0a        \
+                \
+                \
+                \
+                \
+                \
+            \x0a   \
+                \
+                \
+                \
+                \
+                \
+                \
+ \x0a              \
+                \
+                \
+                \
+                \
+                \
+      \x0a         \
+                \
+                \
+                \
+                \
+                \
+           \x0a    \
+                \
+                \
+                \
+                \
+                \
+                \
+\x0a               \
+                \
+                \
+                \
+                \
+                \
+     \x0a          \
+                \
+                \
+                \
+                \
+                \
+          \x0a     \
+                \
+                \
+                \
+                \
+                \
+               \x0a\
+                \
+                \
+                \
+                \
+                \
+                \
+    \x0a           \
+                \
+                \
+                \
+                \
+                \
+         \x0a      \
+                \
+                \
+                \
+                \
+                \
+              \x0a \
+                \
+                \
+                \
+                \
+                \
+                \
+   \x0a            \
+                \
+                \
+                \
+                \
+                \
+        \x0a       \
+                \
+                \
+                \
+                \
+                \
+             \x0a  \
+                \
+                \
+                \
+                \
+                \
+                \
+  \x0a             \
+                \
+                \
+                \
+                \
+                \
+       \x0a        \
+                \
+                \
+                \
+                \
+                \
+            \x0a   \
+                \
+                \
+                \
+                \
+                \
+                \
+ \x0a              \
+                \
+                \
+                \
+                \
+                \
+      \x0a         \
+                \
+                \
+                \
+                \
+                \
+           \x0a    \
+                \
+                \
+                \
+                \
+                \
+                \
+\x0a               \
+                \
+                \
+                \
+                \
+                \
+     \x0a          \
+                \
+                \
+                \
+                \
+                \
+          \x0a     \
+                \
+                \
+                \
+                \
+                \
+               \x0a\
+                \
+                \
+                \
+                \
+                \
+                \
+    \x0a           \
+                \
+                \
+                \
+                \
+                \
+         \x0a      \
+                \
+                \
+                \
+                \
+                \
+              \x0a \
+                \
+                \
+                \
+                \
+                \
+                \
+   \x0a            \
+                \
+                \
+                \
+                \
+                \
+        \x0a       \
+                \
+                \
+                \
+                \
+                \
+             \x0a  \
+                \
+                \
+                \
+                \
+                \
+                \
+  \x0a             \
+                \
+                \
+                \
+                \
+                \
+       \x0a        \
+                \
+                \
+                \
+                \
+                \
+            \x0a   \
+                \
+                \
+                \
+                \
+                \
+                \
+ \x0a              \
+                \
+                \
+                \
+                \
+                \
+      \x0a         \
+                \
+                \
+                \
+                \
+                \
+           \x0a    \
+                \
+                \
+                \
+                \
+                \
+                \
+\x0a               \
+                \
+                \
+                \
+                \
+                \
+     \x0a          \
+                \
+                \
+                \
+                \
+                \
+          \x0a     \
+                \
+                \
+                \
+                \
+                \
+               \x0a\
+                \
+                \
+                \
+                \
+                \
+                \
+    \x0a           \
+                \
+                \
+                \
+                \
+                \
+         \x0a      \
+                \
+                \
+                \
+                \
+                \
+              \x0a \
+                \
+                \
+                \
+                \
+                \
+                \
+   \x0a            \
+                \
+                \
+                \
+                \
+                \
+        \x0a       \
+                \
+                \
+                \
+                \
+                \
+             \x0a  \
+                \
+                \
+                \
+                \
+                \
+                \
+  \x0a             \
+                \
+                \
+                \
+                \
+                \
+       \x0a        \
+                \
+                \
+                \
+                \
+                \
+            \x0a   \
+                \
+                \
+                \
+                \
+                \
+                \
+ \x0a              \
+                \
+                \
+                \
+                \
+                \
+      \x0a         \
+                \
+                \
+                \
+                \
+                \
+           \x0a    \
+                \
+                \
+                \
+                \
+                \
+                \
+\x0a               \
+                \
+                \
+                \
+                \
+                \
+     \x0a          \
+                \
+                \
+                \
+                \
+                \
+          \x0a     \
+                \
+                \
+                \
+                \
+                \
+               \x0a\
+                \
+                \
+                \
+                \
+                \
+                \
+    \x0a           \
+                \
+                \
+                \
+                \
+                \
+         \x0a      \
+                \
+                \
+                \
+                \
+                \
+              \x0a \
+                \
+                \
+                \
+                \
+                \
+                \
+   \x0a            \
+                \
+                \
+                \
+                \
+                \
+        \x0a       \
+                \
+                \
+                \
+                \
+                \
+             \x0a  \
+                \
+                \
+                \
+                \
+                \
+                \
+  \x0a             \
+                \
+                \
+                \
+                \
+                \
+       \x0a        \
+                \
+                \
+                \
+                \
+                \
+            \x0a   \
+                \
+                \
+                \
+                \
+                \
+                \
+ \x0a              \
+                \
+                \
+                \
+                \
+                \
+      \x0a         \
+                \
+                \
+                \
+                \
+                \
+           \x0a    \
+                \
+                \
+                \
+                \
+                \
+                \
+\x0a               \
+                \
+                \
+                \
+                \
+                \
+     \x0a          \
+                \
+                \
+                \
+                \
+                \
+          \x0a     \
+                \
+                \
+                \
+                \
+                \
+               \x0a\
+                \
+                \
+                \
+                \
+                \
+                \
+    \x0a           \
+                \
+                \
+                \
+                \
+                \
+         \x0a      \
+                \
+                \
+                \
+                \
+                \
+              \x0a \
+                \
+                \
+                \
+                \
+                \
+                \
+   \x0a            \
+                \
+                \
+                \
+                \
+                \
+        \x0a       \
+                \
+     \x0a<?xpacket \
+end=\x22w\x22?>\x82\xee\x8e/\x00\x00\x00\
+ cHRM\x00\x00z%\x00\x00\x80\x83\x00\x00\xf9\
+\xff\x00\x00\x80\xe9\x00\x00u0\x00\x00\xea`\x00\x00:\
+\x98\x00\x00\x17o\x92_\xc5F\x00\x00\x01\xd4IDA\
+Tx\xda\xec\x96;K\x1cQ\x14\x80\xbf]\x95(\x82\
+$! \xa2\xd6\x91\x94\x92\x1f\x11\x85t!\x85v)\
+\x8d\xd8H\xc0B\x83\x98\x806!\xa2a\x85 )6\
+>\x1ac#.aA|\x10\xf0\x81\x9bb!\xa8\x95\
+\x85\x10X\xc4\x22\x01%\x90\xe2\xa4\x98\xf1\xee<\xce\xdc\
+\xb9\xb0\xe9\xf4\xdcf\xce\xebc\xe6\xde\xb9\xe7\x9c\x8c\xf0\
+\x7f%\xcb\x8d\x03b\xd9\xc3qzT{3S\x16Z\
+\x04\xd8d\x9eF\x11\x84\x87JV\x09a\xd3h\xf56\
+\xe0\x10\x15\xba\x01\x98G\x10\x84\xdf1\xe4\xa6\xef9\xe1\
+.P\xc7)\xc5$\xe0\x0b\x04\xe1/]\xc0\x07?M\
+\xb8\xa2#\x80\xdb2\xf62Y`\x1fA\xc8k\xc0A\
+\x13\xfa\x87G\xc0\x88\xd1\xcf\xe9\xf4c\x8a\xc6\xb6\x0e\xc0\
+\x9e\xd1\x97\xa2\xc0*N\x10.i\x07&\x8d^\xa1\x01\
+X3\xfa7\x00\xb6C9KU\xe0}\xc6B.A\
+\xb8\xa0\x0dxc\xf4\x03\x16\x22\xb8\xadXN\x81V\x0f\
+\xd8\x1bsyou\x0f\x98\x8e\xd9\x0f\x01(\xa89}\
+\xd7\x9f\xfcDu\xff\xa4\x05\x98\x09\xd9J\x00|Q\xe3\
+\xdf\x06\xf7\xf0\xa9\x1arF\x13\xf01p\xb2\x00+I\
+\xb8\xf0)?S\xc3\x8e\xc8\x02\x9f\xfc?\x0f \xaf\xc6\
+\xcdj\xff\xe1\xf3\x04\xa4w\x04\xbfh\x00\x16\xd5\x98\x5c\
+\xd2M\xe9W\xc3\xbf\x03\xf0\x00\x98S\xfd\xf3\xb6\xbb<\
+\xa0\xa6x';\xad\xfa\x96\xed\xc5\x01^&\xa4\xbdV\
+\xed\x8bi\xd5\x06`XM\xd5\xd6jz\xf9\xf2\xe4\x95\
+\x13n\xdd\xa5\x1e\x86\xab\xa1m}u+\xb0U\x99\xb0\
+\xe26\x5c+vP\xde%\xe2v\xdc[@X\xde\xab\
+\xb8]k\x87Ji\xf4\xb9\x18\xae\x9c\xd2\xf2R'\x87\
+\x5c\xe4\xd64\xd6\x0a\x0c\xde\xdfc\xeaR\x9b\xb2\xd3l\
+\xf3\x19A\xf8\xc1\x1d\x87.\xef8,\x1dpE\xb3\xd3\
+\xd8\xe0\x08l\xe3\xb1\xdb\x1c\x92\xb9\x1d\xe7j\x96\x7f\x03\
+\x00\xcfy\xf4\xf0\xb1\x0f\x0e\x93\x00\x00\x00\x00IEN\
+D\xaeB`\x82\
+\x00\x00OL\
+\x89\
+PNG\x0d\x0a\x1a\x0a\x00\x00\x00\x0dIHDR\x00\
+\x00\x00(\x00\x00\x00*\x08\x06\x00\x00\x00\xc16\x19f\
+\x00\x00\x00\x09pHYs\x00\x00\x0b\x13\x00\x00\x0b\x13\
+\x01\x00\x9a\x9c\x18\x00\x00\x0aOiCCPPho\
+toshop ICC profi\
+le\x00\x00x\xda\x9dSgTS\xe9\x16=\xf7\xde\
+\xf4BK\x88\x80\x94KoR\x15\x08 RB\x8b\x80\
+\x14\x91&*!\x09\x10J\x88!\xa1\xd9\x15Q\xc1\x11\
+EE\x04\x1b\xc8\xa0\x88\x03\x8e\x8e\x80\x8c\x15Q,\x0c\
+\x8a\x0a\xd8\x07\xe4!\xa2\x8e\x83\xa3\x88\x8a\xca\xfb\xe1{\
+\xa3k\xd6\xbc\xf7\xe6\xcd\xfe\xb5\xd7>\xe7\xac\xf3\x9d\xb3\
+\xcf\x07\xc0\x08\x0c\x96H3Q5\x80\x0c\xa9B\x1e\x11\
+\xe0\x83\xc7\xc4\xc6\xe1\xe4.@\x81\x0a$p\x00\x10\x08\
+\xb3d!s\xfd#\x01\x00\xf8~<<+\x22\xc0\x07\
+\xbe\x00\x01x\xd3\x0b\x08\x00\xc0M\x9b\xc00\x1c\x87\xff\
+\x0f\xeaB\x99\x5c\x01\x80\x84\x01\xc0t\x918K\x08\x80\
+\x14\x00@z\x8eB\xa6\x00@F\x01\x80\x9d\x98&S\
+\x00\xa0\x04\x00`\xcbcb\xe3\x00P-\x00`'\x7f\
+\xe6\xd3\x00\x80\x9d\xf8\x99{\x01\x00[\x94!\x15\x01\xa0\
+\x91\x00 \x13e\x88D\x00h;\x00\xac\xcfV\x8aE\
+\x00X0\x00\x14fK\xc49\x00\xd8-\x000IW\
+fH\x00\xb0\xb7\x00\xc0\xce\x10\x0b\xb2\x00\x08\x0c\x000\
+Q\x88\x85)\x00\x04{\x00`\xc8##x\x00\x84\x99\
+\x00\x14F\xf2W<\xf1+\xae\x10\xe7*\x00\x00x\x99\
+\xb2<\xb9$9E\x81[\x08-q\x07WW.\x1e\
+(\xceI\x17+\x146a\x02a\x9a@.\xc2y\x99\
+\x192\x814\x0f\xe0\xf3\xcc\x00\x00\xa0\x91\x15\x11\xe0\x83\
+\xf3\xfdx\xce\x0e\xae\xce\xce6\x8e\xb6\x0e_-\xea\xbf\
+\x06\xff\x22bb\xe3\xfe\xe5\xcf\xabp@\x00\x00\xe1t\
+~\xd1\xfe,/\xb3\x1a\x80;\x06\x80m\xfe\xa2%\xee\
+\x04h^\x0b\xa0u\xf7\x8bf\xb2\x0f@\xb5\x00\xa0\xe9\
+\xdaW\xf3p\xf8~<<E\xa1\x90\xb9\xd9\xd9\xe5\xe4\
+\xe4\xd8J\xc4B[a\xcaW}\xfeg\xc2_\xc0W\
+\xfdl\xf9~<\xfc\xf7\xf5\xe0\xbe\xe2$\x812]\x81\
+G\x04\xf8\xe0\xc2\xcc\xf4L\xa5\x1c\xcf\x92\x09\x84b\xdc\
+\xe6\x8fG\xfc\xb7\x0b\xff\xfc\x1d\xd3\x22\xc4Ib\xb9X\
+*\x14\xe3Q\x12q\x8eD\x9a\x8c\xf32\xa5\x22\x89B\
+\x92)\xc5%\xd2\xffd\xe2\xdf,\xfb\x03>\xdf5\x00\
+\xb0j>\x01{\x91-\xa8]c\x03\xf6K'\x10X\
+t\xc0\xe2\xf7\x00\x00\xf2\xbbo\xc1\xd4(\x08\x03\x80h\
+\x83\xe1\xcfw\xff\xef?\xfdG\xa0%\x00\x80fI\x92\
+q\x00\x00^D$.T\xca\xb3?\xc7\x08\x00\x00D\
+\xa0\x81*\xb0A\x1b\xf4\xc1\x18,\xc0\x06\x1c\xc1\x05\xdc\
+\xc1\x0b\xfc`6\x84B$\xc4\xc2B\x10B\x0ad\x80\
+\x1cr`)\xac\x82B(\x86\xcd\xb0\x1d*`/\xd4\
+@\x1d4\xc0Qh\x86\x93p\x0e.\xc2U\xb8\x0e=\
+p\x0f\xfaa\x08\x9e\xc1(\xbc\x81\x09\x04A\xc8\x08\x13\
+a!\xda\x88\x01b\x8aX#\x8e\x08\x17\x99\x85\xf8!\
+\xc1H\x04\x12\x8b$ \xc9\x88\x14Q\x22K\x915H\
+1R\x8aT UH\x1d\xf2=r\x029\x87\x5cF\
+\xba\x91;\xc8\x002\x82\xfc\x86\xbcG1\x94\x81\xb2Q\
+=\xd4\x0c\xb5C\xb9\xa87\x1a\x84F\xa2\x0b\xd0dt\
+1\x9a\x8f\x16\xa0\x9b\xd0r\xb4\x1a=\x8c6\xa1\xe7\xd0\
+\xabh\x0f\xda\x8f>C\xc70\xc0\xe8\x18\x073\xc4l\
+0.\xc6\xc3B\xb18,\x09\x93c\xcb\xb1\x22\xac\x0c\
+\xab\xc6\x1a\xb0V\xac\x03\xbb\x89\xf5c\xcf\xb1w\x04\x12\
+\x81E\xc0\x096\x04wB a\x1eAHXLX\
+N\xd8H\xa8 \x1c$4\x11\xda\x097\x09\x03\x84Q\
+\xc2'\x22\x93\xa8K\xb4&\xba\x11\xf9\xc4\x18b21\
+\x87XH,#\xd6\x12\x8f\x13/\x10{\x88C\xc47\
+$\x12\x89C2'\xb9\x90\x02I\xb1\xa4T\xd2\x12\xd2\
+F\xd2nR#\xe9,\xa9\x9b4H\x1a#\x93\xc9\xda\
+dk\xb2\x079\x94, +\xc8\x85\xe4\x9d\xe4\xc3\xe4\
+3\xe4\x1b\xe4!\xf2[\x0a\x9db@q\xa4\xf8S\xe2\
+(R\xcajJ\x19\xe5\x10\xe54\xe5\x06e\x982A\
+U\xa3\x9aR\xdd\xa8\xa1T\x115\x8fZB\xad\xa1\xb6\
+R\xafQ\x87\xa8\x134u\x9a9\xcd\x83\x16IK\xa5\
+\xad\xa2\x95\xd3\x1ah\x17h\xf7i\xaf\xe8t\xba\x11\xdd\
+\x95\x1eN\x97\xd0W\xd2\xcb\xe9G\xe8\x97\xe8\x03\xf4w\
+\x0c\x0d\x86\x15\x83\xc7\x88g(\x19\x9b\x18\x07\x18g\x19\
+w\x18\xaf\x98L\xa6\x19\xd3\x8b\x19\xc7T071\xeb\
+\x98\xe7\x99\x0f\x99oUX*\xb6*|\x15\x91\xca\x0a\
+\x95J\x95&\x95\x1b*/T\xa9\xaa\xa6\xaa\xde\xaa\x0b\
+U\xf3U\xcbT\x8f\xa9^S}\xaeFU3S\xe3\
+\xa9\x09\xd4\x96\xabU\xaa\x9dP\xebS\x1bSg\xa9;\
+\xa8\x87\xaag\xa8oT?\xa4~Y\xfd\x89\x06Y\xc3\
+L\xc3OC\xa4Q\xa0\xb1_\xe3\xbc\xc6 \x0bc\x19\
+\xb3x,!k\x0d\xab\x86u\x815\xc4&\xb1\xcd\xd9\
+|v*\xbb\x98\xfd\x1d\xbb\x8b=\xaa\xa9\xa19C3\
+J3W\xb3R\xf3\x94f?\x07\xe3\x98q\xf8\x9ct\
+N\x09\xe7(\xa7\x97\xf3~\x8a\xde\x14\xef)\xe2)\x1b\
+\xa64L\xb91e\x5ck\xaa\x96\x97\x96X\xabH\xab\
+Q\xabG\xeb\xbd6\xae\xed\xa7\x9d\xa6\xbdE\xbbY\xfb\
+\x81\x0eA\xc7J'\x5c'Gg\x8f\xce\x05\x9d\xe7S\
+\xd9S\xdd\xa7\x0a\xa7\x16M=:\xf5\xae.\xaak\xa5\
+\x1b\xa1\xbbDw\xbfn\xa7\xee\x98\x9e\xbe^\x80\x9eL\
+o\xa7\xdey\xbd\xe7\xfa\x1c}/\xfdT\xfdm\xfa\xa7\
+\xf5G\x0cX\x06\xb3\x0c$\x06\xdb\x0c\xce\x18<\xc55\
+qo<\x1d/\xc7\xdb\xf1QC]\xc3@C\xa5a\
+\x95a\x97\xe1\x84\x91\xb9\xd1<\xa3\xd5F\x8dF\x0f\x8c\
+i\xc6\x5c\xe3$\xe3m\xc6m\xc6\xa3&\x06&!&\
+KM\xeaM\xee\x9aRM\xb9\xa6)\xa6;L;L\
+\xc7\xcd\xcc\xcd\xa2\xcd\xd6\x995\x9b=1\xd72\xe7\x9b\
+\xe7\x9b\xd7\x9b\xdf\xb7`ZxZ,\xb6\xa8\xb6\xb8e\
+I\xb2\xe4Z\xa6Y\xee\xb6\xbcn\x85Z9Y\xa5X\
+UZ]\xb3F\xad\x9d\xad%\xd6\xbb\xad\xbb\xa7\x11\xa7\
+\xb9N\x93N\xab\x9e\xd6g\xc3\xb0\xf1\xb6\xc9\xb6\xa9\xb7\
+\x19\xb0\xe5\xd8\x06\xdb\xae\xb6m\xb6}agb\x17g\
+\xb7\xc5\xae\xc3\xee\x93\xbd\x93}\xba}\x8d\xfd=\x07\x0d\
+\x87\xd9\x0e\xab\x1dZ\x1d~s\xb4r\x14:V:\xde\
+\x9a\xce\x9c\xee?}\xc5\xf4\x96\xe9/gX\xcf\x10\xcf\
+\xd83\xe3\xb6\x13\xcb)\xc4i\x9dS\x9b\xd3Gg\x17\
+g\xb9s\x83\xf3\x88\x8b\x89K\x82\xcb.\x97>.\x9b\
+\x1b\xc6\xdd\xc8\xbd\xe4Jt\xf5q]\xe1z\xd2\xf5\x9d\
+\x9b\xb3\x9b\xc2\xed\xa8\xdb\xaf\xee6\xeei\xee\x87\xdc\x9f\
+\xcc4\x9f)\x9eY3s\xd0\xc3\xc8C\xe0Q\xe5\xd1\
+?\x0b\x9f\x950k\xdf\xac~OCO\x81g\xb5\xe7\
+#/c/\x91W\xad\xd7\xb0\xb7\xa5w\xaa\xf7a\xef\
+\x17>\xf6>r\x9f\xe3>\xe3<7\xde2\xdeY_\
+\xcc7\xc0\xb7\xc8\xb7\xcbO\xc3o\x9e_\x85\xdfC\x7f\
+#\xffd\xffz\xff\xd1\x00\xa7\x80%\x01g\x03\x89\x81\
+A\x81[\x02\xfb\xf8z|!\xbf\x8e?:\xdbe\xf6\
+\xb2\xd9\xedA\x8c\xa0\xb9A\x15A\x8f\x82\xad\x82\xe5\xc1\
+\xad!h\xc8\xec\x90\xad!\xf7\xe7\x98\xce\x91\xcei\x0e\
+\x85P~\xe8\xd6\xd0\x07a\xe6a\x8b\xc3~\x0c'\x85\
+\x87\x85W\x86?\x8ep\x88X\x1a\xd11\x975w\xd1\
+\xdcCs\xdfD\xfaD\x96D\xde\x9bg1O9\xaf\
+-J5*>\xaa.j<\xda7\xba4\xba?\xc6\
+.fY\xcc\xd5X\x9dXIlK\x1c9.*\xae\
+6nl\xbe\xdf\xfc\xed\xf3\x87\xe2\x9d\xe2\x0b\xe3{\x17\
+\x98/\xc8]py\xa1\xce\xc2\xf4\x85\xa7\x16\xa9.\x12\
+,:\x96@L\x88N8\x94\xf0A\x10*\xa8\x16\x8c\
+%\xf2\x13w%\x8e\x0ay\xc2\x1d\xc2g\x22/\xd16\
+\xd1\x88\xd8C\x5c*\x1eN\xf2H*Mz\x92\xec\x91\
+\xbc5y$\xc53\xa5,\xe5\xb9\x84'\xa9\x90\xbcL\
+\x0dL\xdd\x9b:\x9e\x16\x9av m2=:\xbd1\
+\x83\x92\x91\x90qB\xaa!M\x93\xb6g\xeag\xe6f\
+v\xcb\xace\x85\xb2\xfe\xc5n\x8b\xb7/\x1e\x95\x07\xc9\
+k\xb3\x90\xac\x05Y-\x0a\xb6B\xa6\xe8TZ(\xd7\
+*\x07\xb2geWf\xbf\xcd\x89\xca9\x96\xab\x9e+\
+\xcd\xed\xcc\xb3\xca\xdb\x907\x9c\xef\x9f\xff\xed\x12\xc2\x12\
+\xe1\x92\xb6\xa5\x86KW-\x1dX\xe6\xbd\xacj9\xb2\
+<qy\xdb\x0a\xe3\x15\x05+\x86V\x06\xac<\xb8\x8a\
+\xb6*m\xd5O\xab\xedW\x97\xae~\xbd&zMk\
+\x81^\xc1\xca\x82\xc1\xb5\x01k\xeb\x0bU\x0a\xe5\x85}\
+\xeb\xdc\xd7\xed]OX/Y\xdf\xb5a\xfa\x86\x9d\x1b\
+>\x15\x89\x8a\xae\x14\xdb\x17\x97\x15\x7f\xd8(\xdcx\xe5\
+\x1b\x87o\xca\xbf\x99\xdc\x94\xb4\xa9\xab\xc4\xb9d\xcff\
+\xd2f\xe9\xe6\xde-\x9e[\x0e\x96\xaa\x97\xe6\x97\x0en\
+\x0d\xd9\xda\xb4\x0d\xdfV\xb4\xed\xf5\xf6E\xdb/\x97\xcd\
+(\xdb\xbb\x83\xb6C\xb9\xa3\xbf<\xb8\xbce\xa7\xc9\xce\
+\xcd;?T\xa4T\xf4T\xfaT6\xee\xd2\xdd\xb5a\
+\xd7\xf8n\xd1\xee\x1b{\xbc\xf64\xec\xd5\xdb[\xbc\xf7\
+\xfd>\xc9\xbe\xdbU\x01UM\xd5f\xd5e\xfbI\xfb\
+\xb3\xf7?\xae\x89\xaa\xe9\xf8\x96\xfbm]\xadNmq\
+\xed\xc7\x03\xd2\x03\xfd\x07#\x0e\xb6\xd7\xb9\xd4\xd5\x1d\xd2\
+=TR\x8f\xd6+\xebG\x0e\xc7\x1f\xbe\xfe\x9d\xefw\
+-\x0d6\x0dU\x8d\x9c\xc6\xe2#pDy\xe4\xe9\xf7\
+\x09\xdf\xf7\x1e\x0d:\xdav\x8c{\xac\xe1\x07\xd3\x1fv\
+\x1dg\x1d/jB\x9a\xf2\x9aF\x9bS\x9a\xfb[b\
+[\xbaO\xcc>\xd1\xd6\xea\xdez\xfcG\xdb\x1f\x0f\x9c\
+4<YyJ\xf3T\xc9i\xda\xe9\x82\xd3\x93g\xf2\
+\xcf\x8c\x9d\x95\x9d}~.\xf9\xdc`\xdb\xa2\xb6{\xe7\
+c\xce\xdfj\x0fo\xef\xba\x10t\xe1\xd2E\xff\x8b\xe7\
+;\xbc;\xce\x5c\xf2\xb8t\xf2\xb2\xdb\xe5\x13W\xb8W\
+\x9a\xaf:_m\xeat\xea<\xfe\x93\xd3O\xc7\xbb\x9c\
+\xbb\x9a\xae\xb9\x5ck\xb9\xeez\xbd\xb5{f\xf7\xe9\x1b\
+\x9e7\xce\xdd\xf4\xbdy\xf1\x16\xff\xd6\xd5\x9e9=\xdd\
+\xbd\xf3zo\xf7\xc5\xf7\xf5\xdf\x16\xdd~r'\xfd\xce\
+\xcb\xbb\xd9w'\xee\xad\xbcO\xbc_\xf4@\xedA\xd9\
+C\xdd\x87\xd5?[\xfe\xdc\xd8\xef\xdc\x7fj\xc0w\xa0\
+\xf3\xd1\xdcG\xf7\x06\x85\x83\xcf\xfe\x91\xf5\x8f\x0fC\x05\
+\x8f\x99\x8f\xcb\x86\x0d\x86\xeb\x9e8>99\xe2?r\
+\xfd\xe9\xfc\xa7C\xcfd\xcf&\x9e\x17\xfe\xa2\xfe\xcb\xae\
+\x17\x16/~\xf8\xd5\xeb\xd7\xce\xd1\x98\xd1\xa1\x97\xf2\x97\
+\x93\xbfm|\xa5\xfd\xea\xc0\xeb\x19\xaf\xdb\xc6\xc2\xc6\x1e\
+\xbe\xc9x31^\xf4V\xfb\xed\xc1w\xdcw\x1d\xef\
+\xa3\xdf\x0fO\xe4| \x7f(\xffh\xf9\xb1\xf5S\xd0\
+\xa7\xfb\x93\x19\x93\x93\xff\x04\x03\x98\xf3\xfcc3-\xdb\
+\x00\x00:0iTXtXML:com.\
+adobe.xmp\x00\x00\x00\x00\x00<?\
+xpacket begin=\x22\xef\
+\xbb\xbf\x22 id=\x22W5M0MpCe\
+hiHzreSzNTczkc9d\
+\x22?>\x0a<x:xmpmeta x\
+mlns:x=\x22adobe:ns\
+:meta/\x22 x:xmptk=\
+\x22Adobe XMP Core \
+5.6-c138 79.1598\
+24, 2016/09/14-0\
+1:09:01        \x22\
+>\x0a   <rdf:RDF xm\
+lns:rdf=\x22http://\
+www.w3.org/1999/\
+02/22-rdf-syntax\
+-ns#\x22>\x0a      <rd\
+f:Description rd\
+f:about=\x22\x22\x0a     \
+       xmlns:xmp\
+=\x22http://ns.adob\
+e.com/xap/1.0/\x22\x0a\
+            xmln\
+s:xmpMM=\x22http://\
+ns.adobe.com/xap\
+/1.0/mm/\x22\x0a      \
+      xmlns:stEv\
+t=\x22http://ns.ado\
+be.com/xap/1.0/s\
+Type/ResourceEve\
+nt#\x22\x0a           \
+ xmlns:dc=\x22http:\
+//purl.org/dc/el\
+ements/1.1/\x22\x0a   \
+         xmlns:p\
+hotoshop=\x22http:/\
+/ns.adobe.com/ph\
+otoshop/1.0/\x22\x0a  \
+          xmlns:\
+tiff=\x22http://ns.\
+adobe.com/tiff/1\
+.0/\x22\x0a           \
+ xmlns:exif=\x22htt\
+p://ns.adobe.com\
+/exif/1.0/\x22>\x0a   \
+      <xmp:Creat\
+orTool>Adobe Pho\
+toshop CC 2017 (\
+Windows)</xmp:Cr\
+eatorTool>\x0a     \
+    <xmp:CreateD\
+ate>2020-06-09T1\
+9:27:08-07:00</x\
+mp:CreateDate>\x0a \
+        <xmp:Met\
+adataDate>2020-0\
+6-09T19:27:08-07\
+:00</xmp:Metadat\
+aDate>\x0a         \
+<xmp:ModifyDate>\
+2020-06-09T19:27\
+:08-07:00</xmp:M\
+odifyDate>\x0a     \
+    <xmpMM:Insta\
+nceID>xmp.iid:34\
+11bb28-c61d-d54f\
+-a76f-896a0d4dd9\
+4b</xmpMM:Instan\
+ceID>\x0a         <\
+xmpMM:DocumentID\
+>adobe:docid:pho\
+toshop:e22b3eb5-\
+aac1-11ea-9330-e\
+3d84de62c15</xmp\
+MM:DocumentID>\x0a \
+        <xmpMM:O\
+riginalDocumentI\
+D>xmp.did:b38b06\
+91-34c2-be46-ab7\
+0-c85c8b0d5b22</\
+xmpMM:OriginalDo\
+cumentID>\x0a      \
+   <xmpMM:Histor\
+y>\x0a            <\
+rdf:Seq>\x0a       \
+        <rdf:li \
+rdf:parseType=\x22R\
+esource\x22>\x0a      \
+            <stE\
+vt:action>create\
+d</stEvt:action>\
+\x0a               \
+   <stEvt:instan\
+ceID>xmp.iid:b38\
+b0691-34c2-be46-\
+ab70-c85c8b0d5b2\
+2</stEvt:instanc\
+eID>\x0a           \
+       <stEvt:wh\
+en>2020-06-09T19\
+:27:08-07:00</st\
+Evt:when>\x0a      \
+            <stE\
+vt:softwareAgent\
+>Adobe Photoshop\
+ CC 2017 (Window\
+s)</stEvt:softwa\
+reAgent>\x0a       \
+        </rdf:li\
+>\x0a              \
+ <rdf:li rdf:par\
+seType=\x22Resource\
+\x22>\x0a             \
+     <stEvt:acti\
+on>saved</stEvt:\
+action>\x0a        \
+          <stEvt\
+:instanceID>xmp.\
+iid:3411bb28-c61\
+d-d54f-a76f-896a\
+0d4dd94b</stEvt:\
+instanceID>\x0a    \
+              <s\
+tEvt:when>2020-0\
+6-09T19:27:08-07\
+:00</stEvt:when>\
+\x0a               \
+   <stEvt:softwa\
+reAgent>Adobe Ph\
+otoshop CC 2017 \
+(Windows)</stEvt\
+:softwareAgent>\x0a\
+                \
+  <stEvt:changed\
+>/</stEvt:change\
+d>\x0a             \
+  </rdf:li>\x0a    \
+        </rdf:Se\
+q>\x0a         </xm\
+pMM:History>\x0a   \
+      <dc:format\
+>image/png</dc:f\
+ormat>\x0a         \
+<photoshop:Color\
+Mode>3</photosho\
+p:ColorMode>\x0a   \
+      <photoshop\
+:ICCProfile>sRGB\
+ IEC61966-2.1</p\
+hotoshop:ICCProf\
+ile>\x0a         <t\
+iff:Orientation>\
+1</tiff:Orientat\
+ion>\x0a         <t\
+iff:XResolution>\
+720000/10000</ti\
+ff:XResolution>\x0a\
+         <tiff:Y\
+Resolution>72000\
+0/10000</tiff:YR\
+esolution>\x0a     \
+    <tiff:Resolu\
+tionUnit>2</tiff\
+:ResolutionUnit>\
+\x0a         <exif:\
+ColorSpace>1</ex\
+if:ColorSpace>\x0a \
+        <exif:Pi\
+xelXDimension>40\
+</exif:PixelXDim\
+ension>\x0a        \
+ <exif:PixelYDim\
+ension>42</exif:\
+PixelYDimension>\
+\x0a      </rdf:Des\
+cription>\x0a   </r\
+df:RDF>\x0a</x:xmpm\
+eta>\x0a           \
+                \
+                \
+                \
+                \
+                \
+         \x0a      \
+                \
+                \
+                \
+                \
+                \
+              \x0a \
+                \
+                \
+                \
+                \
+                \
+                \
+   \x0a            \
+                \
+                \
+                \
+                \
+                \
+        \x0a       \
+                \
+                \
+                \
+                \
+                \
+             \x0a  \
+                \
+                \
+                \
+                \
+                \
+                \
+  \x0a             \
+                \
+                \
+                \
+                \
+                \
+       \x0a        \
+                \
+                \
+                \
+                \
+                \
+            \x0a   \
+                \
+                \
+                \
+                \
+                \
+                \
+ \x0a              \
+                \
+                \
+                \
+                \
+                \
+      \x0a         \
+                \
+                \
+                \
+                \
+                \
+           \x0a    \
+                \
+                \
+                \
+                \
+                \
+                \
+\x0a               \
+                \
+                \
+                \
+                \
+                \
+     \x0a          \
+                \
+                \
+                \
+                \
+                \
+          \x0a     \
+                \
+                \
+                \
+                \
+                \
+               \x0a\
+                \
+                \
+                \
+                \
+                \
+                \
+    \x0a           \
+                \
+                \
+                \
+                \
+                \
+         \x0a      \
+                \
+                \
+                \
+                \
+                \
+              \x0a \
+                \
+                \
+                \
+                \
+                \
+                \
+   \x0a            \
+                \
+                \
+                \
+                \
+                \
+        \x0a       \
+                \
+                \
+                \
+                \
+                \
+             \x0a  \
+                \
+                \
+                \
+                \
+                \
+                \
+  \x0a             \
+                \
+                \
+                \
+                \
+                \
+       \x0a        \
+                \
+                \
+                \
+                \
+                \
+            \x0a   \
+                \
+                \
+                \
+                \
+                \
+                \
+ \x0a              \
+                \
+                \
+                \
+                \
+                \
+      \x0a         \
+                \
+                \
+                \
+                \
+                \
+           \x0a    \
+                \
+                \
+                \
+                \
+                \
+                \
+\x0a               \
+                \
+                \
+                \
+                \
+                \
+     \x0a          \
+                \
+                \
+                \
+                \
+                \
+          \x0a     \
+                \
+                \
+                \
+                \
+                \
+               \x0a\
+                \
+                \
+                \
+                \
+                \
+                \
+    \x0a           \
+                \
+                \
+                \
+                \
+                \
+         \x0a      \
+                \
+                \
+                \
+                \
+                \
+              \x0a \
+                \
+                \
+                \
+                \
+                \
+                \
+   \x0a            \
+                \
+                \
+                \
+                \
+                \
+        \x0a       \
+                \
+                \
+                \
+                \
+                \
+             \x0a  \
+                \
+                \
+                \
+                \
+                \
+                \
+  \x0a             \
+                \
+                \
+                \
+                \
+                \
+       \x0a        \
+                \
+                \
+                \
+                \
+                \
+            \x0a   \
+                \
+                \
+                \
+                \
+                \
+                \
+ \x0a              \
+                \
+                \
+                \
+                \
+                \
+      \x0a         \
+                \
+                \
+                \
+                \
+                \
+           \x0a    \
+                \
+                \
+                \
+                \
+                \
+                \
+\x0a               \
+                \
+                \
+                \
+                \
+                \
+     \x0a          \
+                \
+                \
+                \
+                \
+                \
+          \x0a     \
+                \
+                \
+                \
+                \
+                \
+               \x0a\
+                \
+                \
+                \
+                \
+                \
+                \
+    \x0a           \
+                \
+                \
+                \
+                \
+                \
+         \x0a      \
+                \
+                \
+                \
+                \
+                \
+              \x0a \
+                \
+                \
+                \
+                \
+                \
+                \
+   \x0a            \
+                \
+                \
+                \
+                \
+                \
+        \x0a       \
+                \
+                \
+                \
+                \
+                \
+             \x0a  \
+                \
+                \
+                \
+                \
+                \
+                \
+  \x0a             \
+                \
+                \
+                \
+                \
+                \
+       \x0a        \
+                \
+                \
+                \
+                \
+                \
+            \x0a   \
+                \
+                \
+                \
+                \
+                \
+                \
+ \x0a              \
+                \
+                \
+                \
+                \
+                \
+      \x0a         \
+                \
+                \
+                \
+                \
+                \
+           \x0a    \
+                \
+                \
+                \
+                \
+                \
+                \
+\x0a               \
+                \
+                \
+                \
+                \
+                \
+     \x0a          \
+                \
+                \
+                \
+                \
+                \
+          \x0a     \
+                \
+                \
+                \
+                \
+                \
+               \x0a\
+                \
+                \
+                \
+                \
+                \
+                \
+    \x0a           \
+                \
+                \
+                \
+                \
+                \
+         \x0a      \
+                \
+                \
+                \
+                \
+                \
+              \x0a \
+                \
+                \
+                \
+                \
+                \
+                \
+   \x0a            \
+                \
+                \
+                \
+                \
+                \
+        \x0a       \
+                \
+                \
+                \
+                \
+                \
+             \x0a  \
+                \
+                \
+                \
+                \
+                \
+                \
+  \x0a             \
+                \
+                \
+                \
+                \
+                \
+       \x0a        \
+                \
+                \
+                \
+                \
+                \
+            \x0a   \
+                \
+                \
+                \
+                \
+                \
+                \
+ \x0a              \
+                \
+                \
+                \
+                \
+                \
+      \x0a         \
+                \
+                \
+                \
+                \
+                \
+           \x0a    \
+                \
+                \
+                \
+                \
+                \
+                \
+\x0a               \
+                \
+                \
+                \
+                \
+                \
+     \x0a          \
+                \
+                \
+                \
+                \
+                \
+          \x0a     \
+                \
+                \
+                \
+                \
+                \
+               \x0a\
+                \
+                \
+                \
+                \
+                \
+                \
+    \x0a           \
+                \
+                \
+                \
+                \
+                \
+         \x0a      \
+                \
+                \
+                \
+                \
+                \
+              \x0a \
+                \
+                \
+                \
+                \
+                \
+                \
+   \x0a            \
+                \
+                \
+                \
+                \
+                \
+        \x0a       \
+                \
+                \
+                \
+                \
+                \
+             \x0a  \
+                \
+                \
+                \
+                \
+                \
+                \
+  \x0a             \
+                \
+                \
+                \
+                \
+                \
+       \x0a        \
+                \
+                \
+                \
+                \
+                \
+            \x0a   \
+                \
+                \
+                \
+                \
+                \
+                \
+ \x0a              \
+                \
+                \
+                \
+                \
+                \
+      \x0a         \
+                \
+                \
+                \
+                \
+                \
+           \x0a    \
+                \
+                \
+                \
+                \
+                \
+                \
+\x0a               \
+                \
+                \
+                \
+                \
+                \
+     \x0a          \
+                \
+                \
+                \
+                \
+                \
+          \x0a     \
+                \
+                \
+                \
+                \
+                \
+               \x0a\
+                \
+                \
+                \
+                \
+                \
+                \
+    \x0a           \
+                \
+                \
+                \
+                \
+                \
+         \x0a      \
+                \
+                \
+                \
+                \
+                \
+              \x0a \
+                \
+                \
+                \
+                \
+                \
+                \
+   \x0a            \
+                \
+                \
+                \
+                \
+                \
+        \x0a       \
+                \
+                \
+                \
+                \
+                \
+             \x0a  \
+                \
+                \
+                \
+                \
+                \
+                \
+  \x0a             \
+                \
+                \
+                \
+                \
+                \
+       \x0a        \
+                \
+                \
+                \
+                \
+                \
+            \x0a   \
+                \
+                \
+                \
+                \
+                \
+                \
+ \x0a              \
+                \
+                \
+                \
+                \
+                \
+      \x0a         \
+                \
+                \
+                \
+                \
+                \
+           \x0a    \
+                \
+                \
+                \
+                \
+                \
+                \
+\x0a               \
+                \
+                \
+                \
+                \
+                \
+     \x0a          \
+                \
+                \
+                \
+                \
+                \
+          \x0a     \
+                \
+                \
+                \
+                \
+                \
+               \x0a\
+                \
+                \
+                \
+                \
+                \
+                \
+    \x0a           \
+                \
+                \
+                \
+                \
+                \
+         \x0a      \
+                \
+                \
+                \
+                \
+                \
+              \x0a \
+                \
+                \
+                \
+                \
+                \
+                \
+   \x0a            \
+                \
+                \
+                \
+                \
+                \
+        \x0a       \
+                \
+                \
+                \
+                \
+                \
+             \x0a  \
+                \
+                \
+                \
+                \
+                \
+                \
+  \x0a             \
+                \
+                \
+                \
+                \
+                \
+       \x0a        \
+                \
+    \x0a<?xpacket e\
+nd=\x22w\x22?>\xff\x93[#\x00\x00\x00 \
+cHRM\x00\x00z%\x00\x00\x80\x83\x00\x00\xf9\xff\
+\x00\x00\x80\xe9\x00\x00u0\x00\x00\xea`\x00\x00:\x98\
+\x00\x00\x17o\x92_\xc5F\x00\x00\x0a;IDAT\
+x\xda\xcc\x99yP\xd4\xe7\x19\xc7\xbfV\x08\x90d\xac\
+\xb9l\x22\x09D\x226F\x93   \x02r\x1fA\
+\xb9wYnc\xa2\xd1D\xad\xb4\xc0\xc2r\xec\xb2\xec\
+\xb2\xbb,\xbb\xdcx\xe7\x8fv2\xe9\xb4M\x9bf\x9a\
+\x8c\xd36Gc\x9a\xc6\xc6\x18\x1b/\x82\x89\x09\x11\x11\
+v\xd9\x85 ,\xe28\xfd\xf6\x0f\xf6\xb7Y\x18D\xd0\
+\xcc\xd8w\xe6\x99\x1d\xde\xf3\xf3{\xde\xf79\xde\x17`\
+\xee\xe55\x00\x9c&\xe3\x00|q\x1b\x85\xe4\xac2\xd7\
+\xa2\x04\xc0{\x17-bHJ:\xfdE9\x0cLH\
+\x12 \xc7\x00\xac\x9e\xb8~\x1d\x82\x5c\xbb~\x1d\xa3\x13\
+\xd70|u\x02W&\xae\xc1j\xbb\x8a3&\x0b>\
+\xe9\xed\xc7\x9f\xbb.\xe0\x83o{\xf1\xf1\xc5\xcb\xf8n\
+x\xe4G\x01T\x0a\x1aK\xde\xba\x83\x22C\x1b3\x9b\
+\xf62\xad\xbe\x911\xa9i\x02\xe4\x00\x80Uc\xd7\xae\
+A\x90\x91i\x80\x00\x1e\x03P\x0d\xe0\xaf\x00>\x07\xd0\
+\x0a \xeev\x01\xd7\x0bpEJ\x0d\xfd\xa4rF)\
+\x1b\x98\xaaoc\x84B\xc3u5\xf5\x8c\x88O\x10 \
+?\xb4\xda\xc6a\xb5\x8d\xc326\x8e\xa1\xf1\xab\x18\xb1\
+\x03\x02\xd8\x0d`h\x86#B\x00\x09\xb7\x03x\x14\x00\
+S\x0a7\xd3\xbf\xa2\x96\x9b\x1aZ\x98X\xb4\x85+\x03\
+\x02YX\xafgpe\x1ds\xdb\x0e\xd2\xcd\xdd]X\
+,\xb8gx\x04=\xc3#\x0e\xed\xd9\xe1\x08\x80\xa1\x09\
+IL)\xabdZ\x8d\x8aI\x9b_\x98\x13\xe4l%\
+\x0a\x00\xdd\xdc\xdd)n\xdd\xcf\xc0\x0a%\x0bK\xcb\x1d\
+\x93\xba{x0\xab\xa9\x93\x812%\xe3%yB\xfd\
+k\xff\xe97\xa3\xcbl\xc5\xf7W'\xa6\xc0\x89\xcbd\
+\x8cPh\x19\x22S2\xac\xa6\x9ekeuL\xdf\xfa\
+\x920\xee\xe8\xad\x00\xbe\x01\x80\xc9E[\x18 S2\
+\xa7u?\x17,X L\xf8\x01\x00\xe6\xfd\xaa\x94~\
+er\x16\x19\xdb\x85\xfa\x9e\x93\xfdf\x5c\x18\xfa\x1e\x00\
+V\xdb\xad\x9c\x05\xb2j\x06T\xd42Nm`\xfa\x9e\
+\x12f\xfd\xb2\x94\xf1\xf5\x06\xe6\xb4\x1f\xa2\x8b\xab\xab0\
+\xf6\xae\x1b\x01.\x01\xa0\x05\xf0O\x00\xc7\x00\x18\x00,\
+\x00`\x02\xc0\xe7[\xf6\xd1\xbf\x5cA\xd1\xce=\xc2D\
+\xef\x01(\x02@\xdfU\xab\x98\xa8ibrC+\xbd\
+\x97/\x17\xda\x83zG\xae8\x8eGlZ:\x83\xab\
+\xd5\xdcP\xabc\xea\x96\xad\x8e\x1d\x10\xb5\xecc\x82\xc6\
+\xc8'\xd7\xf8\x0bua7\x02\xec\x9f\xe1\xe0\x1a\x00p\
+u@ c\xd5\x06nlh\xe5\xd2\xc7\xbc\x84\xb6l\
+\xbb\x86\xfb\x01\xb0\xa8\xb9\x93\xeb\xaaT\x8c\xcd\xce\x11\xda\
+\xab\x01\x14\x02\xa0\x87\xc7\xdd\x14\xb7\xee\xe7\x9ar\x05\xf3\
+\xabk\xa7\xacQ\xd4\xdc\xc9\x08\x85\x86\xe1\xa9\x19B\xdd\
+\x8e\x1b\x0128:\x86yJ\x0ds\xea\xb4B\xe7Q\
+\x00\x94\x94Up\x8dT\xce\xe7\xf5-B\xfd9\xa7#\
+\xf0{\x00\x14\x97H\xe9/\x953\xe7\x07\x80\xbf\x09\xda\
+\x93\x14\x97\xd2O\xaa`v\xcb>\xba\xb9\xb9\x09\xed\x1f\
+\x03\xa0H\xa1f\xb4\x5c\xc3\xc8\xfc\xcdB\xbd\x0a@\xa4\
+\xfd\x03\x9b\x01d:\x00\xa3\xb7\xefd\xb2\xae\x85\xfeR\
+\x057l\xdcD\x00\x5c\xe8\xe2\xc2\xfc\xb6\x03\x0c\xa9R\
+1&S$Lr\xc0\x09\xf0%\x00\xdc\x90\x92\xc6\x08\
+\x85\x86\x85\xed\x07\xb9\xd0\xc5\xc5\xa1\xa1\xfb\x1ex\x80i\
+\xc6\x0e\xae\xad\xaccr^\x81P\xff>\x807\x010\
+\xa5\xa4\x9c\x11\xd5*\xa6\xee*\x16\xda\x0e\xcf\xb0\x93\x1f\
+\x00\x00\xbd||\x98SQ3y\xe0\x0d\xad\x04\xc0u\
+q\xf1\x5c/\xd7P\xd4\xb2\x8f\xf7.Z$\x0cx\xc6\
+\x09\xf0I\x00\x5c\xb2t)3\x9b:\x99\xack\xe6\xf2\
+U\xab\x1d\x93\xe7\x94\x94\xd3O*gQ\xdb>\xe7\x05\
+\x83\x01\xec\x07\xc0\xf4\x9d{\x18,SR\x5cQ3\x05\
+*\xa1\xa0\x88\xc9\xdbvp\x99\xaf\xafP\x87\xbf\x03\xe0\
+2\xdf\x15\x8c\xab72F\xd5\xc8\x98\xb4t\x16\xc8\xeb\
+\xe8'\x953\xbfJ\xe1p\x053X\xfaE\x00,0\
+\xb41\xb4J\xcdX\xf1\xe49\x5c|\xff\xfdL7v\
+2\xb8J\xc5DQ\xb60\xfe\xadc\xbd\xfd\x00 \x03\
+\xc0(I\x1e\xc3\xab\xd5\x94h\x0c\x0e\xb8\x8cWv3\
+\xac\xa6\x9ea5\xf5\x8c\xde\xbe\xcb\x01\xe8\xb0\xb8\xfcJ\
+9\x03+\x94L3v0\xb5\xb1\x8d\xd1\xaaF\xfa\xac\
+X!t,\x9b\x01\xf0u\x00\x14\x95\x943@*\xa7\
+\xa8r\xf2c$\xc5%\xf4/\xafeA\xdb\x01g\xed\
+<\xfbY\x9f\x09\x00\xe2\x00\xf0\xe9\xe0u\x8c\xaa\xd3s\
+\xf3\xdeW\x19\xb4!\x92\x92\x8ajF(\xb4\x0c\xadV\
+S\x22\xad\xe4\xf2\x95+\xa7\x00\x16\x03\xa0\xab\xab+s\
+4\x06\x86\xd5\xd43\x5c\xae\xa1x\xc7+\xb3i\x0f\x00\
+^\x06\xc0\xf5I\xc9\x0c\x93\xd7\xb3\xb0\xa9\x9d+\x9f}\
+\x96\xb9\xed\x07\x19\x5c\xa5b\x82$W\x18\x7f\xe4\x8c\xc9\
+\x82\xaf\xac\xc3\x00\xe0\x0e\x80...\xcc\xef8\xc4(\
+e\x03\x93\xb4\xcd\x5c_\xadf\xa4\xb2\x81Y\xbb\xf68\
+\x7f\xd4G\xce\x8b\x1d\x14\x1a\xfc\xe2\x12\xf9\xf4\xfap\xe7\
+\x8e\xc97\x00\x5c\x06\x80\x1ewO\xba\x93Lc'\xf3\
+:\x0f3R\xd9\xc0\xdc\x96)g/\xa8{p\x08\xa6\
+Q\x1b\xaeLL\xc0n,\x0c\x08Y\xc7M\xf5\x93n\
+L\xa4j`X\xe2s\xcecvO\x8f$.v\xc8\
+q\xa7N\xdf\xcd\x027\xe5xd\xef.\xa6\x7f\xb9\x82\
+\x91\x0a-\xc3\x14Z\x06\x859>\xf0\x1d\xd3\xa8\x0d\x03\
+\xa36\x98F\xc7`\x1e\xb3\x09\x06v\x16\x00\xefrs\
+\xe3\x03K=\x9d\xc1\xac\x00rf\x0bu\xbe\x00\xb6\x00\
+\xd8\x04`\xf1\x1c\xd2\xb1la\xf2\xf4=%\x8c\x97V\
+12y\x93\xb0\xd8y\x00\xde\x83c\x93\x19\x8ey\xcc\
+\x06\xd3\x98M\x80\xf4\x04\xf0\x96\x13X\x17\x80C\x00\x1e\
+\x9do>\xe8\x05 \x17@\x0d\x00\x0d\x00\xa93\xfcy\
+\xcb\x10\x00l\x9b\xc1\x87\x8d\x00X=pe\x0c\x82\x98\
+G'\xe1\xccc6X\xc7\xc7\x05P\x0f\x00\xcb\xe6\x9b\
+,\xdc\x03\xa0B\xd8\xbeY\xe4\x08\x80\xe7O\x0d\x0c\x0a\
+\x90\xbf\x01p\x1c@\x13\x80\xc7\xcd\xa36X\xc6l\xb0\
+\x8e\x8d\xc3j\xd7\xe2\x95\x89\x09Xl\xe3\xb0\xd8\x01o\
+%a-\x06\xf0\xb5\x00\xf1\xd0#\x8f0 6\x9e\x1b\
+$\xf9L\xda\xfc\x02C3\xb3\xf9\xcc\xfapz\xdcs\
+\xaf3\xe8Q\x00\xf9\x9f\xf4\xf6\xe3/\xdd\xdf\xe0+\xcb\
+\x10\xacc\xe3\xe8\xbf2\x86\x8b\xc3#\xf8\xc6\xfa=N\
+\x0fXp\xb4\xa7\x0f]f+F\xaeN`\xf4\xda\x04\
+\x06\xe7\x09\xe8\x0d\xe0\x1d\x87%\x87\x861CZEQ\
+\xcb>\xc6\xd5\xe9\x19%\xd70\xa2F\xcd\x98Z-\x13\
+\xea\x0d\xccn\xeed\xca\xaeb\xfa\xfc\xfcIg\xd07\
+\x00,\xf9b`\x10gLV|~\xd9\x84\x7f\xf5\xf6\
+\xe3\xd8\xa5\x01|\xd4\xd3\x87w/\xf4\xe2\xb7\xa7\xcf\xe3\
+\xc8\xf9\x1eXl\xe3\x18\x9d\x98\x983\xe0j\x00\x17&\
+c\xe8\x83\x14\x95U2\xbe\xde\xc0\x10\x99\x921uz\
+\x16t\x1c\xa2\xb8N\xcb\x8cj%stFJ\xda\x0e\
+0B\xaea\x88L\xc9\x14}\x1b3v\xee\xa1\xbb\x87\
+\x87\x00y\x11@\xc6\xa7\x97L8~i\x00\xc7.\x0d\
+\xe0\xc4e3\x8e\xf5\xf6\xe3hO\x1f\xfe\xd4u\x01\xaf\
+\x9d\xea\xc6\xf1>\x13\x8e|\xd53'\xc0?\x08\x1a\x08\
+\x0c\x8f`\x86\xbe\x95A2%\xa3\x94\x0d\xccQj\x18\
+\x9a\x90\xe8\x1c\x8b\x09\x80?\xf3\xf4d\x8c(\x9b\x12}\
+3\xc3\xe5\x1a\x86T\xd61K\xd7\xcc\x90\xa8h\xe7~\
+M'\xfaL\xf8\xf74\xc07\xbb.\xe0\x8f\xe7\xbe\xc6\
+\xe7\xfdf\xbcz\xf2\xec\x9c\x00\xf9\xe0C\x0f1!K\
+\xcc\x18\x95\x81\xc1\x95u\xcc4v2*%m\xbaA\
+\x1c\x07\xf0\xa1\xdd\x1d8\xea\x93\xf2\x0a\x99n\xecd\x90\
+L\xc9X\xb5\x81\xe9?D\x1f\x02\xf8\x07\x80\xa7f\x02\
+<\xd9o\xc6\xeb\xa7\xbbg\x02z\x0c\xc0\x8a)\x80\x91\
+\xdb^fL\x9d\x9ek+\x14\x14\xab\x1a\xe8\xe9\xe5\xe5\
+|1\xd7\x03xt\x9a!\xf9;_\xe4\xbd||(\
+\xa9U3\xb4zR\xb2k5\xf4\xf4\xf6\x16\xe6\xb8\x0e\
+\xa0\xf2f\x80\x00\xd6L\xf3\x1aG\x85 A\xbf\xe0\x10\
+f\x97\xc9\x98ZZ1\xfd\xde\xb1r\x0e\xd7R\xc7\xa4\
+\xa9[\xb73Nm`\xb0L\xc9\x0cc'\xa3\xd32\
+\xa7[\xfa\xcb\x00\x5c\x9d\x01\x01\xf89\x87\xd9\x07\x1f~\
+\x98\x8fxy;\x8f\xc3\xb9\x19\xfc\xdb~\x00?\x99\x8b\
+\x17\xb7g(za\xec\xda\x88H\x8a\x1a[\x19\x5cY\
+\xc7H\xa5\x8e\x22Y\x0d\x1f\xf7]1}\xfe\x13\xf6\xcc\
+\xba\xdb\xb9>&KLQ\xf3^\xa6\x19:\x18\x9d_\
+\xe4\x00t\x05\xb0\x0b\xc0\xef\xec\xa1\xa7t>o+\x9f\
+\xf5\x99p\xf2\xb2\x19\x006\x02\xf8\x16\x00\x17-^L\
+\xb1\xb4\x8aQ\xca\x06\x06\xc9\x94L3\xb4STZ\xce\
+\xa7\x83\x82\xb9p\xa1\xcb\x14\xd8\xfb\x97,aT\xa6\x88\
+\xb9Z#\xa3ju\x5c[Q\xcb\xfc\xb6\x03\x8c\xca\x14\
+OI\xb7n\xb9|zi\x00'\xfaL\xb0G\x13/\
+\x00o;.\xea\xf1\x89\x94\xe8\x8c\x0c\x97k\x18TQ\
+\xcbd]3\xf3\x9a\xf72G\xa5c\xbeJ\xc7\x5c]\
+\x13s;\x0e1R\xa1\x9dlohafq)\x7f\
+z\xdf}S\xb6\xf8\xb6\xcai\x93\x05_\x0c\x0c\xe2\xd4\
+\x80\x05\xa7\x06\x06q\xe2\xb2\x09\x00J\x00\x0c\x0a\x8bD\
+\xa6eP\x5c[\xcf\x8c\xa6N\xc6\xd5\xe9\x19^\xa3f\
+\x90L\xc9\x98Z-\x934Ff\x1b\xdb\x99Q\x5c\xca\
+'\x9eZ\xe5\x0c\xf6.\x80\xb5\xb7\x0d\xf8\xa5e\x18\xe7\
+-\xc38;8\x84sf+\xbe\x18\x18\xc4\xc9~3\
+\x00,\x05\xf0k\x00\xff\x15\x16]\xea\xfd8\xfdc\xe3\
+\x19\x97W\xc8\x8d[\xb6r]Z&\x9f\x0a\x0aq~\
+:!\x80O\x00l\x9b\xef\xf3\xdb\x0d\xcb\xb9\xc1!|\
+98\x84\xb3f+\xba-\xc3\xe8\xb2\xff}\xdad\xc1\
+\x19\x93E\x88RF\x00\x9f\xde$\xf1x\x1b\xc0K\xb7\
+\xfa>8'\xc0/\xedZ\xec\xb6\x0c\xa3\xcb2\xec\x00\
+>c\xb6\x0a\xd6\xbe\x02@\xbeS\xeaV\x0c \x01\xc0\
+\xdd\xb3E\x12O\x00\x0a\xfb\x9e\xf7\x01\xb8l\xff\xbd\x93\
+r\x0c@\xa3\x9d\x0d\x96\x9b\xa8\xfeN\x8ae\xf2\xe9#\
+6\x9e\x05\x0a\x15\xb3\xb4F\x166u\xb0\xc0\xd8v\x9b\
+\xd2>\x8f>S\xfb\x8auM,P\xeb\x18\x12\x1b\xef\
+p3\x8cyq;3\x9a:\xf9\x9c\xb6\x89\xa9\x8dm\
+S$\xe5\x06\xbf\xf3\xed3\xd7\xbe\xc9\xba\x16\xa6\xe8\xdb\
+\x18\xfb\xe2\xf6\x1f\x00\xbd\x9fX\xce\xf0\xf4L\xfae\xe7\
+3\xb4p\x0bC\x0b\xee\x9c\xf8e\xe71Z\x92K\x1f\
+\xa7\xa7\x8f\xf7\xfe\x8f\xcf\xe0\xfb\x82\xb7\x08\x00\xf0\x0b\xfb\
+\x0b\xd3a\xfb\xf5\xefN\xc9a\xfb\x13\x5c$\xc9\x9b\xff\
+#\xe5N\xcb\xff\x06\x00W\x10\x99\x83V\xe2&u\x00\
+\x00\x00\x00IEND\xaeB`\x82\
 \x00\x00<\xd9\
 \x89\
 PNG\x0d\x0a\x1a\x0a\x00\x00\x00\x0dIHDR\x00\
@@ -986,12 +5434,12 @@ G\x8b\x08G\xfe@\x0c\xbf\xfd\xf1\xe5\x1e;\xb3O\x11\
 <B\xe8\xb7[\x01\xe7(\xb0\xabs\xfd7\xbfs\xb3\
 \x07\xfc;\x00\xf8}\x96x\xae\x22G\x05\x00\x00\x00\x00\
 IEND\xaeB`\x82\
-\x00\x00A\xfd\
+\x00\x00An\
 \x89\
 PNG\x0d\x0a\x1a\x0a\x00\x00\x00\x0dIHDR\x00\
 \x00\x00(\x00\x00\x00(\x08\x06\x00\x00\x00\x8c\xfe\xb8m\
 \x00\x00\x00\x09pHYs\x00\x00\x0b\x13\x00\x00\x0b\x13\
-\x01\x00\x9a\x9c\x18\x00\x00;\xa6iTXtXML\
+\x01\x00\x9a\x9c\x18\x00\x00<}iTXtXML\
 :com.adobe.xmp\x00\x00\
 \x00\x00\x00<?xpacket beg\
 in=\x22\xef\xbb\xbf\x22 id=\x22W5M\
@@ -1047,12 +5495,12 @@ eateDate>2020-06\
 00</xmp:CreateDa\
 te>\x0a         <xm\
 p:ModifyDate>202\
-0-06-09T18:56:50\
+0-06-09T18:57:04\
 -07:00</xmp:Modi\
 fyDate>\x0a        \
  <xmp:MetadataDa\
 te>2020-06-09T18\
-:56:50-07:00</xm\
+:57:04-07:00</xm\
 p:MetadataDate>\x0a\
          <dc:for\
 mat>image/png</d\
@@ -1060,69 +5508,58 @@ c:format>\x0a      \
    <photoshop:Co\
 lorMode>3</photo\
 shop:ColorMode>\x0a\
-         <xmpMM:\
-InstanceID>xmp.i\
-id:364b63fb-662f\
--ae47-b821-8acf9\
-b160c89</xmpMM:I\
-nstanceID>\x0a     \
-    <xmpMM:Docum\
-entID>adobe:doci\
-d:photoshop:5147\
-8108-aa1a-11ea-8\
-19d-a6149d248805\
-</xmpMM:Document\
-ID>\x0a         <xm\
-pMM:OriginalDocu\
-mentID>xmp.did:0\
-94ab7fd-1ef1-244\
-c-b082-bc3a46ef3\
-978</xmpMM:Origi\
-nalDocumentID>\x0a \
-        <xmpMM:H\
-istory>\x0a        \
-    <rdf:Seq>\x0a  \
-             <rd\
-f:li rdf:parseTy\
-pe=\x22Resource\x22>\x0a \
-                \
- <stEvt:action>c\
-reated</stEvt:ac\
-tion>\x0a          \
-        <stEvt:i\
-nstanceID>xmp.ii\
-d:094ab7fd-1ef1-\
-244c-b082-bc3a46\
-ef3978</stEvt:in\
-stanceID>\x0a      \
-            <stE\
-vt:when>2020-06-\
-08T21:55:42-07:0\
-0</stEvt:when>\x0a \
-                \
- <stEvt:software\
-Agent>Adobe Phot\
-oshop CC 2017 (W\
-indows)</stEvt:s\
-oftwareAgent>\x0a  \
-             </r\
-df:li>\x0a         \
-      <rdf:li rd\
-f:parseType=\x22Res\
-ource\x22>\x0a        \
-          <stEvt\
-:action>saved</s\
+         <photos\
+hop:DocumentAnce\
+stors>\x0a         \
+   <rdf:Bag>\x0a   \
+            <rdf\
+:li>adobe:docid:\
+photoshop:afb8b1\
+1c-aa0e-11ea-819\
+d-a6149d248805</\
+rdf:li>\x0a        \
+    </rdf:Bag>\x0a \
+        </photos\
+hop:DocumentAnce\
+stors>\x0a         \
+<xmpMM:InstanceI\
+D>xmp.iid:a92ce7\
+ba-da13-b449-b51\
+3-ad9d31c7023b</\
+xmpMM:InstanceID\
+>\x0a         <xmpM\
+M:DocumentID>ado\
+be:docid:photosh\
+op:0df751f0-aa1d\
+-11ea-819d-a6149\
+d248805</xmpMM:D\
+ocumentID>\x0a     \
+    <xmpMM:Origi\
+nalDocumentID>xm\
+p.did:71c916d4-0\
+fa4-8047-bfd1-94\
+8d5874f741</xmpM\
+M:OriginalDocume\
+ntID>\x0a         <\
+xmpMM:History>\x0a \
+           <rdf:\
+Seq>\x0a           \
+    <rdf:li rdf:\
+parseType=\x22Resou\
+rce\x22>\x0a          \
+        <stEvt:a\
+ction>created</s\
 tEvt:action>\x0a   \
                <\
 stEvt:instanceID\
->xmp.iid:bc13142\
-f-9460-3e49-8308\
--6c0d649e505e</s\
+>xmp.iid:71c916d\
+4-0fa4-8047-bfd1\
+-948d5874f741</s\
 tEvt:instanceID>\
 \x0a               \
    <stEvt:when>2\
-020-06-08T23:27:\
-51-07:00</stEvt:\
+020-06-08T21:55:\
+42-07:00</stEvt:\
 when>\x0a          \
         <stEvt:s\
 oftwareAgent>Ado\
@@ -1130,138 +5567,93 @@ be Photoshop CC \
 2017 (Windows)</\
 stEvt:softwareAg\
 ent>\x0a           \
-       <stEvt:ch\
-anged>/</stEvt:c\
-hanged>\x0a        \
-       </rdf:li>\
-\x0a               \
-<rdf:li rdf:pars\
-eType=\x22Resource\x22\
+    </rdf:li>\x0a  \
+             <rd\
+f:li rdf:parseTy\
+pe=\x22Resource\x22>\x0a \
+                \
+ <stEvt:action>s\
+aved</stEvt:acti\
+on>\x0a            \
+      <stEvt:ins\
+tanceID>xmp.iid:\
+252f27cf-6140-ba\
+4a-8ebb-338294df\
+60bf</stEvt:inst\
+anceID>\x0a        \
+          <stEvt\
+:when>2020-06-08\
+T23:47:35-07:00<\
+/stEvt:when>\x0a   \
+               <\
+stEvt:softwareAg\
+ent>Adobe Photos\
+hop CC 2017 (Win\
+dows)</stEvt:sof\
+twareAgent>\x0a    \
+              <s\
+tEvt:changed>/</\
+stEvt:changed>\x0a \
+              </\
+rdf:li>\x0a        \
+       <rdf:li r\
+df:parseType=\x22Re\
+source\x22>\x0a       \
+           <stEv\
+t:action>saved</\
+stEvt:action>\x0a  \
+                \
+<stEvt:instanceI\
+D>xmp.iid:a92ce7\
+ba-da13-b449-b51\
+3-ad9d31c7023b</\
+stEvt:instanceID\
 >\x0a              \
-    <stEvt:actio\
-n>saved</stEvt:a\
-ction>\x0a         \
+    <stEvt:when>\
+2020-06-09T18:57\
+:04-07:00</stEvt\
+:when>\x0a         \
          <stEvt:\
-instanceID>xmp.i\
-id:364b63fb-662f\
--ae47-b821-8acf9\
-b160c89</stEvt:i\
-nstanceID>\x0a     \
-             <st\
-Evt:when>2020-06\
--09T18:56:50-07:\
-00</stEvt:when>\x0a\
-                \
-  <stEvt:softwar\
-eAgent>Adobe Pho\
-toshop CC 2017 (\
-Windows)</stEvt:\
-softwareAgent>\x0a \
-                \
- <stEvt:changed>\
-/</stEvt:changed\
->\x0a              \
- </rdf:li>\x0a     \
-       </rdf:Seq\
->\x0a         </xmp\
-MM:History>\x0a    \
-     <tiff:Orien\
-tation>1</tiff:O\
-rientation>\x0a    \
-     <tiff:XReso\
-lution>720000/10\
-000</tiff:XResol\
-ution>\x0a         \
-<tiff:YResolutio\
-n>720000/10000</\
-tiff:YResolution\
->\x0a         <tiff\
-:ResolutionUnit>\
-2</tiff:Resoluti\
-onUnit>\x0a        \
- <exif:ColorSpac\
-e>65535</exif:Co\
-lorSpace>\x0a      \
-   <exif:PixelXD\
+softwareAgent>Ad\
+obe Photoshop CC\
+ 2017 (Windows)<\
+/stEvt:softwareA\
+gent>\x0a          \
+        <stEvt:c\
+hanged>/</stEvt:\
+changed>\x0a       \
+        </rdf:li\
+>\x0a            </\
+rdf:Seq>\x0a       \
+  </xmpMM:Histor\
+y>\x0a         <tif\
+f:Orientation>1<\
+/tiff:Orientatio\
+n>\x0a         <tif\
+f:XResolution>72\
+0000/10000</tiff\
+:XResolution>\x0a  \
+       <tiff:YRe\
+solution>720000/\
+10000</tiff:YRes\
+olution>\x0a       \
+  <tiff:Resoluti\
+onUnit>2</tiff:R\
+esolutionUnit>\x0a \
+        <exif:Co\
+lorSpace>65535</\
+exif:ColorSpace>\
+\x0a         <exif:\
+PixelXDimension>\
+40</exif:PixelXD\
+imension>\x0a      \
+   <exif:PixelYD\
 imension>40</exi\
-f:PixelXDimensio\
-n>\x0a         <exi\
 f:PixelYDimensio\
-n>40</exif:Pixel\
-YDimension>\x0a    \
-  </rdf:Descript\
-ion>\x0a   </rdf:RD\
-F>\x0a</x:xmpmeta>\x0a\
-                \
-                \
-                \
-                \
-                \
-                \
-    \x0a           \
-                \
-                \
-                \
-                \
-                \
-         \x0a      \
-                \
-                \
-                \
-                \
-                \
-              \x0a \
-                \
-                \
-                \
-                \
-                \
-                \
-   \x0a            \
-                \
-                \
-                \
-                \
-                \
-        \x0a       \
-                \
-                \
-                \
-                \
-                \
-             \x0a  \
-                \
-                \
-                \
-                \
-                \
-                \
-  \x0a             \
-                \
-                \
-                \
-                \
-                \
-       \x0a        \
-                \
-                \
-                \
-                \
-                \
-            \x0a   \
-                \
-                \
-                \
-                \
-                \
-                \
- \x0a              \
-                \
-                \
-                \
-                \
-                \
-      \x0a         \
+n>\x0a      </rdf:D\
+escription>\x0a   <\
+/rdf:RDF>\x0a</x:xm\
+pmeta>\x0a         \
                 \
                 \
                 \
@@ -1944,106 +6336,153 @@ F>\x0a</x:xmpmeta>\x0a\
                 \
                 \
   \x0a             \
+                \
+                \
+                \
+                \
+                \
+       \x0a        \
+                \
+                \
+                \
+                \
+                \
+            \x0a   \
+                \
+                \
+                \
+                \
+                \
+                \
+ \x0a              \
+                \
+                \
+                \
+                \
+                \
+      \x0a         \
+                \
+                \
+                \
+                \
+                \
+           \x0a    \
+                \
+                \
+                \
+                \
+                \
+                \
+\x0a               \
+                \
+                \
+                \
+                \
+                \
+     \x0a          \
+                \
+                \
+                \
+                \
+                \
+          \x0a     \
+                \
+                \
+                \
+                \
+                \
                \x0a\
-<?xpacket end=\x22w\
-\x22?>e\x9ff\x02\x00\x00\x00 cHRM\x00\
-\x00z%\x00\x00\x80\x83\x00\x00\xf9\xff\x00\x00\x80\xe9\x00\
-\x00u0\x00\x00\xea`\x00\x00:\x98\x00\x00\x17o\x92\
-_\xc5F\x00\x00\x05\xd1IDATx\xda\xcc\x98k\
-P\x94U\x18\xc7\xff\x0b,\xa2 \x18j\x08\x8ey\x01\
-\xcc\xc4R\x14\xb9-d\xa81b\x01.\xb47YF\
-\xae\xe2\xa5&\xb2\xb41\xcdXI\xc0\xbc/B\x91\x88\
-\x90\xe9\x87\x183\x9d\xbc|\x22\xb1f\x9c(sJ\xa3\
-\xb1\x19M\xb1\x00\x0bE\xf0\x82\x89\xec\xbf\x0f\x9c\x17_\
-\x15\x06\xd8E\xe8\xcc\x9c\xd9w\xff\xef\xbbg\x7f\xef\xf3\
-<\xe79\xcf9 \x09y\xefiS(\x14\xd5vv\
-v\x16\x00\x8d\xe8\xc3\xf6\x18\x8f\xb5\x80\x00j\x01\x10@\
-\xcb#\xba;\x00\xbb\x81\x00\xb4\x7f\xe4{\x8d\x00\xbc-\
-\xd3&\x038\x02\xa0\x18\x80K\x7f\x01*\x00l\x04p\
-\x06\xc0\x94n\x00s\x84v\x1f@p\x7f\x01>#\xdc\
-H\x00\x07\xba\x01\x5c\x0a\xe0w\xd1C\xfa\x0b\xd0\x1b\xc0\
-]\x01\xf3u7\x80\x8e\xe2%r\x85\xe5\xfb\x05p\xbc\
-\xcc\x82\x87dz\x9d\xd0\xee\xca\xb4\x0c\x00\xad\x00n\x00\
-\xf0\x1bh\xc0}B+\x90i{\x84F\x001\x03\x0d\
-h\x14Z\x86L\xcb\x17\x9a\x05@\xe4@\x03V\x0a\xad\
-\xe6\xff\x0ax]h\xad\xffW\xc0\xcd\x22\xdf\xed\x1fh\
-\xc0\x09]\x00*\x1fI\xdc\x00\xb0[6I\xa2\xfb\x0b\
-\xd0GX\x8a\x00\xbe\xe9f\xfc\xd5\x00\xda\x00\xfc\x0b \
-P\xe4\xc2d\x00\xa1O\x12p\x08\x80S\x22\xdf-\xea\
-\xe4\xbe\xa3\xecz\x92X\xee\x96\x8b\x82a\xaap\xf7-\
-\x01,5O1n\x9f\x15\x0b\x0ebP\x00\x18\x03 \
-\x0f\xc0y\x00w\x84\xfb\xef\x00\xb8\x00`\x99(\x18\xa4\
-\x16\x22s\xf9\x05\x91;o\x03\xb8'^\xb8Z\x8c\xd7\
-;@\xb3:\xe8\xb1\x0e\xc0\x15\xc0A1k\xe9>d\
-\x10\xa7\x8f\x1e\xce\x17<\xdd\xe9;\xc2\x95\x8e\xf6v\x12\
-\xc8/\x00\xfcd\xbf\xbb\xa2P(\xa4{ttu\xa1\
-\x9b\xf7\x18:\x8f\xf6\x90\xb4\xeb\xf2x\xb5\x0a\x10\xc0\x1a\
-\x00-J{;F\xf8\x8c\xa2i\x9e?wiT,\
-\xd6\xaaX\xa2\x0fc\xb1V\xc5\xc2\xf8\x10.\x0a\xf0\x91\
-\xfe\xb4QXr$\x80[\x0a\xb4\x03>\x9b\x10\xcd\xb8\
-\x13{\xa9\xad*g\xfc\xc9}\x8c\xf8t=}\xf5\xf3\
-\xa5T\xb5\xd4*@Qjq\xaa\x97;\xb7\xc6\x06r\
-g\x5c0\xcd\xea\xa0N\xfb.m(s\xa2f\xd0c\
-\xe8`\x02\xf8\x0b\xc0a\x00\x84BA\xd5\xc6w\x98\xd1\
-t\x9a\x86\xb3\x87\xa9\xae(\xe3k\xdf\xedg\xf2\x9f\x95\
-L\xff\xe7\x14G\x85L\x93R\x93\xa1W\x80\x00\xcc\x00\
-\xe8\xef5\x9c%\xfa\xb0\xc7\x80\x0a\xe2\x83Y\xa4\x09e\
-\x91&\x94\x05\xf1\xed\xe0%\x860\xbe9\xcb\x8f\xb2\xd8\
-k\x07\xfch%3\x9aNS[\xf5\x05\xd5\x15e\x8c\
-;\xf99\x93.U0\xaer/\x87O\xf1\x95\x9e\xdd\
-\xd0c@\x00\xf3\x01X&{\x0cc\xa9!\xfc!\xb0\
-b\xad\x8aG\xd3_fU\xe6\xab<\xbbr\x01\xcf\xad\
-Z\xc03o\xc7\xb0b\xd9<\x1eL\x99\xcd#\x19\x91\
-\x1c\xec`/\x87\xb4\x00\xe0D\xc3+\x8c=^Lc\
-\xf5Qj\xab\xca\xa9\xda\xb4\x8aC\xc7yI\xcf\xfc\x0c\
-\xc0\xb5\xa7\xb3\xd8\x01\xc0\xc5A\x0e\xf6\xdc\xa5U=\x04\
-w(e\x0e\xcf\xaf\x8ec\xbdI\xdfi\xaf3\xe9Y\
-\xf3\x81\x8e\x86\xe9\x13\xa8Pt\x00\xb6\x8a\xfcH\xa5\xcb\
-\x10z\x86\xcd\xe00\xdf\xb1\xf2\x17\xf8\x01\xc0\xa0\xde\xa4\
-\x995\x00\xb82bJ\x07\xd8\xce\xb8`V.\x8f\xea\
-\x12L\xde\x9bs\x8d<\xb1|>\x13\x03\xbc\xa9\x94\xcd\
-`a\xc9k\x22\xd54\x01\xf8\x16@\xba5y\xb0\xda\
-\xd9\xd1\x81\xbbu\x0f\xacw|qd\x8f\xe0\xeaMz\
-\xd6e\xe9\xd8\x9ccdcn\x02\x7f\x5c\x11\xc3\xb4\xa0\
-\x89T<\x00\xcc\x060C\xccp\xab\x12u\x10\x80\xb6\
-\xf4\xe0\x89\x1dpe\x86p^Z\xab\xe91`\xbdI\
-\xcf\xab&=\x9br\x8cl\xdd\x92\xc4{\x9b\x93Y\xac\
-SIV<e\xebR\x97\xa9\xb4\xb7\xe3\xa6\xe8\x80\x0e\
-\xc0\x9e\xba\xb6\xab\x98l\xc86\xd0\xb2=\x85s'\x8d\
-\x96 \xa3l\x01,ruRr\xc7\x82v\xb8O4\
-!\xfc\xed]\xb5\xd5\x80\x92\xcb[6'\xb1<e\x8e\
-\x04x\xc6\x16\xc0cnN\x8e,\x10\x09\xb9\xcc\x10\xce\
-+\xeb\xb46\x01\xd6\x9b\xf4\xbc\x96m\xe0\xe5u\x1a\xfa\
-\x8et\x93\xd6e\xab\x01\x0f\xb899v\xac\x18{\x13\
-^dm\x96\xcef\xc0\x86l\x03o\xe6%R\xe3?\
-\x81b?c5\xe0zgG\x07n\x8b\x0d\xa4Y\x1d\
-\xc4RC\x18k\xfa\xc0\x82\xd7?\x5c\xc8\x8bk5\xf4\
-\x1b5\x8c\x00Jl\x01\x5c\x02\x80\x1b\xa2\xa6\xd3\xac\x0e\
-ba|\x08\x7f]ek\x0c\xeay3/\x91\xc7\x97\
-DJ1x\xd5\x16@O\x00\xcd\xa1\xe3\x9ef\x91&\
-\x94fu\x10O\xbe\x1e\xc5:\x1b\x00k\xd7\xe9\xc8\x1d\
-\xa9|k\xf6\xf3\x12`\x96\xad\x15u)\x00\xbe\x116\
-\x89_\xa5\xcc\xe1\xb1\xc5\x91\xac\xcd\xd2Y\x15\x8buY\
-:6\xe5&\xb01\xd7\xc8\xb1O\xb9P\x14\xb7\xce\xb6\
-\x02\xba\x03\xf8C\xa1\x00g\x8e\x19\xc9=\xfap^\xc9\
-\xd2\xf1Z\xb6\x81\xb5Y\xbd\xb4`\x96\x9e,\x5c\xcc\x8d\
-\xb1\x81\x92\xf5\x0am\xde\x93\x88j\xc6\x19@\xb9X7\
-\x99\x1f\x1f\xc2{[\x92\xd8\x90\xbd\xb0\xc7p\x7f\xaf7\
-\x90\xf9i<\x946\x97\x83\x95\xf6\x14g6n}\x02\
-(\xab\x09'\x8b\x81\xb9/q\x16\xefoIb\xbdI\
-\xd7\xad[o\xe4\x18\xc9\xad\xc9\xfc>3\x9a\xbe#\x5c\
-)vz\xc1ObW\x07\xb1;\xbb\xef1\xd4\x89W\
-\xb3\x0dl\xdb\x9a\xdc\x1e\xfc\x22.\xebd\x9f7r\x8c\
-\xa49\x8dm\xdbSX\x9a\x10N\x17\xa5\x03E\xa9\xf5\
-\xde\x93>\x02>\x0a\x80\x893}\xd8\x90c$\xb7\xa7\
-\x92\x1fg\x90\xe6trG*Y\x98A\xeeLgs\
-^\x22\xbfL\x9d\xcb\xa4\x07\xfb\x93\xbb\x002\xfb\xe3\x8c\
-\xda\x19\xc09\x00\x9c\xe6\xe5N\x83\xffx\xae\x08\xf5\xe5\
-\xb6\x98\x99\xcc\x8f\x0b\xe6\xfb/=\xc7E\x01\xde\x8c\xf0\
-\xf1\x94\xd7\x7f\x97;9}x\xa2\xa7\xfcv\x00~\x12\
-.\xb3\x00\xf6\x16Q\xe3Y\x00\x85\xec\x1a-\x00>\xeb\
-js\xde\x1b\xc0\xff\x06\x00+:\xcfk\xcbh\x09\x0e\
-\x00\x00\x00\x00IEND\xaeB`\x82\
+                \
+                \
+                \
+                \
+                \
+                \
+    \x0a           \
+                \
+                \
+                \
+                \
+                \
+         \x0a      \
+                \
+      \x0a<?xpacket\
+ end=\x22w\x22?>\xd7`9\xd9\x00\x00\
+\x00 cHRM\x00\x00z%\x00\x00\x80\x83\x00\x00\
+\xf9\xff\x00\x00\x80\xe9\x00\x00u0\x00\x00\xea`\x00\x00\
+:\x98\x00\x00\x17o\x92_\xc5F\x00\x00\x04kID\
+ATx\xda\xcc\x98}hUe\x18\xc0\x7f\xf7\xdeC\
+N\xef\x9dXk:\xac\x5c\x1ftQ\xd0\x95\xd05\xc1\
+\x0dW\xc1(\xdbu\xae\xd4I\xd0XlY2\xfa\xd0\
+\xca,H\x9b\xfd\x91E,\xd1\xb2\xacT\x8a`R\x8b\
+J\xfc\xc3\xad\x99\xa8\xad9\x1a\xc4\xa6\xceEm\xd7V\
+\x14\x8d\xd4Z\xb1b\x96O\x7f\xf8\x9cq<\x9cs\xcf\
+\xb9\xb7\xabw/\x5cv\xf6|\x9d\xdfy\xcf\xfb>\xcf\
+\xf3\x1eD\x84\xf1\xfc\xf3\x1a\xc5\xc0z\xe0q\xe0\x0a.\
+\xf5\x08\x04\x93\xaa\xa7\x02M\xc0I\xe08\xb0r\xbc\x01\
+\xbe\x01\x88\xed\x17\x1b/\x80s\x80?\x15\xeau\xe0\x90\
+^\x7f4^\x00\xd7+\xd0f\xfd\x7f\x060\x08\xfc\x0b\
+\x5c\x9bm\xc0\x89\xc0\x97\x0a8\xd3\x22\x7fKek\xb3\
+\x0d8\x1b8\x07\xf4\x02S,\xf2\x87\x14\xb0-\xdb\x80\
+\x0f(\xc86\x9b\xbc\x008\x0b\x9c\x01&d\x13\xf0M\
+\x05\xacs\xd0u\xab\xae,[\x80!}\xb5#\xc0\xcd\
+\x0e.\xdb\x15\xf0\xe9l\x01\xe6+@\x1f\x10qpy\
+X\xf5\xefe\x0b\xb0L\x01\xf6\xb9\xb8\x14\xa9\xfe\x90G\
+\xe8\x89@\xf8b\x00\xaeV\x80-..\x11`\x14\xf8\
+\x16\xb8\xdc\xc5\xa6\x02\xd8\xaf\x0f\xf1d\xa6\x017+\xe0\
+S..!\xa0Kw\xf3\xad\x0e\xfa\x05\x0e\xe5qU\
+&\x01[5h<\x89\xdb\x0e\xb5Y\xe6\xa0\xebR]\
+\x0f\xd0\xae\xd7?\x009\x99\x02\xec\x07\xfe\x01nL\xe2\
+\xd6\xa07^m\x93\xdf\xa5\xf2\xb3\xdaT\xcc\x06~V\
+\xd9\xd2L\x00F4\x09\xff\x06\xe4&q3\x13\xf9\xab\
+6y\x93\x83\xfc1\x955e\x02p\xa66\x03\x03\x1e\
+n\xf3\xf4\xa6\x1f\x03f\x84+\x81\xefU\x1e\xb5\xd8\xce\
+RY\x7f\x92M\xe5\x1b0\xae\xc1Z<\xdcf\xe8\x83\
+\x1c\x04\x0c\x95\x95\xabo\xb7\xcd6\x08\x1cS]\xc9\xff\
+\x05\x5c\xa5\x81\xde\xf1p\x9b\x06\x9c\x02\x0e[\x16\xbf\xf9\
+*\x9fp\xb0\x7fIu\xd5.\xf1r\x81[t\x0d\x97\
+\x00W\xb9\x01\xae\xd3@/{\x00Ft\x97\x0ej\xc0\
+\x88&vqI=U\xaa\xdb\xee\xa0{\x10\xf8\xc2\x96\
+\x96\x06\x81\x8d@\xd8\x0e\xb8I\x0d\xd6xM<\xd0l\
+)y\x8d\xba\xf3\x7f\xd1\xd9u\xea\xce\x05\xe8\xb0U\x97\
+\xe7L\xa8\xc9\xd7EeV\xed\xa3ruY\x85\x15\xb4\
+\x85@\xf0\x82\xcd\xba;\x85\x94\xb0Em\xff\x02\xfe\xd6\
+\xeb\x0f\x15\xde>\xa6kf8\xad\xb5\x1eMc\xa3\x80\
+\x14\xc6WHeGBjN\x89T\x0f\x8d\xca\xc2\xb7\
+\x9b\xc5\x08\xe7\x9a\x90\x9fX\x03\xb5\xa9p\xbe\x0f\xc0\x17\
+\x1d*\x86[Y\x9b\x00\x1cP\x9b\xb9*{\x16\x90\xfc\
+X\xb1\x94\xb7\xf6\xc8\xf2\xdeaY\xd2\x9e\x90{\xbb\x06\
+\xa5nD$\xf6\xc2V\x81\x80\xe8f\x1c\xdbmG4\
+\x88\x9f3\xc7\x1a\x07\xc0\xc5I\xec_\xb3\xccr\x150\
+\x0cH\xb4\xba^\xca\xf7\x1f\x97%\xed\x03R\xdevL\
+\x16\xb5tK\xd5\x89a\xa9\xec<)9ySE\xed\
+\xc6\x16\xfeQ\x9d\xf6\xc9>\x00\xef\xb1\xc1\x9d\xd1\xb5\xe6\
+6\x9e\xb1T\x99s\xa6_\xb4\xe6\x11\xb9sO\xa7T\
+v$d\xf1\xc1>Y\xb4\xefk\xa9\xea\xfbC*\x8f\
+$$'/\xff\x02\xc0\x02 \x01\x0c\xf9\xac\x9b%\xba\
+1\xc4R{\xa7$\xb1_a}\xa0@\xe0\xfc\xdfi\
+\xf3K\xe5\xf6\xf7[%\xfe\xf9\x09Y\xde\xf3\xab,\xed\
+\x19\x92\xda\x11\x91XC\xa3i;\xf6\x8a\xa3\xba\x90\xbf\
+\xf1y\xde(\xd2\x5ch\x06\xda\xe3a\xbf\xd0\x9c\xb9`\
+0(\xa1Pp\x0c\xb6\xf0\xeeeR\xbak\xafT\x1c\
+\xfeN\xee\xeb?-\xc5\xdbv\x8b1),\xf6s\xf8\
+<\xa5m\xd7\x96\xcak\x5c\xaf\x9fD\xcc@\x1b=\xec\
+\xe7\x02\xbf\x9f\x9f\xbd\x80\x18\x86\xd1\x152\x0c\xb3vK\
+\xa4\xf0\x06)Xp\x87\xe4\x15\xc5\xc4\xf6\xd0a{'\
+\xdd\xec\x92*p8\xe1\xf5Z\x82\xd5\xa5\xf0@#!\
+\xc3X\x192\x8c\xa0\xb6l\xf6D=\x00l\x00.\xb3\
+\x06\xa8L\x92\xed\xdd\xaa\xc9W\xea3\xaae*\xd9\x98\
+\x04t\xaa\xfdO\xc05\xb6X7\x01\xb7i\xc9\x9b\xee\
+\x14\xe0~u~\xc5o\x19\xb7\xe46\xfb\x0d\xdd\xc6^\
+\xb5\xefM\xa7\xf3\xaaW\xe7\x86\x14|>U\x9f\xa3>\
+\xedw\xa9\xfd\x81t\x00\xd7\xa5\xf1\xdd\xc5\x5c\xe4\x9f\xf9\
+\xb47\xbb\x9a\x0f\xd2\x01\xdc\xa0\xce\xf5)\xf8\x98_ \
+\xde\xf5i\xff\xbc\xda\xefH\x07\xb0Q\x9dkS\xf01\
+\x0fO[}\xdaoJ\xb7\xfd\x0f\x00;\x93\x9c\xd4\xdc\
+\xc6Z\xe0G\xa0\xc6\xa7}\xa9\xae\xdb\xb4\x0ePqm\
+m\x0aS\xf0\xc9\xd1\xb6\xc9\xb8\x14_A\xe6h\xbb\x9e\
+\xea\xc1&t\xb1\xc1\xfe\x1b\x00\x13\xeb\x13\xee\xf3\xdc\x94\
+\x02\x00\x00\x00\x00IEND\xaeB`\x82\
 \x00\x00BP\
 \x89\
 PNG\x0d\x0a\x1a\x0a\x00\x00\x00\x0dIHDR\x00\
@@ -3107,6 +7546,1036 @@ $\x89\xc83S5ZR\x84e\xe5|\xff\xd2\xd7i\
 \x86\xe3\xb7\xa4\xb0g\x18\x0f\x9a\xd8C=\xc0\x0cl\xfc\
 \xa3\x1f\x9d\xb0>\x02\xde\xc7\xf8\xff\x00\x8fSI.\xc1\
 \x7f\x1f\xee\x00\x00\x00\x00IEND\xaeB`\x82\
+\x00\x00@8\
+\x89\
+PNG\x0d\x0a\x1a\x0a\x00\x00\x00\x0dIHDR\x00\
+\x00\x00(\x00\x00\x00#\x08\x04\x00\x00\x00L0\x80%\
+\x00\x00\x00\x09pHYs\x00\x00\x0b\x13\x00\x00\x0b\x13\
+\x01\x00\x9a\x9c\x18\x00\x00;\xa6iTXtXML\
+:com.adobe.xmp\x00\x00\
+\x00\x00\x00<?xpacket beg\
+in=\x22\xef\xbb\xbf\x22 id=\x22W5M\
+0MpCehiHzreSzNTc\
+zkc9d\x22?>\x0a<x:xmpm\
+eta xmlns:x=\x22ado\
+be:ns:meta/\x22 x:x\
+mptk=\x22Adobe XMP \
+Core 5.6-c138 79\
+.159824, 2016/09\
+/14-01:09:01    \
+    \x22>\x0a   <rdf:R\
+DF xmlns:rdf=\x22ht\
+tp://www.w3.org/\
+1999/02/22-rdf-s\
+yntax-ns#\x22>\x0a    \
+  <rdf:Descripti\
+on rdf:about=\x22\x22\x0a\
+            xmln\
+s:xmp=\x22http://ns\
+.adobe.com/xap/1\
+.0/\x22\x0a           \
+ xmlns:xmpMM=\x22ht\
+tp://ns.adobe.co\
+m/xap/1.0/mm/\x22\x0a \
+           xmlns\
+:stEvt=\x22http://n\
+s.adobe.com/xap/\
+1.0/sType/Resour\
+ceEvent#\x22\x0a      \
+      xmlns:dc=\x22\
+http://purl.org/\
+dc/elements/1.1/\
+\x22\x0a            xm\
+lns:photoshop=\x22h\
+ttp://ns.adobe.c\
+om/photoshop/1.0\
+/\x22\x0a            x\
+mlns:tiff=\x22http:\
+//ns.adobe.com/t\
+iff/1.0/\x22\x0a      \
+      xmlns:exif\
+=\x22http://ns.adob\
+e.com/exif/1.0/\x22\
+>\x0a         <xmp:\
+CreatorTool>Adob\
+e Photoshop CC 2\
+017 (Windows)</x\
+mp:CreatorTool>\x0a\
+         <xmp:Cr\
+eateDate>2020-08\
+-08T14:31:18-07:\
+00</xmp:CreateDa\
+te>\x0a         <xm\
+p:MetadataDate>2\
+020-08-08T14:37:\
+03-07:00</xmp:Me\
+tadataDate>\x0a    \
+     <xmp:Modify\
+Date>2020-08-08T\
+14:37:03-07:00</\
+xmp:ModifyDate>\x0a\
+         <xmpMM:\
+InstanceID>xmp.i\
+id:539546e0-0145\
+-8a42-8746-c54af\
+28c74c5</xmpMM:I\
+nstanceID>\x0a     \
+    <xmpMM:Docum\
+entID>adobe:doci\
+d:photoshop:70c2\
+de08-d9be-11ea-8\
+70e-be7d6a73bcf6\
+</xmpMM:Document\
+ID>\x0a         <xm\
+pMM:OriginalDocu\
+mentID>xmp.did:0\
+5cd7722-3069-b04\
+8-8b8b-33083ed78\
+d8a</xmpMM:Origi\
+nalDocumentID>\x0a \
+        <xmpMM:H\
+istory>\x0a        \
+    <rdf:Seq>\x0a  \
+             <rd\
+f:li rdf:parseTy\
+pe=\x22Resource\x22>\x0a \
+                \
+ <stEvt:action>c\
+reated</stEvt:ac\
+tion>\x0a          \
+        <stEvt:i\
+nstanceID>xmp.ii\
+d:05cd7722-3069-\
+b048-8b8b-33083e\
+d78d8a</stEvt:in\
+stanceID>\x0a      \
+            <stE\
+vt:when>2020-08-\
+08T14:31:18-07:0\
+0</stEvt:when>\x0a \
+                \
+ <stEvt:software\
+Agent>Adobe Phot\
+oshop CC 2017 (W\
+indows)</stEvt:s\
+oftwareAgent>\x0a  \
+             </r\
+df:li>\x0a         \
+      <rdf:li rd\
+f:parseType=\x22Res\
+ource\x22>\x0a        \
+          <stEvt\
+:action>saved</s\
+tEvt:action>\x0a   \
+               <\
+stEvt:instanceID\
+>xmp.iid:5fd77d5\
+e-edda-0142-927a\
+-445e5578aadf</s\
+tEvt:instanceID>\
+\x0a               \
+   <stEvt:when>2\
+020-08-08T14:31:\
+18-07:00</stEvt:\
+when>\x0a          \
+        <stEvt:s\
+oftwareAgent>Ado\
+be Photoshop CC \
+2017 (Windows)</\
+stEvt:softwareAg\
+ent>\x0a           \
+       <stEvt:ch\
+anged>/</stEvt:c\
+hanged>\x0a        \
+       </rdf:li>\
+\x0a               \
+<rdf:li rdf:pars\
+eType=\x22Resource\x22\
+>\x0a              \
+    <stEvt:actio\
+n>saved</stEvt:a\
+ction>\x0a         \
+         <stEvt:\
+instanceID>xmp.i\
+id:539546e0-0145\
+-8a42-8746-c54af\
+28c74c5</stEvt:i\
+nstanceID>\x0a     \
+             <st\
+Evt:when>2020-08\
+-08T14:37:03-07:\
+00</stEvt:when>\x0a\
+                \
+  <stEvt:softwar\
+eAgent>Adobe Pho\
+toshop CC 2017 (\
+Windows)</stEvt:\
+softwareAgent>\x0a \
+                \
+ <stEvt:changed>\
+/</stEvt:changed\
+>\x0a              \
+ </rdf:li>\x0a     \
+       </rdf:Seq\
+>\x0a         </xmp\
+MM:History>\x0a    \
+     <dc:format>\
+image/png</dc:fo\
+rmat>\x0a         <\
+photoshop:ColorM\
+ode>1</photoshop\
+:ColorMode>\x0a    \
+     <tiff:Orien\
+tation>1</tiff:O\
+rientation>\x0a    \
+     <tiff:XReso\
+lution>720000/10\
+000</tiff:XResol\
+ution>\x0a         \
+<tiff:YResolutio\
+n>720000/10000</\
+tiff:YResolution\
+>\x0a         <tiff\
+:ResolutionUnit>\
+2</tiff:Resoluti\
+onUnit>\x0a        \
+ <exif:ColorSpac\
+e>65535</exif:Co\
+lorSpace>\x0a      \
+   <exif:PixelXD\
+imension>40</exi\
+f:PixelXDimensio\
+n>\x0a         <exi\
+f:PixelYDimensio\
+n>35</exif:Pixel\
+YDimension>\x0a    \
+  </rdf:Descript\
+ion>\x0a   </rdf:RD\
+F>\x0a</x:xmpmeta>\x0a\
+                \
+                \
+                \
+                \
+                \
+                \
+    \x0a           \
+                \
+                \
+                \
+                \
+                \
+         \x0a      \
+                \
+                \
+                \
+                \
+                \
+              \x0a \
+                \
+                \
+                \
+                \
+                \
+                \
+   \x0a            \
+                \
+                \
+                \
+                \
+                \
+        \x0a       \
+                \
+                \
+                \
+                \
+                \
+             \x0a  \
+                \
+                \
+                \
+                \
+                \
+                \
+  \x0a             \
+                \
+                \
+                \
+                \
+                \
+       \x0a        \
+                \
+                \
+                \
+                \
+                \
+            \x0a   \
+                \
+                \
+                \
+                \
+                \
+                \
+ \x0a              \
+                \
+                \
+                \
+                \
+                \
+      \x0a         \
+                \
+                \
+                \
+                \
+                \
+           \x0a    \
+                \
+                \
+                \
+                \
+                \
+                \
+\x0a               \
+                \
+                \
+                \
+                \
+                \
+     \x0a          \
+                \
+                \
+                \
+                \
+                \
+          \x0a     \
+                \
+                \
+                \
+                \
+                \
+               \x0a\
+                \
+                \
+                \
+                \
+                \
+                \
+    \x0a           \
+                \
+                \
+                \
+                \
+                \
+         \x0a      \
+                \
+                \
+                \
+                \
+                \
+              \x0a \
+                \
+                \
+                \
+                \
+                \
+                \
+   \x0a            \
+                \
+                \
+                \
+                \
+                \
+        \x0a       \
+                \
+                \
+                \
+                \
+                \
+             \x0a  \
+                \
+                \
+                \
+                \
+                \
+                \
+  \x0a             \
+                \
+                \
+                \
+                \
+                \
+       \x0a        \
+                \
+                \
+                \
+                \
+                \
+            \x0a   \
+                \
+                \
+                \
+                \
+                \
+                \
+ \x0a              \
+                \
+                \
+                \
+                \
+                \
+      \x0a         \
+                \
+                \
+                \
+                \
+                \
+           \x0a    \
+                \
+                \
+                \
+                \
+                \
+                \
+\x0a               \
+                \
+                \
+                \
+                \
+                \
+     \x0a          \
+                \
+                \
+                \
+                \
+                \
+          \x0a     \
+                \
+                \
+                \
+                \
+                \
+               \x0a\
+                \
+                \
+                \
+                \
+                \
+                \
+    \x0a           \
+                \
+                \
+                \
+                \
+                \
+         \x0a      \
+                \
+                \
+                \
+                \
+                \
+              \x0a \
+                \
+                \
+                \
+                \
+                \
+                \
+   \x0a            \
+                \
+                \
+                \
+                \
+                \
+        \x0a       \
+                \
+                \
+                \
+                \
+                \
+             \x0a  \
+                \
+                \
+                \
+                \
+                \
+                \
+  \x0a             \
+                \
+                \
+                \
+                \
+                \
+       \x0a        \
+                \
+                \
+                \
+                \
+                \
+            \x0a   \
+                \
+                \
+                \
+                \
+                \
+                \
+ \x0a              \
+                \
+                \
+                \
+                \
+                \
+      \x0a         \
+                \
+                \
+                \
+                \
+                \
+           \x0a    \
+                \
+                \
+                \
+                \
+                \
+                \
+\x0a               \
+                \
+                \
+                \
+                \
+                \
+     \x0a          \
+                \
+                \
+                \
+                \
+                \
+          \x0a     \
+                \
+                \
+                \
+                \
+                \
+               \x0a\
+                \
+                \
+                \
+                \
+                \
+                \
+    \x0a           \
+                \
+                \
+                \
+                \
+                \
+         \x0a      \
+                \
+                \
+                \
+                \
+                \
+              \x0a \
+                \
+                \
+                \
+                \
+                \
+                \
+   \x0a            \
+                \
+                \
+                \
+                \
+                \
+        \x0a       \
+                \
+                \
+                \
+                \
+                \
+             \x0a  \
+                \
+                \
+                \
+                \
+                \
+                \
+  \x0a             \
+                \
+                \
+                \
+                \
+                \
+       \x0a        \
+                \
+                \
+                \
+                \
+                \
+            \x0a   \
+                \
+                \
+                \
+                \
+                \
+                \
+ \x0a              \
+                \
+                \
+                \
+                \
+                \
+      \x0a         \
+                \
+                \
+                \
+                \
+                \
+           \x0a    \
+                \
+                \
+                \
+                \
+                \
+                \
+\x0a               \
+                \
+                \
+                \
+                \
+                \
+     \x0a          \
+                \
+                \
+                \
+                \
+                \
+          \x0a     \
+                \
+                \
+                \
+                \
+                \
+               \x0a\
+                \
+                \
+                \
+                \
+                \
+                \
+    \x0a           \
+                \
+                \
+                \
+                \
+                \
+         \x0a      \
+                \
+                \
+                \
+                \
+                \
+              \x0a \
+                \
+                \
+                \
+                \
+                \
+                \
+   \x0a            \
+                \
+                \
+                \
+                \
+                \
+        \x0a       \
+                \
+                \
+                \
+                \
+                \
+             \x0a  \
+                \
+                \
+                \
+                \
+                \
+                \
+  \x0a             \
+                \
+                \
+                \
+                \
+                \
+       \x0a        \
+                \
+                \
+                \
+                \
+                \
+            \x0a   \
+                \
+                \
+                \
+                \
+                \
+                \
+ \x0a              \
+                \
+                \
+                \
+                \
+                \
+      \x0a         \
+                \
+                \
+                \
+                \
+                \
+           \x0a    \
+                \
+                \
+                \
+                \
+                \
+                \
+\x0a               \
+                \
+                \
+                \
+                \
+                \
+     \x0a          \
+                \
+                \
+                \
+                \
+                \
+          \x0a     \
+                \
+                \
+                \
+                \
+                \
+               \x0a\
+                \
+                \
+                \
+                \
+                \
+                \
+    \x0a           \
+                \
+                \
+                \
+                \
+                \
+         \x0a      \
+                \
+                \
+                \
+                \
+                \
+              \x0a \
+                \
+                \
+                \
+                \
+                \
+                \
+   \x0a            \
+                \
+                \
+                \
+                \
+                \
+        \x0a       \
+                \
+                \
+                \
+                \
+                \
+             \x0a  \
+                \
+                \
+                \
+                \
+                \
+                \
+  \x0a             \
+                \
+                \
+                \
+                \
+                \
+       \x0a        \
+                \
+                \
+                \
+                \
+                \
+            \x0a   \
+                \
+                \
+                \
+                \
+                \
+                \
+ \x0a              \
+                \
+                \
+                \
+                \
+                \
+      \x0a         \
+                \
+                \
+                \
+                \
+                \
+           \x0a    \
+                \
+                \
+                \
+                \
+                \
+                \
+\x0a               \
+                \
+                \
+                \
+                \
+                \
+     \x0a          \
+                \
+                \
+                \
+                \
+                \
+          \x0a     \
+                \
+                \
+                \
+                \
+                \
+               \x0a\
+                \
+                \
+                \
+                \
+                \
+                \
+    \x0a           \
+                \
+                \
+                \
+                \
+                \
+         \x0a      \
+                \
+                \
+                \
+                \
+                \
+              \x0a \
+                \
+                \
+                \
+                \
+                \
+                \
+   \x0a            \
+                \
+                \
+                \
+                \
+                \
+        \x0a       \
+                \
+                \
+                \
+                \
+                \
+             \x0a  \
+                \
+                \
+                \
+                \
+                \
+                \
+  \x0a             \
+                \
+                \
+                \
+                \
+                \
+       \x0a        \
+                \
+                \
+                \
+                \
+                \
+            \x0a   \
+                \
+                \
+                \
+                \
+                \
+                \
+ \x0a              \
+                \
+                \
+                \
+                \
+                \
+      \x0a         \
+                \
+                \
+                \
+                \
+                \
+           \x0a    \
+                \
+                \
+                \
+                \
+                \
+                \
+\x0a               \
+                \
+                \
+                \
+                \
+                \
+     \x0a          \
+                \
+                \
+                \
+                \
+                \
+          \x0a     \
+                \
+                \
+                \
+                \
+                \
+               \x0a\
+                \
+                \
+                \
+                \
+                \
+                \
+    \x0a           \
+                \
+                \
+                \
+                \
+                \
+         \x0a      \
+                \
+                \
+                \
+                \
+                \
+              \x0a \
+                \
+                \
+                \
+                \
+                \
+                \
+   \x0a            \
+                \
+                \
+                \
+                \
+                \
+        \x0a       \
+                \
+                \
+                \
+                \
+                \
+             \x0a  \
+                \
+                \
+                \
+                \
+                \
+                \
+  \x0a             \
+               \x0a\
+<?xpacket end=\x22w\
+\x22?>\xb2\xb2\x18\xb9\x00\x00\x00 cHRM\x00\
+\x00z%\x00\x00\x80\x83\x00\x00\xf9\xff\x00\x00\x80\xe9\x00\
+\x00u0\x00\x00\xea`\x00\x00:\x98\x00\x00\x17o\x92\
+_\xc5F\x00\x00\x04\x0cIDATx\xda\xe4\x96[\
+\x88UU\x18\xc7\x7f{\xed\xeb\x993s\x8e\x1e\xcf\x1c\
+\x9d\x06\xa7\x8b\xa5\xa1)j\x0eIRZ\x0f\x16\x03>\
+D\x129\x8a\x10\xd6\xc3T2R\x04\x82Z\x90\x82\x10\
+Ee\x93D\x84/6YDB\xa1\x18\x88\xa0\x22\x94\
+\xd7HJF(\xd1\x9cirF\xe7v\xe6\x5c\xf6m\
+\xad\x1e\xceq\x9c\xd9g\x1cKz\x10\xda\xebm\xb3\xf6\
+o\xff\xff\xdf\xff\xfb\xd6\xde\x9a\xe2\xbf\xbd\x04w:\xd0\
+\x80\xd6[n1\xa9\xa9\xcb\xd7\xf7\x9e\xb2\xd0\xd0\xd0&\
+\xd8\xfb!\xc6\xad\xdf\x19\xa2\x93\xf86\xf9\x90\xaa\x0ds\
+\x10\x12\x22o\xd7\xb2B\xe1#\x99\xba\xdbn4cw\
+\x9fH\xd91\xec\x09\x15N\x08\xd4\xd0\xd11\xa8oO\
+\xae\xf1\xf0\x91\xb3\xe3?+=\xb8u(\xda8\x0b\x04\
+\x0e\xd5\xa4\xb8\x7f\xe7\xe4\xe6b\xd9\xba9+}Rs\
+\x82\xdbU(\x91T\xef\xb4[\xfc\x91;>\xf6\x82\xfa\
+\x13\x82\x22!\x12\xf5o\x80\x1a\x92\x80I\xefW\xb5\xf8\
+c\x1e\xf4p\xe66\xfc\x90 \x86\x831n5Ee\
+\x10\x92\x00\x17\x8f\xcc{\x936T\xdas\x89/\x9eq\
+4E\x9c\xd8\xb8j\xc4X\x18\xe8\xd8T\x93\xa0\xe1\xed\
+\xd4k\xde\xb8\xb6|\xd4cU\x87B\x82\x9bYV#\
+\x0b\x14\x06\x0eq\xa6o\xae\xdd\xe2\xa1n\xda\x99\xce\x93\
+S\xbe\x97\x84\xff\xc4\xb2\xc4\xc3~\xc3\xdc\xeaN\x98\xa5\
+O\xd5Su\xfb%\x1eaY\xcaM\x81>\xc9\xd7\x93\
+\xef\x84\x11u&fd\x9fGMS\xc3\xde\x186&\
+\xfa\xa8x\xc4\x8d\xfa\x85\xf8\x14\x99\xf2J\xed\xbb\xd1\xe1\
+\xb2\x19\xf8\xf2\xda[f$U\x97\xe433\xdaST\
+\x97\xe3)\xf5\xafq\x9dk`\xa0\x11\x7f9\xdd\xe6G\
+p\x16\xb9\xd3]\xabb\xd4\xa4\xecV/\xa2\xd2h\x8e\
+\x8b\xc2\xaa\xb0\xd2\xb2\x86\x85Ef\xf5\xd4\x8f\xa3\xea\x0c\
+\xdc\x9f\xfe\x5c4\x19'\xdd\xbd!\xff\x89\x151\x1e\x10\
+{~\xf2g!rD\xbd\xb8a\xc0~\xce\xf9\xdc\xab\
+\xc0\xd1qe\xa1\xa4\xf6\xf0\xd4\xdf\x0b\xe6\xaf-\xfd_\
+8\x15\xc8\x9au\x99\x9d\x01\x1e\x12y\x1d\xa8p\xa9Y\
+\x99\xfeJFp&\xb2\xe3\xaf9Cdv\x99K\x8d\
+\xc4\xbd\xbf\xc4\xb8\xb4z`\xb7\x15\x19\x04\x9fTK\xfd\
+G\x16\x16f\x09\x18\xe21iE\xdd\xd7aE\xed\xbc\
+\xces\x0b\xbb\xe4]\x9f\xa6^\xf0\xf1\xb0g>x6\
+C\xef\xda\xdc7f\x04Yd\xca\xab3\xb6%\xa9.\
+\x01\xd34<=\xfd\xbb0\xd2\xa6&^w\xe7\x1cQ\
+\xb8oG\xfa%\xb7\xdcP\xfa\xdc\xcci\x8b\xab+\xe5\
+^\xab\xa2\xd9\xacMU\xdb\xca\x96\x13M\xe9\x03*2\
+H:\xb2\xe7\xca\x1c54\xf3\x83\xf4\xfa\x22\x0a\x1d\xbd\
+\x84\x5cX{*\xe0\xe2\xb3\xc3\x07\xa2\xc6\x03\x12\x9b\xe2\
+\xcd  \xf7c\xff\x9b\x02}L\x14z_\xdf\xfc\x5c\
+\x7f\xedV\xb3\xd5\x03t\xbc\x93A\xbb\x05\xf88\x0f\xd7\
+\x1d\x1b\xa0\xa3)w\xc4\x8a8\x1a:\x90=T\x0a\xa5\
+opk\xefzc$p\x93 \xdf1\xaf\xb3;\xbd\
+=\xb99@\xa1\xa3z\xfa\x97t\xad\xc9\xed\xb3\x01\x8f\
+\xf8\x92Y\xc7,\xfeX\x96?j\x8e\xaawv\xcf\xe5\
+\xa6\xf0\x0a\x08\x10X\x5ck\xeb^\xaf#\x00\x83\xd0\xed\
+l\xccuM\xdb\x98\xd9\x18 \xd1\x11W\x87\x17)?\
+\xcbo+\xb2\x07-\xc0\xa5z\xc9\xec\xfd\x09z\x96\xba\
+\xc7\xf5r\x81\x82=C\xcd\xeaz\xca\xa5\xaf\xc7`[\
+~\x9d\x86\x81\x0c\xba\xe7\xdb\xe7\xe6\xb5M\xdb\xee\x12b\
+!\x0b\x17\x16t_\x1e\xc6B\xe3\xf2\xf2\xfc\x11\x0b\xf0\
+\xd0\x9b\xd2gM1\xb8X\x9c\xb00\xc9\xef\xce6\xeb\
+\x08\xd4\x8d>\xd40qw\x0d\xb7\xca\x9e\xa1G\x82\x8e\
+\x1c\xc3\x8e\x86\xc2 \xccv.\x18\xea\x0c\x09P\x18@\
+\xef\xb2\xe2a\x1d\x90`\xc7\x12.\x17\x1e-\x5c\xcc\x1d\
+\xec[+*'\x05Lr;\xfa\xefQg\x04y\xb2\
+/z[L\xa0\xa7\xb1x\xdeA \xcag\xa5 \xf7\
+\x848\xe3P<<8K\x0c\xf8\xf4\x85\x97\x1e\xe8]\
+n\x8c\xc2\x18c\xbf$\xaaP:1\x0c\x0a\xdb\x5c#\
+<\xee\x9f7\xf1F\x1d\xac\x1e!\xc5\xc7\xab\xb6\xe47\
+\xda\x80\xc0F\x05j\xcc\x19\xa8\xfd\xff\xfe\xbe\xee|\xe0\
+\xdf\x03\x00\x80\x8b\x96\x01\x9f\xa4K\xbd\x00\x00\x00\x00I\
+END\xaeB`\x82\
 \x00\x00Yk\
 \x89\
 PNG\x0d\x0a\x1a\x0a\x00\x00\x00\x0dIHDR\x00\
@@ -5641,6 +11110,971 @@ I)\x91\x98\xa91B\x8c\xd9?\x09\xa4\x9e\xe5\x90R\
 \xc0f)\xe5>+GN\xa7\x9dJFT\xf3\xad\x15\
 Gl\xea\xcc\x1c\xd3\x98\xfe;\x00\xc6]\x09*\xe5\x19\
 \xcf!\x00\x00\x00\x00IEND\xaeB`\x82\
+\x00\x00<\x22\
+\x89\
+PNG\x0d\x0a\x1a\x0a\x00\x00\x00\x0dIHDR\x00\
+\x00\x00(\x00\x00\x00#\x08\x04\x00\x00\x00L0\x80%\
+\x00\x00\x00\x09pHYs\x00\x00\x0b\x13\x00\x00\x0b\x13\
+\x01\x00\x9a\x9c\x18\x00\x009\xeciTXtXML\
+:com.adobe.xmp\x00\x00\
+\x00\x00\x00<?xpacket beg\
+in=\x22\xef\xbb\xbf\x22 id=\x22W5M\
+0MpCehiHzreSzNTc\
+zkc9d\x22?>\x0a<x:xmpm\
+eta xmlns:x=\x22ado\
+be:ns:meta/\x22 x:x\
+mptk=\x22Adobe XMP \
+Core 5.6-c138 79\
+.159824, 2016/09\
+/14-01:09:01    \
+    \x22>\x0a   <rdf:R\
+DF xmlns:rdf=\x22ht\
+tp://www.w3.org/\
+1999/02/22-rdf-s\
+yntax-ns#\x22>\x0a    \
+  <rdf:Descripti\
+on rdf:about=\x22\x22\x0a\
+            xmln\
+s:xmp=\x22http://ns\
+.adobe.com/xap/1\
+.0/\x22\x0a           \
+ xmlns:xmpMM=\x22ht\
+tp://ns.adobe.co\
+m/xap/1.0/mm/\x22\x0a \
+           xmlns\
+:stEvt=\x22http://n\
+s.adobe.com/xap/\
+1.0/sType/Resour\
+ceEvent#\x22\x0a      \
+      xmlns:dc=\x22\
+http://purl.org/\
+dc/elements/1.1/\
+\x22\x0a            xm\
+lns:photoshop=\x22h\
+ttp://ns.adobe.c\
+om/photoshop/1.0\
+/\x22\x0a            x\
+mlns:tiff=\x22http:\
+//ns.adobe.com/t\
+iff/1.0/\x22\x0a      \
+      xmlns:exif\
+=\x22http://ns.adob\
+e.com/exif/1.0/\x22\
+>\x0a         <xmp:\
+CreatorTool>Adob\
+e Photoshop CC 2\
+017 (Windows)</x\
+mp:CreatorTool>\x0a\
+         <xmp:Cr\
+eateDate>2020-08\
+-08T14:32:11-07:\
+00</xmp:CreateDa\
+te>\x0a         <xm\
+p:MetadataDate>2\
+020-08-08T14:32:\
+11-07:00</xmp:Me\
+tadataDate>\x0a    \
+     <xmp:Modify\
+Date>2020-08-08T\
+14:32:11-07:00</\
+xmp:ModifyDate>\x0a\
+         <xmpMM:\
+InstanceID>xmp.i\
+id:c34816e6-d6a3\
+-184c-ba4b-8abba\
+4a8c9fd</xmpMM:I\
+nstanceID>\x0a     \
+    <xmpMM:Docum\
+entID>adobe:doci\
+d:photoshop:982a\
+e1cb-d9be-11ea-8\
+70e-be7d6a73bcf6\
+</xmpMM:Document\
+ID>\x0a         <xm\
+pMM:OriginalDocu\
+mentID>xmp.did:9\
+8a93b7d-2c95-344\
+8-9d57-dffd2ac78\
+6b5</xmpMM:Origi\
+nalDocumentID>\x0a \
+        <xmpMM:H\
+istory>\x0a        \
+    <rdf:Seq>\x0a  \
+             <rd\
+f:li rdf:parseTy\
+pe=\x22Resource\x22>\x0a \
+                \
+ <stEvt:action>c\
+reated</stEvt:ac\
+tion>\x0a          \
+        <stEvt:i\
+nstanceID>xmp.ii\
+d:98a93b7d-2c95-\
+3448-9d57-dffd2a\
+c786b5</stEvt:in\
+stanceID>\x0a      \
+            <stE\
+vt:when>2020-08-\
+08T14:32:11-07:0\
+0</stEvt:when>\x0a \
+                \
+ <stEvt:software\
+Agent>Adobe Phot\
+oshop CC 2017 (W\
+indows)</stEvt:s\
+oftwareAgent>\x0a  \
+             </r\
+df:li>\x0a         \
+      <rdf:li rd\
+f:parseType=\x22Res\
+ource\x22>\x0a        \
+          <stEvt\
+:action>saved</s\
+tEvt:action>\x0a   \
+               <\
+stEvt:instanceID\
+>xmp.iid:c34816e\
+6-d6a3-184c-ba4b\
+-8abba4a8c9fd</s\
+tEvt:instanceID>\
+\x0a               \
+   <stEvt:when>2\
+020-08-08T14:32:\
+11-07:00</stEvt:\
+when>\x0a          \
+        <stEvt:s\
+oftwareAgent>Ado\
+be Photoshop CC \
+2017 (Windows)</\
+stEvt:softwareAg\
+ent>\x0a           \
+       <stEvt:ch\
+anged>/</stEvt:c\
+hanged>\x0a        \
+       </rdf:li>\
+\x0a            </r\
+df:Seq>\x0a        \
+ </xmpMM:History\
+>\x0a         <dc:f\
+ormat>image/png<\
+/dc:format>\x0a    \
+     <photoshop:\
+ColorMode>1</pho\
+toshop:ColorMode\
+>\x0a         <tiff\
+:Orientation>1</\
+tiff:Orientation\
+>\x0a         <tiff\
+:XResolution>720\
+000/10000</tiff:\
+XResolution>\x0a   \
+      <tiff:YRes\
+olution>720000/1\
+0000</tiff:YReso\
+lution>\x0a        \
+ <tiff:Resolutio\
+nUnit>2</tiff:Re\
+solutionUnit>\x0a  \
+       <exif:Col\
+orSpace>65535</e\
+xif:ColorSpace>\x0a\
+         <exif:P\
+ixelXDimension>4\
+0</exif:PixelXDi\
+mension>\x0a       \
+  <exif:PixelYDi\
+mension>35</exif\
+:PixelYDimension\
+>\x0a      </rdf:De\
+scription>\x0a   </\
+rdf:RDF>\x0a</x:xmp\
+meta>\x0a          \
+                \
+                \
+                \
+                \
+                \
+          \x0a     \
+                \
+                \
+                \
+                \
+                \
+               \x0a\
+                \
+                \
+                \
+                \
+                \
+                \
+    \x0a           \
+                \
+                \
+                \
+                \
+                \
+         \x0a      \
+                \
+                \
+                \
+                \
+                \
+              \x0a \
+                \
+                \
+                \
+                \
+                \
+                \
+   \x0a            \
+                \
+                \
+                \
+                \
+                \
+        \x0a       \
+                \
+                \
+                \
+                \
+                \
+             \x0a  \
+                \
+                \
+                \
+                \
+                \
+                \
+  \x0a             \
+                \
+                \
+                \
+                \
+                \
+       \x0a        \
+                \
+                \
+                \
+                \
+                \
+            \x0a   \
+                \
+                \
+                \
+                \
+                \
+                \
+ \x0a              \
+                \
+                \
+                \
+                \
+                \
+      \x0a         \
+                \
+                \
+                \
+                \
+                \
+           \x0a    \
+                \
+                \
+                \
+                \
+                \
+                \
+\x0a               \
+                \
+                \
+                \
+                \
+                \
+     \x0a          \
+                \
+                \
+                \
+                \
+                \
+          \x0a     \
+                \
+                \
+                \
+                \
+                \
+               \x0a\
+                \
+                \
+                \
+                \
+                \
+                \
+    \x0a           \
+                \
+                \
+                \
+                \
+                \
+         \x0a      \
+                \
+                \
+                \
+                \
+                \
+              \x0a \
+                \
+                \
+                \
+                \
+                \
+                \
+   \x0a            \
+                \
+                \
+                \
+                \
+                \
+        \x0a       \
+                \
+                \
+                \
+                \
+                \
+             \x0a  \
+                \
+                \
+                \
+                \
+                \
+                \
+  \x0a             \
+                \
+                \
+                \
+                \
+                \
+       \x0a        \
+                \
+                \
+                \
+                \
+                \
+            \x0a   \
+                \
+                \
+                \
+                \
+                \
+                \
+ \x0a              \
+                \
+                \
+                \
+                \
+                \
+      \x0a         \
+                \
+                \
+                \
+                \
+                \
+           \x0a    \
+                \
+                \
+                \
+                \
+                \
+                \
+\x0a               \
+                \
+                \
+                \
+                \
+                \
+     \x0a          \
+                \
+                \
+                \
+                \
+                \
+          \x0a     \
+                \
+                \
+                \
+                \
+                \
+               \x0a\
+                \
+                \
+                \
+                \
+                \
+                \
+    \x0a           \
+                \
+                \
+                \
+                \
+                \
+         \x0a      \
+                \
+                \
+                \
+                \
+                \
+              \x0a \
+                \
+                \
+                \
+                \
+                \
+                \
+   \x0a            \
+                \
+                \
+                \
+                \
+                \
+        \x0a       \
+                \
+                \
+                \
+                \
+                \
+             \x0a  \
+                \
+                \
+                \
+                \
+                \
+                \
+  \x0a             \
+                \
+                \
+                \
+                \
+                \
+       \x0a        \
+                \
+                \
+                \
+                \
+                \
+            \x0a   \
+                \
+                \
+                \
+                \
+                \
+                \
+ \x0a              \
+                \
+                \
+                \
+                \
+                \
+      \x0a         \
+                \
+                \
+                \
+                \
+                \
+           \x0a    \
+                \
+                \
+                \
+                \
+                \
+                \
+\x0a               \
+                \
+                \
+                \
+                \
+                \
+     \x0a          \
+                \
+                \
+                \
+                \
+                \
+          \x0a     \
+                \
+                \
+                \
+                \
+                \
+               \x0a\
+                \
+                \
+                \
+                \
+                \
+                \
+    \x0a           \
+                \
+                \
+                \
+                \
+                \
+         \x0a      \
+                \
+                \
+                \
+                \
+                \
+              \x0a \
+                \
+                \
+                \
+                \
+                \
+                \
+   \x0a            \
+                \
+                \
+                \
+                \
+                \
+        \x0a       \
+                \
+                \
+                \
+                \
+                \
+             \x0a  \
+                \
+                \
+                \
+                \
+                \
+                \
+  \x0a             \
+                \
+                \
+                \
+                \
+                \
+       \x0a        \
+                \
+                \
+                \
+                \
+                \
+            \x0a   \
+                \
+                \
+                \
+                \
+                \
+                \
+ \x0a              \
+                \
+                \
+                \
+                \
+                \
+      \x0a         \
+                \
+                \
+                \
+                \
+                \
+           \x0a    \
+                \
+                \
+                \
+                \
+                \
+                \
+\x0a               \
+                \
+                \
+                \
+                \
+                \
+     \x0a          \
+                \
+                \
+                \
+                \
+                \
+          \x0a     \
+                \
+                \
+                \
+                \
+                \
+               \x0a\
+                \
+                \
+                \
+                \
+                \
+                \
+    \x0a           \
+                \
+                \
+                \
+                \
+                \
+         \x0a      \
+                \
+                \
+                \
+                \
+                \
+              \x0a \
+                \
+                \
+                \
+                \
+                \
+                \
+   \x0a            \
+                \
+                \
+                \
+                \
+                \
+        \x0a       \
+                \
+                \
+                \
+                \
+                \
+             \x0a  \
+                \
+                \
+                \
+                \
+                \
+                \
+  \x0a             \
+                \
+                \
+                \
+                \
+                \
+       \x0a        \
+                \
+                \
+                \
+                \
+                \
+            \x0a   \
+                \
+                \
+                \
+                \
+                \
+                \
+ \x0a              \
+                \
+                \
+                \
+                \
+                \
+      \x0a         \
+                \
+                \
+                \
+                \
+                \
+           \x0a    \
+                \
+                \
+                \
+                \
+                \
+                \
+\x0a               \
+                \
+                \
+                \
+                \
+                \
+     \x0a          \
+                \
+                \
+                \
+                \
+                \
+          \x0a     \
+                \
+                \
+                \
+                \
+                \
+               \x0a\
+                \
+                \
+                \
+                \
+                \
+                \
+    \x0a           \
+                \
+                \
+                \
+                \
+                \
+         \x0a      \
+                \
+                \
+                \
+                \
+                \
+              \x0a \
+                \
+                \
+                \
+                \
+                \
+                \
+   \x0a            \
+                \
+                \
+                \
+                \
+                \
+        \x0a       \
+                \
+                \
+                \
+                \
+                \
+             \x0a  \
+                \
+                \
+                \
+                \
+                \
+                \
+  \x0a             \
+                \
+                \
+                \
+                \
+                \
+       \x0a        \
+                \
+                \
+                \
+                \
+                \
+            \x0a   \
+                \
+                \
+                \
+                \
+                \
+                \
+ \x0a              \
+                \
+                \
+                \
+                \
+                \
+      \x0a         \
+                \
+                \
+                \
+                \
+                \
+           \x0a    \
+                \
+                \
+                \
+                \
+                \
+                \
+\x0a               \
+                \
+                \
+                \
+                \
+                \
+     \x0a          \
+                \
+                \
+                \
+                \
+                \
+          \x0a     \
+                \
+                \
+                \
+                \
+                \
+               \x0a\
+                \
+                \
+                \
+                \
+                \
+                \
+    \x0a           \
+                \
+                \
+                \
+                \
+                \
+         \x0a      \
+                \
+                \
+                \
+                \
+                \
+              \x0a \
+                \
+                \
+                \
+                \
+                \
+                \
+   \x0a            \
+                \
+                \
+                \
+                \
+                \
+        \x0a       \
+                \
+                \
+                \
+                \
+                \
+             \x0a  \
+                \
+                \
+                \
+                \
+                \
+                \
+  \x0a             \
+                \
+                \
+                \
+                \
+                \
+       \x0a        \
+                \
+                \
+                \
+                \
+                \
+            \x0a   \
+                \
+                \
+                \
+                \
+                \
+                \
+ \x0a              \
+                \
+                \
+                \
+                \
+                \
+      \x0a         \
+                \
+                \
+                \
+                \
+                \
+           \x0a    \
+                \
+                \
+                \
+                \
+                \
+                \
+\x0a               \
+                \
+                \
+                \
+                \
+                \
+     \x0a          \
+                \
+                \
+                \
+                \
+                \
+          \x0a     \
+                \
+                \
+                \
+                \
+                \
+               \x0a\
+                \
+                \
+                \
+                \
+                \
+                \
+    \x0a           \
+                \
+                \
+                \
+                \
+                \
+         \x0a      \
+                \
+                \
+                \
+                \
+                \
+              \x0a \
+                \
+                \
+                \
+                \
+                \
+                \
+   \x0a            \
+                \
+                \
+                \
+                \
+                \
+        \x0a       \
+                \
+     \x0a<?xpacket \
+end=\x22w\x22?>r\x12\xf6\xe8\x00\x00\x00\
+ cHRM\x00\x00z%\x00\x00\x80\x83\x00\x00\xf9\
+\xff\x00\x00\x80\xe9\x00\x00u0\x00\x00\xea`\x00\x00:\
+\x98\x00\x00\x17o\x92_\xc5F\x00\x00\x01\xb0IDA\
+Tx\xda\xe4\xd6\xcd+\x04q\x18\xc0\xf1\xafEhK\
+Hi\xc3y\xe5(\x7f\x04\xcaM\x0e\xdc\x1c\x91\x8b\x94\
+\x03\x12\x8a\x8b\x08Q\x92\x03\x96\x0b.\xb2I\xc9K\xca\
+Kv\x0fJ89(%9P\xa4\x1c\x1e\x87\x9d\xc6\
+\xcc\xcf3k\xd8=(;\x97\xfd\xfd\x9e\xe7\xf9\xec\xcb\
+3\xcf\xccd\x08\xe9}\x05\xf8\xeb >\x7fr\x88j\
+\x9f\x9aO\xf0\x94W\x82\xe9\x03\x17\x11\x84\x0br\xd2\x03\
+F\x10\xeb\xb8\x223up\xda\xe6\x04!Nnj\xa0\
+\x9b\x13\x84\xf3T\xc0\xb1/\x9c \x1c\xfd\x16\x1cU9\
+A8\xf8\x0d8\xe0\xc9\x09\xc2\xceO\xc1\x9e\xa4\x9c \
+l\xfd\x04\xec\xfa\x96\x13\x84M\xbf`\xa7/N\x10\xd6\
+\xfd\x80mj\xe9\x0a}\xea~\xe4;\xb0U-;\x03\
+`\xdc\xe3\xa3\x92\x80\xcdjI\x1c\x80b`F\x8d\xcf\
+y\x81\x8dj\xfa%\x00{<\x91\xed\x9ak\xe71\xad\
+\x81\x0d\x1e\x5c\x00\x98G\x10\xae\x01XP\xf3&M\xb0\
+^M\xbb%\x0f\x985\xe6xU\xcd\x1dr\x825j\
+\xca\x1d\xf9\xc0\x84k/\x06\xc0\x9a\x17\x99\x00\xeb\xd4\xf0\
+=\x85jg\x13\x1d\x8f\xaa5M\x09\xb0\x88\xde/\xa1\
+GB\xc0\xa0\xbd>e\xc9~\x7fh\xb5\xc9\xac\x89R\
+\xf2\xf9\x1f\xb6\xbbB/\x94\x02\xc3\x8eo\x9b\x0dl\x18\
+\xe4\xbe\xabf\xd9\xec\xf2'\xf9F%\xd0m\xaf\x1f(\
+\xb7r\xb6\x8d9>vs\xe6y\xd8\x82 \xbcS\x01\
+L\xd9\xa9\xaf\x949N\xfd=G\xc7\x03\xc0\x09\x82\xb0\
+\xe05)\x1d\xdcS\x05\xc0\x9cU\xf6L\xd8\x98\xf5]\
++rM\x01\x90\xc9\x0d\xdb\xc9f9\xcf\xb8\x22\x86\x95\
+\x8b[\x0ca\xd7^e\xf9\xbf\x05\xf4S\xab\xee\x07\x19\
+\xf1\xbe\x05d\xfc\xbf\xa7\xaf\xbf\x0f~\x0c\x00\xc4h\xf4\
+\xf0$\xab[\xd6\x00\x00\x00\x00IEND\xaeB`\
+\x82\
 \x00\x00C\x87\
 \x89\
 PNG\x0d\x0a\x1a\x0a\x00\x00\x00\x0dIHDR\x00\
@@ -7960,5050 +14394,6 @@ X-\x02\xa8\x9c/\xb0\x05\xd8\x95\xaf\xf2\xdf\xb0r\xd5\
 eZ\x13\xb0\xb3\x14\xac\x10\xa2`\xc3\xb7\x8a\xdc\xbe\x10\
 \xbf\x0d|\x1b\xf8\xe6\x96\xff\x0c\x00\x03\x91{$\xb6\x8d\
 \x0a\xe8\x00\x00\x00\x00IEND\xaeB`\x82\
-\x00\x00@f\
-\x89\
-PNG\x0d\x0a\x1a\x0a\x00\x00\x00\x0dIHDR\x00\
-\x00\x00(\x00\x00\x00#\x08\x04\x00\x00\x00L0\x80%\
-\x00\x00\x00\x09pHYs\x00\x00\x0b\x13\x00\x00\x0b\x13\
-\x01\x00\x9a\x9c\x18\x00\x00;\xa6iTXtXML\
-:com.adobe.xmp\x00\x00\
-\x00\x00\x00<?xpacket beg\
-in=\x22\xef\xbb\xbf\x22 id=\x22W5M\
-0MpCehiHzreSzNTc\
-zkc9d\x22?>\x0a<x:xmpm\
-eta xmlns:x=\x22ado\
-be:ns:meta/\x22 x:x\
-mptk=\x22Adobe XMP \
-Core 5.6-c138 79\
-.159824, 2016/09\
-/14-01:09:01    \
-    \x22>\x0a   <rdf:R\
-DF xmlns:rdf=\x22ht\
-tp://www.w3.org/\
-1999/02/22-rdf-s\
-yntax-ns#\x22>\x0a    \
-  <rdf:Descripti\
-on rdf:about=\x22\x22\x0a\
-            xmln\
-s:xmp=\x22http://ns\
-.adobe.com/xap/1\
-.0/\x22\x0a           \
- xmlns:xmpMM=\x22ht\
-tp://ns.adobe.co\
-m/xap/1.0/mm/\x22\x0a \
-           xmlns\
-:stEvt=\x22http://n\
-s.adobe.com/xap/\
-1.0/sType/Resour\
-ceEvent#\x22\x0a      \
-      xmlns:dc=\x22\
-http://purl.org/\
-dc/elements/1.1/\
-\x22\x0a            xm\
-lns:photoshop=\x22h\
-ttp://ns.adobe.c\
-om/photoshop/1.0\
-/\x22\x0a            x\
-mlns:tiff=\x22http:\
-//ns.adobe.com/t\
-iff/1.0/\x22\x0a      \
-      xmlns:exif\
-=\x22http://ns.adob\
-e.com/exif/1.0/\x22\
->\x0a         <xmp:\
-CreatorTool>Adob\
-e Photoshop CC 2\
-017 (Windows)</x\
-mp:CreatorTool>\x0a\
-         <xmp:Cr\
-eateDate>2020-08\
--08T14:33:10-07:\
-00</xmp:CreateDa\
-te>\x0a         <xm\
-p:MetadataDate>2\
-020-08-08T14:36:\
-54-07:00</xmp:Me\
-tadataDate>\x0a    \
-     <xmp:Modify\
-Date>2020-08-08T\
-14:36:54-07:00</\
-xmp:ModifyDate>\x0a\
-         <xmpMM:\
-InstanceID>xmp.i\
-id:deef3419-318d\
--8541-b994-0d2e3\
-a17f307</xmpMM:I\
-nstanceID>\x0a     \
-    <xmpMM:Docum\
-entID>adobe:doci\
-d:photoshop:b9da\
-929a-d9be-11ea-8\
-70e-be7d6a73bcf6\
-</xmpMM:Document\
-ID>\x0a         <xm\
-pMM:OriginalDocu\
-mentID>xmp.did:b\
-5a047fb-e918-d14\
-f-887c-49988a2bc\
-6b1</xmpMM:Origi\
-nalDocumentID>\x0a \
-        <xmpMM:H\
-istory>\x0a        \
-    <rdf:Seq>\x0a  \
-             <rd\
-f:li rdf:parseTy\
-pe=\x22Resource\x22>\x0a \
-                \
- <stEvt:action>c\
-reated</stEvt:ac\
-tion>\x0a          \
-        <stEvt:i\
-nstanceID>xmp.ii\
-d:b5a047fb-e918-\
-d14f-887c-49988a\
-2bc6b1</stEvt:in\
-stanceID>\x0a      \
-            <stE\
-vt:when>2020-08-\
-08T14:33:10-07:0\
-0</stEvt:when>\x0a \
-                \
- <stEvt:software\
-Agent>Adobe Phot\
-oshop CC 2017 (W\
-indows)</stEvt:s\
-oftwareAgent>\x0a  \
-             </r\
-df:li>\x0a         \
-      <rdf:li rd\
-f:parseType=\x22Res\
-ource\x22>\x0a        \
-          <stEvt\
-:action>saved</s\
-tEvt:action>\x0a   \
-               <\
-stEvt:instanceID\
->xmp.iid:2519c4f\
-e-fd66-e945-b435\
--d4f4e3d3a6ed</s\
-tEvt:instanceID>\
-\x0a               \
-   <stEvt:when>2\
-020-08-08T14:33:\
-10-07:00</stEvt:\
-when>\x0a          \
-        <stEvt:s\
-oftwareAgent>Ado\
-be Photoshop CC \
-2017 (Windows)</\
-stEvt:softwareAg\
-ent>\x0a           \
-       <stEvt:ch\
-anged>/</stEvt:c\
-hanged>\x0a        \
-       </rdf:li>\
-\x0a               \
-<rdf:li rdf:pars\
-eType=\x22Resource\x22\
->\x0a              \
-    <stEvt:actio\
-n>saved</stEvt:a\
-ction>\x0a         \
-         <stEvt:\
-instanceID>xmp.i\
-id:deef3419-318d\
--8541-b994-0d2e3\
-a17f307</stEvt:i\
-nstanceID>\x0a     \
-             <st\
-Evt:when>2020-08\
--08T14:36:54-07:\
-00</stEvt:when>\x0a\
-                \
-  <stEvt:softwar\
-eAgent>Adobe Pho\
-toshop CC 2017 (\
-Windows)</stEvt:\
-softwareAgent>\x0a \
-                \
- <stEvt:changed>\
-/</stEvt:changed\
->\x0a              \
- </rdf:li>\x0a     \
-       </rdf:Seq\
->\x0a         </xmp\
-MM:History>\x0a    \
-     <dc:format>\
-image/png</dc:fo\
-rmat>\x0a         <\
-photoshop:ColorM\
-ode>1</photoshop\
-:ColorMode>\x0a    \
-     <tiff:Orien\
-tation>1</tiff:O\
-rientation>\x0a    \
-     <tiff:XReso\
-lution>720000/10\
-000</tiff:XResol\
-ution>\x0a         \
-<tiff:YResolutio\
-n>720000/10000</\
-tiff:YResolution\
->\x0a         <tiff\
-:ResolutionUnit>\
-2</tiff:Resoluti\
-onUnit>\x0a        \
- <exif:ColorSpac\
-e>65535</exif:Co\
-lorSpace>\x0a      \
-   <exif:PixelXD\
-imension>40</exi\
-f:PixelXDimensio\
-n>\x0a         <exi\
-f:PixelYDimensio\
-n>35</exif:Pixel\
-YDimension>\x0a    \
-  </rdf:Descript\
-ion>\x0a   </rdf:RD\
-F>\x0a</x:xmpmeta>\x0a\
-                \
-                \
-                \
-                \
-                \
-                \
-    \x0a           \
-                \
-                \
-                \
-                \
-                \
-         \x0a      \
-                \
-                \
-                \
-                \
-                \
-              \x0a \
-                \
-                \
-                \
-                \
-                \
-                \
-   \x0a            \
-                \
-                \
-                \
-                \
-                \
-        \x0a       \
-                \
-                \
-                \
-                \
-                \
-             \x0a  \
-                \
-                \
-                \
-                \
-                \
-                \
-  \x0a             \
-                \
-                \
-                \
-                \
-                \
-       \x0a        \
-                \
-                \
-                \
-                \
-                \
-            \x0a   \
-                \
-                \
-                \
-                \
-                \
-                \
- \x0a              \
-                \
-                \
-                \
-                \
-                \
-      \x0a         \
-                \
-                \
-                \
-                \
-                \
-           \x0a    \
-                \
-                \
-                \
-                \
-                \
-                \
-\x0a               \
-                \
-                \
-                \
-                \
-                \
-     \x0a          \
-                \
-                \
-                \
-                \
-                \
-          \x0a     \
-                \
-                \
-                \
-                \
-                \
-               \x0a\
-                \
-                \
-                \
-                \
-                \
-                \
-    \x0a           \
-                \
-                \
-                \
-                \
-                \
-         \x0a      \
-                \
-                \
-                \
-                \
-                \
-              \x0a \
-                \
-                \
-                \
-                \
-                \
-                \
-   \x0a            \
-                \
-                \
-                \
-                \
-                \
-        \x0a       \
-                \
-                \
-                \
-                \
-                \
-             \x0a  \
-                \
-                \
-                \
-                \
-                \
-                \
-  \x0a             \
-                \
-                \
-                \
-                \
-                \
-       \x0a        \
-                \
-                \
-                \
-                \
-                \
-            \x0a   \
-                \
-                \
-                \
-                \
-                \
-                \
- \x0a              \
-                \
-                \
-                \
-                \
-                \
-      \x0a         \
-                \
-                \
-                \
-                \
-                \
-           \x0a    \
-                \
-                \
-                \
-                \
-                \
-                \
-\x0a               \
-                \
-                \
-                \
-                \
-                \
-     \x0a          \
-                \
-                \
-                \
-                \
-                \
-          \x0a     \
-                \
-                \
-                \
-                \
-                \
-               \x0a\
-                \
-                \
-                \
-                \
-                \
-                \
-    \x0a           \
-                \
-                \
-                \
-                \
-                \
-         \x0a      \
-                \
-                \
-                \
-                \
-                \
-              \x0a \
-                \
-                \
-                \
-                \
-                \
-                \
-   \x0a            \
-                \
-                \
-                \
-                \
-                \
-        \x0a       \
-                \
-                \
-                \
-                \
-                \
-             \x0a  \
-                \
-                \
-                \
-                \
-                \
-                \
-  \x0a             \
-                \
-                \
-                \
-                \
-                \
-       \x0a        \
-                \
-                \
-                \
-                \
-                \
-            \x0a   \
-                \
-                \
-                \
-                \
-                \
-                \
- \x0a              \
-                \
-                \
-                \
-                \
-                \
-      \x0a         \
-                \
-                \
-                \
-                \
-                \
-           \x0a    \
-                \
-                \
-                \
-                \
-                \
-                \
-\x0a               \
-                \
-                \
-                \
-                \
-                \
-     \x0a          \
-                \
-                \
-                \
-                \
-                \
-          \x0a     \
-                \
-                \
-                \
-                \
-                \
-               \x0a\
-                \
-                \
-                \
-                \
-                \
-                \
-    \x0a           \
-                \
-                \
-                \
-                \
-                \
-         \x0a      \
-                \
-                \
-                \
-                \
-                \
-              \x0a \
-                \
-                \
-                \
-                \
-                \
-                \
-   \x0a            \
-                \
-                \
-                \
-                \
-                \
-        \x0a       \
-                \
-                \
-                \
-                \
-                \
-             \x0a  \
-                \
-                \
-                \
-                \
-                \
-                \
-  \x0a             \
-                \
-                \
-                \
-                \
-                \
-       \x0a        \
-                \
-                \
-                \
-                \
-                \
-            \x0a   \
-                \
-                \
-                \
-                \
-                \
-                \
- \x0a              \
-                \
-                \
-                \
-                \
-                \
-      \x0a         \
-                \
-                \
-                \
-                \
-                \
-           \x0a    \
-                \
-                \
-                \
-                \
-                \
-                \
-\x0a               \
-                \
-                \
-                \
-                \
-                \
-     \x0a          \
-                \
-                \
-                \
-                \
-                \
-          \x0a     \
-                \
-                \
-                \
-                \
-                \
-               \x0a\
-                \
-                \
-                \
-                \
-                \
-                \
-    \x0a           \
-                \
-                \
-                \
-                \
-                \
-         \x0a      \
-                \
-                \
-                \
-                \
-                \
-              \x0a \
-                \
-                \
-                \
-                \
-                \
-                \
-   \x0a            \
-                \
-                \
-                \
-                \
-                \
-        \x0a       \
-                \
-                \
-                \
-                \
-                \
-             \x0a  \
-                \
-                \
-                \
-                \
-                \
-                \
-  \x0a             \
-                \
-                \
-                \
-                \
-                \
-       \x0a        \
-                \
-                \
-                \
-                \
-                \
-            \x0a   \
-                \
-                \
-                \
-                \
-                \
-                \
- \x0a              \
-                \
-                \
-                \
-                \
-                \
-      \x0a         \
-                \
-                \
-                \
-                \
-                \
-           \x0a    \
-                \
-                \
-                \
-                \
-                \
-                \
-\x0a               \
-                \
-                \
-                \
-                \
-                \
-     \x0a          \
-                \
-                \
-                \
-                \
-                \
-          \x0a     \
-                \
-                \
-                \
-                \
-                \
-               \x0a\
-                \
-                \
-                \
-                \
-                \
-                \
-    \x0a           \
-                \
-                \
-                \
-                \
-                \
-         \x0a      \
-                \
-                \
-                \
-                \
-                \
-              \x0a \
-                \
-                \
-                \
-                \
-                \
-                \
-   \x0a            \
-                \
-                \
-                \
-                \
-                \
-        \x0a       \
-                \
-                \
-                \
-                \
-                \
-             \x0a  \
-                \
-                \
-                \
-                \
-                \
-                \
-  \x0a             \
-                \
-                \
-                \
-                \
-                \
-       \x0a        \
-                \
-                \
-                \
-                \
-                \
-            \x0a   \
-                \
-                \
-                \
-                \
-                \
-                \
- \x0a              \
-                \
-                \
-                \
-                \
-                \
-      \x0a         \
-                \
-                \
-                \
-                \
-                \
-           \x0a    \
-                \
-                \
-                \
-                \
-                \
-                \
-\x0a               \
-                \
-                \
-                \
-                \
-                \
-     \x0a          \
-                \
-                \
-                \
-                \
-                \
-          \x0a     \
-                \
-                \
-                \
-                \
-                \
-               \x0a\
-                \
-                \
-                \
-                \
-                \
-                \
-    \x0a           \
-                \
-                \
-                \
-                \
-                \
-         \x0a      \
-                \
-                \
-                \
-                \
-                \
-              \x0a \
-                \
-                \
-                \
-                \
-                \
-                \
-   \x0a            \
-                \
-                \
-                \
-                \
-                \
-        \x0a       \
-                \
-                \
-                \
-                \
-                \
-             \x0a  \
-                \
-                \
-                \
-                \
-                \
-                \
-  \x0a             \
-                \
-                \
-                \
-                \
-                \
-       \x0a        \
-                \
-                \
-                \
-                \
-                \
-            \x0a   \
-                \
-                \
-                \
-                \
-                \
-                \
- \x0a              \
-                \
-                \
-                \
-                \
-                \
-      \x0a         \
-                \
-                \
-                \
-                \
-                \
-           \x0a    \
-                \
-                \
-                \
-                \
-                \
-                \
-\x0a               \
-                \
-                \
-                \
-                \
-                \
-     \x0a          \
-                \
-                \
-                \
-                \
-                \
-          \x0a     \
-                \
-                \
-                \
-                \
-                \
-               \x0a\
-                \
-                \
-                \
-                \
-                \
-                \
-    \x0a           \
-                \
-                \
-                \
-                \
-                \
-         \x0a      \
-                \
-                \
-                \
-                \
-                \
-              \x0a \
-                \
-                \
-                \
-                \
-                \
-                \
-   \x0a            \
-                \
-                \
-                \
-                \
-                \
-        \x0a       \
-                \
-                \
-                \
-                \
-                \
-             \x0a  \
-                \
-                \
-                \
-                \
-                \
-                \
-  \x0a             \
-               \x0a\
-<?xpacket end=\x22w\
-\x22?>\x22\xd0KG\x00\x00\x00 cHRM\x00\
-\x00z%\x00\x00\x80\x83\x00\x00\xf9\xff\x00\x00\x80\xe9\x00\
-\x00u0\x00\x00\xea`\x00\x00:\x98\x00\x00\x17o\x92\
-_\xc5F\x00\x00\x04:IDATx\xda\xec\x96]\
-\x88Te\x18\xc7\x7f\xef{\xbef\xe6\xec\xcc\xce\xce\xea\
-\xda\xb6+\x8a\x06.&Bkj\x81\xa8!Bb\x14\
-\x18Q\xbaz\x91D\x94\x9aY\xdd$\xecV\x98B\xf4\
-\x01\x89\x96\x17%\x81\xe0\x16at!l\xe5Eia\
-(\x9a\x8a\xa2\xb5F\x1f\x18\xba\xee\xec\xec\xaa3\xbb\xb3\
-s\xbe\xde\xd3\xc5iufv,\xa9\xee\xea\xbd?\xbf\
-\xf7\xf9\xff\xff\xcf\xf3\xbcG\x84\xfc\xbbG\xf2\x9f\x03\xea\
-\xb0\x0d\x8f\x11$M\x0c\xa3\xa1S\xa0@\x06\x1b\xf9J\
-p\xf4\xdag\x1e. \x08\x09\xd10\xd00\xecDW\
-\xf1E\x0b\x9d+\x140\xb0\x88SG\x91!l\xb6\xa2\
-\x97\xd3CD<\x1c\x05\x1f\x9fx\xa7\xf1\xb2\xa2\xd8V\
-\xec\x15\x8c\x05\xa7a\x92 \xf3\xb5\xd6n\xce\x1f\xb9\x0f\
-\x14\x0e\xa6.|U[\xb2\x87\xbd\xb1\xe1W\xd1\xaeH\
-\x90|\xdf|\xd5\x03\x9a\x8e\xc5f\x94P(@\xe0\xa3\
-\xb0\xbfR\xed%b\x8b\xeb{U\xda \xa3M\xf9q\
-\xe2\x01\x1fU\x09\x14\x84xXk\xeb\xb6\xcb\xa6\xd4Q\
-\xbd\xcd\xa6\xae\x14\x22\xf0\xd1\x92\xad'S\xad\x1a:\x02\
-\x1f\x98x0\xb68\x88>sF\xf3\x16\xd3\xbe\x8dO\
-\xb5\x97f\xf6\xa8\xeb*d$5\xa0~Cbw\x88\
-\x8f\xd4\x9bO93Oo\xb8\xbc\xd9B\xc3E\xc6\xa7\
-\x9dl\x9e\x5c\x87K\xc8\xe4\x03\x89E.`\x12\xf4\xe4\
-f{\xaa\xfe\x88\x9a\xe7\xe2\x91X\x93\xec\x0eP\x88\x08\
-\xa8pi\xdc\xd0\xbc#@\x01>\x9a\xd5z\xccn\xb9\
-\xfcZ\xf65\x1dI\x80\x9aPw\x5c\x18I\xee\xd8\x9f\
-\x5c\xea\x02\x16\xc3\x87\xcf-\xcf\xd3t\xc8\x9a\x1f\x00\x10\
-\xa0\xafLu\x0b\xbc(e2\xf5\xeb\xd3[n\xf8\xe0\
-\xa1'\xdaN\x0f\xcc\xcam6\xfcT\xa7O\x80\xd6\xd4\
-pX\x9e\xb7\x1ep\x00\x93\x91\xc3\xbd\x0bB\xa6\x1fL\
-,t\xaf;\xe7\x92\x5c99=\xf48\xfd\x12\xec{\
-\x1a\xb6(\x82\xb2\xa4|\x82L\xe6\x94\xdd0\xd0\xe5m\
-7\x81\x00s\xae\xde\xe1\x02\x06\xa5\xef\xfa\x16\xa4i\xeb\
-\xb1\x17\xb9\x15\xfd\xe7\x91Z\x96\x5c\x02\x12\xf2=\xb9e\
-\xa2\xb2\x7f\x08\x90M\x93\xce\x8a\xd4\xf9M\xb9\x1d1\x04\
-\x01\x01`\x10\x9c\x18\xb8[g\xea'u\xcb*q\x02\
-\x9d\xfc\xb6\x91n\x90\x90\xe3\xc2\xe7\xbf=\xa8\xa1U\xdd\
-h6\xb7\x9eU\xf1\x9f7\xe6\xde\xb3 \xc2\x9d\xc9\xce\
-q\x99\xb0O\xaep\xab\xe6\xc3\xc0\xddV\xec\x94Q(\
-\x1a&W\xf7\xf7=\xa2U\xcd\xa1\x8b\xd9:\xf3D\x8b\
-\xbc\xf4\xe4\xd0\x07\x06&\xce\xf9\x1ffg\x99\xb8\xc7~\
-\xd8\xab\xaa.\xc6\xe0\xce\x9f:\xaf1|\xa3\x0f-\x0a\
-\xfbr\x8f\xca*\xa4\x87l\xbb\xedl\x8a\xecZ\xef\x90\
-\x9f\xffe\xd6(S\xf6\xa6\xd7T\x8b5\x18\xdau\xf1\
-\x19\x17\x17\xaf|R,\x9c\x8fK\xab\xcd*\xa4\x0fm\
-\x93NH\x06\x16\xf7O\x8f{w\xeejXU\x1a\xb7\
-\x0c\x0a\xbb\xb3\xebtL\xa2r\xe4\xd8\x14\xbb\xb8d\xf7\
-\xf6\xaf\xd7\xc6!\xad\xbbn?~\x85R\xae\xf9\xed\xc4\
-S\xee8\xdc\xe8GW\x9e\xd0\x90\xd7'\xe5\x8fp\x15\
-\x0e\xa3(\x06\xdf\x0dD\xf3N\x0fU\xe1\xa5=\xa7\xe5\
-\xc3\xe0{\xf3Y\xaf\x0ag\xe2u\x8fth(\xbc\xf2\
-\xf55\xe6\x85\x86\x86\xc1\xe0;z\xac\xf1M*\x90\x0e\
-\xe9\xc7\xa0\x1agq\xf5\xd3\xbe\x0e\x01D\x93\x1cV\x02\
-o4\xc0\xb5\xb7tY\xffzHX\x11\x0f\xe3\xaa+\
-\xf4\x5cX\xe1\x13Y$n\xbe\xb1%&\xce\x1b^\x97\
-\xf5\xa7{\xd9\xa0\xf8E\xdfr\x89\x89\x86(\xc3\x81^\
-N\x8fVV\x88\xc7\xf0\xd6\xb4\xd9\xd8\xe5Q\xfbM\xd4\
-(}9x\xbfD\xab\x18X\xc6K\x16@\x80\x8f\x22\
- \xff\x92\xb0\x1b\x9fwk \x0d\xc2o\x8aK4\xf4\
-\x1aF\xd4\xf0P \x90\xe8\x84d_\xd0dj\xd3\xf8\
-(\x0aG\xfa\x16F\xf3\xaen\x058&^\xa2s\xf5\
-9\xddJ<\xed\x97UiR:s\xe1\xdeQ\x0cD\
-\x95w\xb7\xf0\x8cJ$\xc3\xeb\x9c]F\x99X\xe7\xe4\
-\xc5y\x8a\x18\x1a\xb2&\x0etnb\xbc\xa2\x84\x03\x0c\
-\xack\xa9o\x5cU\x024\xbc\xde\xdc\xdc0\xd0kD\
-\xf1\x97\x92#\xd9\xd1\x93p\xb1CW\xc9\xd5!\x9c\xcb\
-\xb7\x8b\xa0v\x14\xb7\x04\x8cR7\x10\xf4\xaf1g\x88\
-Y\x97\xe6\x05\x0e\x04\x84\x7f\x1f8\xd6u\x92\xfcC\xc5\
-\x96\xdc\x88y\xd3(\xca\x8a\xf8\xffw\xee\x1f\x9f\xdf\x07\
-\x00\xdc\xd3\x971\x87u\x82R\x00\x00\x00\x00IEN\
-D\xaeB`\x82\
-\x00\x00<F\
-\x89\
-PNG\x0d\x0a\x1a\x0a\x00\x00\x00\x0dIHDR\x00\
-\x00\x00(\x00\x00\x00#\x08\x04\x00\x00\x00L0\x80%\
-\x00\x00\x00\x09pHYs\x00\x00\x0b\x13\x00\x00\x0b\x13\
-\x01\x00\x9a\x9c\x18\x00\x009\xeciTXtXML\
-:com.adobe.xmp\x00\x00\
-\x00\x00\x00<?xpacket beg\
-in=\x22\xef\xbb\xbf\x22 id=\x22W5M\
-0MpCehiHzreSzNTc\
-zkc9d\x22?>\x0a<x:xmpm\
-eta xmlns:x=\x22ado\
-be:ns:meta/\x22 x:x\
-mptk=\x22Adobe XMP \
-Core 5.6-c138 79\
-.159824, 2016/09\
-/14-01:09:01    \
-    \x22>\x0a   <rdf:R\
-DF xmlns:rdf=\x22ht\
-tp://www.w3.org/\
-1999/02/22-rdf-s\
-yntax-ns#\x22>\x0a    \
-  <rdf:Descripti\
-on rdf:about=\x22\x22\x0a\
-            xmln\
-s:xmp=\x22http://ns\
-.adobe.com/xap/1\
-.0/\x22\x0a           \
- xmlns:xmpMM=\x22ht\
-tp://ns.adobe.co\
-m/xap/1.0/mm/\x22\x0a \
-           xmlns\
-:stEvt=\x22http://n\
-s.adobe.com/xap/\
-1.0/sType/Resour\
-ceEvent#\x22\x0a      \
-      xmlns:dc=\x22\
-http://purl.org/\
-dc/elements/1.1/\
-\x22\x0a            xm\
-lns:photoshop=\x22h\
-ttp://ns.adobe.c\
-om/photoshop/1.0\
-/\x22\x0a            x\
-mlns:tiff=\x22http:\
-//ns.adobe.com/t\
-iff/1.0/\x22\x0a      \
-      xmlns:exif\
-=\x22http://ns.adob\
-e.com/exif/1.0/\x22\
->\x0a         <xmp:\
-CreatorTool>Adob\
-e Photoshop CC 2\
-017 (Windows)</x\
-mp:CreatorTool>\x0a\
-         <xmp:Cr\
-eateDate>2020-08\
--08T14:32:30-07:\
-00</xmp:CreateDa\
-te>\x0a         <xm\
-p:MetadataDate>2\
-020-08-08T14:32:\
-30-07:00</xmp:Me\
-tadataDate>\x0a    \
-     <xmp:Modify\
-Date>2020-08-08T\
-14:32:30-07:00</\
-xmp:ModifyDate>\x0a\
-         <xmpMM:\
-InstanceID>xmp.i\
-id:7355edff-fe72\
--9d41-9ab0-86700\
-eb34ffd</xmpMM:I\
-nstanceID>\x0a     \
-    <xmpMM:Docum\
-entID>adobe:doci\
-d:photoshop:a255\
-4cb3-d9be-11ea-8\
-70e-be7d6a73bcf6\
-</xmpMM:Document\
-ID>\x0a         <xm\
-pMM:OriginalDocu\
-mentID>xmp.did:9\
-16e97e2-4724-a24\
-6-848b-9a0cb126c\
-ffa</xmpMM:Origi\
-nalDocumentID>\x0a \
-        <xmpMM:H\
-istory>\x0a        \
-    <rdf:Seq>\x0a  \
-             <rd\
-f:li rdf:parseTy\
-pe=\x22Resource\x22>\x0a \
-                \
- <stEvt:action>c\
-reated</stEvt:ac\
-tion>\x0a          \
-        <stEvt:i\
-nstanceID>xmp.ii\
-d:916e97e2-4724-\
-a246-848b-9a0cb1\
-26cffa</stEvt:in\
-stanceID>\x0a      \
-            <stE\
-vt:when>2020-08-\
-08T14:32:30-07:0\
-0</stEvt:when>\x0a \
-                \
- <stEvt:software\
-Agent>Adobe Phot\
-oshop CC 2017 (W\
-indows)</stEvt:s\
-oftwareAgent>\x0a  \
-             </r\
-df:li>\x0a         \
-      <rdf:li rd\
-f:parseType=\x22Res\
-ource\x22>\x0a        \
-          <stEvt\
-:action>saved</s\
-tEvt:action>\x0a   \
-               <\
-stEvt:instanceID\
->xmp.iid:7355edf\
-f-fe72-9d41-9ab0\
--86700eb34ffd</s\
-tEvt:instanceID>\
-\x0a               \
-   <stEvt:when>2\
-020-08-08T14:32:\
-30-07:00</stEvt:\
-when>\x0a          \
-        <stEvt:s\
-oftwareAgent>Ado\
-be Photoshop CC \
-2017 (Windows)</\
-stEvt:softwareAg\
-ent>\x0a           \
-       <stEvt:ch\
-anged>/</stEvt:c\
-hanged>\x0a        \
-       </rdf:li>\
-\x0a            </r\
-df:Seq>\x0a        \
- </xmpMM:History\
->\x0a         <dc:f\
-ormat>image/png<\
-/dc:format>\x0a    \
-     <photoshop:\
-ColorMode>1</pho\
-toshop:ColorMode\
->\x0a         <tiff\
-:Orientation>1</\
-tiff:Orientation\
->\x0a         <tiff\
-:XResolution>720\
-000/10000</tiff:\
-XResolution>\x0a   \
-      <tiff:YRes\
-olution>720000/1\
-0000</tiff:YReso\
-lution>\x0a        \
- <tiff:Resolutio\
-nUnit>2</tiff:Re\
-solutionUnit>\x0a  \
-       <exif:Col\
-orSpace>65535</e\
-xif:ColorSpace>\x0a\
-         <exif:P\
-ixelXDimension>4\
-0</exif:PixelXDi\
-mension>\x0a       \
-  <exif:PixelYDi\
-mension>35</exif\
-:PixelYDimension\
->\x0a      </rdf:De\
-scription>\x0a   </\
-rdf:RDF>\x0a</x:xmp\
-meta>\x0a          \
-                \
-                \
-                \
-                \
-                \
-          \x0a     \
-                \
-                \
-                \
-                \
-                \
-               \x0a\
-                \
-                \
-                \
-                \
-                \
-                \
-    \x0a           \
-                \
-                \
-                \
-                \
-                \
-         \x0a      \
-                \
-                \
-                \
-                \
-                \
-              \x0a \
-                \
-                \
-                \
-                \
-                \
-                \
-   \x0a            \
-                \
-                \
-                \
-                \
-                \
-        \x0a       \
-                \
-                \
-                \
-                \
-                \
-             \x0a  \
-                \
-                \
-                \
-                \
-                \
-                \
-  \x0a             \
-                \
-                \
-                \
-                \
-                \
-       \x0a        \
-                \
-                \
-                \
-                \
-                \
-            \x0a   \
-                \
-                \
-                \
-                \
-                \
-                \
- \x0a              \
-                \
-                \
-                \
-                \
-                \
-      \x0a         \
-                \
-                \
-                \
-                \
-                \
-           \x0a    \
-                \
-                \
-                \
-                \
-                \
-                \
-\x0a               \
-                \
-                \
-                \
-                \
-                \
-     \x0a          \
-                \
-                \
-                \
-                \
-                \
-          \x0a     \
-                \
-                \
-                \
-                \
-                \
-               \x0a\
-                \
-                \
-                \
-                \
-                \
-                \
-    \x0a           \
-                \
-                \
-                \
-                \
-                \
-         \x0a      \
-                \
-                \
-                \
-                \
-                \
-              \x0a \
-                \
-                \
-                \
-                \
-                \
-                \
-   \x0a            \
-                \
-                \
-                \
-                \
-                \
-        \x0a       \
-                \
-                \
-                \
-                \
-                \
-             \x0a  \
-                \
-                \
-                \
-                \
-                \
-                \
-  \x0a             \
-                \
-                \
-                \
-                \
-                \
-       \x0a        \
-                \
-                \
-                \
-                \
-                \
-            \x0a   \
-                \
-                \
-                \
-                \
-                \
-                \
- \x0a              \
-                \
-                \
-                \
-                \
-                \
-      \x0a         \
-                \
-                \
-                \
-                \
-                \
-           \x0a    \
-                \
-                \
-                \
-                \
-                \
-                \
-\x0a               \
-                \
-                \
-                \
-                \
-                \
-     \x0a          \
-                \
-                \
-                \
-                \
-                \
-          \x0a     \
-                \
-                \
-                \
-                \
-                \
-               \x0a\
-                \
-                \
-                \
-                \
-                \
-                \
-    \x0a           \
-                \
-                \
-                \
-                \
-                \
-         \x0a      \
-                \
-                \
-                \
-                \
-                \
-              \x0a \
-                \
-                \
-                \
-                \
-                \
-                \
-   \x0a            \
-                \
-                \
-                \
-                \
-                \
-        \x0a       \
-                \
-                \
-                \
-                \
-                \
-             \x0a  \
-                \
-                \
-                \
-                \
-                \
-                \
-  \x0a             \
-                \
-                \
-                \
-                \
-                \
-       \x0a        \
-                \
-                \
-                \
-                \
-                \
-            \x0a   \
-                \
-                \
-                \
-                \
-                \
-                \
- \x0a              \
-                \
-                \
-                \
-                \
-                \
-      \x0a         \
-                \
-                \
-                \
-                \
-                \
-           \x0a    \
-                \
-                \
-                \
-                \
-                \
-                \
-\x0a               \
-                \
-                \
-                \
-                \
-                \
-     \x0a          \
-                \
-                \
-                \
-                \
-                \
-          \x0a     \
-                \
-                \
-                \
-                \
-                \
-               \x0a\
-                \
-                \
-                \
-                \
-                \
-                \
-    \x0a           \
-                \
-                \
-                \
-                \
-                \
-         \x0a      \
-                \
-                \
-                \
-                \
-                \
-              \x0a \
-                \
-                \
-                \
-                \
-                \
-                \
-   \x0a            \
-                \
-                \
-                \
-                \
-                \
-        \x0a       \
-                \
-                \
-                \
-                \
-                \
-             \x0a  \
-                \
-                \
-                \
-                \
-                \
-                \
-  \x0a             \
-                \
-                \
-                \
-                \
-                \
-       \x0a        \
-                \
-                \
-                \
-                \
-                \
-            \x0a   \
-                \
-                \
-                \
-                \
-                \
-                \
- \x0a              \
-                \
-                \
-                \
-                \
-                \
-      \x0a         \
-                \
-                \
-                \
-                \
-                \
-           \x0a    \
-                \
-                \
-                \
-                \
-                \
-                \
-\x0a               \
-                \
-                \
-                \
-                \
-                \
-     \x0a          \
-                \
-                \
-                \
-                \
-                \
-          \x0a     \
-                \
-                \
-                \
-                \
-                \
-               \x0a\
-                \
-                \
-                \
-                \
-                \
-                \
-    \x0a           \
-                \
-                \
-                \
-                \
-                \
-         \x0a      \
-                \
-                \
-                \
-                \
-                \
-              \x0a \
-                \
-                \
-                \
-                \
-                \
-                \
-   \x0a            \
-                \
-                \
-                \
-                \
-                \
-        \x0a       \
-                \
-                \
-                \
-                \
-                \
-             \x0a  \
-                \
-                \
-                \
-                \
-                \
-                \
-  \x0a             \
-                \
-                \
-                \
-                \
-                \
-       \x0a        \
-                \
-                \
-                \
-                \
-                \
-            \x0a   \
-                \
-                \
-                \
-                \
-                \
-                \
- \x0a              \
-                \
-                \
-                \
-                \
-                \
-      \x0a         \
-                \
-                \
-                \
-                \
-                \
-           \x0a    \
-                \
-                \
-                \
-                \
-                \
-                \
-\x0a               \
-                \
-                \
-                \
-                \
-                \
-     \x0a          \
-                \
-                \
-                \
-                \
-                \
-          \x0a     \
-                \
-                \
-                \
-                \
-                \
-               \x0a\
-                \
-                \
-                \
-                \
-                \
-                \
-    \x0a           \
-                \
-                \
-                \
-                \
-                \
-         \x0a      \
-                \
-                \
-                \
-                \
-                \
-              \x0a \
-                \
-                \
-                \
-                \
-                \
-                \
-   \x0a            \
-                \
-                \
-                \
-                \
-                \
-        \x0a       \
-                \
-                \
-                \
-                \
-                \
-             \x0a  \
-                \
-                \
-                \
-                \
-                \
-                \
-  \x0a             \
-                \
-                \
-                \
-                \
-                \
-       \x0a        \
-                \
-                \
-                \
-                \
-                \
-            \x0a   \
-                \
-                \
-                \
-                \
-                \
-                \
- \x0a              \
-                \
-                \
-                \
-                \
-                \
-      \x0a         \
-                \
-                \
-                \
-                \
-                \
-           \x0a    \
-                \
-                \
-                \
-                \
-                \
-                \
-\x0a               \
-                \
-                \
-                \
-                \
-                \
-     \x0a          \
-                \
-                \
-                \
-                \
-                \
-          \x0a     \
-                \
-                \
-                \
-                \
-                \
-               \x0a\
-                \
-                \
-                \
-                \
-                \
-                \
-    \x0a           \
-                \
-                \
-                \
-                \
-                \
-         \x0a      \
-                \
-                \
-                \
-                \
-                \
-              \x0a \
-                \
-                \
-                \
-                \
-                \
-                \
-   \x0a            \
-                \
-                \
-                \
-                \
-                \
-        \x0a       \
-                \
-                \
-                \
-                \
-                \
-             \x0a  \
-                \
-                \
-                \
-                \
-                \
-                \
-  \x0a             \
-                \
-                \
-                \
-                \
-                \
-       \x0a        \
-                \
-                \
-                \
-                \
-                \
-            \x0a   \
-                \
-                \
-                \
-                \
-                \
-                \
- \x0a              \
-                \
-                \
-                \
-                \
-                \
-      \x0a         \
-                \
-                \
-                \
-                \
-                \
-           \x0a    \
-                \
-                \
-                \
-                \
-                \
-                \
-\x0a               \
-                \
-                \
-                \
-                \
-                \
-     \x0a          \
-                \
-                \
-                \
-                \
-                \
-          \x0a     \
-                \
-                \
-                \
-                \
-                \
-               \x0a\
-                \
-                \
-                \
-                \
-                \
-                \
-    \x0a           \
-                \
-                \
-                \
-                \
-                \
-         \x0a      \
-                \
-                \
-                \
-                \
-                \
-              \x0a \
-                \
-                \
-                \
-                \
-                \
-                \
-   \x0a            \
-                \
-                \
-                \
-                \
-                \
-        \x0a       \
-                \
-     \x0a<?xpacket \
-end=\x22w\x22?>\x82\xee\x8e/\x00\x00\x00\
- cHRM\x00\x00z%\x00\x00\x80\x83\x00\x00\xf9\
-\xff\x00\x00\x80\xe9\x00\x00u0\x00\x00\xea`\x00\x00:\
-\x98\x00\x00\x17o\x92_\xc5F\x00\x00\x01\xd4IDA\
-Tx\xda\xec\x96;K\x1cQ\x14\x80\xbf]\x95(\x82\
-$! \xa2\xd6\x91\x94\x92\x1f\x11\x85t!\x85v)\
-\x8d\xd8H\xc0B\x83\x98\x806!\xa2a\x85 )6\
->\x1ac#.aA|\x10\xf0\x81\x9bb!\xa8\x95\
-\x85\x10X\xc4\x22\x01%\x90\xe2\xa4\x98\xf1\xee<\xce\xdc\
-\xb9\xb0\xe9\xf4\xdcf\xce\xebc\xe6\xde\xb9\xe7\x9c\x8c\xf0\
-\x7f%\xcb\x8d\x03b\xd9\xc3qzT{3S\x16Z\
-\x04\xd8d\x9eF\x11\x84\x87JV\x09a\xd3h\xf56\
-\xe0\x10\x15\xba\x01\x98G\x10\x84\xdf1\xe4\xa6\xef9\xe1\
-.P\xc7)\xc5$\xe0\x0b\x04\xe1/]\xc0\x07?M\
-\xb8\xa2#\x80\xdb2\xf62Y`\x1fA\xc8k\xc0A\
-\x13\xfa\x87G\xc0\x88\xd1\xcf\xe9\xf4c\x8a\xc6\xb6\x0e\xc0\
-\x9e\xd1\x97\xa2\xc0*N\x10.i\x07&\x8d^\xa1\x01\
-X3\xfa7\x00\xb6C9KU\xe0}\xc6B.A\
-\xb8\xa0\x0dxc\xf4\x03\x16\x22\xb8\xadXN\x81V\x0f\
-\xd8\x1bsyou\x0f\x98\x8e\xd9\x0f\x01(\xa89}\
-\xd7\x9f\xfcDu\xff\xa4\x05\x98\x09\xd9J\x00|Q\xe3\
-\xdf\x06\xf7\xf0\xa9\x1arF\x13\xf01p\xb2\x00+I\
-\xb8\xf0)?S\xc3\x8e\xc8\x02\x9f\xfc?\x0f \xaf\xc6\
-\xcdj\xff\xe1\xf3\x04\xa4w\x04\xbfh\x00\x16\xd5\x98\x5c\
-\xd2M\xe9W\xc3\xbf\x03\xf0\x00\x98S\xfd\xf3\xb6\xbb<\
-\xa0\xa6x';\xad\xfa\x96\xed\xc5\x01^&\xa4\xbdV\
-\xed\x8bi\xd5\x06`XM\xd5\xd6jz\xf9\xf2\xe4\x95\
-\x13n\xdd\xa5\x1e\x86\xab\xa1m}u+\xb0U\x99\xb0\
-\xe26\x5c+vP\xde%\xe2v\xdc[@X\xde\xab\
-\xb8]k\x87Ji\xf4\xb9\x18\xae\x9c\xd2\xf2R'\x87\
-\x5c\xe4\xd64\xd6\x0a\x0c\xde\xdfc\xeaR\x9b\xb2\xd3l\
-\xf3\x19A\xf8\xc1\x1d\x87.\xef8,\x1dpE\xb3\xd3\
-\xd8\xe0\x08l\xe3\xb1\xdb\x1c\x92\xb9\x1d\xe7j\x96\x7f\x03\
-\x00\xcfy\xf4\xf0\xb1\x0f\x0e\x93\x00\x00\x00\x00IEN\
-D\xaeB`\x82\
-\x00\x00An\
-\x89\
-PNG\x0d\x0a\x1a\x0a\x00\x00\x00\x0dIHDR\x00\
-\x00\x00(\x00\x00\x00(\x08\x06\x00\x00\x00\x8c\xfe\xb8m\
-\x00\x00\x00\x09pHYs\x00\x00\x0b\x13\x00\x00\x0b\x13\
-\x01\x00\x9a\x9c\x18\x00\x00<}iTXtXML\
-:com.adobe.xmp\x00\x00\
-\x00\x00\x00<?xpacket beg\
-in=\x22\xef\xbb\xbf\x22 id=\x22W5M\
-0MpCehiHzreSzNTc\
-zkc9d\x22?>\x0a<x:xmpm\
-eta xmlns:x=\x22ado\
-be:ns:meta/\x22 x:x\
-mptk=\x22Adobe XMP \
-Core 5.6-c138 79\
-.159824, 2016/09\
-/14-01:09:01    \
-    \x22>\x0a   <rdf:R\
-DF xmlns:rdf=\x22ht\
-tp://www.w3.org/\
-1999/02/22-rdf-s\
-yntax-ns#\x22>\x0a    \
-  <rdf:Descripti\
-on rdf:about=\x22\x22\x0a\
-            xmln\
-s:xmp=\x22http://ns\
-.adobe.com/xap/1\
-.0/\x22\x0a           \
- xmlns:dc=\x22http:\
-//purl.org/dc/el\
-ements/1.1/\x22\x0a   \
-         xmlns:p\
-hotoshop=\x22http:/\
-/ns.adobe.com/ph\
-otoshop/1.0/\x22\x0a  \
-          xmlns:\
-xmpMM=\x22http://ns\
-.adobe.com/xap/1\
-.0/mm/\x22\x0a        \
-    xmlns:stEvt=\
-\x22http://ns.adobe\
-.com/xap/1.0/sTy\
-pe/ResourceEvent\
-#\x22\x0a            x\
-mlns:tiff=\x22http:\
-//ns.adobe.com/t\
-iff/1.0/\x22\x0a      \
-      xmlns:exif\
-=\x22http://ns.adob\
-e.com/exif/1.0/\x22\
->\x0a         <xmp:\
-CreatorTool>Adob\
-e Photoshop CC 2\
-017 (Windows)</x\
-mp:CreatorTool>\x0a\
-         <xmp:Cr\
-eateDate>2020-06\
--08T21:55:42-07:\
-00</xmp:CreateDa\
-te>\x0a         <xm\
-p:ModifyDate>202\
-0-06-09T18:57:04\
--07:00</xmp:Modi\
-fyDate>\x0a        \
- <xmp:MetadataDa\
-te>2020-06-09T18\
-:57:04-07:00</xm\
-p:MetadataDate>\x0a\
-         <dc:for\
-mat>image/png</d\
-c:format>\x0a      \
-   <photoshop:Co\
-lorMode>3</photo\
-shop:ColorMode>\x0a\
-         <photos\
-hop:DocumentAnce\
-stors>\x0a         \
-   <rdf:Bag>\x0a   \
-            <rdf\
-:li>adobe:docid:\
-photoshop:afb8b1\
-1c-aa0e-11ea-819\
-d-a6149d248805</\
-rdf:li>\x0a        \
-    </rdf:Bag>\x0a \
-        </photos\
-hop:DocumentAnce\
-stors>\x0a         \
-<xmpMM:InstanceI\
-D>xmp.iid:a92ce7\
-ba-da13-b449-b51\
-3-ad9d31c7023b</\
-xmpMM:InstanceID\
->\x0a         <xmpM\
-M:DocumentID>ado\
-be:docid:photosh\
-op:0df751f0-aa1d\
--11ea-819d-a6149\
-d248805</xmpMM:D\
-ocumentID>\x0a     \
-    <xmpMM:Origi\
-nalDocumentID>xm\
-p.did:71c916d4-0\
-fa4-8047-bfd1-94\
-8d5874f741</xmpM\
-M:OriginalDocume\
-ntID>\x0a         <\
-xmpMM:History>\x0a \
-           <rdf:\
-Seq>\x0a           \
-    <rdf:li rdf:\
-parseType=\x22Resou\
-rce\x22>\x0a          \
-        <stEvt:a\
-ction>created</s\
-tEvt:action>\x0a   \
-               <\
-stEvt:instanceID\
->xmp.iid:71c916d\
-4-0fa4-8047-bfd1\
--948d5874f741</s\
-tEvt:instanceID>\
-\x0a               \
-   <stEvt:when>2\
-020-06-08T21:55:\
-42-07:00</stEvt:\
-when>\x0a          \
-        <stEvt:s\
-oftwareAgent>Ado\
-be Photoshop CC \
-2017 (Windows)</\
-stEvt:softwareAg\
-ent>\x0a           \
-    </rdf:li>\x0a  \
-             <rd\
-f:li rdf:parseTy\
-pe=\x22Resource\x22>\x0a \
-                \
- <stEvt:action>s\
-aved</stEvt:acti\
-on>\x0a            \
-      <stEvt:ins\
-tanceID>xmp.iid:\
-252f27cf-6140-ba\
-4a-8ebb-338294df\
-60bf</stEvt:inst\
-anceID>\x0a        \
-          <stEvt\
-:when>2020-06-08\
-T23:47:35-07:00<\
-/stEvt:when>\x0a   \
-               <\
-stEvt:softwareAg\
-ent>Adobe Photos\
-hop CC 2017 (Win\
-dows)</stEvt:sof\
-twareAgent>\x0a    \
-              <s\
-tEvt:changed>/</\
-stEvt:changed>\x0a \
-              </\
-rdf:li>\x0a        \
-       <rdf:li r\
-df:parseType=\x22Re\
-source\x22>\x0a       \
-           <stEv\
-t:action>saved</\
-stEvt:action>\x0a  \
-                \
-<stEvt:instanceI\
-D>xmp.iid:a92ce7\
-ba-da13-b449-b51\
-3-ad9d31c7023b</\
-stEvt:instanceID\
->\x0a              \
-    <stEvt:when>\
-2020-06-09T18:57\
-:04-07:00</stEvt\
-:when>\x0a         \
-         <stEvt:\
-softwareAgent>Ad\
-obe Photoshop CC\
- 2017 (Windows)<\
-/stEvt:softwareA\
-gent>\x0a          \
-        <stEvt:c\
-hanged>/</stEvt:\
-changed>\x0a       \
-        </rdf:li\
->\x0a            </\
-rdf:Seq>\x0a       \
-  </xmpMM:Histor\
-y>\x0a         <tif\
-f:Orientation>1<\
-/tiff:Orientatio\
-n>\x0a         <tif\
-f:XResolution>72\
-0000/10000</tiff\
-:XResolution>\x0a  \
-       <tiff:YRe\
-solution>720000/\
-10000</tiff:YRes\
-olution>\x0a       \
-  <tiff:Resoluti\
-onUnit>2</tiff:R\
-esolutionUnit>\x0a \
-        <exif:Co\
-lorSpace>65535</\
-exif:ColorSpace>\
-\x0a         <exif:\
-PixelXDimension>\
-40</exif:PixelXD\
-imension>\x0a      \
-   <exif:PixelYD\
-imension>40</exi\
-f:PixelYDimensio\
-n>\x0a      </rdf:D\
-escription>\x0a   <\
-/rdf:RDF>\x0a</x:xm\
-pmeta>\x0a         \
-                \
-                \
-                \
-                \
-                \
-           \x0a    \
-                \
-                \
-                \
-                \
-                \
-                \
-\x0a               \
-                \
-                \
-                \
-                \
-                \
-     \x0a          \
-                \
-                \
-                \
-                \
-                \
-          \x0a     \
-                \
-                \
-                \
-                \
-                \
-               \x0a\
-                \
-                \
-                \
-                \
-                \
-                \
-    \x0a           \
-                \
-                \
-                \
-                \
-                \
-         \x0a      \
-                \
-                \
-                \
-                \
-                \
-              \x0a \
-                \
-                \
-                \
-                \
-                \
-                \
-   \x0a            \
-                \
-                \
-                \
-                \
-                \
-        \x0a       \
-                \
-                \
-                \
-                \
-                \
-             \x0a  \
-                \
-                \
-                \
-                \
-                \
-                \
-  \x0a             \
-                \
-                \
-                \
-                \
-                \
-       \x0a        \
-                \
-                \
-                \
-                \
-                \
-            \x0a   \
-                \
-                \
-                \
-                \
-                \
-                \
- \x0a              \
-                \
-                \
-                \
-                \
-                \
-      \x0a         \
-                \
-                \
-                \
-                \
-                \
-           \x0a    \
-                \
-                \
-                \
-                \
-                \
-                \
-\x0a               \
-                \
-                \
-                \
-                \
-                \
-     \x0a          \
-                \
-                \
-                \
-                \
-                \
-          \x0a     \
-                \
-                \
-                \
-                \
-                \
-               \x0a\
-                \
-                \
-                \
-                \
-                \
-                \
-    \x0a           \
-                \
-                \
-                \
-                \
-                \
-         \x0a      \
-                \
-                \
-                \
-                \
-                \
-              \x0a \
-                \
-                \
-                \
-                \
-                \
-                \
-   \x0a            \
-                \
-                \
-                \
-                \
-                \
-        \x0a       \
-                \
-                \
-                \
-                \
-                \
-             \x0a  \
-                \
-                \
-                \
-                \
-                \
-                \
-  \x0a             \
-                \
-                \
-                \
-                \
-                \
-       \x0a        \
-                \
-                \
-                \
-                \
-                \
-            \x0a   \
-                \
-                \
-                \
-                \
-                \
-                \
- \x0a              \
-                \
-                \
-                \
-                \
-                \
-      \x0a         \
-                \
-                \
-                \
-                \
-                \
-           \x0a    \
-                \
-                \
-                \
-                \
-                \
-                \
-\x0a               \
-                \
-                \
-                \
-                \
-                \
-     \x0a          \
-                \
-                \
-                \
-                \
-                \
-          \x0a     \
-                \
-                \
-                \
-                \
-                \
-               \x0a\
-                \
-                \
-                \
-                \
-                \
-                \
-    \x0a           \
-                \
-                \
-                \
-                \
-                \
-         \x0a      \
-                \
-                \
-                \
-                \
-                \
-              \x0a \
-                \
-                \
-                \
-                \
-                \
-                \
-   \x0a            \
-                \
-                \
-                \
-                \
-                \
-        \x0a       \
-                \
-                \
-                \
-                \
-                \
-             \x0a  \
-                \
-                \
-                \
-                \
-                \
-                \
-  \x0a             \
-                \
-                \
-                \
-                \
-                \
-       \x0a        \
-                \
-                \
-                \
-                \
-                \
-            \x0a   \
-                \
-                \
-                \
-                \
-                \
-                \
- \x0a              \
-                \
-                \
-                \
-                \
-                \
-      \x0a         \
-                \
-                \
-                \
-                \
-                \
-           \x0a    \
-                \
-                \
-                \
-                \
-                \
-                \
-\x0a               \
-                \
-                \
-                \
-                \
-                \
-     \x0a          \
-                \
-                \
-                \
-                \
-                \
-          \x0a     \
-                \
-                \
-                \
-                \
-                \
-               \x0a\
-                \
-                \
-                \
-                \
-                \
-                \
-    \x0a           \
-                \
-                \
-                \
-                \
-                \
-         \x0a      \
-                \
-                \
-                \
-                \
-                \
-              \x0a \
-                \
-                \
-                \
-                \
-                \
-                \
-   \x0a            \
-                \
-                \
-                \
-                \
-                \
-        \x0a       \
-                \
-                \
-                \
-                \
-                \
-             \x0a  \
-                \
-                \
-                \
-                \
-                \
-                \
-  \x0a             \
-                \
-                \
-                \
-                \
-                \
-       \x0a        \
-                \
-                \
-                \
-                \
-                \
-            \x0a   \
-                \
-                \
-                \
-                \
-                \
-                \
- \x0a              \
-                \
-                \
-                \
-                \
-                \
-      \x0a         \
-                \
-                \
-                \
-                \
-                \
-           \x0a    \
-                \
-                \
-                \
-                \
-                \
-                \
-\x0a               \
-                \
-                \
-                \
-                \
-                \
-     \x0a          \
-                \
-                \
-                \
-                \
-                \
-          \x0a     \
-                \
-                \
-                \
-                \
-                \
-               \x0a\
-                \
-                \
-                \
-                \
-                \
-                \
-    \x0a           \
-                \
-                \
-                \
-                \
-                \
-         \x0a      \
-                \
-                \
-                \
-                \
-                \
-              \x0a \
-                \
-                \
-                \
-                \
-                \
-                \
-   \x0a            \
-                \
-                \
-                \
-                \
-                \
-        \x0a       \
-                \
-                \
-                \
-                \
-                \
-             \x0a  \
-                \
-                \
-                \
-                \
-                \
-                \
-  \x0a             \
-                \
-                \
-                \
-                \
-                \
-       \x0a        \
-                \
-                \
-                \
-                \
-                \
-            \x0a   \
-                \
-                \
-                \
-                \
-                \
-                \
- \x0a              \
-                \
-                \
-                \
-                \
-                \
-      \x0a         \
-                \
-                \
-                \
-                \
-                \
-           \x0a    \
-                \
-                \
-                \
-                \
-                \
-                \
-\x0a               \
-                \
-                \
-                \
-                \
-                \
-     \x0a          \
-                \
-                \
-                \
-                \
-                \
-          \x0a     \
-                \
-                \
-                \
-                \
-                \
-               \x0a\
-                \
-                \
-                \
-                \
-                \
-                \
-    \x0a           \
-                \
-                \
-                \
-                \
-                \
-         \x0a      \
-                \
-                \
-                \
-                \
-                \
-              \x0a \
-                \
-                \
-                \
-                \
-                \
-                \
-   \x0a            \
-                \
-                \
-                \
-                \
-                \
-        \x0a       \
-                \
-                \
-                \
-                \
-                \
-             \x0a  \
-                \
-                \
-                \
-                \
-                \
-                \
-  \x0a             \
-                \
-                \
-                \
-                \
-                \
-       \x0a        \
-                \
-                \
-                \
-                \
-                \
-            \x0a   \
-                \
-                \
-                \
-                \
-                \
-                \
- \x0a              \
-                \
-                \
-                \
-                \
-                \
-      \x0a         \
-                \
-                \
-                \
-                \
-                \
-           \x0a    \
-                \
-                \
-                \
-                \
-                \
-                \
-\x0a               \
-                \
-                \
-                \
-                \
-                \
-     \x0a          \
-                \
-                \
-                \
-                \
-                \
-          \x0a     \
-                \
-                \
-                \
-                \
-                \
-               \x0a\
-                \
-                \
-                \
-                \
-                \
-                \
-    \x0a           \
-                \
-                \
-                \
-                \
-                \
-         \x0a      \
-                \
-                \
-                \
-                \
-                \
-              \x0a \
-                \
-                \
-                \
-                \
-                \
-                \
-   \x0a            \
-                \
-                \
-                \
-                \
-                \
-        \x0a       \
-                \
-                \
-                \
-                \
-                \
-             \x0a  \
-                \
-                \
-                \
-                \
-                \
-                \
-  \x0a             \
-                \
-                \
-                \
-                \
-                \
-       \x0a        \
-                \
-                \
-                \
-                \
-                \
-            \x0a   \
-                \
-                \
-                \
-                \
-                \
-                \
- \x0a              \
-                \
-                \
-                \
-                \
-                \
-      \x0a         \
-                \
-                \
-                \
-                \
-                \
-           \x0a    \
-                \
-                \
-                \
-                \
-                \
-                \
-\x0a               \
-                \
-                \
-                \
-                \
-                \
-     \x0a          \
-                \
-                \
-                \
-                \
-                \
-          \x0a     \
-                \
-                \
-                \
-                \
-                \
-               \x0a\
-                \
-                \
-                \
-                \
-                \
-                \
-    \x0a           \
-                \
-                \
-                \
-                \
-                \
-         \x0a      \
-                \
-      \x0a<?xpacket\
- end=\x22w\x22?>\xd7`9\xd9\x00\x00\
-\x00 cHRM\x00\x00z%\x00\x00\x80\x83\x00\x00\
-\xf9\xff\x00\x00\x80\xe9\x00\x00u0\x00\x00\xea`\x00\x00\
-:\x98\x00\x00\x17o\x92_\xc5F\x00\x00\x04kID\
-ATx\xda\xcc\x98}hUe\x18\xc0\x7f\xf7\xdeC\
-N\xef\x9dXk:\xac\x5c\x1ftQ\xd0\x95\xd05\xc1\
-\x0dW\xc1(\xdbu\xae\xd4I\xd0XlY2\xfa\xd0\
-\xca,H\x9b\xfd\x91E,\xd1\xb2\xacT\x8a`R\x8b\
-J\xfc\xc3\xad\x99\xa8\xad9\x1a\xc4\xa6\xceEm\xd7V\
-\x14\x8d\xd4Z\xb1b\x96O\x7f\xf8\x9cq<\x9cs\xcf\
-\xb9\xb7\xabw/\x5cv\xf6|\x9d\xdfy\xcf\xfb>\xcf\
-\xf3\x1eD\x84\xf1\xfc\xf3\x1a\xc5\xc0z\xe0q\xe0\x0a.\
-\xf5\x08\x04\x93\xaa\xa7\x02M\xc0I\xe08\xb0r\xbc\x01\
-\xbe\x01\x88\xed\x17\x1b/\x80s\x80?\x15\xeau\xe0\x90\
-^\x7f4^\x00\xd7+\xd0f\xfd\x7f\x060\x08\xfc\x0b\
-\x5c\x9bm\xc0\x89\xc0\x97\x0a8\xd3\x22\x7fKek\xb3\
-\x0d8\x1b8\x07\xf4\x02S,\xf2\x87\x14\xb0-\xdb\x80\
-\x0f(\xc86\x9b\xbc\x008\x0b\x9c\x01&d\x13\xf0M\
-\x05\xacs\xd0u\xab\xae,[\x80!}\xb5#\xc0\xcd\
-\x0e.\xdb\x15\xf0\xe9l\x01\xe6+@\x1f\x10qpy\
-X\xf5\xefe\x0b\xb0L\x01\xf6\xb9\xb8\x14\xa9\xfe\x90G\
-\xe8\x89@\xf8b\x00\xaeV\x80-..\x11`\x14\xf8\
-\x16\xb8\xdc\xc5\xa6\x02\xd8\xaf\x0f\xf1d\xa6\x017+\xe0\
-S..!\xa0Kw\xf3\xad\x0e\xfa\x05\x0e\xe5qU\
-&\x01[5h<\x89\xdb\x0e\xb5Y\xe6\xa0\xebR]\
-\x0f\xd0\xae\xd7?\x009\x99\x02\xec\x07\xfe\x01nL\xe2\
-\xd6\xa07^m\x93\xdf\xa5\xf2\xb3\xdaT\xcc\x06~V\
-\xd9\xd2L\x00F4\x09\xff\x06\xe4&q3\x13\xf9\xab\
-6y\x93\x83\xfc1\x955e\x02p\xa66\x03\x03\x1e\
-n\xf3\xf4\xa6\x1f\x03f\x84+\x81\xefU\x1e\xb5\xd8\xce\
-RY\x7f\x92M\xe5\x1b0\xae\xc1Z<\xdcf\xe8\x83\
-\x1c\x04\x0c\x95\x95\xabo\xb7\xcd6\x08\x1cS]\xc9\xff\
-\x05\x5c\xa5\x81\xde\xf1p\x9b\x06\x9c\x02\x0e[\x16\xbf\xf9\
-*\x9fp\xb0\x7fIu\xd5.\xf1r\x81[t\x0d\x97\
-\x00W\xb9\x01\xae\xd3@/{\x00Ft\x97\x0ej\xc0\
-\x88&vqI=U\xaa\xdb\xee\xa0{\x10\xf8\xc2\x96\
-\x96\x06\x81\x8d@\xd8\x0e\xb8I\x0d\xd6xM<\xd0l\
-)y\x8d\xba\xf3\x7f\xd1\xd9u\xea\xce\x05\xe8\xb0U\x97\
-\xe7L\xa8\xc9\xd7EeV\xed\xa3ruY\x85\x15\xb4\
-\x85@\xf0\x82\xcd\xba;\x85\x94\xb0Em\xff\x02\xfe\xd6\
-\xeb\x0f\x15\xde>\xa6kf8\xad\xb5\x1eMc\xa3\x80\
-\x14\xc6WHeGBjN\x89T\x0f\x8d\xca\xc2\xb7\
-\x9b\xc5\x08\xe7\x9a\x90\x9fX\x03\xb5\xa9p\xbe\x0f\xc0\x17\
-\x1d*\x86[Y\x9b\x00\x1cP\x9b\xb9*{\x16\x90\xfc\
-X\xb1\x94\xb7\xf6\xc8\xf2\xdeaY\xd2\x9e\x90{\xbb\x06\
-\xa5nD$\xf6\xc2V\x81\x80\xe8f\x1c\xdbmG4\
-\x88\x9f3\xc7\x1a\x07\xc0\xc5I\xec_\xb3\xccr\x150\
-\x0cH\xb4\xba^\xca\xf7\x1f\x97%\xed\x03R\xdevL\
-\x16\xb5tK\xd5\x89a\xa9\xec<)9ySE\xed\
-\xc6\x16\xfeQ\x9d\xf6\xc9>\x00\xef\xb1\xc1\x9d\xd1\xb5\xe6\
-6\x9e\xb1T\x99s\xa6_\xb4\xe6\x11\xb9sO\xa7T\
-v$d\xf1\xc1>Y\xb4\xefk\xa9\xea\xfbC*\x8f\
-$$'/\xff\x02\xc0\x02 \x01\x0c\xf9\xac\x9b%\xba\
-1\xc4R{\xa7$\xb1_a}\xa0@\xe0\xfc\xdfi\
-\xf3K\xe5\xf6\xf7[%\xfe\xf9\x09Y\xde\xf3\xab,\xed\
-\x19\x92\xda\x11\x91XC\xa3i;\xf6\x8a\xa3\xba\x90\xbf\
-\xf1y\xde(\xd2\x5ch\x06\xda\xe3a\xbf\xd0\x9c\xb9`\
-0(\xa1Pp\x0c\xb6\xf0\xeeeR\xbak\xafT\x1c\
-\xfeN\xee\xeb?-\xc5\xdbv\x8b1),\xf6s\xf8\
-<\xa5m\xd7\x96\xcak\x5c\xaf\x9fD\xcc@\x1b=\xec\
-\xe7\x02\xbf\x9f\x9f\xbd\x80\x18\x86\xd1\x152\x0c\xb3vK\
-\xa4\xf0\x06)Xp\x87\xe4\x15\xc5\xc4\xf6\xd0a{'\
-\xdd\xec\x92*p8\xe1\xf5Z\x82\xd5\xa5\xf0@#!\
-\xc3X\x192\x8c\xa0\xb6l\xf6D=\x00l\x00.\xb3\
-\x06\xa8L\x92\xed\xdd\xaa\xc9W\xea3\xaae*\xd9\x98\
-\x04t\xaa\xfdO\xc05\xb6X7\x01\xb7i\xc9\x9b\xee\
-\x14\xe0~u~\xc5o\x19\xb7\xe46\xfb\x0d\xdd\xc6^\
-\xb5\xefM\xa7\xf3\xaaW\xe7\x86\x14|>U\x9f\xa3>\
-\xedw\xa9\xfd\x81t\x00\xd7\xa5\xf1\xdd\xc5\x5c\xe4\x9f\xf9\
-\xb47\xbb\x9a\x0f\xd2\x01\xdc\xa0\xce\xf5)\xf8\x98_ \
-\xde\xf5i\xff\xbc\xda\xefH\x07\xb0Q\x9dkS\xf01\
-\x0fO[}\xdaoJ\xb7\xfd\x0f\x00;\x93\x9c\xd4\xdc\
-\xc6Z\xe0G\xa0\xc6\xa7}\xa9\xae\xdb\xb4\x0ePqm\
-m\x0aS\xf0\xc9\xd1\xb6\xc9\xb8\x14_A\xe6h\xbb\x9e\
-\xea\xc1&t\xb1\xc1\xfe\x1b\x00\x13\xeb\x13\xee\xf3\xdc\x94\
-\x02\x00\x00\x00\x00IEND\xaeB`\x82\
-\x00\x00<\x22\
-\x89\
-PNG\x0d\x0a\x1a\x0a\x00\x00\x00\x0dIHDR\x00\
-\x00\x00(\x00\x00\x00#\x08\x04\x00\x00\x00L0\x80%\
-\x00\x00\x00\x09pHYs\x00\x00\x0b\x13\x00\x00\x0b\x13\
-\x01\x00\x9a\x9c\x18\x00\x009\xeciTXtXML\
-:com.adobe.xmp\x00\x00\
-\x00\x00\x00<?xpacket beg\
-in=\x22\xef\xbb\xbf\x22 id=\x22W5M\
-0MpCehiHzreSzNTc\
-zkc9d\x22?>\x0a<x:xmpm\
-eta xmlns:x=\x22ado\
-be:ns:meta/\x22 x:x\
-mptk=\x22Adobe XMP \
-Core 5.6-c138 79\
-.159824, 2016/09\
-/14-01:09:01    \
-    \x22>\x0a   <rdf:R\
-DF xmlns:rdf=\x22ht\
-tp://www.w3.org/\
-1999/02/22-rdf-s\
-yntax-ns#\x22>\x0a    \
-  <rdf:Descripti\
-on rdf:about=\x22\x22\x0a\
-            xmln\
-s:xmp=\x22http://ns\
-.adobe.com/xap/1\
-.0/\x22\x0a           \
- xmlns:xmpMM=\x22ht\
-tp://ns.adobe.co\
-m/xap/1.0/mm/\x22\x0a \
-           xmlns\
-:stEvt=\x22http://n\
-s.adobe.com/xap/\
-1.0/sType/Resour\
-ceEvent#\x22\x0a      \
-      xmlns:dc=\x22\
-http://purl.org/\
-dc/elements/1.1/\
-\x22\x0a            xm\
-lns:photoshop=\x22h\
-ttp://ns.adobe.c\
-om/photoshop/1.0\
-/\x22\x0a            x\
-mlns:tiff=\x22http:\
-//ns.adobe.com/t\
-iff/1.0/\x22\x0a      \
-      xmlns:exif\
-=\x22http://ns.adob\
-e.com/exif/1.0/\x22\
->\x0a         <xmp:\
-CreatorTool>Adob\
-e Photoshop CC 2\
-017 (Windows)</x\
-mp:CreatorTool>\x0a\
-         <xmp:Cr\
-eateDate>2020-08\
--08T14:32:11-07:\
-00</xmp:CreateDa\
-te>\x0a         <xm\
-p:MetadataDate>2\
-020-08-08T14:32:\
-11-07:00</xmp:Me\
-tadataDate>\x0a    \
-     <xmp:Modify\
-Date>2020-08-08T\
-14:32:11-07:00</\
-xmp:ModifyDate>\x0a\
-         <xmpMM:\
-InstanceID>xmp.i\
-id:c34816e6-d6a3\
--184c-ba4b-8abba\
-4a8c9fd</xmpMM:I\
-nstanceID>\x0a     \
-    <xmpMM:Docum\
-entID>adobe:doci\
-d:photoshop:982a\
-e1cb-d9be-11ea-8\
-70e-be7d6a73bcf6\
-</xmpMM:Document\
-ID>\x0a         <xm\
-pMM:OriginalDocu\
-mentID>xmp.did:9\
-8a93b7d-2c95-344\
-8-9d57-dffd2ac78\
-6b5</xmpMM:Origi\
-nalDocumentID>\x0a \
-        <xmpMM:H\
-istory>\x0a        \
-    <rdf:Seq>\x0a  \
-             <rd\
-f:li rdf:parseTy\
-pe=\x22Resource\x22>\x0a \
-                \
- <stEvt:action>c\
-reated</stEvt:ac\
-tion>\x0a          \
-        <stEvt:i\
-nstanceID>xmp.ii\
-d:98a93b7d-2c95-\
-3448-9d57-dffd2a\
-c786b5</stEvt:in\
-stanceID>\x0a      \
-            <stE\
-vt:when>2020-08-\
-08T14:32:11-07:0\
-0</stEvt:when>\x0a \
-                \
- <stEvt:software\
-Agent>Adobe Phot\
-oshop CC 2017 (W\
-indows)</stEvt:s\
-oftwareAgent>\x0a  \
-             </r\
-df:li>\x0a         \
-      <rdf:li rd\
-f:parseType=\x22Res\
-ource\x22>\x0a        \
-          <stEvt\
-:action>saved</s\
-tEvt:action>\x0a   \
-               <\
-stEvt:instanceID\
->xmp.iid:c34816e\
-6-d6a3-184c-ba4b\
--8abba4a8c9fd</s\
-tEvt:instanceID>\
-\x0a               \
-   <stEvt:when>2\
-020-08-08T14:32:\
-11-07:00</stEvt:\
-when>\x0a          \
-        <stEvt:s\
-oftwareAgent>Ado\
-be Photoshop CC \
-2017 (Windows)</\
-stEvt:softwareAg\
-ent>\x0a           \
-       <stEvt:ch\
-anged>/</stEvt:c\
-hanged>\x0a        \
-       </rdf:li>\
-\x0a            </r\
-df:Seq>\x0a        \
- </xmpMM:History\
->\x0a         <dc:f\
-ormat>image/png<\
-/dc:format>\x0a    \
-     <photoshop:\
-ColorMode>1</pho\
-toshop:ColorMode\
->\x0a         <tiff\
-:Orientation>1</\
-tiff:Orientation\
->\x0a         <tiff\
-:XResolution>720\
-000/10000</tiff:\
-XResolution>\x0a   \
-      <tiff:YRes\
-olution>720000/1\
-0000</tiff:YReso\
-lution>\x0a        \
- <tiff:Resolutio\
-nUnit>2</tiff:Re\
-solutionUnit>\x0a  \
-       <exif:Col\
-orSpace>65535</e\
-xif:ColorSpace>\x0a\
-         <exif:P\
-ixelXDimension>4\
-0</exif:PixelXDi\
-mension>\x0a       \
-  <exif:PixelYDi\
-mension>35</exif\
-:PixelYDimension\
->\x0a      </rdf:De\
-scription>\x0a   </\
-rdf:RDF>\x0a</x:xmp\
-meta>\x0a          \
-                \
-                \
-                \
-                \
-                \
-          \x0a     \
-                \
-                \
-                \
-                \
-                \
-               \x0a\
-                \
-                \
-                \
-                \
-                \
-                \
-    \x0a           \
-                \
-                \
-                \
-                \
-                \
-         \x0a      \
-                \
-                \
-                \
-                \
-                \
-              \x0a \
-                \
-                \
-                \
-                \
-                \
-                \
-   \x0a            \
-                \
-                \
-                \
-                \
-                \
-        \x0a       \
-                \
-                \
-                \
-                \
-                \
-             \x0a  \
-                \
-                \
-                \
-                \
-                \
-                \
-  \x0a             \
-                \
-                \
-                \
-                \
-                \
-       \x0a        \
-                \
-                \
-                \
-                \
-                \
-            \x0a   \
-                \
-                \
-                \
-                \
-                \
-                \
- \x0a              \
-                \
-                \
-                \
-                \
-                \
-      \x0a         \
-                \
-                \
-                \
-                \
-                \
-           \x0a    \
-                \
-                \
-                \
-                \
-                \
-                \
-\x0a               \
-                \
-                \
-                \
-                \
-                \
-     \x0a          \
-                \
-                \
-                \
-                \
-                \
-          \x0a     \
-                \
-                \
-                \
-                \
-                \
-               \x0a\
-                \
-                \
-                \
-                \
-                \
-                \
-    \x0a           \
-                \
-                \
-                \
-                \
-                \
-         \x0a      \
-                \
-                \
-                \
-                \
-                \
-              \x0a \
-                \
-                \
-                \
-                \
-                \
-                \
-   \x0a            \
-                \
-                \
-                \
-                \
-                \
-        \x0a       \
-                \
-                \
-                \
-                \
-                \
-             \x0a  \
-                \
-                \
-                \
-                \
-                \
-                \
-  \x0a             \
-                \
-                \
-                \
-                \
-                \
-       \x0a        \
-                \
-                \
-                \
-                \
-                \
-            \x0a   \
-                \
-                \
-                \
-                \
-                \
-                \
- \x0a              \
-                \
-                \
-                \
-                \
-                \
-      \x0a         \
-                \
-                \
-                \
-                \
-                \
-           \x0a    \
-                \
-                \
-                \
-                \
-                \
-                \
-\x0a               \
-                \
-                \
-                \
-                \
-                \
-     \x0a          \
-                \
-                \
-                \
-                \
-                \
-          \x0a     \
-                \
-                \
-                \
-                \
-                \
-               \x0a\
-                \
-                \
-                \
-                \
-                \
-                \
-    \x0a           \
-                \
-                \
-                \
-                \
-                \
-         \x0a      \
-                \
-                \
-                \
-                \
-                \
-              \x0a \
-                \
-                \
-                \
-                \
-                \
-                \
-   \x0a            \
-                \
-                \
-                \
-                \
-                \
-        \x0a       \
-                \
-                \
-                \
-                \
-                \
-             \x0a  \
-                \
-                \
-                \
-                \
-                \
-                \
-  \x0a             \
-                \
-                \
-                \
-                \
-                \
-       \x0a        \
-                \
-                \
-                \
-                \
-                \
-            \x0a   \
-                \
-                \
-                \
-                \
-                \
-                \
- \x0a              \
-                \
-                \
-                \
-                \
-                \
-      \x0a         \
-                \
-                \
-                \
-                \
-                \
-           \x0a    \
-                \
-                \
-                \
-                \
-                \
-                \
-\x0a               \
-                \
-                \
-                \
-                \
-                \
-     \x0a          \
-                \
-                \
-                \
-                \
-                \
-          \x0a     \
-                \
-                \
-                \
-                \
-                \
-               \x0a\
-                \
-                \
-                \
-                \
-                \
-                \
-    \x0a           \
-                \
-                \
-                \
-                \
-                \
-         \x0a      \
-                \
-                \
-                \
-                \
-                \
-              \x0a \
-                \
-                \
-                \
-                \
-                \
-                \
-   \x0a            \
-                \
-                \
-                \
-                \
-                \
-        \x0a       \
-                \
-                \
-                \
-                \
-                \
-             \x0a  \
-                \
-                \
-                \
-                \
-                \
-                \
-  \x0a             \
-                \
-                \
-                \
-                \
-                \
-       \x0a        \
-                \
-                \
-                \
-                \
-                \
-            \x0a   \
-                \
-                \
-                \
-                \
-                \
-                \
- \x0a              \
-                \
-                \
-                \
-                \
-                \
-      \x0a         \
-                \
-                \
-                \
-                \
-                \
-           \x0a    \
-                \
-                \
-                \
-                \
-                \
-                \
-\x0a               \
-                \
-                \
-                \
-                \
-                \
-     \x0a          \
-                \
-                \
-                \
-                \
-                \
-          \x0a     \
-                \
-                \
-                \
-                \
-                \
-               \x0a\
-                \
-                \
-                \
-                \
-                \
-                \
-    \x0a           \
-                \
-                \
-                \
-                \
-                \
-         \x0a      \
-                \
-                \
-                \
-                \
-                \
-              \x0a \
-                \
-                \
-                \
-                \
-                \
-                \
-   \x0a            \
-                \
-                \
-                \
-                \
-                \
-        \x0a       \
-                \
-                \
-                \
-                \
-                \
-             \x0a  \
-                \
-                \
-                \
-                \
-                \
-                \
-  \x0a             \
-                \
-                \
-                \
-                \
-                \
-       \x0a        \
-                \
-                \
-                \
-                \
-                \
-            \x0a   \
-                \
-                \
-                \
-                \
-                \
-                \
- \x0a              \
-                \
-                \
-                \
-                \
-                \
-      \x0a         \
-                \
-                \
-                \
-                \
-                \
-           \x0a    \
-                \
-                \
-                \
-                \
-                \
-                \
-\x0a               \
-                \
-                \
-                \
-                \
-                \
-     \x0a          \
-                \
-                \
-                \
-                \
-                \
-          \x0a     \
-                \
-                \
-                \
-                \
-                \
-               \x0a\
-                \
-                \
-                \
-                \
-                \
-                \
-    \x0a           \
-                \
-                \
-                \
-                \
-                \
-         \x0a      \
-                \
-                \
-                \
-                \
-                \
-              \x0a \
-                \
-                \
-                \
-                \
-                \
-                \
-   \x0a            \
-                \
-                \
-                \
-                \
-                \
-        \x0a       \
-                \
-                \
-                \
-                \
-                \
-             \x0a  \
-                \
-                \
-                \
-                \
-                \
-                \
-  \x0a             \
-                \
-                \
-                \
-                \
-                \
-       \x0a        \
-                \
-                \
-                \
-                \
-                \
-            \x0a   \
-                \
-                \
-                \
-                \
-                \
-                \
- \x0a              \
-                \
-                \
-                \
-                \
-                \
-      \x0a         \
-                \
-                \
-                \
-                \
-                \
-           \x0a    \
-                \
-                \
-                \
-                \
-                \
-                \
-\x0a               \
-                \
-                \
-                \
-                \
-                \
-     \x0a          \
-                \
-                \
-                \
-                \
-                \
-          \x0a     \
-                \
-                \
-                \
-                \
-                \
-               \x0a\
-                \
-                \
-                \
-                \
-                \
-                \
-    \x0a           \
-                \
-                \
-                \
-                \
-                \
-         \x0a      \
-                \
-                \
-                \
-                \
-                \
-              \x0a \
-                \
-                \
-                \
-                \
-                \
-                \
-   \x0a            \
-                \
-                \
-                \
-                \
-                \
-        \x0a       \
-                \
-                \
-                \
-                \
-                \
-             \x0a  \
-                \
-                \
-                \
-                \
-                \
-                \
-  \x0a             \
-                \
-                \
-                \
-                \
-                \
-       \x0a        \
-                \
-                \
-                \
-                \
-                \
-            \x0a   \
-                \
-                \
-                \
-                \
-                \
-                \
- \x0a              \
-                \
-                \
-                \
-                \
-                \
-      \x0a         \
-                \
-                \
-                \
-                \
-                \
-           \x0a    \
-                \
-                \
-                \
-                \
-                \
-                \
-\x0a               \
-                \
-                \
-                \
-                \
-                \
-     \x0a          \
-                \
-                \
-                \
-                \
-                \
-          \x0a     \
-                \
-                \
-                \
-                \
-                \
-               \x0a\
-                \
-                \
-                \
-                \
-                \
-                \
-    \x0a           \
-                \
-                \
-                \
-                \
-                \
-         \x0a      \
-                \
-                \
-                \
-                \
-                \
-              \x0a \
-                \
-                \
-                \
-                \
-                \
-                \
-   \x0a            \
-                \
-                \
-                \
-                \
-                \
-        \x0a       \
-                \
-     \x0a<?xpacket \
-end=\x22w\x22?>r\x12\xf6\xe8\x00\x00\x00\
- cHRM\x00\x00z%\x00\x00\x80\x83\x00\x00\xf9\
-\xff\x00\x00\x80\xe9\x00\x00u0\x00\x00\xea`\x00\x00:\
-\x98\x00\x00\x17o\x92_\xc5F\x00\x00\x01\xb0IDA\
-Tx\xda\xe4\xd6\xcd+\x04q\x18\xc0\xf1\xafEhK\
-Hi\xc3y\xe5(\x7f\x04\xcaM\x0e\xdc\x1c\x91\x8b\x94\
-\x03\x12\x8a\x8b\x08Q\x92\x03\x96\x0b.\xb2I\xc9K\xca\
-Kv\x0fJ89(%9P\xa4\x1c\x1e\x87\x9d\xc6\
-\xcc\xcf3k\xd8=(;\x97\xfd\xfd\x9e\xe7\xf9\xec\xcb\
-3\xcf\xccd\x08\xe9}\x05\xf8\xeb >\x7fr\x88j\
-\x9f\x9aO\xf0\x94W\x82\xe9\x03\x17\x11\x84\x0br\xd2\x03\
-F\x10\xeb\xb8\x223up\xda\xe6\x04!Nnj\xa0\
-\x9b\x13\x84\xf3T\xc0\xb1/\x9c \x1c\xfd\x16\x1cU9\
-A8\xf8\x0d8\xe0\xc9\x09\xc2\xceO\xc1\x9e\xa4\x9c \
-l\xfd\x04\xec\xfa\x96\x13\x84M\xbf`\xa7/N\x10\xd6\
-\xfd\x80mj\xe9\x0a}\xea~\xe4;\xb0U-;\x03\
-`\xdc\xe3\xa3\x92\x80\xcdjI\x1c\x80b`F\x8d\xcf\
-y\x81\x8dj\xfa%\x00{<\x91\xed\x9ak\xe71\xad\
-\x81\x0d\x1e\x5c\x00\x98G\x10\xae\x01XP\xf3&M\xb0\
-^M\xbb%\x0f\x985\xe6xU\xcd\x1dr\x825j\
-\xca\x1d\xf9\xc0\x84k/\x06\xc0\x9a\x17\x99\x00\xeb\xd4\xf0\
-=\x85jg\x13\x1d\x8f\xaa5M\x09\xb0\x88\xde/\xa1\
-GB\xc0\xa0\xbd>e\xc9~\x7fh\xb5\xc9\xac\x89R\
-\xf2\xf9\x1f\xb6\xbbB/\x94\x02\xc3\x8eo\x9b\x0dl\x18\
-\xe4\xbe\xabf\xd9\xec\xf2'\xf9F%\xd0m\xaf\x1f(\
-\xb7r\xb6\x8d9>vs\xe6y\xd8\x82 \xbcS\x01\
-L\xd9\xa9\xaf\x949N\xfd=G\xc7\x03\xc0\x09\x82\xb0\
-\xe05)\x1d\xdcS\x05\xc0\x9cU\xf6L\xd8\x98\xf5]\
-+rM\x01\x90\xc9\x0d\xdb\xc9f9\xcf\xb8\x22\x86\x95\
-\x8b[\x0ca\xd7^e\xf9\xbf\x05\xf4S\xab\xee\x07\x19\
-\xf1\xbe\x05d\xfc\xbf\xa7\xaf\xbf\x0f~\x0c\x00\xc4h\xf4\
-\xf0$\xab[\xd6\x00\x00\x00\x00IEND\xaeB`\
-\x82\
-\x00\x00@8\
-\x89\
-PNG\x0d\x0a\x1a\x0a\x00\x00\x00\x0dIHDR\x00\
-\x00\x00(\x00\x00\x00#\x08\x04\x00\x00\x00L0\x80%\
-\x00\x00\x00\x09pHYs\x00\x00\x0b\x13\x00\x00\x0b\x13\
-\x01\x00\x9a\x9c\x18\x00\x00;\xa6iTXtXML\
-:com.adobe.xmp\x00\x00\
-\x00\x00\x00<?xpacket beg\
-in=\x22\xef\xbb\xbf\x22 id=\x22W5M\
-0MpCehiHzreSzNTc\
-zkc9d\x22?>\x0a<x:xmpm\
-eta xmlns:x=\x22ado\
-be:ns:meta/\x22 x:x\
-mptk=\x22Adobe XMP \
-Core 5.6-c138 79\
-.159824, 2016/09\
-/14-01:09:01    \
-    \x22>\x0a   <rdf:R\
-DF xmlns:rdf=\x22ht\
-tp://www.w3.org/\
-1999/02/22-rdf-s\
-yntax-ns#\x22>\x0a    \
-  <rdf:Descripti\
-on rdf:about=\x22\x22\x0a\
-            xmln\
-s:xmp=\x22http://ns\
-.adobe.com/xap/1\
-.0/\x22\x0a           \
- xmlns:xmpMM=\x22ht\
-tp://ns.adobe.co\
-m/xap/1.0/mm/\x22\x0a \
-           xmlns\
-:stEvt=\x22http://n\
-s.adobe.com/xap/\
-1.0/sType/Resour\
-ceEvent#\x22\x0a      \
-      xmlns:dc=\x22\
-http://purl.org/\
-dc/elements/1.1/\
-\x22\x0a            xm\
-lns:photoshop=\x22h\
-ttp://ns.adobe.c\
-om/photoshop/1.0\
-/\x22\x0a            x\
-mlns:tiff=\x22http:\
-//ns.adobe.com/t\
-iff/1.0/\x22\x0a      \
-      xmlns:exif\
-=\x22http://ns.adob\
-e.com/exif/1.0/\x22\
->\x0a         <xmp:\
-CreatorTool>Adob\
-e Photoshop CC 2\
-017 (Windows)</x\
-mp:CreatorTool>\x0a\
-         <xmp:Cr\
-eateDate>2020-08\
--08T14:31:18-07:\
-00</xmp:CreateDa\
-te>\x0a         <xm\
-p:MetadataDate>2\
-020-08-08T14:37:\
-03-07:00</xmp:Me\
-tadataDate>\x0a    \
-     <xmp:Modify\
-Date>2020-08-08T\
-14:37:03-07:00</\
-xmp:ModifyDate>\x0a\
-         <xmpMM:\
-InstanceID>xmp.i\
-id:539546e0-0145\
--8a42-8746-c54af\
-28c74c5</xmpMM:I\
-nstanceID>\x0a     \
-    <xmpMM:Docum\
-entID>adobe:doci\
-d:photoshop:70c2\
-de08-d9be-11ea-8\
-70e-be7d6a73bcf6\
-</xmpMM:Document\
-ID>\x0a         <xm\
-pMM:OriginalDocu\
-mentID>xmp.did:0\
-5cd7722-3069-b04\
-8-8b8b-33083ed78\
-d8a</xmpMM:Origi\
-nalDocumentID>\x0a \
-        <xmpMM:H\
-istory>\x0a        \
-    <rdf:Seq>\x0a  \
-             <rd\
-f:li rdf:parseTy\
-pe=\x22Resource\x22>\x0a \
-                \
- <stEvt:action>c\
-reated</stEvt:ac\
-tion>\x0a          \
-        <stEvt:i\
-nstanceID>xmp.ii\
-d:05cd7722-3069-\
-b048-8b8b-33083e\
-d78d8a</stEvt:in\
-stanceID>\x0a      \
-            <stE\
-vt:when>2020-08-\
-08T14:31:18-07:0\
-0</stEvt:when>\x0a \
-                \
- <stEvt:software\
-Agent>Adobe Phot\
-oshop CC 2017 (W\
-indows)</stEvt:s\
-oftwareAgent>\x0a  \
-             </r\
-df:li>\x0a         \
-      <rdf:li rd\
-f:parseType=\x22Res\
-ource\x22>\x0a        \
-          <stEvt\
-:action>saved</s\
-tEvt:action>\x0a   \
-               <\
-stEvt:instanceID\
->xmp.iid:5fd77d5\
-e-edda-0142-927a\
--445e5578aadf</s\
-tEvt:instanceID>\
-\x0a               \
-   <stEvt:when>2\
-020-08-08T14:31:\
-18-07:00</stEvt:\
-when>\x0a          \
-        <stEvt:s\
-oftwareAgent>Ado\
-be Photoshop CC \
-2017 (Windows)</\
-stEvt:softwareAg\
-ent>\x0a           \
-       <stEvt:ch\
-anged>/</stEvt:c\
-hanged>\x0a        \
-       </rdf:li>\
-\x0a               \
-<rdf:li rdf:pars\
-eType=\x22Resource\x22\
->\x0a              \
-    <stEvt:actio\
-n>saved</stEvt:a\
-ction>\x0a         \
-         <stEvt:\
-instanceID>xmp.i\
-id:539546e0-0145\
--8a42-8746-c54af\
-28c74c5</stEvt:i\
-nstanceID>\x0a     \
-             <st\
-Evt:when>2020-08\
--08T14:37:03-07:\
-00</stEvt:when>\x0a\
-                \
-  <stEvt:softwar\
-eAgent>Adobe Pho\
-toshop CC 2017 (\
-Windows)</stEvt:\
-softwareAgent>\x0a \
-                \
- <stEvt:changed>\
-/</stEvt:changed\
->\x0a              \
- </rdf:li>\x0a     \
-       </rdf:Seq\
->\x0a         </xmp\
-MM:History>\x0a    \
-     <dc:format>\
-image/png</dc:fo\
-rmat>\x0a         <\
-photoshop:ColorM\
-ode>1</photoshop\
-:ColorMode>\x0a    \
-     <tiff:Orien\
-tation>1</tiff:O\
-rientation>\x0a    \
-     <tiff:XReso\
-lution>720000/10\
-000</tiff:XResol\
-ution>\x0a         \
-<tiff:YResolutio\
-n>720000/10000</\
-tiff:YResolution\
->\x0a         <tiff\
-:ResolutionUnit>\
-2</tiff:Resoluti\
-onUnit>\x0a        \
- <exif:ColorSpac\
-e>65535</exif:Co\
-lorSpace>\x0a      \
-   <exif:PixelXD\
-imension>40</exi\
-f:PixelXDimensio\
-n>\x0a         <exi\
-f:PixelYDimensio\
-n>35</exif:Pixel\
-YDimension>\x0a    \
-  </rdf:Descript\
-ion>\x0a   </rdf:RD\
-F>\x0a</x:xmpmeta>\x0a\
-                \
-                \
-                \
-                \
-                \
-                \
-    \x0a           \
-                \
-                \
-                \
-                \
-                \
-         \x0a      \
-                \
-                \
-                \
-                \
-                \
-              \x0a \
-                \
-                \
-                \
-                \
-                \
-                \
-   \x0a            \
-                \
-                \
-                \
-                \
-                \
-        \x0a       \
-                \
-                \
-                \
-                \
-                \
-             \x0a  \
-                \
-                \
-                \
-                \
-                \
-                \
-  \x0a             \
-                \
-                \
-                \
-                \
-                \
-       \x0a        \
-                \
-                \
-                \
-                \
-                \
-            \x0a   \
-                \
-                \
-                \
-                \
-                \
-                \
- \x0a              \
-                \
-                \
-                \
-                \
-                \
-      \x0a         \
-                \
-                \
-                \
-                \
-                \
-           \x0a    \
-                \
-                \
-                \
-                \
-                \
-                \
-\x0a               \
-                \
-                \
-                \
-                \
-                \
-     \x0a          \
-                \
-                \
-                \
-                \
-                \
-          \x0a     \
-                \
-                \
-                \
-                \
-                \
-               \x0a\
-                \
-                \
-                \
-                \
-                \
-                \
-    \x0a           \
-                \
-                \
-                \
-                \
-                \
-         \x0a      \
-                \
-                \
-                \
-                \
-                \
-              \x0a \
-                \
-                \
-                \
-                \
-                \
-                \
-   \x0a            \
-                \
-                \
-                \
-                \
-                \
-        \x0a       \
-                \
-                \
-                \
-                \
-                \
-             \x0a  \
-                \
-                \
-                \
-                \
-                \
-                \
-  \x0a             \
-                \
-                \
-                \
-                \
-                \
-       \x0a        \
-                \
-                \
-                \
-                \
-                \
-            \x0a   \
-                \
-                \
-                \
-                \
-                \
-                \
- \x0a              \
-                \
-                \
-                \
-                \
-                \
-      \x0a         \
-                \
-                \
-                \
-                \
-                \
-           \x0a    \
-                \
-                \
-                \
-                \
-                \
-                \
-\x0a               \
-                \
-                \
-                \
-                \
-                \
-     \x0a          \
-                \
-                \
-                \
-                \
-                \
-          \x0a     \
-                \
-                \
-                \
-                \
-                \
-               \x0a\
-                \
-                \
-                \
-                \
-                \
-                \
-    \x0a           \
-                \
-                \
-                \
-                \
-                \
-         \x0a      \
-                \
-                \
-                \
-                \
-                \
-              \x0a \
-                \
-                \
-                \
-                \
-                \
-                \
-   \x0a            \
-                \
-                \
-                \
-                \
-                \
-        \x0a       \
-                \
-                \
-                \
-                \
-                \
-             \x0a  \
-                \
-                \
-                \
-                \
-                \
-                \
-  \x0a             \
-                \
-                \
-                \
-                \
-                \
-       \x0a        \
-                \
-                \
-                \
-                \
-                \
-            \x0a   \
-                \
-                \
-                \
-                \
-                \
-                \
- \x0a              \
-                \
-                \
-                \
-                \
-                \
-      \x0a         \
-                \
-                \
-                \
-                \
-                \
-           \x0a    \
-                \
-                \
-                \
-                \
-                \
-                \
-\x0a               \
-                \
-                \
-                \
-                \
-                \
-     \x0a          \
-                \
-                \
-                \
-                \
-                \
-          \x0a     \
-                \
-                \
-                \
-                \
-                \
-               \x0a\
-                \
-                \
-                \
-                \
-                \
-                \
-    \x0a           \
-                \
-                \
-                \
-                \
-                \
-         \x0a      \
-                \
-                \
-                \
-                \
-                \
-              \x0a \
-                \
-                \
-                \
-                \
-                \
-                \
-   \x0a            \
-                \
-                \
-                \
-                \
-                \
-        \x0a       \
-                \
-                \
-                \
-                \
-                \
-             \x0a  \
-                \
-                \
-                \
-                \
-                \
-                \
-  \x0a             \
-                \
-                \
-                \
-                \
-                \
-       \x0a        \
-                \
-                \
-                \
-                \
-                \
-            \x0a   \
-                \
-                \
-                \
-                \
-                \
-                \
- \x0a              \
-                \
-                \
-                \
-                \
-                \
-      \x0a         \
-                \
-                \
-                \
-                \
-                \
-           \x0a    \
-                \
-                \
-                \
-                \
-                \
-                \
-\x0a               \
-                \
-                \
-                \
-                \
-                \
-     \x0a          \
-                \
-                \
-                \
-                \
-                \
-          \x0a     \
-                \
-                \
-                \
-                \
-                \
-               \x0a\
-                \
-                \
-                \
-                \
-                \
-                \
-    \x0a           \
-                \
-                \
-                \
-                \
-                \
-         \x0a      \
-                \
-                \
-                \
-                \
-                \
-              \x0a \
-                \
-                \
-                \
-                \
-                \
-                \
-   \x0a            \
-                \
-                \
-                \
-                \
-                \
-        \x0a       \
-                \
-                \
-                \
-                \
-                \
-             \x0a  \
-                \
-                \
-                \
-                \
-                \
-                \
-  \x0a             \
-                \
-                \
-                \
-                \
-                \
-       \x0a        \
-                \
-                \
-                \
-                \
-                \
-            \x0a   \
-                \
-                \
-                \
-                \
-                \
-                \
- \x0a              \
-                \
-                \
-                \
-                \
-                \
-      \x0a         \
-                \
-                \
-                \
-                \
-                \
-           \x0a    \
-                \
-                \
-                \
-                \
-                \
-                \
-\x0a               \
-                \
-                \
-                \
-                \
-                \
-     \x0a          \
-                \
-                \
-                \
-                \
-                \
-          \x0a     \
-                \
-                \
-                \
-                \
-                \
-               \x0a\
-                \
-                \
-                \
-                \
-                \
-                \
-    \x0a           \
-                \
-                \
-                \
-                \
-                \
-         \x0a      \
-                \
-                \
-                \
-                \
-                \
-              \x0a \
-                \
-                \
-                \
-                \
-                \
-                \
-   \x0a            \
-                \
-                \
-                \
-                \
-                \
-        \x0a       \
-                \
-                \
-                \
-                \
-                \
-             \x0a  \
-                \
-                \
-                \
-                \
-                \
-                \
-  \x0a             \
-                \
-                \
-                \
-                \
-                \
-       \x0a        \
-                \
-                \
-                \
-                \
-                \
-            \x0a   \
-                \
-                \
-                \
-                \
-                \
-                \
- \x0a              \
-                \
-                \
-                \
-                \
-                \
-      \x0a         \
-                \
-                \
-                \
-                \
-                \
-           \x0a    \
-                \
-                \
-                \
-                \
-                \
-                \
-\x0a               \
-                \
-                \
-                \
-                \
-                \
-     \x0a          \
-                \
-                \
-                \
-                \
-                \
-          \x0a     \
-                \
-                \
-                \
-                \
-                \
-               \x0a\
-                \
-                \
-                \
-                \
-                \
-                \
-    \x0a           \
-                \
-                \
-                \
-                \
-                \
-         \x0a      \
-                \
-                \
-                \
-                \
-                \
-              \x0a \
-                \
-                \
-                \
-                \
-                \
-                \
-   \x0a            \
-                \
-                \
-                \
-                \
-                \
-        \x0a       \
-                \
-                \
-                \
-                \
-                \
-             \x0a  \
-                \
-                \
-                \
-                \
-                \
-                \
-  \x0a             \
-                \
-                \
-                \
-                \
-                \
-       \x0a        \
-                \
-                \
-                \
-                \
-                \
-            \x0a   \
-                \
-                \
-                \
-                \
-                \
-                \
- \x0a              \
-                \
-                \
-                \
-                \
-                \
-      \x0a         \
-                \
-                \
-                \
-                \
-                \
-           \x0a    \
-                \
-                \
-                \
-                \
-                \
-                \
-\x0a               \
-                \
-                \
-                \
-                \
-                \
-     \x0a          \
-                \
-                \
-                \
-                \
-                \
-          \x0a     \
-                \
-                \
-                \
-                \
-                \
-               \x0a\
-                \
-                \
-                \
-                \
-                \
-                \
-    \x0a           \
-                \
-                \
-                \
-                \
-                \
-         \x0a      \
-                \
-                \
-                \
-                \
-                \
-              \x0a \
-                \
-                \
-                \
-                \
-                \
-                \
-   \x0a            \
-                \
-                \
-                \
-                \
-                \
-        \x0a       \
-                \
-                \
-                \
-                \
-                \
-             \x0a  \
-                \
-                \
-                \
-                \
-                \
-                \
-  \x0a             \
-               \x0a\
-<?xpacket end=\x22w\
-\x22?>\xb2\xb2\x18\xb9\x00\x00\x00 cHRM\x00\
-\x00z%\x00\x00\x80\x83\x00\x00\xf9\xff\x00\x00\x80\xe9\x00\
-\x00u0\x00\x00\xea`\x00\x00:\x98\x00\x00\x17o\x92\
-_\xc5F\x00\x00\x04\x0cIDATx\xda\xe4\x96[\
-\x88UU\x18\xc7\x7f{\xed\xeb\x993s\x8e\x1e\xcf\x1c\
-\x9d\x06\xa7\x8b\xa5\xa1)j\x0eIRZ\x0f\x16\x03>\
-D\x129\x8a\x10\xd6\xc3T2R\x04\x82Z\x90\x82\x10\
-Ee\x93D\x84/6YDB\xa1\x18\x88\xa0\x22\x94\
-\xd7HJF(\xd1\x9cirF\xe7v\xe6\x5c\xf6m\
-\xad\x1e\xceq\x9c\xd9g\x1cKz\x10\xda\xebm\xb3\xf6\
-o\xff\xff\xdf\xff\xfb\xd6\xde\x9a\xe2\xbf\xbd\x04w:\xd0\
-\x80\xd6[n1\xa9\xa9\xcb\xd7\xf7\x9e\xb2\xd0\xd0\xd0&\
-\xd8\xfb!\xc6\xad\xdf\x19\xa2\x93\xf86\xf9\x90\xaa\x0ds\
-\x10\x12\x22o\xd7\xb2B\xe1#\x99\xba\xdbn4cw\
-\x9fH\xd91\xec\x09\x15N\x08\xd4\xd0\xd11\xa8oO\
-\xae\xf1\xf0\x91\xb3\xe3?+=\xb8u(\xda8\x0b\x04\
-\x0e\xd5\xa4\xb8\x7f\xe7\xe4\xe6b\xd9\xba9+}Rs\
-\x82\xdbU(\x91T\xef\xb4[\xfc\x91;>\xf6\x82\xfa\
-\x13\x82\x22!\x12\xf5o\x80\x1a\x92\x80I\xefW\xb5\xf8\
-c\x1e\xf4p\xe66\xfc\x90 \x86\x831n5Ee\
-\x10\x92\x00\x17\x8f\xcc{\x936T\xdas\x89/\x9eq\
-4E\x9c\xd8\xb8j\xc4X\x18\xe8\xd8T\x93\xa0\xe1\xed\
-\xd4k\xde\xb8\xb6|\xd4cU\x87B\x82\x9bYV#\
-\x0b\x14\x06\x0eq\xa6o\xae\xdd\xe2\xa1n\xda\x99\xce\x93\
-S\xbe\x97\x84\xff\xc4\xb2\xc4\xc3~\xc3\xdc\xeaN\x98\xa5\
-O\xd5Su\xfb%\x1eaY\xcaM\x81>\xc9\xd7\x93\
-\xef\x84\x11u&fd\x9fGMS\xc3\xde\x186&\
-\xfa\xa8x\xc4\x8d\xfa\x85\xf8\x14\x99\xf2J\xed\xbb\xd1\xe1\
-\xb2\x19\xf8\xf2\xda[f$U\x97\xe433\xdaST\
-\x97\xe3)\xf5\xafq\x9dk`\xa0\x11\x7f9\xdd\xe6G\
-p\x16\xb9\xd3]\xabb\xd4\xa4\xecV/\xa2\xd2h\x8e\
-\x8b\xc2\xaa\xb0\xd2\xb2\x86\x85Ef\xf5\xd4\x8f\xa3\xea\x0c\
-\xdc\x9f\xfe\x5c4\x19'\xdd\xbd!\xff\x89\x151\x1e\x10\
-{~\xf2g!rD\xbd\xb8a\xc0~\xce\xf9\xdc\xab\
-\xc0\xd1qe\xa1\xa4\xf6\xf0\xd4\xdf\x0b\xe6\xaf-\xfd_\
-8\x15\xc8\x9au\x99\x9d\x01\x1e\x12y\x1d\xa8p\xa9Y\
-\x99\xfeJFp&\xb2\xe3\xaf9Cdv\x99K\x8d\
-\xc4\xbd\xbf\xc4\xb8\xb4z`\xb7\x15\x19\x04\x9fTK\xfd\
-G\x16\x16f\x09\x18\xe21iE\xdd\xd7aE\xed\xbc\
-\xces\x0b\xbb\xe4]\x9f\xa6^\xf0\xf1\xb0g>x6\
-C\xef\xda\xdc7f\x04Yd\xca\xab3\xb6%\xa9.\
-\x01\xd34<=\xfd\xbb0\xd2\xa6&^w\xe7\x1cQ\
-\xb8oG\xfa%\xb7\xdcP\xfa\xdc\xcci\x8b\xab+\xe5\
-^\xab\xa2\xd9\xacMU\xdb\xca\x96\x13M\xe9\x03*2\
-H:\xb2\xe7\xca\x1c54\xf3\x83\xf4\xfa\x22\x0a\x1d\xbd\
-\x84\x5cX{*\xe0\xe2\xb3\xc3\x07\xa2\xc6\x03\x12\x9b\xe2\
-\xcd  \xf7c\xff\x9b\x02}L\x14z_\xdf\xfc\x5c\
-\x7f\xedV\xb3\xd5\x03t\xbc\x93A\xbb\x05\xf88\x0f\xd7\
-\x1d\x1b\xa0\xa3)w\xc4\x8a8\x1a:\x90=T\x0a\xa5\
-opk\xefzc$p\x93 \xdf1\xaf\xb3;\xbd\
-=\xb99@\xa1\xa3z\xfa\x97t\xad\xc9\xed\xb3\x01\x8f\
-\xf8\x92Y\xc7,\xfeX\x96?j\x8e\xaawv\xcf\xe5\
-\xa6\xf0\x0a\x08\x10X\x5ck\xeb^\xaf#\x00\x83\xd0\xed\
-l\xccuM\xdb\x98\xd9\x18 \xd1\x11W\x87\x17)?\
-\xcbo+\xb2\x07-\xc0\xa5z\xc9\xec\xfd\x09z\x96\xba\
-\xc7\xf5r\x81\x82=C\xcd\xeaz\xca\xa5\xaf\xc7`[\
-~\x9d\x86\x81\x0c\xba\xe7\xdb\xe7\xe6\xb5M\xdb\xee\x12b\
-!\x0b\x17\x16t_\x1e\xc6B\xe3\xf2\xf2\xfc\x11\x0b\xf0\
-\xd0\x9b\xd2gM1\xb8X\x9c\xb00\xc9\xef\xce6\xeb\
-\x08\xd4\x8d>\xd40qw\x0d\xb7\xca\x9e\xa1G\x82\x8e\
-\x1c\xc3\x8e\x86\xc2 \xccv.\x18\xea\x0c\x09P\x18@\
-\xef\xb2\xe2a\x1d\x90`\xc7\x12.\x17\x1e-\x5c\xcc\x1d\
-\xec[+*'\x05Lr;\xfa\xefQg\x04y\xb2\
-/z[L\xa0\xa7\xb1x\xdeA \xcag\xa5 \xf7\
-\x848\xe3P<<8K\x0c\xf8\xf4\x85\x97\x1e\xe8]\
-n\x8c\xc2\x18c\xbf$\xaaP:1\x0c\x0a\xdb\x5c#\
-<\xee\x9f7\xf1F\x1d\xac\x1e!\xc5\xc7\xab\xb6\xe47\
-\xda\x80\xc0F\x05j\xcc\x19\xa8\xfd\xff\xfe\xbe\xee|\xe0\
-\xdf\x03\x00\x80\x8b\x96\x01\x9f\xa4K\xbd\x00\x00\x00\x00I\
-END\xaeB`\x82\
 \x00\x00=\x05\
 \x89\
 PNG\x0d\x0a\x1a\x0a\x00\x00\x00\x0dIHDR\x00\
@@ -13983,12 +15373,12 @@ z6#\x9c\x17\x06\xa9Ot\x9b\x94\x0b\xd1\xbe\xb4\xb8\
 \xf0:W$\xc52\x94\x89\xd0\xf5\xff\xdd\x0f\x7f\x0f\x00\
 \xef9pS\x028\x96\xc3\x00\x00\x00\x00IEND\
 \xaeB`\x82\
-\x00\x00In\
+\x00\x00A\xfd\
 \x89\
 PNG\x0d\x0a\x1a\x0a\x00\x00\x00\x0dIHDR\x00\
-\x00\x00(\x00\x00\x00)\x08\x06\x00\x00\x00G\xa2k\xc8\
+\x00\x00(\x00\x00\x00(\x08\x06\x00\x00\x00\x8c\xfe\xb8m\
 \x00\x00\x00\x09pHYs\x00\x00\x0b\x13\x00\x00\x0b\x13\
-\x01\x00\x9a\x9c\x18\x00\x00A\xf3iTXtXML\
+\x01\x00\x9a\x9c\x18\x00\x00;\xa6iTXtXML\
 :com.adobe.xmp\x00\x00\
 \x00\x00\x00<?xpacket beg\
 in=\x22\xef\xbb\xbf\x22 id=\x22W5M\
@@ -14027,203 +15417,74 @@ xmpMM=\x22http://ns\
 .com/xap/1.0/sTy\
 pe/ResourceEvent\
 #\x22\x0a            x\
-mlns:stRef=\x22http\
-://ns.adobe.com/\
-xap/1.0/sType/Re\
-sourceRef#\x22\x0a    \
-        xmlns:ti\
-ff=\x22http://ns.ad\
-obe.com/tiff/1.0\
-/\x22\x0a            x\
-mlns:exif=\x22http:\
-//ns.adobe.com/e\
-xif/1.0/\x22>\x0a     \
-    <xmp:Creator\
-Tool>Adobe Photo\
-shop CC 2017 (Wi\
-ndows)</xmp:Crea\
-torTool>\x0a       \
-  <xmp:CreateDat\
-e>2020-06-08T20:\
-41:11-07:00</xmp\
-:CreateDate>\x0a   \
-      <xmp:Modif\
-yDate>2020-06-09\
-T19:21:22-07:00<\
-/xmp:ModifyDate>\
-\x0a         <xmp:M\
-etadataDate>2020\
--06-09T19:21:22-\
-07:00</xmp:Metad\
-ataDate>\x0a       \
-  <dc:format>ima\
-ge/png</dc:forma\
-t>\x0a         <pho\
-toshop:ColorMode\
->3</photoshop:Co\
-lorMode>\x0a       \
-  <xmpMM:Instanc\
-eID>xmp.iid:de70\
-707c-b68e-c14d-9\
-030-760e53f21d87\
-</xmpMM:Instance\
-ID>\x0a         <xm\
-pMM:DocumentID>a\
-dobe:docid:photo\
-shop:0e9e6285-aa\
-c1-11ea-9330-e3d\
-84de62c15</xmpMM\
-:DocumentID>\x0a   \
-      <xmpMM:Ori\
-ginalDocumentID>\
-xmp.did:befe4fec\
--ccdf-894b-8fe1-\
-54193019f3e7</xm\
-pMM:OriginalDocu\
-mentID>\x0a        \
- <xmpMM:History>\
-\x0a            <rd\
-f:Seq>\x0a         \
-      <rdf:li rd\
-f:parseType=\x22Res\
-ource\x22>\x0a        \
-          <stEvt\
-:action>created<\
-/stEvt:action>\x0a \
-                \
- <stEvt:instance\
-ID>xmp.iid:befe4\
-fec-ccdf-894b-8f\
-e1-54193019f3e7<\
-/stEvt:instanceI\
-D>\x0a             \
-     <stEvt:when\
->2020-06-08T20:4\
-1:11-07:00</stEv\
-t:when>\x0a        \
-          <stEvt\
-:softwareAgent>A\
-dobe Photoshop C\
-C 2017 (Windows)\
-</stEvt:software\
-Agent>\x0a         \
-      </rdf:li>\x0a\
-               <\
-rdf:li rdf:parse\
-Type=\x22Resource\x22>\
-\x0a               \
-   <stEvt:action\
->converted</stEv\
-t:action>\x0a      \
-            <stE\
-vt:parameters>fr\
-om image/png to \
-application/vnd.\
-adobe.photoshop<\
-/stEvt:parameter\
-s>\x0a             \
-  </rdf:li>\x0a    \
-           <rdf:\
-li rdf:parseType\
-=\x22Resource\x22>\x0a   \
-               <\
-stEvt:action>sav\
-ed</stEvt:action\
->\x0a              \
-    <stEvt:insta\
-nceID>xmp.iid:a8\
-ab912c-5f46-ba4a\
--a12f-3ba561b88a\
-ff</stEvt:instan\
-ceID>\x0a          \
-        <stEvt:w\
-hen>2020-06-09T1\
-9:20:54-07:00</s\
-tEvt:when>\x0a     \
-             <st\
-Evt:softwareAgen\
-t>Adobe Photosho\
-p CC 2017 (Windo\
-ws)</stEvt:softw\
-areAgent>\x0a      \
-            <stE\
-vt:changed>/</st\
-Evt:changed>\x0a   \
-            </rd\
-f:li>\x0a          \
-     <rdf:li rdf\
-:parseType=\x22Reso\
-urce\x22>\x0a         \
-         <stEvt:\
-action>saved</st\
-Evt:action>\x0a    \
-              <s\
-tEvt:instanceID>\
-xmp.iid:c6ef9ed1\
--32fc-3343-a435-\
-6b2a053049af</st\
-Evt:instanceID>\x0a\
-                \
-  <stEvt:when>20\
-20-06-09T19:21:2\
-2-07:00</stEvt:w\
-hen>\x0a           \
-       <stEvt:so\
-ftwareAgent>Adob\
+mlns:tiff=\x22http:\
+//ns.adobe.com/t\
+iff/1.0/\x22\x0a      \
+      xmlns:exif\
+=\x22http://ns.adob\
+e.com/exif/1.0/\x22\
+>\x0a         <xmp:\
+CreatorTool>Adob\
 e Photoshop CC 2\
-017 (Windows)</s\
-tEvt:softwareAge\
-nt>\x0a            \
-      <stEvt:cha\
-nged>/</stEvt:ch\
-anged>\x0a         \
-      </rdf:li>\x0a\
-               <\
-rdf:li rdf:parse\
-Type=\x22Resource\x22>\
-\x0a               \
-   <stEvt:action\
->converted</stEv\
-t:action>\x0a      \
-            <stE\
-vt:parameters>fr\
-om application/v\
-nd.adobe.photosh\
-op to image/png<\
-/stEvt:parameter\
-s>\x0a             \
-  </rdf:li>\x0a    \
-           <rdf:\
-li rdf:parseType\
-=\x22Resource\x22>\x0a   \
-               <\
-stEvt:action>der\
-ived</stEvt:acti\
-on>\x0a            \
-      <stEvt:par\
-ameters>converte\
-d from applicati\
-on/vnd.adobe.pho\
-toshop to image/\
-png</stEvt:param\
-eters>\x0a         \
-      </rdf:li>\x0a\
-               <\
-rdf:li rdf:parse\
-Type=\x22Resource\x22>\
-\x0a               \
-   <stEvt:action\
->saved</stEvt:ac\
+017 (Windows)</x\
+mp:CreatorTool>\x0a\
+         <xmp:Cr\
+eateDate>2020-06\
+-08T21:55:42-07:\
+00</xmp:CreateDa\
+te>\x0a         <xm\
+p:ModifyDate>202\
+0-06-09T18:56:50\
+-07:00</xmp:Modi\
+fyDate>\x0a        \
+ <xmp:MetadataDa\
+te>2020-06-09T18\
+:56:50-07:00</xm\
+p:MetadataDate>\x0a\
+         <dc:for\
+mat>image/png</d\
+c:format>\x0a      \
+   <photoshop:Co\
+lorMode>3</photo\
+shop:ColorMode>\x0a\
+         <xmpMM:\
+InstanceID>xmp.i\
+id:364b63fb-662f\
+-ae47-b821-8acf9\
+b160c89</xmpMM:I\
+nstanceID>\x0a     \
+    <xmpMM:Docum\
+entID>adobe:doci\
+d:photoshop:5147\
+8108-aa1a-11ea-8\
+19d-a6149d248805\
+</xmpMM:Document\
+ID>\x0a         <xm\
+pMM:OriginalDocu\
+mentID>xmp.did:0\
+94ab7fd-1ef1-244\
+c-b082-bc3a46ef3\
+978</xmpMM:Origi\
+nalDocumentID>\x0a \
+        <xmpMM:H\
+istory>\x0a        \
+    <rdf:Seq>\x0a  \
+             <rd\
+f:li rdf:parseTy\
+pe=\x22Resource\x22>\x0a \
+                \
+ <stEvt:action>c\
+reated</stEvt:ac\
 tion>\x0a          \
         <stEvt:i\
 nstanceID>xmp.ii\
-d:de70707c-b68e-\
-c14d-9030-760e53\
-f21d87</stEvt:in\
+d:094ab7fd-1ef1-\
+244c-b082-bc3a46\
+ef3978</stEvt:in\
 stanceID>\x0a      \
             <stE\
 vt:when>2020-06-\
-09T19:21:22-07:0\
+08T21:55:42-07:0\
 0</stEvt:when>\x0a \
                 \
  <stEvt:software\
@@ -14231,109 +15492,93 @@ Agent>Adobe Phot\
 oshop CC 2017 (W\
 indows)</stEvt:s\
 oftwareAgent>\x0a  \
-                \
-<stEvt:changed>/\
-</stEvt:changed>\
+             </r\
+df:li>\x0a         \
+      <rdf:li rd\
+f:parseType=\x22Res\
+ource\x22>\x0a        \
+          <stEvt\
+:action>saved</s\
+tEvt:action>\x0a   \
+               <\
+stEvt:instanceID\
+>xmp.iid:bc13142\
+f-9460-3e49-8308\
+-6c0d649e505e</s\
+tEvt:instanceID>\
 \x0a               \
-</rdf:li>\x0a      \
-      </rdf:Seq>\
-\x0a         </xmpM\
-M:History>\x0a     \
-    <xmpMM:Deriv\
-edFrom rdf:parse\
-Type=\x22Resource\x22>\
-\x0a            <st\
-Ref:instanceID>x\
-mp.iid:c6ef9ed1-\
-32fc-3343-a435-6\
-b2a053049af</stR\
-ef:instanceID>\x0a \
-           <stRe\
-f:documentID>xmp\
-.did:befe4fec-cc\
-df-894b-8fe1-541\
-93019f3e7</stRef\
-:documentID>\x0a   \
-         <stRef:\
-originalDocument\
-ID>xmp.did:befe4\
-fec-ccdf-894b-8f\
-e1-54193019f3e7<\
-/stRef:originalD\
-ocumentID>\x0a     \
-    </xmpMM:Deri\
-vedFrom>\x0a       \
-  <tiff:Orientat\
-ion>1</tiff:Orie\
-ntation>\x0a       \
-  <tiff:XResolut\
-ion>720000/10000\
-</tiff:XResoluti\
-on>\x0a         <ti\
-ff:YResolution>7\
-20000/10000</tif\
-f:YResolution>\x0a \
-        <tiff:Re\
-solutionUnit>2</\
-tiff:ResolutionU\
-nit>\x0a         <e\
-xif:ColorSpace>6\
-5535</exif:Color\
-Space>\x0a         \
-<exif:PixelXDime\
-nsion>40</exif:P\
-ixelXDimension>\x0a\
-         <exif:P\
-ixelYDimension>4\
-1</exif:PixelYDi\
-mension>\x0a      <\
-/rdf:Description\
->\x0a   </rdf:RDF>\x0a\
-</x:xmpmeta>\x0a   \
-                \
-                \
-                \
-                \
-                \
-                \
- \x0a              \
-                \
-                \
-                \
-                \
-                \
-      \x0a         \
-                \
-                \
-                \
-                \
-                \
-           \x0a    \
-                \
-                \
-                \
-                \
-                \
-                \
+   <stEvt:when>2\
+020-06-08T23:27:\
+51-07:00</stEvt:\
+when>\x0a          \
+        <stEvt:s\
+oftwareAgent>Ado\
+be Photoshop CC \
+2017 (Windows)</\
+stEvt:softwareAg\
+ent>\x0a           \
+       <stEvt:ch\
+anged>/</stEvt:c\
+hanged>\x0a        \
+       </rdf:li>\
 \x0a               \
+<rdf:li rdf:pars\
+eType=\x22Resource\x22\
+>\x0a              \
+    <stEvt:actio\
+n>saved</stEvt:a\
+ction>\x0a         \
+         <stEvt:\
+instanceID>xmp.i\
+id:364b63fb-662f\
+-ae47-b821-8acf9\
+b160c89</stEvt:i\
+nstanceID>\x0a     \
+             <st\
+Evt:when>2020-06\
+-09T18:56:50-07:\
+00</stEvt:when>\x0a\
                 \
+  <stEvt:softwar\
+eAgent>Adobe Pho\
+toshop CC 2017 (\
+Windows)</stEvt:\
+softwareAgent>\x0a \
                 \
-                \
-                \
-                \
-     \x0a          \
-                \
-                \
-                \
-                \
-                \
-          \x0a     \
-                \
-                \
-                \
-                \
-                \
-               \x0a\
+ <stEvt:changed>\
+/</stEvt:changed\
+>\x0a              \
+ </rdf:li>\x0a     \
+       </rdf:Seq\
+>\x0a         </xmp\
+MM:History>\x0a    \
+     <tiff:Orien\
+tation>1</tiff:O\
+rientation>\x0a    \
+     <tiff:XReso\
+lution>720000/10\
+000</tiff:XResol\
+ution>\x0a         \
+<tiff:YResolutio\
+n>720000/10000</\
+tiff:YResolution\
+>\x0a         <tiff\
+:ResolutionUnit>\
+2</tiff:Resoluti\
+onUnit>\x0a        \
+ <exif:ColorSpac\
+e>65535</exif:Co\
+lorSpace>\x0a      \
+   <exif:PixelXD\
+imension>40</exi\
+f:PixelXDimensio\
+n>\x0a         <exi\
+f:PixelYDimensio\
+n>40</exif:Pixel\
+YDimension>\x0a    \
+  </rdf:Descript\
+ion>\x0a   </rdf:RD\
+F>\x0a</x:xmpmeta>\x0a\
                 \
                 \
                 \
@@ -15042,124 +16287,150 @@ mension>\x0a      <\
                 \
                \x0a\
                 \
-            \x0a<?x\
-packet end=\x22w\x22?>\
-\x18G\xfc2\x00\x00\x00 cHRM\x00\x00z%\
-\x00\x00\x80\x83\x00\x00\xf9\xff\x00\x00\x80\xe9\x00\x00u0\
-\x00\x00\xea`\x00\x00:\x98\x00\x00\x17o\x92_\xc5F\
-\x00\x00\x06\xf5IDATx\xda\xbc\x99[pU\xd5\
-\x19\xc7\x7f\xb9A \x86\x00!!\x07\x0c\x09\xb7@\xae\
-\xc4T\xd2\x12n!@\x80Bhr\x96)!)\x97\
-A\xc1AK;E#\xd2b\x83\xa2 `U,X\
-\xdbj\xe9\x14\x9b\xc1:\xdc\xb2\xb5\xb4E\xa5%\x9d\x96\
-\xa2S\xa6\x0c\xce\xd8\xb1\xa8\x0c\xec\x87\xea0\xbe\xd4\x87\
-\xd6\x99\xfe\xfb\x90\xbd6\xfb\x5cH\x089v\xcf\xac\x97\
-}\xbe\xf5}\xbf\xb5\xd6w[\xfb@\xe2\x9e2`\x15\
-\xb0\x0b8\x04\x1c\x06\xf6\x01\x1b\x80\xf2\x1bM\x92\xd4\xeb\
-H\xc4\xd3\x0c\xfc\x01P\x1f\xa3\x1bX\xf2\xff\x02\xcc\xf7\
-v\xe9#\x0b0e\xdc0\xdd5o\x9c\xb6\xae)\xd3\
-\xbe\xcd\xd3\xf5|{\xb5\x1e]?Mm\x8b\xc6kj\
-aV4\xe8b\xd71\xb8\x8e\xf9B\x00w\x03\x9fZ\
-\x83w\x16g\xeb\xb1\x0d\xd3t\xe6\x85z\xb9\x8e\x89;\
-\xce\xbcP\xaf-\xabJ\x95\x97=$\x08\xfa\xddD\x03\
-\x96y\xab\x17\xa0\xc69\xf9:\xfb\xd2\x92\x08\x90S\xcf\
--\xd0\xfe\x07\xab\xf5\xf0\xea2\xb5\xb7\x95h\xef\xa6*\
-\xbd\xfet]\x84\xcc\x96U\xa5\x11\x90\x89\x02,\x03\xfe\
-\x0a\xa8 \x94\xa1\x13{j}\x83{\xbeY\xa5\x9a\x8a\
-\x9c^\xfd/9)I\xe1\xdaq\xfe\x82\x0em\x9f\x19\
-\xfc\xfd\xbeD\x00v\x03\xaa\x9a2\xd2\x07{\xfc\xdeJ\
-\x0d\xcbH\x8b\x86\xf9\x1b\xd0\xe9E\xf2\x0e\xe0E\xe0\xed\
-\xa0\xcc\xdeMUr\x1d\xa3\x03\xed\xd5\xf6\xdd_\x06\x0a\
-\xf8\x1c\xa0\xbc\xec!>\x5c\xdd\x9dy\xd1N\xbf\x1aH\
-\xb3\x8e\x1f=\x80\x02/\xa8\x04\xa8ko\xcf\x09TL\
-\x1aaul\x1d\x08\xe0y@\xbf\xdd7_\xaec4\
-kZ\xaeU\xfa\x11\xb0\xe2FP7\x00\xdd\x03h\xcc\
-\xa8\x9e\xc5\x1e\xea\xf0\x8f\xba\xfbV\x01K\x00\x15\xe5\x0f\
-\x93\xeb\x18\xfd\xfc\x91\x1a\xab\xf0\xef\x9e_\xd2\x1f@\x0f\
-\xf2<\xa0\xdfy\x0b\x1e28\xc5\xea\xcc\xb8\x15\xc0\xb5\
-\x80\x9a\xe7\x17\xc8u\x8c\xe6\xde1\xda*{\xc8\x0a\xf4\
-\x13n<\xf0\x1b@?\xf8\xd6\x97\xe4:F\xb7\xe7\x0e\
-\xb5:\x0bo\x05p\x1d\xa0\x15\x0b\x0a\xe5:F\xd5%\
-\xa3\xac\xb2\xdd\xfd\x05\x04\xc2\xc0\xfb\x80\x86e\xa4\xe9\xbd\
-\xc3\xcb\xf5\xe1\xd1&\xa5\xa6$Y\x9di\xb7|\xc4\x93\
-\xf33\xe5:F'\xf6\xd4\x06\x83c\xf7\xcd\x02\x02\xf7\
-\xd9ys*s\xf5\xfe\xab_\x93\xeb\x18-\xfa\xf2\x18\
-\xab\xeb\x8d\x81\x04I7\xa0\x9d\x1b+\xe3A\xce\xe8\x0f\
-\xdc\xf6{*\xfcLpW]\x81\xd5\xe1\x02\x93\x07\x02\
-\xb8\xd2\x1a\xd8\xb1\xa1\x07rc\xb8\xc8\xdf\xc5>\xe0\xa6\
-\x02\xff\x01t\xa0\xbdZ\xaect\xf2\x99:\x15\x842\
-\xec\xfc\x7f\x01e\x89H\xd4>d\xd4.\xfe\xa9\x0f\xc0\
-\xb7\x00\xb5\xd6\x8f\x97\xeb\x18\xfdl\xdb\x8c\xe8\xfcY\x96\
-\xa8R7\x14P\xfa\xa0\x14\xb9\x8e\xd1\xe1\x1d\xb3}\xdf\
-\xe9\x05.\xcd\x96\xb9\xcb\xc7\x9a\xf4\xde+\xcb\x83p\xcf\
-&\xba\x9b1\x80\xca&\x0c\x97\xeb\x18m\xbfgZ\x8c\
-\xa18\x80u\x80j*r\xe4:Fw7L\xb2s\
-^\x0f\xca%\x0a\xb0\xbb\xc7\xc9\xa7\xc9u\x8c*\x8bF\
-Zc\xa6\x17\xc0Y\x80\xaaKF\xc9u\x8c:\xee\xae\
-\x88>\xde'\x80)\x89\x00\xdc\x08hPZ\xb2\x5c\xc7\
-\xe8\xc2\xcb\xcb\xac\x91O\xfaJ3\xc0\x85`\xd5\xd8}\
-\x7fU01\xdb\xf1\x0e\xf0\xec\xad&j\x7f\xf7\xf6?\
-\xd8\x13\x85\xb5U~59z\x13\x80?\x04\x94\x99\x91\
-\xa6\xe3\x81\x16\xed\xc8\xae\xb9Z\xb9\xb0P9\xc3\x07G\
-\xc3\x9e\x06\xa6\xf6\x07\xf0)@\xa3G\xa6\xfb\x9d\xb1\xa7\
-\xe8\x120\xfaf\x125\xf0K\x0b\xb0\xb4f\xac\x8e\xec\
-\x9a\x1b\xd1\xc0\x9e|\xa6Nf\xde8\xa5$\xfb\x15\xe5\
-3\xa0\xbe/\xc0\x88\xee\xf9\xb5\xa7\xe6\xc9u\x8c&\xdd\
-\x9ei\x95\xbc\xd8\x9fR\x07<\x09\xfc\xd3\xea\xcb\x19>\
-X\x8ds\xf2\xf5\xea\x13s|\xd0\xcb\xc7\xc3j\x9e_\
-\x10\xdc\xcd\xfa\x08@\xd7\x18\x5cc\x00B\xc0'\xe9)\
-)z\xa0\xaaD\xed\xf3J\xe4\x9e0\xfa\xc9\xc3_\x09\
-:x\x9a\x95\x8f\x18\xbdC\x8e\xf6\x02\xa3;x\xac\x99\
-\x19i\xda\x18.\xd2\xd5\xae\x1e\xd0\xf6\xb6\x12\xfb\xdb\xc7\
-@^<\xc0\xe3\x80\xbe\xbf\xa0B\xae1r\x8d\xd1\xe5\
-m\xe1\xe0\x11|;\x1e\x1c\xb0\xc2\xeb\xa6\xaf\x00\xff\x05\
-\xae\x01o\x00\x1d\xc0\xc4(\xd8|\xe0\xb1 \xec\xd0\xf4\
-T\xfd\xfe\xf9\x9e\x8b\xd7\xd2\x99c\xad\xad\xf6\x08@\xa0\
-\x18\xf8\x1c\xd0\x95\xb6\xb0\x0f\xe8\x1a\xa3\x83\xcb\xfc^p\
-}\x14XY\xf4\xae\xc4\x19\x9f\x01'\x801qvv\
-\x06p&\x98g\x0fn\xf3muE\x03\x9e\x04\xb4\x7f\
-Yu\x04\x9ck\x8cv\xd6\xdfa'\xb5z\xb2\xd3\x81\
-\xcd\xc0\xbf\x01\xe5\xe7\x0e\xd5\xe3\xf7V\xea\xed\x83_\xd5\
-\x95\xae\xb0.v6\xe8\xf0\x8e\xd9\xd1~\xf5\xb1\xd7U\
-\x8f\x08&j`\x11\xa0\x09co\x8b.\x89'\x82\x81\
-Q\x0b(5)IW[\x22\xe1\xfe\xb1\xae\xd1N\xf8\
-\x14\x98\x04\x9c\x0d\xee\xd0\xca\x85\x85\xd7\x9d\xfdX\x93\xfe\
-\xf8\xe3E\xba\xd8\xd9\xe0\xbf{\xb7\xb3!xlA_\
-~\xd4\xf3\xcbw\x00=\xf4\x8dR\xb9\x8e\xd1\xa6\xe6)\
-\xfe\xb54\x08x\x1aPg\xf3\xac\x98\xddk\xad\x1co\
-'\x1c\x00N\x01j\xae(\xd0\xb1\xa6Z\xado\x98,\
-\xd71\xba\xd8\xd9\x10\xec\xef\x04(4j\x886\xaf,\
-\xf6A\xbb\xf6\xd6jauHII\xb1nPY\xd4\
-sc\xfc\xe0H\xa3rG\xa6\xdb\xf7\xb3-\xdcr@\
-#\x06\x0f\x8a\x81{wm\x83\x15>gox\xb9\x19\
-\xe9r\xbf\xee\xc9\xb4\x18\xbd\xb9k\x81RS\x93\xad\xdc\
-\xe7^\xe7|\xcd\x1a\xcf\xbam\x90v\xdf_\x15\x91\xff\
-\x0en\xab\xd1\x03\xad%jo+\x89\xc8\x8d\xd3\x8b\xb3\
-\xad\x9eS6\xcd\x84\xbc\xb2\xa5\xd7Z\xe7\xc5\x00\xd6O\
-\x08\xd9\x09\x1d\xd6\xe0\xa55\x8d\x112WZ\xc2\xfa^\
-y\xb9<\xb0P \x00\xe6\x07\x03\xa8 /C[V\
-\x95F\x1c\xbf\x1dG\x9f\x9c\xab\xf2\x89\xc3\x83\xf7\xebI\
-\x16p+\xa0\x8e@Z\xb1\xe3\xfc\xda\xa5A\x7f\x11\xa0\
-?\xaf^\x1c#wiM\xa3\xd6M\xf6\xbb\x95Aq\
-\x22uUt\xa4\xe7\x8eH\xd7\xd4\xc2,M-\xccR\
-vVD\xc9;\x1b\xec\x13\x01~\x0d\xe8\xdc\xfa%1\
-\x86\xabB~\xd7\xf2\x01\xa0_\x84g\xc6\xc8\x5cm\x09\
-+s\xb0\xff\x85\xe1\xa7}$\xeb\xc5^\x9e\xbdv\x83\
-\xcfs;\xe35\x0b[\x01}gN\xb1\xdc\xe6\xeb\x86\
-O\xad\x5c\x10\xb1{\x9bfM\x89\x81s\x8d\xd1\xac\x02\
-\xff\xbb\xcc\xaf\xfay\x05\x0dy\x1f6\xcb\x81\xdc\xde\xda\
-\xad,\xe02\xa0\x99\x13r\xf4V\xcbB\xbd\xd4\x14\xd1\
-\x9a\xab:?;.\x5c\xfb\xdc\xd2\xe0\x22\xb2\xfb{\x89\
-\xefO\xc3Z\x04\xbc\x19\xaf\x0a\xa4\xa6$\xe9\xc35M\
-1p/\x1b\xff\xb3\xc5\x15\xa0\xac\xafZ<P@[\
-I\x1a\xbcL\xbf\x19\xa8\x06\x14\xca\x1a\x12\x03wn\xed\
-\x92\xe0\x22jn\xa6YH\x08`T\x8dM\x06\x94\x94\
-\x84.\xac]v\xbd\xaa\xacn\x0c\xc2m\xba\xd9n&\
-\xe1\x80\x1e\xe4\x8f\x00M\xcc\xce\xd4\xe9\xd6\x85:\xd3V\
-\xaf\xf2<?W=\xdd\x9fvk\xc0\x80\xbd<\xaf\xc4\
-\xf1\xcd\xa3\x89\xfa\xef\x22Q\xb7\xbaf\xaf\xcc\x1d\x00Z\
-\x12\xf8\xdfJ\x9f\x80\xff\x1b\x00(\xc7/\xe1@w\x97\
-E\x00\x00\x00\x00IEND\xaeB`\x82\
+                \
+                \
+                \
+                \
+                \
+    \x0a           \
+                \
+                \
+                \
+                \
+                \
+         \x0a      \
+                \
+                \
+                \
+                \
+                \
+              \x0a \
+                \
+                \
+                \
+                \
+                \
+                \
+   \x0a            \
+                \
+                \
+                \
+                \
+                \
+        \x0a       \
+                \
+                \
+                \
+                \
+                \
+             \x0a  \
+                \
+                \
+                \
+                \
+                \
+                \
+  \x0a             \
+               \x0a\
+<?xpacket end=\x22w\
+\x22?>e\x9ff\x02\x00\x00\x00 cHRM\x00\
+\x00z%\x00\x00\x80\x83\x00\x00\xf9\xff\x00\x00\x80\xe9\x00\
+\x00u0\x00\x00\xea`\x00\x00:\x98\x00\x00\x17o\x92\
+_\xc5F\x00\x00\x05\xd1IDATx\xda\xcc\x98k\
+P\x94U\x18\xc7\xff\x0b,\xa2 \x18j\x08\x8ey\x01\
+\xcc\xc4R\x14\xb9-d\xa81b\x01.\xb47YF\
+\xae\xe2\xa5&\xb2\xb41\xcdXI\xc0\xbc/B\x91\x88\
+\x90\xe9\x87\x183\x9d\xbc|\x22\xb1f\x9c(sJ\xa3\
+\xb1\x19M\xb1\x00\x0bE\xf0\x82\x89\xec\xbf\x0f\x9c\x17_\
+\x15\x06\xd8E\xe8\xcc\x9c\xd9w\xff\xef\xbbg\x7f\xef\xf3\
+<\xe79\xcf9 \x09y\xefiS(\x14\xd5vv\
+v\x16\x00\x8d\xe8\xc3\xf6\x18\x8f\xb5\x80\x00j\x01\x10@\
+\xcb#\xba;\x00\xbb\x81\x00\xb4\x7f\xe4{\x8d\x00\xbc-\
+\xd3&\x038\x02\xa0\x18\x80K\x7f\x01*\x00l\x04p\
+\x06\xc0\x94n\x00s\x84v\x1f@p\x7f\x01>#\xdc\
+H\x00\x07\xba\x01\x5c\x0a\xe0w\xd1C\xfa\x0b\xd0\x1b\xc0\
+]\x01\xf3u7\x80\x8e\xe2%r\x85\xe5\xfb\x05p\xbc\
+\xcc\x82\x87dz\x9d\xd0\xee\xca\xb4\x0c\x00\xad\x00n\x00\
+\xf0\x1bh\xc0}B+\x90i{\x84F\x001\x03\x0d\
+h\x14Z\x86L\xcb\x17\x9a\x05@\xe4@\x03V\x0a\xad\
+\xe6\xff\x0ax]h\xad\xffW\xc0\xcd\x22\xdf\xed\x1fh\
+\xc0\x09]\x00*\x1fI\xdc\x00\xb0[6I\xa2\xfb\x0b\
+\xd0GX\x8a\x00\xbe\xe9f\xfc\xd5\x00\xda\x00\xfc\x0b \
+P\xe4\xc2d\x00\xa1O\x12p\x08\x80S\x22\xdf-\xea\
+\xe4\xbe\xa3\xecz\x92X\xee\x96\x8b\x82a\xaap\xf7-\
+\x01,5O1n\x9f\x15\x0b\x0ebP\x00\x18\x03 \
+\x0f\xc0y\x00w\x84\xfb\xef\x00\xb8\x00`\x99(\x18\xa4\
+\x16\x22s\xf9\x05\x91;o\x03\xb8'^\xb8Z\x8c\xd7\
+;@\xb3:\xe8\xb1\x0e\xc0\x15\xc0A1k\xe9>d\
+\x10\xa7\x8f\x1e\xce\x17<\xdd\xe9;\xc2\x95\x8e\xf6v\x12\
+\xc8/\x00\xfcd\xbf\xbb\xa2P(\xa4{ttu\xa1\
+\x9b\xf7\x18:\x8f\xf6\x90\xb4\xeb\xf2x\xb5\x0a\x10\xc0\x1a\
+\x00-J{;F\xf8\x8c\xa2i\x9e?wiT,\
+\xd6\xaaX\xa2\x0fc\xb1V\xc5\xc2\xf8\x10.\x0a\xf0\x91\
+\xfe\xb4QXr$\x80[\x0a\xb4\x03>\x9b\x10\xcd\xb8\
+\x13{\xa9\xad*g\xfc\xc9}\x8c\xf8t=}\xf5\xf3\
+\xa5T\xb5\xd4*@Qjq\xaa\x97;\xb7\xc6\x06r\
+g\x5c0\xcd\xea\xa0N\xfb.m(s\xa2f\xd0c\
+\xe8`\x02\xf8\x0b\xc0a\x00\x84BA\xd5\xc6w\x98\xd1\
+t\x9a\x86\xb3\x87\xa9\xae(\xe3k\xdf\xedg\xf2\x9f\x95\
+L\xff\xe7\x14G\x85L\x93R\x93\xa1W\x80\x00\xcc\x00\
+\xe8\xef5\x9c%\xfa\xb0\xc7\x80\x0a\xe2\x83Y\xa4\x09e\
+\x91&\x94\x05\xf1\xed\xe0%\x860\xbe9\xcb\x8f\xb2\xd8\
+k\x07\xfch%3\x9aNS[\xf5\x05\xd5\x15e\x8c\
+;\xf99\x93.U0\xaer/\x87O\xf1\x95\x9e\xdd\
+\xd0c@\x00\xf3\x01X&{\x0cc\xa9!\xfc!\xb0\
+b\xad\x8aG\xd3_fU\xe6\xab<\xbbr\x01\xcf\xad\
+Z\xc03o\xc7\xb0b\xd9<\x1eL\x99\xcd#\x19\x91\
+\x1c\xec`/\x87\xb4\x00\xe0D\xc3+\x8c=^Lc\
+\xf5Qj\xab\xca\xa9\xda\xb4\x8aC\xc7yI\xcf\xfc\x0c\
+\xc0\xb5\xa7\xb3\xd8\x01\xc0\xc5A\x0e\xf6\xdc\xa5U=\x04\
+w(e\x0e\xcf\xaf\x8ec\xbdI\xdfi\xaf3\xe9Y\
+\xf3\x81\x8e\x86\xe9\x13\xa8Pt\x00\xb6\x8a\xfcH\xa5\xcb\
+\x10z\x86\xcd\xe00\xdf\xb1\xf2\x17\xf8\x01\xc0\xa0\xde\xa4\
+\x995\x00\xb82bJ\x07\xd8\xce\xb8`V.\x8f\xea\
+\x12L\xde\x9bs\x8d<\xb1|>\x13\x03\xbc\xa9\x94\xcd\
+`a\xc9k\x22\xd54\x01\xf8\x16@\xba5y\xb0\xda\
+\xd9\xd1\x81\xbbu\x0f\xacw|qd\x8f\xe0\xeaMz\
+\xd6e\xe9\xd8\x9ccdcn\x02\x7f\x5c\x11\xc3\xb4\xa0\
+\x89T<\x00\xcc\x060C\xccp\xab\x12u\x10\x80\xb6\
+\xf4\xe0\x89\x1dpe\x86p^Z\xab\xe91`\xbdI\
+\xcf\xab&=\x9br\x8cl\xdd\x92\xc4{\x9b\x93Y\xac\
+SIV<e\xebR\x97\xa9\xb4\xb7\xe3\xa6\xe8\x80\x0e\
+\xc0\x9e\xba\xb6\xab\x98l\xc86\xd0\xb2=\x85s'\x8d\
+\x96 \xa3l\x01,ruRr\xc7\x82v\xb8O4\
+!\xfc\xed]\xb5\xd5\x80\x92\xcb[6'\xb1<e\x8e\
+\x04x\xc6\x16\xc0cnN\x8e,\x10\x09\xb9\xcc\x10\xce\
++\xeb\xb46\x01\xd6\x9b\xf4\xbc\x96m\xe0\xe5u\x1a\xfa\
+\x8et\x93\xd6e\xab\x01\x0f\xb899v\xac\x18{\x13\
+^dm\x96\xcef\xc0\x86l\x03o\xe6%R\xe3?\
+\x81b?c5\xe0zgG\x07n\x8b\x0d\xa4Y\x1d\
+\xc4RC\x18k\xfa\xc0\x82\xd7?\x5c\xc8\x8bk5\xf4\
+\x1b5\x8c\x00Jl\x01\x5c\x02\x80\x1b\xa2\xa6\xd3\xac\x0e\
+ba|\x08\x7f]ek\x0c\xeay3/\x91\xc7\x97\
+DJ1x\xd5\x16@O\x00\xcd\xa1\xe3\x9ef\x91&\
+\x94fu\x10O\xbe\x1e\xc5:\x1b\x00k\xd7\xe9\xc8\x1d\
+\xa9|k\xf6\xf3\x12`\x96\xad\x15u)\x00\xbe\x116\
+\x89_\xa5\xcc\xe1\xb1\xc5\x91\xac\xcd\xd2Y\x15\x8buY\
+:6\xe5&\xb01\xd7\xc8\xb1O\xb9P\x14\xb7\xce\xb6\
+\x02\xba\x03\xf8C\xa1\x00g\x8e\x19\xc9=\xfap^\xc9\
+\xd2\xf1Z\xb6\x81\xb5Y\xbd\xb4`\x96\x9e,\x5c\xcc\x8d\
+\xb1\x81\x92\xf5\x0am\xde\x93\x88j\xc6\x19@\xb9X7\
+\x99\x1f\x1f\xc2{[\x92\xd8\x90\xbd\xb0\xc7p\x7f\xaf7\
+\x90\xf9i<\x946\x97\x83\x95\xf6\x14g6n}\x02\
+(\xab\x09'\x8b\x81\xb9/q\x16\xefoIb\xbdI\
+\xd7\xad[o\xe4\x18\xc9\xad\xc9\xfc>3\x9a\xbe#\x5c\
+)vz\xc1ObW\x07\xb1;\xbb\xef1\xd4\x89W\
+\xb3\x0dl\xdb\x9a\xdc\x1e\xfc\x22.\xebd\x9f7r\x8c\
+\xa49\x8dm\xdbSX\x9a\x10N\x17\xa5\x03E\xa9\xf5\
+\xde\x93>\x02>\x0a\x80\x893}\xd8\x90c$\xb7\xa7\
+\x92\x1fg\x90\xe6trG*Y\x98A\xeeLgs\
+^\x22\xbfL\x9d\xcb\xa4\x07\xfb\x93\xbb\x002\xfb\xe3\x8c\
+\xda\x19\xc09\x00\x9c\xe6\xe5N\x83\xffx\xae\x08\xf5\xe5\
+\xb6\x98\x99\xcc\x8f\x0b\xe6\xfb/=\xc7E\x01\xde\x8c\xf0\
+\xf1\x94\xd7\x7f\x97;9}x\xa2\xa7\xfcv\x00~\x12\
+.\xb3\x00\xf6\x16Q\xe3Y\x00\x85\xec\x1a-\x00>\xeb\
+js\xde\x1b\xc0\xff\x06\x00+:\xcfk\xcbh\x09\x0e\
+\x00\x00\x00\x00IEND\xaeB`\x82\
 \x00\x00\x03\x06\
 Q\
 CheckBox::indica\
@@ -15222,19 +16493,41 @@ qt_resource_name = b"\
 \x00o\xa6S\
 \x00i\
 \x00c\x00o\x00n\x00s\
+\x00\x12\
+\x02\xef\xc4\x87\
+\x00e\
+\x00x\x00p\x00a\x00n\x00d\x00_\x00a\x00r\x00r\x00o\x00w\x00_\x00p\x00.\x00p\x00n\
+\x00g\
+\x00\x0c\
+\x0f\xa7\xe8'\
+\x00r\
+\x00i\x00g\x00i\x00d\x00i\x00t\x00y\x00.\x00p\x00n\x00g\
+\x00\x10\
+\x09\xe9\xdb\xc7\
+\x00e\
+\x00x\x00p\x00a\x00n\x00d\x00_\x00a\x00r\x00r\x00o\x00w\x00.\x00p\x00n\x00g\
+\x00\x0c\
+\x00\x9c\xd9\x07\
+\x00s\
+\x00i\x00m\x00p\x00l\x00i\x00f\x00y\x00.\x00p\x00n\x00g\
 \x00\x14\
 \x03 N\xc7\
 \x00c\
 \x00o\x00l\x00l\x00a\x00p\x00s\x00e\x00_\x00a\x00r\x00r\x00o\x00w\x00_\x00h\x00.\
 \x00p\x00n\x00g\
 \x00\x0b\
-\x00iF\xe7\
-\x00g\
-\x00r\x00a\x00v\x00i\x00t\x00y\x00.\x00p\x00n\x00g\
+\x00\x9f_\xa7\
+\x00d\
+\x00a\x00m\x00p\x00i\x00n\x00g\x00.\x00p\x00n\x00g\
 \x00\x0a\
 \x0c\x9c\x06\xa7\
 \x00l\
 \x00a\x00y\x00e\x00r\x00s\x00.\x00p\x00n\x00g\
+\x00\x14\
+\x03\x18N\xc7\
+\x00c\
+\x00o\x00l\x00l\x00a\x00p\x00s\x00e\x00_\x00a\x00r\x00r\x00o\x00w\x00_\x00p\x00.\
+\x00p\x00n\x00g\
 \x00\x0b\
 \x03.^G\
 \x00d\
@@ -15243,46 +16536,28 @@ qt_resource_name = b"\
 \x08\xa6Y'\
 \x00m\
 \x00a\x00s\x00s\x00.\x00p\x00n\x00g\
+\x00\x12\
+\x0c\xc8,G\
+\x00c\
+\x00o\x00l\x00l\x00a\x00p\x00s\x00e\x00_\x00a\x00r\x00r\x00o\x00w\x00.\x00p\x00n\
+\x00g\
 \x00\x0e\
-\x0bQ\xb0'\
-\x00A\
+\x0bQ\xb8'\
+\x00a\
 \x00t\x00t\x00r\x00a\x00c\x00t\x00i\x00o\x00n\x00.\x00p\x00n\x00g\
 \x00\x0e\
 \x05\xb1\x13\x07\
 \x00e\
 \x00l\x00a\x00s\x00t\x00i\x00c\x00i\x00t\x00y\x00.\x00p\x00n\x00g\
 \x00\x12\
-\x02\xef\xc4\x87\
-\x00e\
-\x00x\x00p\x00a\x00n\x00d\x00_\x00a\x00r\x00r\x00o\x00w\x00_\x00p\x00.\x00p\x00n\
-\x00g\
-\x00\x10\
-\x09\xe9\xdb\xc7\
-\x00e\
-\x00x\x00p\x00a\x00n\x00d\x00_\x00a\x00r\x00r\x00o\x00w\x00.\x00p\x00n\x00g\
-\x00\x0b\
-\x00\x9f_\xa7\
-\x00d\
-\x00a\x00m\x00p\x00i\x00n\x00g\x00.\x00p\x00n\x00g\
-\x00\x12\
-\x0c\xc8,G\
-\x00c\
-\x00o\x00l\x00l\x00a\x00p\x00s\x00e\x00_\x00a\x00r\x00r\x00o\x00w\x00.\x00p\x00n\
-\x00g\
-\x00\x14\
-\x03\x18N\xc7\
-\x00c\
-\x00o\x00l\x00l\x00a\x00p\x00s\x00e\x00_\x00a\x00r\x00r\x00o\x00w\x00_\x00p\x00.\
-\x00p\x00n\x00g\
-\x00\x12\
 \x02\xd7\xc4\x87\
 \x00e\
 \x00x\x00p\x00a\x00n\x00d\x00_\x00a\x00r\x00r\x00o\x00w\x00_\x00h\x00.\x00p\x00n\
 \x00g\
-\x00\x0c\
-\x0b\xa7\xe8'\
-\x00R\
-\x00i\x00g\x00i\x00d\x00i\x00t\x00y\x00.\x00p\x00n\x00g\
+\x00\x0b\
+\x00iF\xe7\
+\x00g\
+\x00r\x00a\x00v\x00i\x00t\x00y\x00.\x00p\x00n\x00g\
 \x00\x14\
 \x01,N\xc3\
 \x00c\
@@ -15292,23 +16567,24 @@ qt_resource_name = b"\
 
 qt_resource_struct = b"\
 \x00\x00\x00\x00\x00\x02\x00\x00\x00\x02\x00\x00\x00\x01\
-\x00\x00\x00\x12\x00\x02\x00\x00\x00\x0e\x00\x00\x00\x04\
+\x00\x00\x00\x12\x00\x02\x00\x00\x00\x0f\x00\x00\x00\x04\
 \x00\x00\x00\x00\x00\x02\x00\x00\x00\x01\x00\x00\x00\x03\
-\x00\x00\x02\x08\x00\x00\x00\x00\x00\x01\x00\x03\xb1\x05\
-\x00\x00\x00P\x00\x00\x00\x00\x00\x01\x00\x00<\xdd\
-\x00\x00\x01L\x00\x00\x00\x00\x00\x01\x00\x02l\xb6\
-\x00\x00\x01\xc0\x00\x00\x00\x00\x00\x01\x00\x03*\x8a\
-\x00\x00\x00\xfc\x00\x00\x00\x00\x00\x01\x00\x01\xf0\x02\
-\x00\x00\x01\x92\x00\x00\x00\x00\x00\x01\x00\x02\xeaN\
+\x00\x00\x02&\x00\x00\x00\x00\x00\x01\x00\x04\x00U\
+\x00\x00\x02\x0a\x00\x00\x00\x00\x00\x01\x00\x03\xbeT\
+\x00\x00\x00\x90\x00\x00\x00\x00\x00\x01\x00\x00\xc6&\
+\x00\x00\x00\xdc\x00\x00\x00\x00\x00\x01\x00\x01RS\
+\x00\x00\x01\xe0\x00\x00\x00\x00\x00\x01\x00\x03\x81K\
 \x00\x00\x00\x22\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\
-\x00\x00\x00\x86\x00\x00\x00\x00\x00\x01\x00\x00\xc12\
-\x00\x00\x00\xda\x00\x00\x00\x00\x00\x01\x00\x01\xa2\xdf\
-\x00\x00\x00\xa2\x00\x00\x00\x00\x00\x01\x00\x01\x1a\xa1\
-\x00\x00\x01&\x00\x00\x00\x00\x00\x01\x00\x020l\
-\x00\x00\x00\xb8\x00\x00\x00\x00\x00\x01\x00\x01_T\
-\x00\x00\x01\xea\x00\x00\x00\x00\x00\x01\x00\x03g\x93\
-\x00\x00\x00l\x00\x00\x00\x00\x00\x01\x00\x00~\xde\
-\x00\x00\x01h\x00\x00\x00\x00\x00\x01\x00\x02\xae(\
+\x00\x00\x01\x12\x00\x00\x00\x00\x00\x01\x00\x01\xd6\x19\
+\x00\x00\x00\xae\x00\x00\x00\x00\x00\x01\x00\x01\x15v\
+\x00\x00\x01@\x00\x00\x00\x00\x00\x01\x00\x02\x16U\
+\x00\x00\x01\xbe\x00\x00\x00\x00\x00\x01\x00\x034(\
+\x00\x00\x01\x5c\x00\x00\x00\x00\x00\x01\x00\x02o\xc4\
+\x00\x00\x00j\x00\x00\x00\x00\x00\x01\x00\x00\x89\xdc\
+\x00\x00\x01\x9c\x00\x00\x00\x00\x00\x01\x00\x02\xf0\x9d\
+\x00\x00\x00\xf8\x00\x00\x00\x00\x00\x01\x00\x01\x93\xc5\
+\x00\x00\x01r\x00\x00\x00\x00\x00\x01\x00\x02\xb4w\
+\x00\x00\x00L\x00\x00\x00\x00\x00\x01\x00\x00@j\
 "
 
 def qInitResources():

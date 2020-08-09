@@ -180,9 +180,9 @@ class RagdolizeUI(QtWidgets.QWidget):
         doRotations = self.rotationCbx.isChecked()
         followBase = self.followCBx.isChecked()
         fameRange = (int(cmds.playbackOptions(q=1, min=1)), int(cmds.playbackOptions(q=1, max=1)))
+        animation.createAnimLayer(animLayer, controls)
         if self.cleanAnimation.isChecked():
             #clear layer animation
-            animation.createAnimLayer(animLayer, controls)
             for node in controls:
                 for animCurve in animation.getLayerAnimCurves(node, animLayer):
                     animation.clearAnimCurve(animCurve)
@@ -201,7 +201,6 @@ class RagdolizeUI(QtWidgets.QWidget):
                                          followBase)
         self.createSymKeys(controls,
                            fameRange,
-                           animLayer,
                            dynSystem,
                            animDict,
                            doRotations)
@@ -229,7 +228,7 @@ class RagdolizeUI(QtWidgets.QWidget):
             for animCurve in animation.getLayerAnimCurves(node, animLayer):
                 animation.simplyfyAnimCurve(animCurve, epsilon)
 
-    def createSymKeys(self, controls, fameRange, animLayer, dynSystem, animDict, doRotations=True):
+    def createSymKeys(self, controls, fameRange, dynSystem, animDict, doRotations=True):
         prevPosList = dynSystem.getSimulatedPosition()
         for f in range(*fameRange):
             dynSystem.setBasePosition(prevPosList)
@@ -251,13 +250,11 @@ class RagdolizeUI(QtWidgets.QWidget):
                 if not doRotations:
                     continue
                 if i< len(controls)-1:
-                    currPos = cmds.xform(control, q=1, ws=1, t=1)
-                    worldRot = transforms.getAimRotation(currPos, simPositions[i+1])
+                    worldRot = transforms.getAimRotation(simPositions[i], simPositions[i+1])
                     rot = transforms.getLocalRotation(control, worldRot)
                 else:
                     worldRot = transforms.getAimRotation(simPositions[i], simPositions[i-1], aim=(-1,0,0))
                     rot = transforms.getLocalRotation(control, worldRot)
-                    rot=[a*2 for a in rot]
                 cmds.setKeyframe(control, v=rot[0], at='rotateX',t=[f,f])
                 cmds.setKeyframe(control, v=rot[1], at='rotateY',t=[f,f])
                 cmds.setKeyframe(control, v=rot[2], at='rotateZ',t=[f,f])

@@ -1,6 +1,6 @@
 <RCC>
   <qresource>
-    <file>icons/Attraction.png</file>
+    <file>icons/attraction.png</file>
     <file>icons/collapse_arrow.png</file>
     <file>icons/collapse_arrow_h.png</file>
     <file>icons/collapse_arrow_p.png</file>
@@ -13,7 +13,8 @@
     <file>icons/gravity.png</file>
     <file>icons/layers.png</file>
     <file>icons/mass.png</file>
-    <file>icons/Rigidity.png</file>
+    <file>icons/rigidity.png</file>
+    <file>icons/simplify.png</file>
     <file>styles/collapsibleGroup.qss</file>
     
   </qresource>
