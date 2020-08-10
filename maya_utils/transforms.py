@@ -30,19 +30,25 @@ def getAimRotation(drivenPos, targetPos, rotOrder='xyz',
         euler.reorderIt(rotOrder)
     return [math.degrees(a) for a in euler.asVector()]
 
-def getLocalTranslation(node, pos):
-    frame = cmds.currentTime(q=1)
+def getLocalTranslation(node, pos, frame):
+    # for some reason DGContex wont update properlly so
+    cmds.currentTime(frame) # force frame to refresh matrix value
+    parent = cmds.listRelatives(node, p=1)
+    matrix = om.MMatrix(cmds.xform(parent, q=1, ws=1, m=1))
     matrices = animation.getMatrixAttributeInTimeRange(node, 'pim', timeRange=(frame, frame+1))
     point = om.MPoint(pos)
-    return om.MVector(point * matrices[0])
+    point = om.MVector(point * matrix.inverse())
+    return point
 
-def getLocalRotation(node, rot):
-    frame = cmds.currentTime(q=1)
-    matrices = animation.getMatrixAttributeInTimeRange(node, 'pim', timeRange=(frame, frame+1))
+def getLocalRotation(node, rot, frame):
+    # for some reason DGContex wont update properlly so
+    cmds.currentTime(frame) # force frame to refresh matrix value
+    parent = cmds.listRelatives(node, p=1)
+    matrix = om.MMatrix(cmds.xform(parent, q=1, ws=1, m=1))
     trfMatrix = om.MTransformationMatrix()
     rotation = om.MVector([math.radians(a) for a in rot])
     euler = om.MEulerRotation(rotation)
     trfMatrix.rotateBy(euler, om.MSpace.kTransform)
     newMat = trfMatrix.asMatrix()
-    newTrfMat = om.MTransformationMatrix(newMat * matrices[0])
+    newTrfMat = om.MTransformationMatrix(newMat *  matrix.inverse())
     return [math.degrees(a) for a in newTrfMat.rotation()]

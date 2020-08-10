@@ -243,7 +243,7 @@ class RagdolizeUI(QtWidgets.QWidget):
             prevPosList = positionList[:]
             cmds.currentTime(f)
             for i, control in enumerate(controls):
-                pos = transforms.getLocalTranslation(control, simPositions[i])
+                pos = transforms.getLocalTranslation(control, simPositions[i], f)
                 cmds.setKeyframe(control, v=pos[0], at='translateX',t=[f,f])
                 cmds.setKeyframe(control, v=pos[1], at='translateY',t=[f,f])
                 cmds.setKeyframe(control, v=pos[2], at='translateZ',t=[f,f])
@@ -251,10 +251,10 @@ class RagdolizeUI(QtWidgets.QWidget):
                     continue
                 if i< len(controls)-1:
                     worldRot = transforms.getAimRotation(simPositions[i], simPositions[i+1])
-                    rot = transforms.getLocalRotation(control, worldRot)
+                    rot = transforms.getLocalRotation(control, worldRot, f)
                 else:
                     worldRot = transforms.getAimRotation(simPositions[i], simPositions[i-1], aim=(-1,0,0))
-                    rot = transforms.getLocalRotation(control, worldRot)
+                    rot = transforms.getLocalRotation(control, worldRot, f)
                 cmds.setKeyframe(control, v=rot[0], at='rotateX',t=[f,f])
                 cmds.setKeyframe(control, v=rot[1], at='rotateY',t=[f,f])
                 cmds.setKeyframe(control, v=rot[2], at='rotateZ',t=[f,f])
