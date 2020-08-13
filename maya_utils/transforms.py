@@ -1,3 +1,29 @@
+# -*- coding: utf-8 -*-
+"""This module is mean to be used to get the main training data for train the model to be used on ml_rivets.mll node
+This code is to be used on maya with numpy library
+
+MIT License
+
+Copyright (c) 2020 Mauro Lopez
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFT
+"""
 import math
 from maya.api import OpenMaya as om
 from maya import cmds
@@ -5,7 +31,19 @@ import animation
 def getAimRotation(drivenPos, targetPos, rotOrder='xyz',
                    aim=(1,0,0),
                    up=(0,1,0), outAxis=(0,0,1)):
+    """[summary]
 
+    Args:
+        drivenPos ([type]): [description]
+        targetPos ([type]): [description]
+        rotOrder (str, optional): [description]. Defaults to 'xyz'.
+        aim (tuple, optional): [description]. Defaults to (1,0,0).
+        up (tuple, optional): [description]. Defaults to (0,1,0).
+        outAxis (tuple, optional): [description]. Defaults to (0,0,1).
+
+    Returns:
+        [type]: [description]
+    """
     drivenPoint = om.MVector(drivenPos)
     targetPoint = om.MVector(targetPos)
     aimVector = om.MVector(aim)
@@ -34,42 +72,53 @@ def getAimRotation(drivenPos, targetPos, rotOrder='xyz',
     return [math.degrees(a) for a in euler.asVector()]
 
 def aimNode(node,target, myAimAxis=[1,0,0], myUpAxis=[0,1,0], myUpDir=[0,0,1]):
-    selList = om.MSelectionList() # make a sel list # MSelectionList
-    #selList.add(target) # add our node by name
-    selList.add(node) # add our node by name
-    #mDagPath = selList.getDagPath(0)
+    """[summary]
+
+    Args:
+        node ([type]): [description]
+        target ([type]): [description]
+        myAimAxis (list, optional): [description]. Defaults to [1,0,0].
+        myUpAxis (list, optional): [description]. Defaults to [0,1,0].
+        myUpDir (list, optional): [description]. Defaults to [0,0,1].
+    """    
+    selList = om.MSelectionList()
+    selList.add(node)
     mdpThis = selList.getDagPath(0)
     mpTarget=om.MPoint(target)
 
     mmMatrix = mdpThis.inclusiveMatrix();
     mmMatrixInverse = mmMatrix.inverse();
-    #    // Express the target point in this node's object space:
     mpTargetInThisSpace=om.MPoint(mpTarget * mmMatrixInverse);
-    #    // Assuming that the vector 1, 0, 0 defines the position of the front of this node,
-    #    // get the quaternion that describes the rotation to make that vector point to mpTargetInThisSpace:
     mqToTarget=om.MQuaternion (om.MVector(myAimAxis).rotateTo(om.MVector(mpTargetInThisSpace)));
-    #    // Apply that rotation to this node:
+    # Apply that rotation to this node:
     mftThis=om.MFnTransform (mdpThis.transform());
     mftThis.rotateBy(mqToTarget, om.MSpace.kPreTransform);
-    #    // Get the new inverse transformation matrix of this node
+    
     mmMatrix = mdpThis.inclusiveMatrix();
     mmMatrixInverse = mmMatrix.inverse();
-    #    // Get the world up vector.
     mvUp=om.MVector( myUpDir)
-    #    // Express the world up vector in this node's object space.
     mpWorldUpInThisSpace=om.MPoint (mvUp * mmMatrixInverse);
-    #    // Get the quaternion that describes the rotation to make the local up vector point to the world up vector:
+    # Get the quaternion that describes the rotation to make the local up vector point to the world up vector:
     mqToWorldUp=om.MQuaternion (om.MVector(om.MVector(myUpAxis)).rotateTo(om.MVector(mpWorldUpInThisSpace)));
-    #    // Get the x-axis rotation from the quaternion 
     merToWorldUp=om.MEulerRotation (mqToWorldUp.asEulerRotation());
     merToWorldUp.y = 0.0;
     merToWorldUp.z = 0.0;
-    #    // Apply that rotation to this node:
+    # Apply that rotation to this node:
     mftThis.rotateBy(merToWorldUp, om.MSpace.kPreTransform);
 
 
 
 def getLocalTranslation(node, pos, frame):
+    """[summary]
+
+    Args:
+        node ([type]): [description]
+        pos ([type]): [description]
+        frame ([type]): [description]
+
+    Returns:
+        [type]: [description]
+    """    
     # for some reason DGContex wont update properlly so
     cmds.currentTime(frame) # force frame to refresh matrix value
     parent = cmds.listRelatives(node, p=1, f=1)
@@ -79,6 +128,16 @@ def getLocalTranslation(node, pos, frame):
     return point
 
 def getLocalRotation(node, rot, frame):
+    """[summary]
+
+    Args:
+        node ([type]): [description]
+        rot ([type]): [description]
+        frame ([type]): [description]
+
+    Returns:
+        [type]: [description]
+    """    
     # for some reason DGContex wont update properlly so
     cmds.currentTime(frame) # force frame to refresh matrix value
     parent = cmds.listRelatives(node, p=1, f=1)
