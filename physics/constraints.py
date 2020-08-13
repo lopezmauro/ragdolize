@@ -96,7 +96,6 @@ class ParticlesRope(Constraint):
 
     def setup(self):
         self.link = list()
-        self._particles[0].setPinned(True)
         for i, particle in enumerate(self._particles[:-1]):
             self._links.append(ParticleLink(particle,self._particles[i+1], self._damping))
 

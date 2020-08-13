@@ -36,8 +36,17 @@ class ChainSimulation(simulation.Simulation):
 
                 self.springs.append(spring)
                 self.addConstraint(spring)
-        self.linkRope = constraints.ParticlesRope(self.simParticles, 50, .1)
-        self.addConstraint(self.linkRope)
+        else:
+            spring = constraints.ParticleSpring(self.baseParticles[0], self.simParticles[0], 
+                                                springStiffnes=1.0,
+                                                springDamping=1.0)
+
+            self.springs.append(spring)
+            self.addConstraint(spring)
+        if len(self.simParticles) > 1:
+            ropePart = [self.baseParticles[0]] + self.simParticles[1:]
+            self.linkRope = constraints.ParticlesRope(ropePart, 50)
+            self.addConstraint(self.linkRope)
 
     def setRigidity(self, stifnessList):
         for spring, stiff in zip(self.springs, stifnessList):
@@ -60,6 +69,9 @@ class ChainSimulation(simulation.Simulation):
 
     def getSimulatedPosition(self):
         return [a.getPosition() for a in self.simParticles]
+    
+    def getBasePosition(self):
+        return [a.getPosition() for a in self.baseParticles]
 
     def reset(self):
         for i, each in enumerate(self.basePositions):

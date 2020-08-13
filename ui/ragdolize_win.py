@@ -3,6 +3,7 @@ from PySide2 import QtCore
 from PySide2 import QtGui
 from PySide2 import QtWidgets
 from maya import cmds
+from maya.api import OpenMaya as om
 
 import ui_utils
 import ramp
@@ -21,6 +22,7 @@ from ..maya_utils import transforms
 DYNLAYER = 'dynamics'
 NEWLAYER = 'NewLayer...'
 SLIDERMULT = 10.0
+CREATEPARTICLESMESHES = False
 class RagdolizeUI(QtWidgets.QWidget):
     def __init__(self, parent=ui_utils.maya_main_window()):
         super(RagdolizeUI, self).__init__(parent)
@@ -149,6 +151,7 @@ class RagdolizeUI(QtWidgets.QWidget):
 
     def setDefaultValues(self):
         self.followCBx.setChecked(True)
+        self.rotationCbx.setChecked(True)
         self.gravSpin.setValue(9.8)
         self.gravSpin.setSingleStep(.1)
         self.dampSpin.setValue(.97)
@@ -165,9 +168,22 @@ class RagdolizeUI(QtWidgets.QWidget):
         self.elasticityGrp.setCollapsed(True)
         self.massGrp.setCollapsed(True)
 
+    def addAimLoc(self, controls, offset=(1,0,0)):
+        finalAim = cmds.spaceLocator()[0]
+        cmds.parent(finalAim, controls[-1])
+        cmds.setAttr('{}.t'.format(finalAim),*offset)
+        cmds.setAttr('{}.v'.format(finalAim), 0)
+        return finalAim
+
     def doit(self):
-        controls = cmds.ls(sl=1)
-        rampPoints = [float(a)/(len(controls)-1) for a in range(len(controls))]
+        selection = cmds.ls(sl=1)
+        lastMatrix = om.MMatrix(cmds.getAttr('{}.wm'.format(selection[-1])))
+        diffMatrix = lastMatrix*om.MMatrix(cmds.getAttr('{}.wim'.format(selection[-2])))
+        finalAim = self.addAimLoc(selection, offset=list(diffMatrix)[12:15])
+        controls = selection + [finalAim]
+        rampPoints=[1]
+        if len(controls)>1:
+            rampPoints = [float(a)/(len(controls)-1) for a in range(len(controls))]
         gravity = self.gravSpin.value()/10
         damping = self.dampSpin.value()
         attractionValues = self.followRamp.getValueAtPoints(rampPoints)
@@ -207,12 +223,14 @@ class RagdolizeUI(QtWidgets.QWidget):
         for control in controls:
             for animCurve in animation.getLayerAnimCurves(control, animLayer):
                 animation.cacheCurvePoints(animCurve)
+        cmds.delete(finalAim)
 
     def createDynSystem(self, positionList, follow, rigidity, elasticity, damping, gravity, masses, followBase):
         sim = rigs.ChainSimulation(positionList, followBase)
         sim.setRestLenght(follow)
         sim.setRigidity(rigidity)
-        sim.setElasticity(elasticity)
+        if sim.linkRope:
+            sim.setElasticity(elasticity)
         sim.setDamping(damping)
         grav = forces.Gravity(sim.getParticles(),gravity)
         sim.addForce(grav)
@@ -229,9 +247,12 @@ class RagdolizeUI(QtWidgets.QWidget):
                 animation.simplyfyAnimCurve(animCurve, epsilon)
 
     def createSymKeys(self, controls, fameRange, dynSystem, animDict, doRotations=True):
-        prevPosList = dynSystem.getSimulatedPosition()
+        prevPosList = dynSystem.getSimulatedPosition()[:]
+        if CREATEPARTICLESMESHES:
+            baseNodes, simNodes = self.createDebugSpheres(dynSystem)
         for f in range(*fameRange):
             dynSystem.setBasePosition(prevPosList)
+            basePositions = dynSystem.getBasePosition()
             dynSystem.simulate()
             simPositions = dynSystem.getSimulatedPosition()
             positionList = list()
@@ -241,20 +262,45 @@ class RagdolizeUI(QtWidgets.QWidget):
                 else:
                     positionList.append(prevPosList[i]) 
             prevPosList = positionList[:]
-            cmds.currentTime(f)
+            #cmds.currentTime(f)
             for i, control in enumerate(controls):
+                
                 pos = transforms.getLocalTranslation(control, simPositions[i], f)
                 cmds.setKeyframe(control, v=pos[0], at='translateX',t=[f,f])
                 cmds.setKeyframe(control, v=pos[1], at='translateY',t=[f,f])
                 cmds.setKeyframe(control, v=pos[2], at='translateZ',t=[f,f])
+                if CREATEPARTICLESMESHES:
+                    cmds.setKeyframe(baseNodes[i].name, v=basePositions[i][0], at='translateX',t=[f,f])
+                    cmds.setKeyframe(baseNodes[i].name, v=basePositions[i][1], at='translateY',t=[f,f])
+                    cmds.setKeyframe(baseNodes[i].name, v=basePositions[i][2], at='translateZ',t=[f,f])
+
+                    cmds.setKeyframe(simNodes[i].name, v=simPositions[i][0], at='translateX',t=[f,f])
+                    cmds.setKeyframe(simNodes[i].name, v=simPositions[i][1], at='translateY',t=[f,f])
+                    cmds.setKeyframe(simNodes[i].name, v=simPositions[i][2], at='translateZ',t=[f,f])
                 if not doRotations:
                     continue
                 if i< len(controls)-1:
-                    worldRot = transforms.getAimRotation(simPositions[i], simPositions[i+1])
-                    rot = transforms.getLocalRotation(control, worldRot, f)
+                    transforms.aimNode(control, simPositions[i+1], myAimAxis=[1,0,0])
+                    #worldRot = transforms.getAimRotation(simPositions[i], simPositions[i+1])
+                    #rot = transforms.getLocalRotation(control, worldRot, f)
                 else:
-                    worldRot = transforms.getAimRotation(simPositions[i], simPositions[i-1], aim=(-1,0,0))
-                    rot = transforms.getLocalRotation(control, worldRot, f)
-                cmds.setKeyframe(control, v=rot[0], at='rotateX',t=[f,f])
-                cmds.setKeyframe(control, v=rot[1], at='rotateY',t=[f,f])
-                cmds.setKeyframe(control, v=rot[2], at='rotateZ',t=[f,f])
+                    transforms.aimNode(control, simPositions[i-1], myAimAxis=[-1,0,0])
+                    #worldRot = transforms.getAimRotation(simPositions[i], simPositions[i-1], aim=(-1,0,0), up=(0,-1,0))
+                    #rot = transforms.getLocalRotation(control, worldRot, f)
+                cmds.setKeyframe(control, at='rotateX',t=[f,f])
+                cmds.setKeyframe(control, at='rotateY',t=[f,f])
+                cmds.setKeyframe(control, at='rotateZ',t=[f,f])
+
+    def createDebugSpheres(self, dyn):
+        baseNodes = list()
+        baseName = 'base{}'
+        for i, each in enumerate(dyn.baseParticles):
+            sphere = maya_body.Sphere(baseName.format(i), each.getPosition())
+            baseNodes.append(sphere)
+        simNodes = list()
+        simName = 'simulated{}'
+        for i, each in enumerate(dyn.simParticles):
+            cube = maya_body.Cube(simName.format(i), each.getPosition())
+            simNodes.append(cube)
+        return baseNodes, simNodes
+        

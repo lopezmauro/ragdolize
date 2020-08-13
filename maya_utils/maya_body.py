@@ -53,7 +53,10 @@ class Sphere(Body):
 
 
     def setup(self):
+        if cmds.objExists(self.name):
+            return self.name
         self.name = cmds.polySphere(radius=self.radius, n=self.name)[0]
+        return self.name
 
 
 class Cube(Body):
@@ -63,7 +66,10 @@ class Cube(Body):
 
 
     def setup(self):
+        if cmds.objExists(self.name):
+            return self.name
         self.name = cmds.polyCube(w=self.radius, h=self.radius, d=self.radius, n=self.name)[0]
+        return self.name
 
 
 
