@@ -1,7 +1,6 @@
 
 # -*- coding: utf-8 -*-
-"""This module is mean to be used to get the main training data for train the model to be used on ml_rivets.mll node
-This code is to be used on maya with numpy library
+"""Particle system Forces objects
 
 MIT License
 

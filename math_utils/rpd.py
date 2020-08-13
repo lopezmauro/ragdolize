@@ -1,8 +1,8 @@
  #!/usr/bin/python
  # -*- coding: utf-8 -*-
  # -*- coding: utf-8 -*-
-"""This module is mean to be used to get the main training data for train the model to be used on ml_rivets.mll node
-This code is to be used on maya with numpy library
+"""The Ramer–Douglas–Peucker algorithm, is an algorithm that recreate 
+a curve composed of line segments to a similar curve with fewer points.
 
 MIT License
 
@@ -25,10 +25,6 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFT
-"""
-
-"""The Ramer–Douglas–Peucker algorithm, is an algorithm that recreate 
-a curve composed of line segments to a similar curve with fewer points.
 """
 from math import sqrt
 
