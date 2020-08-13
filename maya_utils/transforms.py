@@ -27,58 +27,14 @@ SOFT
 import math
 from maya.api import OpenMaya as om
 from maya import cmds
-import animation 
-def getAimRotation(drivenPos, targetPos, rotOrder='xyz',
-                   aim=(1,0,0),
-                   up=(0,1,0), outAxis=(0,0,1)):
-    """[summary]
-
-    Args:
-        drivenPos ([type]): [description]
-        targetPos ([type]): [description]
-        rotOrder (str, optional): [description]. Defaults to 'xyz'.
-        aim (tuple, optional): [description]. Defaults to (1,0,0).
-        up (tuple, optional): [description]. Defaults to (0,1,0).
-        outAxis (tuple, optional): [description]. Defaults to (0,0,1).
-
-    Returns:
-        [type]: [description]
-    """
-    drivenPoint = om.MVector(drivenPos)
-    targetPoint = om.MVector(targetPos)
-    aimVector = om.MVector(aim)
-    upVector = om.MVector(up)
-    outVector = om.MVector(outAxis)
-    direction = (targetPoint-drivenPoint).normal()
-    #outVector1 =  (direction ^ upVector).normal()
-    #if outVector*outVector1>=-1:
-    #    outVector1 = (upVector ^ direction).normal()
-    ortoUp = (outVector ^ direction).normal()
-    quaternion = om.MQuaternion(aimVector, direction)
-    upRotated = upVector.rotateBy(quaternion)
-    angle = math.acos(round(upRotated*ortoUp,2))
-    quatAim = om.MQuaternion(angle, direction)
-    #check if is the shortest path
-    if not ortoUp.isEquivalent(upRotated.rotateBy(quatAim), 1.0e-4):
-        #if not rotate it 360
-        angle = (2*math.pi) - angle
-        quatAim = om.MQuaternion(angle, direction)
-    quaternion *= quatAim
-    euler = quaternion.asEulerRotation()
-    if isinstance(rotOrder, str) and hasattr(om.MTransformationMatrix,'k{}'.format(rotOrder.upper())):
-        rotOrder = getattr(om.MEulerRotation,'k{}'.format(rotOrder.upper()))
-    if isinstance(rotOrder, int):
-        euler.reorderIt(rotOrder)
-    return [math.degrees(a) for a in euler.asVector()]
 
 def aimNode(node,target, myAimAxis=[1,0,0], myUpAxis=[0,1,0], myUpDir=[0,0,1]):
-    """[summary]
-
+    """rotate a transform to aim a target point
     Args:
-        node ([type]): [description]
-        target ([type]): [description]
-        myAimAxis (list, optional): [description]. Defaults to [1,0,0].
-        myUpAxis (list, optional): [description]. Defaults to [0,1,0].
+        node (str): transform node name
+        target (list): world space point expresed as [float, float, float]
+        myAimAxis (list, optional): the axis that point to the target. Defaults to [1,0,0].
+        myUpAxis (list, optional): the axis up to stabilize the rotation. Defaults to [0,1,0].
         myUpDir (list, optional): [description]. Defaults to [0,0,1].
     """    
     selList = om.MSelectionList()
@@ -96,7 +52,7 @@ def aimNode(node,target, myAimAxis=[1,0,0], myUpAxis=[0,1,0], myUpDir=[0,0,1]):
     
     mmMatrix = mdpThis.inclusiveMatrix();
     mmMatrixInverse = mmMatrix.inverse();
-    mvUp=om.MVector( myUpDir)
+    mvUp=om.MVector(myUpDir)
     mpWorldUpInThisSpace=om.MPoint (mvUp * mmMatrixInverse);
     # Get the quaternion that describes the rotation to make the local up vector point to the world up vector:
     mqToWorldUp=om.MQuaternion (om.MVector(om.MVector(myUpAxis)).rotateTo(om.MVector(mpWorldUpInThisSpace)));
@@ -107,17 +63,15 @@ def aimNode(node,target, myAimAxis=[1,0,0], myUpAxis=[0,1,0], myUpDir=[0,0,1]):
     mftThis.rotateBy(merToWorldUp, om.MSpace.kPreTransform);
 
 
-
 def getLocalTranslation(node, pos, frame):
-    """[summary]
-
+    """the the local values to a note to reach a world position on specific frame
     Args:
-        node ([type]): [description]
-        pos ([type]): [description]
-        frame ([type]): [description]
+        node (str): node name
+        pos (list): world space point expresed as [float, float, float]
+        frame (int): frame to get the node position
 
     Returns:
-        [type]: [description]
+        list: node local space point expresed as [float, float, float]
     """    
     # for some reason DGContex wont update properlly so
     cmds.currentTime(frame) # force frame to refresh matrix value
@@ -128,16 +82,15 @@ def getLocalTranslation(node, pos, frame):
     return point
 
 def getLocalRotation(node, rot, frame):
-    """[summary]
-
+    """the the local values to a note to reach a world rotation on specific frame
     Args:
-        node ([type]): [description]
-        rot ([type]): [description]
-        frame ([type]): [description]
+        node (str): node name
+        rot (list): world space roation expresed as [float, float, float]
+        frame (int): frame to get the node position
 
     Returns:
-        [type]: [description]
-    """    
+        list: node local space rotation expresed as degrees [float, float, float]
+    """   
     # for some reason DGContex wont update properlly so
     cmds.currentTime(frame) # force frame to refresh matrix value
     parent = cmds.listRelatives(node, p=1, f=1)

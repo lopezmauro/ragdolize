@@ -27,6 +27,8 @@ SOFT
 from maya.api import OpenMaya as om
 
 class Vector(object):
+    """generic vector operation done with maya api
+    """
     def __init__(self, *args):
         if len(args)==0:
             self.array = om.MVector([0,0,0])
@@ -36,52 +38,117 @@ class Vector(object):
             self.array = om.MVector(args)
 
     def magnitude(self):
+        """return distance between the initial point and the end point
+        Returns:
+            float: length of the vector
+        """
         return  self.array.length()
 
     def normalize(self):
+        """scale each value proportionaly to get a vector with the same direction
+        but with a magnitude of 1
+        Returns:
+            Vector: vector with magnitude 1
+        """
         return Vector(self.array.normal())
     
     def __mul__(self, other):
+        """override the multiplication operador (*)
+        Args:
+            other (Vector/scalar): multiply current vetor by an scalar or other Vector
+        Returns:
+            Vector
+        """
         if isinstance(other, (int, float)):
             return Vector(self.array * other)
         return Vector(self.array * other.array)
 
     def __div__(self, other):
+        """override the division operador (/)
+        Args:
+            other (Vector/scalar): divide current vetor by an scalar or other Vector
+        Returns:
+            Vector
+        """       
         if isinstance(other, (int, float)):
             return Vector(self.array / other)
         return Vector(self.array / other.array)
     
     def __truediv__(self, other):
+        """override the division operador (/)
+        Args:
+            other (Vector/scalar): divide current vetor by an scalar or other Vector
+        Returns:
+            Vector
+        """
         if isinstance(other, (int, float)):
             return Vector(self.array/other)
 
     def __add__(self, other):
+        """override the addition operador (+)
+        Args:
+            other (Vector/scalar): sum current vector by an scalar or other Vector
+        Returns:
+            Vector
+        """
         if isinstance(other, (int, float)):
             return Vector(self.array + other)
         return Vector(self.array + other.array)
         
     
     def __sub__(self, other):
+        """override the substract operador (-)
+        Args:
+            other (Vector/scalar): substract current vector by an scalar or other Vector
+        Returns:
+            Vector
+        """
         if isinstance(other, (int, float)):
             return Vector(self.array - other)
         return Vector(self.array - other.array)
 
     def __iter__(self):
+        """override the iteration operation(for a in Vector), iterating by each vector element
+        Returns:
+            iter
+        """
         return iter(self.array)
     
     def __len__(self):
-        return 3
+        """override the len operation(len(Vector)), returning how many elements has
+        Returns:
+            int
+        """
+        return len(self.array)
     
     def __getitem__(self, key):
+        """override the get index operation (Vector[i]), returning the element at index
+        Args:
+            key (int): element at index
+        Returns:
+            float: value at index
+        """
         return self.array[key]
     
     def __setitem__(self, key, value):
+        """override the setindex operation (Vector[i]), setting the element at index
+        Args:
+            key (int): element at index
+        """
         self.array[key] = float(value)
 
     def __repr__(self):
+        """override the string representation
+        Returns:
+            str: elements as string
+        """
         return str(self.array)
 
     def __neg__(self):
+        """override the negation operation (-obj)
+        Returns:
+            Vector: negated Vector
+        """
         return Vector(self.array * -1)
 
 

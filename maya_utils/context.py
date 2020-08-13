@@ -25,8 +25,9 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFT
 """
 from maya import cmds
-class SuspendRefresh(): 
-
+class SuspendRefresh():
+    """suspend maya viewport refresh
+    """
     def __enter__(self): 
         cmds.refresh(su=1)
       

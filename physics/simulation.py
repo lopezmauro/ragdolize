@@ -30,7 +30,9 @@ import constraints
 import colliders
 
 class Simulation(object):
-
+    """verlet integration system to calculate trajectories of particles when forces and contraint
+    are aplied
+    """
     def __init__(self):
         self._particles = list()
         self._forces = list()

@@ -27,6 +27,9 @@ SOFT
 from ..math_utils import Vector
 
 class Particle(object):
+    """main particle, is the base building block of the physic system.
+    All forces will be aplie to it using verlet integration
+    """
     def __init__(self, pos=[0,0,0], mass=1.0, damping=.99):
         self._position = Vector(pos)
         self._damping = float(damping)

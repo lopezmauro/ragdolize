@@ -25,18 +25,29 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFT
 """
 class Collider(object):
+    """base collider abstraction 
+    """
     def solve(self):
+        """this method will be called for the dynamic system to solve the collision
+        should be override by each collider instance
+        """
         raise NotImplementedError
     def reset(self):
         return
 
 class GroundCollider(Collider):
+    """simple plane collider object
+    """
     def __init__(self, partciles, bouncinnes=0.1, friction=.9, height=0.0):
         self.bouncinnes = bouncinnes
         self.friction = friction
         self.height = float(height)
         self.particles = partciles
+
     def solve(self):
+        """if the particle is below the plane height it will bounce usiong the 
+        opocite velocity scaled by the bounciness argument
+        """
         for each in self.particles:
             if each.isPinned():
                 continue

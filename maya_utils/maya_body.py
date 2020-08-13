@@ -28,6 +28,8 @@ from maya import cmds
 from maya.api import OpenMaya as om
 
 class Body(object):
+    """maya particle representation 
+    """
     def __init__(self, name, position=None, rotation=None):
         self.name = name
         self.setup()
@@ -40,6 +42,8 @@ class Body(object):
         self._matrix = cmds.xform(self.name, q=1, ws=1, m=1)
 
     def setup(self):
+        """to be overweitten by the instances
+        """
         pass
 
     @property
@@ -73,6 +77,8 @@ class Body(object):
 
 
 class Sphere(Body):
+    """represent a particles as a polySphere
+    """
     def __init__(self, name, position, radius=0.1):
         self.radius = radius
         super(Sphere, self).__init__(name, position)
@@ -86,6 +92,8 @@ class Sphere(Body):
 
 
 class Cube(Body):
+    """represent a particles as a polyCube
+    """
     def __init__(self, name, position, radius=0.2):
         self.radius = radius
         super(Cube, self).__init__(name, position)

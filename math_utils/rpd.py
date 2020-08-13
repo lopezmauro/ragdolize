@@ -34,10 +34,29 @@ from math import sqrt
 
 
 def distance(a, b):
+    """get the distance between two 2D points
+
+    Args:
+        a (list): two value array
+        b (list): two value array
+
+    Returns:
+        float: the distance between points
+    """
     return  sqrt((a[0] - b[0]) ** 2 + (a[1] - b[1]) ** 2)
 
 
 def point_line_distance(point, start, end):
+    """shortest ditance between a point and a line
+
+    Args:
+        point (list): two value array defining a point in 2D space
+        start (list): two value array defining the start of a line in 2DSpace
+        end (list): two value array defining the end of a line in 2DSpace
+
+    Returns:
+        float: shortest distance
+    """
     if (start == end):
         return distance(point, start)
     else:

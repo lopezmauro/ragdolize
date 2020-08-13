@@ -28,10 +28,17 @@ SOFT
 from ..math_utils import Vector
 
 class Force(object):
+    """base Force object abstraction 
+    """
     def solve(self):
+        """this method will be called for the dynamic system to solve the force added
+        to the particles, should be override by each Force instance
+        """
         raise NotImplementedError
 
 class ConstantForce(Force):
+    """apply a constant force to the particles
+    """
     def __init__(self, partciles, vector=[0,0,0], strenght=1.0):
         self._partciles = partciles
         self._vector = Vector(vector)
@@ -42,5 +49,7 @@ class ConstantForce(Force):
             each.addForce(self._vector * self._strenght)
 
 class Gravity(ConstantForce):
+    """apply a constant down force to the particles
+    """
     def __init__(self, partciles, strenght=.1):
         super(Gravity, self).__init__(partciles,[0,-1,0] ,strenght)

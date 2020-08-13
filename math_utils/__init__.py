@@ -24,8 +24,10 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFT
 """
+
 import pkgutil
 maya_loader = pkgutil.find_loader('maya')
+# if maya api is present load the Vector usting maya api else use the pure python Vector
 if maya_loader:
     from .mVector_math import Vector
 else:

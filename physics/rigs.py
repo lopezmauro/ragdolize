@@ -30,6 +30,10 @@ import particles
 import constraints
 
 class ChainSimulation(simulation.Simulation):
+    """particle chain rig created using two set of particles, one static following 
+    the base animation and another set of fully dynamic particles. And a spring contraint
+    between them making the simulated particles follow the static ones
+    """
     def __init__(self, basePositions, followBase=True):
         super(ChainSimulation, self).__init__()
         self.basePositions = basePositions
