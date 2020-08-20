@@ -24,10 +24,11 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFT
 """
-from ui import ragdolize_win
-try:
-    ui.deleteLater()
-except:
-    pass
-ui = ragdolize_win.RagdolizeUI()
-ui.show()
+def show():
+    from ui import ragdolize_win
+    try:
+        ui.deleteLater()
+    except:
+        pass
+    ui = ragdolize_win.RagdolizeUI()
+    ui.show()
