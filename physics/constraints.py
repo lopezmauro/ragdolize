@@ -185,7 +185,7 @@ class ParticlesRope(Constraint):
             for link in self._links:
                 link.solve()
 
-    def setRigidity(self, dampingList):
+    def setDamping(self, dampingList):
         for link, stiff in zip(self._links, dampingList):
             if stiff>1:
                 stiff = 1

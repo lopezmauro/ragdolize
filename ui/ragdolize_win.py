@@ -47,7 +47,7 @@ from ..maya_utils import transforms
 DYNLAYER = 'dynamics'
 NEWLAYER = 'NewLayer...'
 SLIDERMULT = 10.0
-CREATEPARTICLESMESHES = False
+CREATEPARTICLESMESHES = True
 class RagdolizeUI(QtWidgets.QWidget):
     def __init__(self, parent=ui_utils.maya_main_window()):
         super(RagdolizeUI, self).__init__(parent)
@@ -69,6 +69,9 @@ class RagdolizeUI(QtWidgets.QWidget):
                                                    "Gravity",
                                                    ':/icons/gravity.png')
         self.mainLayout.addWidget(gravWidg)
+        gravvectWidg, self.gravSpinVector = widgets.labeledWidget(widgets.VectorSpin, self,
+                                                   "Gravity Direction")
+        self.mainLayout.addWidget(gravvectWidg)
         dampWidg, self.dampSpin = widgets.labeledWidget(QtWidgets.QDoubleSpinBox, 
                                               self,
                                               "Damping",
@@ -120,11 +123,26 @@ class RagdolizeUI(QtWidgets.QWidget):
         self.layerCombo.currentIndexChanged.connect(self.addNewLayer)
         self.checkBoxesLayout = QtWidgets.QHBoxLayout(self)
         self.rotationCbx = QtWidgets.QCheckBox("Enable Rotations")
+        self.rotationCbx.stateChanged.connect(self.disableRotations)
         self.checkBoxesLayout.addWidget(self.rotationCbx)
         self.cleanAnimation = QtWidgets.QCheckBox("Clean Anim layer")
         self.cleanAnimation.setChecked(True)
         self.checkBoxesLayout.addWidget(self.cleanAnimation)
         self.mainLayout.addLayout(self.checkBoxesLayout)
+
+        #add axis widget
+        self.axisGrp = widgets.CollapsibleGroup(self, "axis", ':/icons/axis.png')
+        self.autoAimCbx = QtWidgets.QCheckBox("Auto Aim")
+        self.autoAimCbx.stateChanged.connect(self.disableAimVect)
+        self.axisGrp.addWidget(self.autoAimCbx)
+        aimWidg, self.aimVector = widgets.labeledWidget(widgets.VectorSpin, self.massGrp,
+                                            "Aim Vector")
+        upWidg, self.upVector = widgets.labeledWidget(widgets.VectorSpin, self.massGrp,
+                                            "Up Vector")    
+        self.axisGrp.addWidget(aimWidg)
+        self.axisGrp.addWidget(upWidg)
+        self.mainLayout.addWidget(self.axisGrp)
+        
         self.doitBtn = QtWidgets.QPushButton(self, 'Ragdollize')
         self.doitBtn.setIcon(QtGui.QIcon(':/icons/dynamic.png'))
         self.doitBtn.setText("Ragdollize")
@@ -153,14 +171,16 @@ class RagdolizeUI(QtWidgets.QWidget):
             self.layerCombo.addItem(layer)
         
     def diableFollowFrame(self, value):
-        if value:
-            self.followRamp.setEnabled(True)
-            self.detachMult.setEnabled(True)
-            self.rigidityRamp.setEnabled(True)
-        else:
-            self.followRamp.setEnabled(False)
-            self.detachMult.setEnabled(False)
-            self.rigidityRamp.setEnabled(False)
+        self.followRamp.setEnabled(value)
+        self.detachMult.setEnabled(value)
+        self.rigidityRamp.setEnabled(value)
+
+    def disableRotations(self, value):
+        self.axisGrp.setEnabled(value)
+        if not value:
+            self.axisGrp.setCollapsed(True)
+    def disableAimVect(self, value):
+        self.aimVector.setEnabled(not value)
 
     def addNewLayer(self):
         if str(self.layerCombo.currentText()) != NEWLAYER:
@@ -179,6 +199,7 @@ class RagdolizeUI(QtWidgets.QWidget):
         self.rotationCbx.setChecked(True)
         self.gravSpin.setValue(9.8)
         self.gravSpin.setSingleStep(.1)
+        self.gravSpinVector.setValue(0,-1,0)
         self.dampSpin.setValue(.97)
         self.dampSpin.setSingleStep(.01)
         self.followRamp.setValue([(1,0,3),(0,1,3)])
@@ -192,6 +213,10 @@ class RagdolizeUI(QtWidgets.QWidget):
         self.simplify_sld.setValue(SLIDERMULT)
         self.elasticityGrp.setCollapsed(True)
         self.massGrp.setCollapsed(True)
+        self.axisGrp.setCollapsed(True)
+        self.aimVector.setValue(1,0,0)
+        self.autoAimCbx.setChecked(True)
+        self.upVector.setValue(0,1,0)
 
     def addAimLoc(self, controls, offset=(1,0,0)):
         finalAim = cmds.spaceLocator()[0]
@@ -201,15 +226,31 @@ class RagdolizeUI(QtWidgets.QWidget):
         return finalAim
 
     def doit(self):
-        selection = cmds.ls(sl=1)
-        lastMatrix = om.MMatrix(cmds.getAttr('{}.wm'.format(selection[-1])))
-        diffMatrix = lastMatrix*om.MMatrix(cmds.getAttr('{}.wim'.format(selection[-2])))
-        finalAim = self.addAimLoc(selection, offset=list(diffMatrix)[12:15])
-        controls = selection + [finalAim]
+        controls = cmds.ls(sl=1)
+        finalAim = None
         rampPoints=[1]
+        aimVectors = []
+        upVectors = []
+        autoAim = self.autoAimCbx.isChecked()
+        aimVector = self.aimVector.value()
+        upVector = self.upVector.value()
         if len(controls)>1:
+            lastMatrix = om.MMatrix(cmds.getAttr('{}.wm'.format(controls[-1])))
+            diffMatrix = lastMatrix*om.MMatrix(cmds.getAttr('{}.wim'.format(controls[-2])))
+            finalAim = self.addAimLoc(controls, offset=list(diffMatrix)[12:15])
+            controls = controls + [finalAim]
             rampPoints = [float(a)/(len(controls)-1) for a in range(len(controls))]
+            for indx in range(len(controls)-1):
+                if autoAim:
+                    targetPosition = om.MVector(cmds.xform(controls[indx+1], q=1, ws=1, t=1))
+                    aimVectors.append(list(transforms.getAimVector(controls[indx], targetPosition)))
+                else:
+                    aimVectors.append(aimVector)
+                upVectors.append(upVector)
+        aimVectors.append(aimVector)
+        upVectors.append(upVector)
         gravity = self.gravSpin.value()/10
+        gravDir = self.gravSpinVector.value()
         damping = self.dampSpin.value()
         attractionValues = self.followRamp.getValueAtPoints(rampPoints)
         follow = [(1-a)*self.detachMult.value() for a in attractionValues]
@@ -237,6 +278,7 @@ class RagdolizeUI(QtWidgets.QWidget):
                                          rigidity,
                                          elasticity,
                                          damping,
+                                         gravDir,
                                          gravity,
                                          masses,
                                          followBase)
@@ -244,20 +286,23 @@ class RagdolizeUI(QtWidgets.QWidget):
                            fameRange,
                            dynSystem,
                            animDict,
-                           doRotations)
+                           doRotations,
+                           aimVectors,
+                           upVectors)
         for control in controls:
             for animCurve in animation.getLayerAnimCurves(control, animLayer):
                 animation.cacheCurvePoints(animCurve)
-        cmds.delete(finalAim)
+        if finalAim:
+            cmds.delete(finalAim)
 
-    def createDynSystem(self, positionList, follow, rigidity, elasticity, damping, gravity, masses, followBase):
+    def createDynSystem(self, positionList, follow, rigidity, elasticity, damping, gravDir, gravity, masses, followBase):
         sim = rigs.ChainSimulation(positionList, followBase)
         sim.setRestLenght(follow)
         sim.setRigidity(rigidity)
         if sim.linkRope:
             sim.setElasticity(elasticity)
         sim.setDamping(damping)
-        grav = forces.Gravity(sim.getParticles(),gravity)
+        grav = forces.ConstantForce(sim.getParticles(),vector=gravDir, strenght=gravity)
         sim.addForce(grav)
         sim.setMasses(masses)
         # coll = colliders.GroundCollider(sim.getParticles(),bouncinnes=0.5)
@@ -271,47 +316,46 @@ class RagdolizeUI(QtWidgets.QWidget):
             for animCurve in animation.getLayerAnimCurves(node, animLayer):
                 animation.simplyfyAnimCurve(animCurve, epsilon)
 
-    def createSymKeys(self, controls, fameRange, dynSystem, animDict, doRotations=True):
+    def createSymKeys(self, controls, fameRange, dynSystem, animDict, doRotations=True, aimVectors=[], upVectors=[]):
         prevPosList = dynSystem.getSimulatedPosition()[:]
+        baseNodes = list()
+        simNodes = list()
         if CREATEPARTICLESMESHES:
             baseNodes, simNodes = self.createDebugSpheres(dynSystem)
-        for f in range(*fameRange):
+        frames = range(*fameRange)
+        for j, f in enumerate(frames):
             dynSystem.setBasePosition(prevPosList)
             basePositions = dynSystem.getBasePosition()
             dynSystem.simulate()
             simPositions = dynSystem.getSimulatedPosition()
             positionList = list()
             for i, control in enumerate(controls):
-                if len(animDict.get(control)) > f:
-                    positionList.append(animDict.get(control)[f])
+                if len(animDict.get(control)) > j:
+                    positionList.append(animDict.get(control)[j])
                 else:
                     positionList.append(prevPosList[i]) 
             prevPosList = positionList[:]
-            #cmds.currentTime(f)
             for i, control in enumerate(controls):
-                
                 pos = transforms.getLocalTranslation(control, simPositions[i], f)
                 cmds.setKeyframe(control, v=pos[0], at='translateX',t=[f,f])
                 cmds.setKeyframe(control, v=pos[1], at='translateY',t=[f,f])
                 cmds.setKeyframe(control, v=pos[2], at='translateZ',t=[f,f])
-                if CREATEPARTICLESMESHES:
+                if len(baseNodes)>=i:
                     cmds.setKeyframe(baseNodes[i].name, v=basePositions[i][0], at='translateX',t=[f,f])
                     cmds.setKeyframe(baseNodes[i].name, v=basePositions[i][1], at='translateY',t=[f,f])
                     cmds.setKeyframe(baseNodes[i].name, v=basePositions[i][2], at='translateZ',t=[f,f])
-
+                if len(simNodes)>=i:
                     cmds.setKeyframe(simNodes[i].name, v=simPositions[i][0], at='translateX',t=[f,f])
                     cmds.setKeyframe(simNodes[i].name, v=simPositions[i][1], at='translateY',t=[f,f])
                     cmds.setKeyframe(simNodes[i].name, v=simPositions[i][2], at='translateZ',t=[f,f])
-                if not doRotations:
+                if not doRotations or len(aimVectors)<=i or len(upVectors)<=i:
                     continue
                 if i< len(controls)-1:
-                    transforms.aimNode(control, simPositions[i+1], myAimAxis=[1,0,0])
-                    #worldRot = transforms.getAimRotation(simPositions[i], simPositions[i+1])
-                    #rot = transforms.getLocalRotation(control, worldRot, f)
+                    transforms.aimNode(control, simPositions[i+1], myAimAxis=aimVectors[i], myUpDir=upVectors[i])
                 else:
-                    transforms.aimNode(control, simPositions[i-1], myAimAxis=[-1,0,0])
-                    #worldRot = transforms.getAimRotation(simPositions[i], simPositions[i-1], aim=(-1,0,0), up=(0,-1,0))
-                    #rot = transforms.getLocalRotation(control, worldRot, f)
+                    revAim = [a*-1 for a in aimVectors[i]]
+                    transforms.aimNode(control, simPositions[i-1], myAimAxis=revAim, myUpDir=upVectors[i])
+
                 cmds.setKeyframe(control, at='rotateX',t=[f,f])
                 cmds.setKeyframe(control, at='rotateY',t=[f,f])
                 cmds.setKeyframe(control, at='rotateZ',t=[f,f])

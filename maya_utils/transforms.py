@@ -75,6 +75,8 @@ def getLocalTranslation(node, pos, frame):
     # for some reason DGContex wont update properlly so
     cmds.currentTime(frame) # force frame to refresh matrix value
     parent = cmds.listRelatives(node, p=1, f=1)
+    if not parent:
+        return pos
     matrix = om.MMatrix(cmds.xform(parent, q=1, ws=1, m=1))
     point = om.MPoint(pos)
     point = om.MVector(point * matrix.inverse())
@@ -101,3 +103,14 @@ def getLocalRotation(node, rot, frame):
     newMat = trfMatrix.asMatrix()
     newTrfMat = om.MTransformationMatrix(newMat *  matrix.inverse())
     return [math.degrees(a) for a in newTrfMat.rotation()]
+
+def getAimVector(source, targetPosition):
+    matrix = om.MMatrix(cmds.xform(source, q=1, ws=1, m=1))
+    tPos = om.MVector(targetPosition)
+    axes = [om.MVector(1,0,0), om.MVector(0,1,0), om.MVector(0,0,1), 
+            om.MVector(-1,0,0), om.MVector(0,-1,0), om.MVector(0,0,-1)]
+    distances = list()
+    for each in axes:
+        distances.append((om.MVector(each*matrix) - tPos).length())
+    indx = distances.index(min(distances))  
+    return axes[indx]  

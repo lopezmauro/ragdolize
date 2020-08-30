@@ -30,6 +30,8 @@ import constants
 from ..math_utils import rpd
 from maya import cmds
 
+TIMEUNIT = om.MTime.uiUnit()
+
 def getCurrentAnimRange():
     """get active animation range
     Returns:
@@ -56,7 +58,7 @@ def getMatrixAttributeInTimeRange(node, attribute, timeRange=None):
         timeRange=getCurrentAnimRange()
     result = list()
     for x in range(int(timeRange[0]), int(timeRange[1])):
-        timeContext = om.MDGContext(om.MTime(x))
+        timeContext = om.MDGContext(om.MTime(x, TIMEUNIT))
         matrixO = plug.asMObject(timeContext)
         fnMat = om.MFnMatrixData(matrixO)
         matrix =  fnMat.matrix()
@@ -72,7 +74,7 @@ def getWorlPosInTimeRange(node, timeRange=None):
     Returns:
         list: [[float, float, float], [float, float, float], ...]
     """
-    matrices = getMatrixAttributeInTimeRange(node, constants.WORDLMATRIX, timeRange=None)
+    matrices = getMatrixAttributeInTimeRange(node, constants.WORDLMATRIX, timeRange)
     result = list()
     for matrix in matrices:
         result.append(list(matrix)[12:15])
@@ -168,7 +170,7 @@ def simplyfyAnimCurve(animationCurve, epsilon):
     if fnAnimcurve.animCurveType == oma.MFnAnimCurve.kAnimCurveTA:
         conversionValue = om.MAngle(1.0).asDegrees()
     for time, value in newPoints:
-        fnAnimcurve.addKey(om.MTime(time), value/conversionValue)
+        fnAnimcurve.addKey(om.MTime(time, TIMEUNIT), value/conversionValue)
 
 
 def cacheCurvePoints(animationCurve):

@@ -15,6 +15,7 @@
     <file>icons/mass.png</file>
     <file>icons/rigidity.png</file>
     <file>icons/simplify.png</file>
+    <file>icons/axis.png</file>
     <file>styles/collapsibleGroup.qss</file>
     
   </qresource>

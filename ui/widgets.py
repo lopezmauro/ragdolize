@@ -61,7 +61,6 @@ class QHLine(QtWidgets.QFrame):
         self.setFrameShape(QtWidgets.QFrame.HLine)
         self.setFrameShadow(QtWidgets.QFrame.Sunken)
 
-
 class QVLine(QtWidgets.QFrame):
     def __init__(self, parent):
         super(QVLine, self).__init__(parent)
@@ -151,4 +150,70 @@ class CollapsibleGroup(QtWidgets.QGroupBox):
 
     def setCollapsed(self, value=True):
         self.collapsibleCBx.setChecked(not value)
+
+class VectorSpin(QtWidgets.QWidget):
+    def __init__(self, parent, values = [0,0,0]):
+        super(VectorSpin, self).__init__(parent)
+        mainLay = QtWidgets.QHBoxLayout(self)
+        mainLay.setContentsMargins(0, 0, 0, 0)
+        frame = QtWidgets.QFrame(self)
+        frame.setFrameShape(QtWidgets.QFrame.Box)
+        frame.setFrameShadow(QtWidgets.QFrame.Sunken)
+        frameLay = QtWidgets.QHBoxLayout(frame)
+        frameLay.setContentsMargins(1, 1, 1, 1)
+        frame.setLayout(frameLay)
+        self.xSpin = QtWidgets.QDoubleSpinBox(frame)
+        self.xSpin.setMinimum(-1)
+        self.xSpin.setMaximum(1)
+        self.xSpin.setButtonSymbols(QtWidgets.QAbstractSpinBox.NoButtons)
+        frameLay.addWidget(self.xSpin)
+        frameLay.addWidget(QVLine(frame))
+        self.ySpin = QtWidgets.QDoubleSpinBox(frame)
+        self.ySpin.setMinimum(-1)
+        self.ySpin.setMaximum(1)
+        self.ySpin.setButtonSymbols(QtWidgets.QAbstractSpinBox.NoButtons)
+        frameLay.addWidget(self.ySpin)
+        frameLay.addWidget(QVLine(frame))
+        self.zSpin = QtWidgets.QDoubleSpinBox(frame)
+        self.zSpin.setMinimum(-1)
+        self.zSpin.setMaximum(1)
+        self.zSpin.setButtonSymbols(QtWidgets.QAbstractSpinBox.NoButtons)
+        frameLay.addWidget(self.zSpin)
+        mainLay.addWidget(frame)
+        
+        self.setLayout(mainLay)
+        self.setValue(*values)
+
+
+    @property
+    def x(self):
+        return self.xSpin.value()
+
+    @property
+    def y(self):
+        return self.ySpin.value()
+
+    @property
+    def z(self):
+        return self.zSpin.value()
+
+    @x.setter
+    def x(self, val):
+        self.xSpin.setValue(val)
+    
+    @y.setter
+    def y(self, val):
+        self.zSpin.setValue(val)
+
+    @z.setter
+    def z(self, val):
+        self.zSpin.setValue(val)
+
+    def setValue(self, x,y,z):
+        self.xSpin.setValue(x)
+        self.ySpin.setValue(y)
+        self.zSpin.setValue(z)
+
+    def value(self):
+        return [self.xSpin.value(), self.ySpin.value(), self.zSpin.value()]
 

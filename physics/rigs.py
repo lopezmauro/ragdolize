@@ -81,7 +81,7 @@ class ChainSimulation(simulation.Simulation):
             spring.setStiffnes(stiff)
 
     def setElasticity(self, elasticityList):
-        self.linkRope.setRigidity(elasticityList)
+        self.linkRope.setDamping(elasticityList)
 
     def setMasses(self, massesList):
         for particle, mass in zip(self.simParticles, massesList):
