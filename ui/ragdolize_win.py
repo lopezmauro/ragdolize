@@ -47,7 +47,7 @@ from ..maya_utils import transforms
 DYNLAYER = 'dynamics'
 NEWLAYER = 'NewLayer...'
 SLIDERMULT = 10.0
-CREATEPARTICLESMESHES = True
+CREATEPARTICLESMESHES = False
 class RagdolizeUI(QtWidgets.QWidget):
     def __init__(self, parent=ui_utils.maya_main_window()):
         super(RagdolizeUI, self).__init__(parent)
