@@ -58,7 +58,7 @@ class RagdolizeUI(QtWidgets.QWidget):
 
 
     def setupUi(self):
-        self.setWindowTitle("Radgollize Controls UI")
+        self.setWindowTitle("Radgolize Controls UI")
         self.setWindowFlags(QtCore.Qt.Tool)
         self.resize(300, 400) # re-size the window
         self.mainLayout = QtWidgets.QVBoxLayout(self)
@@ -340,11 +340,11 @@ class RagdolizeUI(QtWidgets.QWidget):
                 cmds.setKeyframe(control, v=pos[0], at='translateX',t=[f,f])
                 cmds.setKeyframe(control, v=pos[1], at='translateY',t=[f,f])
                 cmds.setKeyframe(control, v=pos[2], at='translateZ',t=[f,f])
-                if len(baseNodes)>=i:
+                if len(baseNodes)>i:
                     cmds.setKeyframe(baseNodes[i].name, v=basePositions[i][0], at='translateX',t=[f,f])
                     cmds.setKeyframe(baseNodes[i].name, v=basePositions[i][1], at='translateY',t=[f,f])
                     cmds.setKeyframe(baseNodes[i].name, v=basePositions[i][2], at='translateZ',t=[f,f])
-                if len(simNodes)>=i:
+                if len(simNodes)>i:
                     cmds.setKeyframe(simNodes[i].name, v=simPositions[i][0], at='translateX',t=[f,f])
                     cmds.setKeyframe(simNodes[i].name, v=simPositions[i][1], at='translateY',t=[f,f])
                     cmds.setKeyframe(simNodes[i].name, v=simPositions[i][2], at='translateZ',t=[f,f])
